@@ -15,7 +15,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: December 8, 2018
+! Last modified: December 9, 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -3290,8 +3290,9 @@
 @@^tracking_$domain=fandom.com
 @@_banners^$domain=market.yandex.ru
 @@_tracker^$domain=fandom.com
-@@landing.$domain=live.com|yandex.ru
-@@landingpage.$domain=instagram.com
+@@-landing.$domain=yandex.ru
+@@^landing.$domain=live.com
+@@^landingpage.$domain=instagram.com
 @@||*.facebook.com/ajax/pagelet/generic.php/*$subdocument
 @@||api-maps.yandex.*^$script,xmlhttprequest,first-party
 @@||api.facebook.com^
@@ -6713,3 +6714,17 @@ _MediaSegmentId-$important
 _MediaSegmentId.$important
 _MediaSegmentId^$important
 _MediaSegmentId_$important
+||graph.facebook.com^$important
+||scontent.xx.fbcdn.net/hads-ak-prn2/*.png$domain=facebook.com,important
+##.post-ads
+||adglare.net^$important
+@@||yandex.st/share^
+@@/images/*/twitter
+||googleadservices.com$important
+||google.*/ads/$important
+#@#a[href^="https://www.facebook.com/sharer/sharer.php"]
+#@#.social
+#@#.footer-social
+#@#.footer-share
+#@#a[href^="https://twitter.com/intent/tweet?"]
+#@#a[href*="facebook.com/sharer/sharer.php?"]
