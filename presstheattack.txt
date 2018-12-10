@@ -15,7 +15,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: December 10, 2018
+! Last modified: December 11, 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -3922,20 +3922,18 @@
 /inpage_linkid.js$script,important
 /js/track.*$important
 /owa.messageadlist.*$important
-/p.gif^$important
-/p.js^$important
-/p?$important
+/p.*^$important
 /ph-functions.js$script,important
 /ph-tracking.js$important
 /ping.gif^$important
-/pixel.gif$important
+/pixel.*$important
 /popup/
 /prum.*$important
 /publishertag.*$script,important
-/px.gif^$important
-/px.js^$important
-/pxl.gif^$important
-/pxl.js^$important
+|http*://px.*^$important
+|http*://pxl.*^$important
+/px.*^$important
+/pxl.*^$important
 /rsya-tag-users/$important
 /s_code.js$script,important
 /siropu/am/display.$script,important
