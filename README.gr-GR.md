@@ -13,7 +13,7 @@ For more information, see the MIT license.
 Author: Bogachenko Vyacheslav <https://github.com/bogachenko>
 Email: bogachenkove@gmail.com
 Github: https://github.com/bogachenko/presstheattack/
-Last modified: December 6, 2018
+Last modified: December 11, 2018
 License: MIT <https://github.com/bogachenko/presstheattack/blob/master/LICENSE.md>
 Problem reports: https://github.com/bogachenko/presstheattack/issues
 Title: README.gr-GR.md
@@ -32,3 +32,10 @@ Download the entire Press the Attack project at https://github.com/bogachenko/pr
 Αυτό το έργο έχει άδεια από το MIT (προβολή [Άδεια](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)) και το δημιούργησε [Bogachenko Vyacheslav](https://github.com/bogachenko).
 
 Ο γενικός στόχος του έργου είναι μπλοκ της διαφήμισης και μείωση της κυκλοφορίας με τομείς και ιστοσελίδες που επισκέπτεστε.
+Ο όρος "διαφήμιση" σε αυτό το έργο δεν έχει οριστεί, διότι εκτός από την προφανή διαφήμιση, μπλοκάρω επίσης πανό και συμβουλές, οι οποίες, νομίζω, δημιουργούν άχρηστη κυκλοφορία.
+
+Η λίστα μου δεν περιορίζεται σε καμία περιοχή. Ωστόσο, μιλάω ρωσικά και αγγλικά και η προσοχή μου επικεντρώνεται κυρίως στις περιοχές αυτές.
+
+## Αποποίηση ευθυνών
+
+Διανέμομαι αυτό το έργο με την ελπίδα ότι θα είναι χρήσιμο.
