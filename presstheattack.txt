@@ -7470,19 +7470,11 @@ duckduckgo.com##.tag-home
 freebitco.in##.open.reveal-modal
 freebitco.in##.reveal-modal-bg
 ggbet$image
-google.com###extrares
-google.com##g-section-with-header
-knowyourmeme.com###ctoolbar
-kp.ru##.popap.notprint.popupsubscribe
-mail.ru##.i-clearfix.grid__container.grid-down
-mail.ru##.i-pull-right.grid__rcol_aside.grid__rcol
-mail.ru##.informers
 money.yandex.ru##.promo-header
 music.yandex.ru##.bar-below
 music.yandex.ru##.footer
 music.yandex.ru##.notify_shown.deco-tooltip_notify.notify__message
 music.yandex.ru##.sidebar__under
-news.yandex.ru##.sticky
 ok.ru#@##anonympagecontent > div[data-promo]
 outlook.live.com##div#app > div.ms-fabric > div:last-child > div:first-child > div:first-child > div[data-min-width][data-max-width][style^="width:"]~div:last-child
 pornhub.com###age-verification-container
@@ -7563,6 +7555,13 @@ yandex.ru,yandex.by,yandex.ua##.favorites.headline__bar-item
 yandex.ru,yandex.ua,yandex.by##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_no.media-grid
 yandex.ru,yandex.ua,yandex.by##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid
 youtube.com##.html5-endscreen
+###ads_left:not(:root):not(body):not(input)
+###.ads_ads_box:not(:root):not(body):not(input)
+###.ads_ad_box:not(:root):not(body):not(input)
+###.ads_ads_news_wrap:not(:root):not(body):not(input)
+###.wall_marked_as_ads:not(:root):not(body):not(input)
+#@#a[title="Instagram"]
+##div[id="bottomads"]
 |data:text$popup,important
 |http*://*-zone-injection/$important
 |http*://ad.*^$important
