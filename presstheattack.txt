@@ -15,7 +15,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: December 14, 2018
+! Last modified: December 15, 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -3625,7 +3625,6 @@
 .metrixevents.$important
 .metrixevents^$important
 .metrixevents_$important
-.microsoft.*/broker.js$domain=~technet.microsoft.com,important
 .mixpanel-$important
 .mixpanel.$important
 .mixpanel^$important
@@ -4022,7 +4021,7 @@
 /\/([0-9]|[a-z]|analytics?|atrk|hit|log|njs|ping|pix|px|stat|track(ers?|ing)?|visitor)\.gif\?/$important
 /^http\:\/\/.*[^a-z](partners?|promo|sponsor)[^a-z]/$image,important
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$xmlhttprequest,important
-/^https?:\/\/yastatic\.net\/[^\s]{500,}/$
+/^https?:\/\/yastatic\.net\/[^\s]{500,}/$important
 /_/batch|$first-party,xmlhttprequest,important
 /_bm/bd^$important
 /a.gif$important
@@ -7580,3 +7579,26 @@ m.youtube.com##.mealbar-promo-renderer
 ##.switch-to-mobile
 /amp-ad-$important
 ##.ad-mobile
+|http*://track.*^$important
+@@/images/social/
+@@/linkedin.png
+#@#img[alt="Twitter"]
+#@#img[alt="LinkedIn"]
+#@#img[alt="Facebook"]
+#@#.social-footer-icon
+#@#.social-footer
+||microsoft.com/library/svy/$important
+#@#a[title="Back to top"]
+#@#a[href^="https://www.facebook.com/sharer/sharer.php"]
+#@#a[href^="http://twitter.com/share"]
+#@#a[href^="http://twitter.com/share?"]
+#@#a[href*="facebook.com/sharer/sharer.php?"]
+#@#.social-share
+#@#.social-follow
+#@#.m-social
+#@#.m-back-to-top
+#@##social-network
+#@#a[title="YouTube"]
+##[class*="rekl"]:not(:root):not(body):not(input)
+##.moneymoneymoney:not(:root):not(body):not(input)
+##iframe[width="728"][height="90"]
