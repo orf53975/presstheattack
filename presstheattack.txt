@@ -285,7 +285,6 @@
 ##[class$="_ADS"]:not(:root):not(body):not(input)
 ##[class$="_ADV"]:not(:root):not(body):not(input)
 ##[class$="_ADs"]:not(:root):not(body):not(input)
-##[class$="_ad"]:not(.gs_ad):not(:root):not(body):not(input)
 ##[class$="_ads"]:not(#content):not(#playerCommentPanel):not(#playerTabContainer):not(:root):not(body):not(input)
 ##[class$="_adv"]:not(:root):not(body):not(input)
 ##[class*="-AD0"]:not(:root):not(body):not(input)
@@ -838,6 +837,7 @@
 ##[id^="google_afc_"]:not(:root):not(body):not(input)
 ##a[target="_blank"][href$="/premium"]
 #@#.fb-share-button
+#@##facebook-like
 #@#.share__icon
 #@#.share__list
 #@#.social-button
@@ -4021,7 +4021,6 @@
 /\/([0-9]|[a-z]|analytics?|atrk|hit|log|njs|ping|pix|px|stat|track(ers?|ing)?|visitor)\.gif\?/$important
 /^http\:\/\/.*[^a-z](partners?|promo|sponsor)[^a-z]/$image,important
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$xmlhttprequest,important
-/^https?:\/\/yastatic\.net\/[^\s]{500,}/$important
 /_/batch|$first-party,xmlhttprequest,important
 /_bm/bd^$important
 /a.gif$important
@@ -4696,7 +4695,7 @@
 ^adv9_$important
 ^adv-
 ^adv.
-^adv^$domain=~mail.google.com
+^adv^$domain=~mail.google.com,~yandex.ru,~yandex.ua,~yandex.by
 ^adv_
 ^adv_keywords-$important
 ^adv_keywords.$important
@@ -7555,7 +7554,6 @@ _300_250.
 ##[class^="ads-"]:not(html):not(body)
 ##[class^="ads_"]:not(html):not(body)
 ##[class$="-ad"]:not(html):not(body)
-##[class$="_ad"]:not(html):not(body):not(.p_no_ad)
 ##[class$="-ads"]:not(html):not(body)
 ##[class$="_ads"]:not(html):not(body)
 ##[class$="Ad"]:not(html):not(body)
@@ -7602,3 +7600,9 @@ m.youtube.com##.mealbar-promo-renderer
 ##[class*="rekl"]:not(:root):not(body):not(input)
 ##.moneymoneymoney:not(:root):not(body):not(input)
 ##iframe[width="728"][height="90"]
+##div[data-cookie]
+||duckduckgo.com/t/$important
+#@#.social__link
+#@#.social__icon
+#@#.social
+@@/header/twitter-
