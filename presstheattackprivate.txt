@@ -1,16 +1,16 @@
 ! Author: Bogachenko Vyacheslav
-! Description: Filter list for ad blocking, tracking, mining, and more.
+! Description: [PRIVATE branch] Filter list for ad blocking, tracking, mining, and more.
 ! Email: bogachenkove@gmail.com
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
 ! Last modified: December 16, 2018
-! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
+! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/private/LICENSE.md>
 ! Title: Press the Attack - Private
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/private/presstheattack.txt
 
 youtube.com##.notification-button-style-type-conversation-default.ytd-masthead.style-scope
-music.yandex.ru##.bumble-bee__car
-music.yandex.ru##.bumble-bee__bubble_left_three.bumble-bee__bubble_left.bumble-bee__bubble
-music.yandex.ru##.bumble-bee__robot_left.bumble-bee__robot
-translate.yandex.ru###collectionsBanner
+music.yandex.ru,music.yandex.ua,music.yandex.by##.bumble-bee__car
+music.yandex.ru,music.yandex.ua,music.yandex.by##.bumble-bee__bubble_left_three.bumble-bee__bubble_left.bumble-bee__bubble
+music.yandex.ru,music.yandex.ua,music.yandex.by##.bumble-bee__robot_left.bumble-bee__robot
+translate.yandex.ru,translate.yandex.ua,translate.yandex.by###collectionsBanner
