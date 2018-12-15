@@ -815,7 +815,6 @@
 ##[id^="ads8"]:not(:root):not(body):not(input)
 ##[id^="ads9"]:not(:root):not(body):not(input)
 ##[id^="ads-"]:not(:root):not(body):not(input)
-##[id^="ads_"]:not(#ads_backsplashSkin):not(:root):not(body):not(input)
 ##[id^="adv0"]:not(:root):not(body):not(input)
 ##[id^="adv1"]:not(:root):not(body):not(input)
 ##[id^="adv2"]:not(:root):not(body):not(input)
@@ -4101,7 +4100,6 @@
 @@/counter^$script,domain=yastatic.net
 @@/images/*/twitter
 @@/images/*steam.png
-@@/images/social-
 @@/share2
 @@/share.php
 @@/share_button
