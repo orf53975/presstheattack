@@ -15,7 +15,6 @@ music.yandex.ru,music.yandex.ua,music.yandex.by##.bumble-bee__bubble_left_three.
 music.yandex.ru,music.yandex.ua,music.yandex.by##.bumble-bee__robot_left.bumble-bee__robot
 translate.yandex.ru,translate.yandex.ua,translate.yandex.by###collectionsBanner
 github.com##.RecentBranches
-github.com##.js-updatable-content.js-socket-channel
 twitch.tv##.tw-z-above.tw-full-width.tw-flex-column.tw-flex.tw-elevation-3.tw-c-background-base.tw-border-t.tw-border-r.tw-border-l.tw-border-b.tw-absolute.bits-card-wrapper
 twitch.tv##.tw-interactive.tw-button-icon.tw-button-icon--secondary[data-a-target="bits-button"]
 twitch.tv##.tw-tooltip-wrapper.tw-inline-flex > div > .tw-button-icon--overlay.tw-button-icon.tw-interactive
