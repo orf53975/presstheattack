@@ -15,7 +15,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: December 15, 2018
+! Last modified: December 16, 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -7651,3 +7651,9 @@ _sidebar_ad.$important
 _sidebar_ad^$important
 _sidebar_ad_$important
 ||redditmedia.com/gtm/jail^$important
+||aaxads.com^$important
+##img[src*="counter.yadro.ru"]
+/cl.gif?pvid=$important
+/imp.gif^$important
+/greenoaks.gif^$important
+||scorecardresearch.com/beacon.js$script,redirect=scorecardresearch.com/beacon.js,badfilter
