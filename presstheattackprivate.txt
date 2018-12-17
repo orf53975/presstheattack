@@ -4,7 +4,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: December 16, 2018
+! Last modified: December 17, 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/private/LICENSE.md>
 ! Title: Press the Attack - Private
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/private/presstheattack.txt
@@ -15,6 +15,7 @@ music.yandex.ru,music.yandex.ua,music.yandex.by##.bumble-bee__bubble_left_three.
 music.yandex.ru,music.yandex.ua,music.yandex.by##.bumble-bee__robot_left.bumble-bee__robot
 translate.yandex.ru,translate.yandex.ua,translate.yandex.by###collectionsBanner
 github.com##.RecentBranches
+github.com##.mb-1.mt-0.text-gray.text-small
 twitch.tv##.tw-z-above.tw-full-width.tw-flex-column.tw-flex.tw-elevation-3.tw-c-background-base.tw-border-t.tw-border-r.tw-border-l.tw-border-b.tw-absolute.bits-card-wrapper
 twitch.tv##.tw-interactive.tw-button-icon.tw-button-icon--secondary[data-a-target="bits-button"]
 twitch.tv##.tw-tooltip-wrapper.tw-inline-flex > div > .tw-button-icon--overlay.tw-button-icon.tw-interactive
