@@ -6818,3 +6818,8 @@ yandex.ua,yandex.ru,yandex.by##.weather-maps__ad_visible_yes
 /^https?://news\.yandex\.(by|kz|ru|ua)/[^\s]{300,}/$subdocument,xmlhttprequest,important
 /^https?://yandex\.(by|kz|ru|ua)/pogoda/[^\s]{300,}/$subdocument,xmlhttprequest,important
 /^https?://tv\.yandex\.(by|kz|ru|ua)/[^\s]{300,}/$subdocument,xmlhttprequest,important
+/^https?:\/\/mail\.yandex\.(by|kz|ru|ua)\/[^\s]{200,}/$script,important
+news.yandex.ru,news.yandex.ua,news.yandex.by,news.yandex.kz##.sticky
+news.yandex.ru,news.yandex.by,news.yandex.ua##:first-child + * + * > :first-child > :first-child > :first-child + * > :last-child
+news.yandex.ru,news.yandex.by,news.yandex.ua##:first-child + * + * > :first-child > :first-child > :first-child + * + * + * + * + * + * > :first-child > :last-child
+news.yandex.ru,news.yandex.by,news.yandex.ua##:first-child + * + * > :first-child > :first-child > :first-child + * + * + * + * + * + * + * + * + * + * + * + * + * + * + :last-child > :last-child > :last-child
