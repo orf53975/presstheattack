@@ -22,6 +22,7 @@
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 
+||franecki.net/js/lib.js$important
 -0pixel-$important
 -0pixel.$important
 -0pixel^$important
@@ -1319,10 +1320,6 @@
 -ptracking.$important
 -ptracking^$important
 -ptracking_$important
--rating-
--rating.
--rating^
--rating_
 -reklama-$important
 -reklama.$important
 -reklama^$important
@@ -2898,10 +2895,6 @@
 .ptracking.$important
 .ptracking^$important
 .ptracking_$important
-.rating-
-.rating.
-.rating^
-.rating_
 .reklama-$important
 .reklama.$important
 .reklama^$important
@@ -4623,10 +4616,6 @@
 ^ptracking.$important
 ^ptracking^$important
 ^ptracking_$important
-^rating-
-^rating.
-^rating^
-^rating_
 ^reklama-$important
 ^reklama.$important
 ^reklama^$important
@@ -6210,10 +6199,6 @@ _ptracking-$important
 _ptracking.$important
 _ptracking^$important
 _ptracking_$important
-_rating-
-_rating.
-_rating^
-_rating_
 _reklama-$important
 _reklama.$important
 _reklama^$important
