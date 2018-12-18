@@ -15,7 +15,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: December 17, 2018
+! Last modified: December 18, 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -6735,3 +6735,10 @@ youtube.com##.html5-endscreen
 ||youtube.com/api/stats/$important
 ||youtube.com/get_midroll_info^$important
 ||zen.yandex.*^$important
+twitch.tv##.tw-inline-flex.tw-align-items-center > .tw-tooltip-wrapper.tw-inline-flex > .tw-stat > .tw-stat__icon > .tw-inline-flex.tw-icon.tw-align-items-center
+twitch.tv##.tw-inline-flex.tw-c-text-live.channel-info-bar__viewers-wrapper > .tw-tooltip-wrapper.tw-inline-flex > .tw-stat > .tw-stat__icon > .tw-inline-flex.tw-icon.tw-align-items-center
+||jsc.marketgid.com^$important
+www.twitch.tv##.tw-stat__icon > .tw-inline-flex.tw-icon.tw-align-items-center > .tw-aspect--align-top.tw-aspect--1x1.tw-aspect > .tw-icon__svg
+||google-analytics.com^$important
+###adsincont
+###ads
