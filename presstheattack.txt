@@ -15,16 +15,69 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: December 19, 2018
+! Last modified: December 20, 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 
-reddit.com##.onboardingbar.subscribebar.infobar
-||microad.net^$important
-||franecki.net/js/lib.js$important
+###ads
+###adsincont
+##.AdBox
+##.ad_wrapper
+##.ads-wrapper
+##.companion-ad
+##.footer-ads
+##.post-ads
+##[id*="-ads-"]
+##[id*="-ads."]
+##[id*="-ads/"]
+##[id*="-ads_"]
+##[id*=".ads-"]
+##[id*=".ads."]
+##[id*=".ads/"]
+##[id*=".ads_"]
+##[id*="/ads-"]
+##[id*="/ads."]
+##[id*="/ads/"]
+##[id*="/ads_"]
+##[id*="_ads-"]
+##[id*="_ads."]
+##[id*="_ads/"]
+##[id*="_ads_"]
+##div[class*="-ads-"]
+##div[class*="-ads."]
+##div[class*="-ads/"]
+##div[class*="-ads_"]
+##div[class*=".ads-"]
+##div[class*=".ads."]
+##div[class*=".ads/"]
+##div[class*=".ads_"]
+##div[class*="/ads-"]
+##div[class*="/ads."]
+##div[class*="/ads/"]
+##div[class*="/ads_"]
+##div[class*="_ads-"]
+##div[class*="_ads."]
+##div[class*="_ads/"]
+##div[class*="_ads_"]
+##div[id*="-my-ads-"]
+##div[id*="-my-ads."]
+##div[id*="-my-ads/"]
+##div[id*="-my-ads_"]
+##div[id*=".my-ads-"]
+##div[id*=".my-ads."]
+##div[id*=".my-ads/"]
+##div[id*=".my-ads_"]
+##div[id*="/my-ads-"]
+##div[id*="/my-ads."]
+##div[id*="/my-ads/"]
+##div[id*="/my-ads_"]
+##div[id*="_my-ads-"]
+##div[id*="_my-ads."]
+##div[id*="_my-ads/"]
+##div[id*="_my-ads_"]
 -0pixel-$important
 -0pixel.$important
 -0pixel^$important
@@ -77,6 +130,10 @@ reddit.com##.onboardingbar.subscribebar.infobar
 -ad-$popup,important
 -ad.
 -ad.$popup,important
+-adTagUrl-$important
+-adTagUrl.$important
+-adTagUrl^$important
+-adTagUrl_$important
 -ad^
 -ad^$popup,important
 -ad_
@@ -324,8 +381,8 @@ reddit.com##.onboardingbar.subscribebar.infobar
 -ads-widget^$important
 -ads-widget_$important
 -ads.
--ads^
--ads_
+-ads^$domain=~yahoo.com
+-ads_$domain=~yahoo.com
 -ads_dfp-$important
 -ads_dfp.$important
 -ads_dfp^$important
@@ -838,10 +895,10 @@ reddit.com##.onboardingbar.subscribebar.infobar
 -browser-updater.$important
 -browser-updater^$important
 -browser-updater_$important
--campaign-$important
--campaign.$important
--campaign^$important
--campaign_$important
+-campaign-
+-campaign.
+-campaign^
+-campaign_
 -cct-
 -cct.
 -cct^
@@ -1094,6 +1151,10 @@ reddit.com##.onboardingbar.subscribebar.infobar
 -google-analytics.$important
 -google-analytics^$important
 -google-analytics_$important
+-google_pixel-$important
+-google_pixel.$important
+-google_pixel^$important
+-google_pixel_$important
 -googlead-$important
 -googlead.$important
 -googlead^$important
@@ -1504,7 +1565,7 @@ reddit.com##.onboardingbar.subscribebar.infobar
 -tracker_
 -tracking-
 -tracking.
--tracking^
+-tracking^$domain=~yahoo.com
 -tracking_
 -trackingaffilies-$important
 -trackingaffilies.$important
@@ -1650,6 +1711,10 @@ reddit.com##.onboardingbar.subscribebar.infobar
 .ad-$popup,important
 .ad.
 .ad.$popup,important
+.adTagUrl-$important
+.adTagUrl.$important
+.adTagUrl^$important
+.adTagUrl_$important
 .ad^
 .ad^$popup,important
 .ad_
@@ -2411,10 +2476,10 @@ reddit.com##.onboardingbar.subscribebar.infobar
 .browser-updater.$important
 .browser-updater^$important
 .browser-updater_$important
-.campaign-$important
-.campaign.$important
-.campaign^$important
-.campaign_$important
+.campaign-
+.campaign.
+.campaign^
+.campaign_
 .cct-
 .cct.
 .cct^
@@ -2669,6 +2734,10 @@ reddit.com##.onboardingbar.subscribebar.infobar
 .google-analytics.$important
 .google-analytics^$important
 .google-analytics_$important
+.google_pixel-$important
+.google_pixel.$important
+.google_pixel^$important
+.google_pixel_$important
 .googlead-$important
 .googlead.$important
 .googlead^$important
@@ -3203,6 +3272,7 @@ reddit.com##.onboardingbar.subscribebar.infobar
 /a.gif$important
 /ad.css$stylesheet,important
 /ad.js$script,important
+/adblock.js$script,important
 /adi.js$script,important
 /ads.js$important
 /adsx/*
@@ -3256,7 +3326,7 @@ reddit.com##.onboardingbar.subscribebar.infobar
 /ph-tracking.js$important
 /ping.gif^$important
 /pixel.*$important
-/popup/
+/popup/$domain=~wikipedia.org
 /popups.js$important
 /prum.*$important
 /publishertag.*$script,important
@@ -3299,6 +3369,7 @@ reddit.com##.onboardingbar.subscribebar.infobar
 @@||api-maps.yandex.*^$script,xmlhttprequest,first-party
 @@||api.facebook.com^
 @@||api.travis-ci.org/job/*/log
+@@||cdnsecond.xyz^
 @@||cloud-api.yandex.*^$script,xmlhttprequest,first-party
 @@||connect.facebook.net^
 @@||connect.ok.ru^
@@ -3311,7 +3382,7 @@ reddit.com##.onboardingbar.subscribebar.infobar
 @@||img-fotki.yandex.*^$script,xmlhttprequest,first-party
 @@||music.yandex.*/handlers/track.jsx$xmlhttprequest
 @@||platform.twitter.com^
-@@||ttvnw.net^$xmlhttprequest,domain=www.twitch.tv
+@@||ttvnw.net^$xmlhttprequest,domain=twitch.tv
 @@||vk.com/ads_rotate.php$xmlhttprequest
 @@||vk.com/al_feed.php$subdocument
 @@||vk.com/widget_community.php$third-party
@@ -3370,6 +3441,10 @@ reddit.com##.onboardingbar.subscribebar.infobar
 ^ad-$popup,important
 ^ad.
 ^ad.$popup,important
+^adTagUrl-$important
+^adTagUrl.$important
+^adTagUrl^$important
+^adTagUrl_$important
 ^ad^
 ^ad^$popup,important
 ^ad_
@@ -4132,10 +4207,10 @@ reddit.com##.onboardingbar.subscribebar.infobar
 ^browser-updater.$important
 ^browser-updater^$important
 ^browser-updater_$important
-^campaign-$important
-^campaign.$important
-^campaign^$important
-^campaign_$important
+^campaign-
+^campaign.
+^campaign^
+^campaign_
 ^cct-
 ^cct.
 ^cct^
@@ -4388,6 +4463,10 @@ reddit.com##.onboardingbar.subscribebar.infobar
 ^google-analytics.$important
 ^google-analytics^$important
 ^google-analytics_$important
+^google_pixel-$important
+^google_pixel.$important
+^google_pixel^$important
+^google_pixel_$important
 ^googlead-$important
 ^googlead.$important
 ^googlead^$important
@@ -4481,6 +4560,7 @@ reddit.com##.onboardingbar.subscribebar.infobar
 ^log-
 ^log.$domain=~docviewer.yandex.ru
 ^log^
+^log^$domain=~myactivity.google.com
 ^log_
 ^log_event-$important
 ^log_event.$important
@@ -4956,6 +5036,10 @@ _ad-
 _ad-$popup,important
 _ad.
 _ad.$popup,important
+_adTagUrl-$important
+_adTagUrl.$important
+_adTagUrl^$important
+_adTagUrl_$important
 _ad^
 _ad^$popup,important
 _ad_
@@ -5203,7 +5287,7 @@ _ads-widget.$important
 _ads-widget^$important
 _ads-widget_$important
 _ads.
-_ads^
+_ads^$domain=~yahoo.com
 _ads_
 _ads_dfp-$important
 _ads_dfp.$important
@@ -5717,10 +5801,11 @@ _browser-updater-$important
 _browser-updater.$important
 _browser-updater^$important
 _browser-updater_$important
-_campaign-$important
-_campaign.$important
-_campaign^$important
-_campaign_$important
+_campaign-
+_campaign.
+_campaign^
+_campaign^$domain=~myactivity.google.com
+_campaign_
 _cct-
 _cct.
 _cct^
@@ -5973,6 +6058,10 @@ _google-analytics-$important
 _google-analytics.$important
 _google-analytics^$important
 _google-analytics_$important
+_google_pixel-$important
+_google_pixel.$important
+_google_pixel^$important
+_google_pixel_$important
 _googlead-$important
 _googlead.$important
 _googlead^$important
@@ -6515,6 +6604,7 @@ pornhub.com###age-verification-container
 pornhub.com###age-verification-wrapper
 prodota.ru##.floor.first
 radio.yandex.ru,radio.yandex.by,radio.yandex.ua##.multi-auth__plus
+reddit.com##.onboardingbar.subscribebar.infobar
 translate.google.com,translate.google.ru###gt-promo-lr
 translate.yandex.ru##.button_icon_collections.button_icon.button
 tv.yandex.ru##.grid.grid_period_now + :last-child
@@ -6525,6 +6615,8 @@ twitch.tv##.pl-pinned-panel--animate.pl-pinned-panel
 twitch.tv##.pl-single-rec-wrapper.recommendations-overlay.player-overlay
 twitch.tv##.recommended-channels
 twitch.tv##.tw-button--overlay.tw-button--hollow.tw-button--dropmenu.tw-button.tw-interactive
+twitch.tv##.tw-inline-flex.tw-align-items-center > .tw-tooltip-wrapper.tw-inline-flex > .tw-stat > .tw-stat__icon > .tw-inline-flex.tw-icon.tw-align-items-center
+twitch.tv##.tw-inline-flex.tw-c-text-live.channel-info-bar__viewers-wrapper > .tw-tooltip-wrapper.tw-inline-flex > .tw-stat > .tw-stat__icon > .tw-inline-flex.tw-icon.tw-align-items-center
 twitch.tv##.tw-pd-3.tw-align-center
 twitch.tv##.tw-sm-flex.tw-hide
 twitch.tv##.tw-z-default.pinned-cheer-v2
@@ -6573,6 +6665,7 @@ twitch.tv##a[href*="vk.cc"]
 twitch.tv##a[href*="vsemayki"]
 vk.com##aside[aria-label="Актуальные новости"]
 wikipedia.org###sitenotice
+twitch.tv##.tw-stat__icon > .tw-inline-flex.tw-icon.tw-align-items-center > .tw-aspect--align-top.tw-aspect--1x1.tw-aspect > .tw-icon__svg
 yandex.ru##.content__bottom
 yandex.ru##.content__main + :last-child
 yandex.ru##.dist-popup__content.popup__content
@@ -6605,6 +6698,7 @@ youtube.com##.html5-endscreen
 |http*://mediator.*^$important
 |http*://metrika.*^$important
 |http*://pixel.*^$important
+|http*://pixel.*^$important
 |http*://px.*^$important
 |http*://pxl.*^$important
 |http*://track.*^$important
@@ -6623,7 +6717,7 @@ youtube.com##.html5-endscreen
 ||amazon-adsystem.com^$important
 ||amazonaws.com/ki.js/$important
 ||an.yandex.*^$important
-||api.twitch.tv/*/channels/*/extensions$xmlhttprequest,domain=www.twitch.tv
+||api.twitch.tv/*/channels/*/extensions$xmlhttprequest,domain=twitch.tv
 ||appmetrica.yandex.*^$important
 ||assets.adobedtm.com^$important
 ||atdmt.com^$important
@@ -6650,13 +6744,17 @@ youtube.com##.html5-endscreen
 ||direct.yandex.ru^$important
 ||disqus.com/count.js$script,important
 ||doubleclick.net/instream/ad_status.js$script,redirect=doubleclick.net/instream/ad_status.js,important,badfilter
+||doubleclick.net^$important
 ||duckduckgo.com/t/$important
+||facebook.com/sem_campaigns/sem_pixel_test^$important
+||franecki.net/js/lib.js$important
 ||github.com/_private/browser/stats$important
 ||go-mpulse.net^$important
 ||go-tds-site.com^$important
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js,badfilter
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js,badfilter
 ||google-analytics.com/ga.js$script,redirect=google-analytics.com/ga.js,badfilter
+||google-analytics.com^$important
 ||google.*/ads/$important
 ||google.com^*/viewerimpressions^$important
 ||googleadservices.com$important
@@ -6670,9 +6768,11 @@ youtube.com##.html5-endscreen
 ||graph.instagram.com^$important
 ||hotlog.ru^$important
 ||id.google.*^$important
+||ima3vpaid.appspot.com^$important
 ||imasdk.googleapis.com^$important
 ||imrworldwide.com^$important
 ||informer.yandex.*^$important
+||jsc.marketgid.com^$important
 ||kiks.yandex.ru^$important
 ||kissmetrics.com^$important
 ||krxd.net^$important
@@ -6685,6 +6785,7 @@ youtube.com##.html5-endscreen
 ||mc.yandex.ru^$important
 ||mediametrics.ru^$important
 ||metric.gstatic.com^$important
+||microad.net^$important
 ||microsoft.com/library/svy/$important
 ||mms.cnn.com^$important
 ||mobilecrashreporting.googleapis.com^$important
@@ -6737,51 +6838,3 @@ youtube.com##.html5-endscreen
 ||youtube.com/api/stats/$important
 ||youtube.com/get_midroll_info^$important
 ||zen.yandex.*^$important
-twitch.tv##.tw-inline-flex.tw-align-items-center > .tw-tooltip-wrapper.tw-inline-flex > .tw-stat > .tw-stat__icon > .tw-inline-flex.tw-icon.tw-align-items-center
-twitch.tv##.tw-inline-flex.tw-c-text-live.channel-info-bar__viewers-wrapper > .tw-tooltip-wrapper.tw-inline-flex > .tw-stat > .tw-stat__icon > .tw-inline-flex.tw-icon.tw-align-items-center
-||jsc.marketgid.com^$important
-www.twitch.tv##.tw-stat__icon > .tw-inline-flex.tw-icon.tw-align-items-center > .tw-aspect--align-top.tw-aspect--1x1.tw-aspect > .tw-icon__svg
-||google-analytics.com^$important
-###adsincont
-###ads
-@@||cdnsecond.xyz^
--adTagUrl-$important
--adTagUrl.$important
--adTagUrl^$important
--adTagUrl_$important
-.adTagUrl-$important
-.adTagUrl.$important
-.adTagUrl^$important
-.adTagUrl_$important
-^adTagUrl-$important
-^adTagUrl.$important
-^adTagUrl^$important
-^adTagUrl_$important
-_adTagUrl-$important
-_adTagUrl.$important
-_adTagUrl^$important
-_adTagUrl_$important
-||ima3vpaid.appspot.com^$important
-/adblock.js$script,important
-|http*://pixel.*^$important
-||doubleclick.net^$important
-||facebook.com/sem_campaigns/sem_pixel_test^$important
-##.post-ads
-##.AdBox
--google_pixel-$important
--google_pixel.$important
--google_pixel^$important
--google_pixel_$important
-.google_pixel-$important
-.google_pixel.$important
-.google_pixel^$important
-.google_pixel_$important
-^google_pixel-$important
-^google_pixel.$important
-^google_pixel^$important
-^google_pixel_$important
-_google_pixel-$important
-_google_pixel.$important
-_google_pixel^$important
-_google_pixel_$important
-##.companion-ad
