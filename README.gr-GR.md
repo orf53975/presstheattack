@@ -13,7 +13,7 @@ For more information, see the MIT license.
 Author: Bogachenko Vyacheslav <https://github.com/bogachenko>
 Email: bogachenkove@gmail.com
 Github: https://github.com/bogachenko/presstheattack/
-Last modified: December 11, 2018
+Last modified: December 19, 2018
 License: MIT <https://github.com/bogachenko/presstheattack/blob/master/LICENSE.md>
 Problem reports: https://github.com/bogachenko/presstheattack/issues
 Title: README.gr-GR.md
@@ -39,4 +39,22 @@ Download the entire Press the Attack project at https://github.com/bogachenko/pr
 
 ## Αποποίηση ευθυνών
 
-Διανέμομαι αυτό το έργο με την ελπίδα ότι θα είναι χρήσιμο.
+Διανέμομαι αυτό το έργο με την ελπίδα ότι θα είναι χρήσιμο. Το έργο αυτό διανέμεται  "ως έχει ", χωρίς καμία εγγύηση, ρητή ή σιωπηρή, και δεν είμαι υπεύθυνος για τυχόν ζημίες που μπορεί να προκύψουν ως αποτέλεσμα της χρήσης αυτού του έργου ή οποιοδήποτε μέρος αυτού.
+
+Μπορεί να διαπιστώσετε ότι οι κανόνες στη λίστα μου είναι πολύ σκληροί. Ναι, δίνω ιδιαίτερη προσοχή στην κατασκοπεία και την εξόρυξη. Ωστόσο, αν διαπιστώσετε ότι κάποιο από τους κανόνες σπάει ιστοσελίδα σας, απενεργοποιήστε το και δημιουργήστε [ερώτηση](https://github.com/bogachenko/presstheattack/issues).
+
+Παρακαλώ σημειώστε ότι χρησιμοποιώ κυρίως  uBlock Origin. Τονίζω αυτό γιατί κάθε browser και plugin είναι ελαφρώς διαφορετικές μεταξύ τους. Αυτή η λίστα φίλτρων είναι γραμμένη για αυτό το πρόσθετο και αν χρησιμοποιείτε άλλα πρόσθετα για να αποκλείσετε διαφημίσεις, η απόδοση και η σωστή λειτουργία δεν είναι εγγυημένες.
+
+Παρά το γεγονός αυτό, Θα κάνω ό, τι μπορώ για να διατηρηθεί η συμβατότητα με το Adblock Plus και άλλα διάσημα plugins για να κλειδώσετε τη διαφήμιση. Και μπορείτε να με βοηθήσετε αν έχετε προβλήματα με τη χρήση τέτοιων πρόσθετων, μη διστάσετε να θέσετε αυτά τα ερωτήματα [ερωτήσεις](https://github.com/bogachenko/presstheattack/issues).
+
+## Χρησιμοποιήσετε
+
+Για να αρχίσετε να χρησιμοποιείτε κάντε κλικ στο σύνδεσμο [ΕΓΓΡΑΦΕΊΤΕ](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fbogachenko%2Fpresstheattack%2Fmaster%2Fpresstheattack.txt&title=Press%20the%20Attack) ή προσθέστε το με το χέρι `https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt`
+
+## Τεκμηρίωση
+
+Για γνωριμία και λεπτομερή περιγραφή του έργου με την τεκμηρίωσή του μεταβείτε στο τμήμα [WIKI](https://github.com/bogachenko/presstheattack/wiki).
+
+## Συμβολή
+
+Αν θέλετε να συμμετάσχετε σε αυτό το έργο, ωραία, δέχομαι τυχόν αιτήματα για πρόσθετους κανόνες και ανυπομονώ να σας PR.
