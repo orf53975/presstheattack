@@ -9,6 +9,11 @@
 ! Title: Press the Attack - Private
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/private/presstheattack.txt
 
+@@/img/*instagram.jpg
+@@/youtube.svg
+@@/img/rss.
+@@/img/twitter.
+@@/facebook.svg
 @@/likebox.
 @@||s7.addthis.com^*/addthis_widget.js*pubid=$badfilter
 @@||mail.ru/share_count?
