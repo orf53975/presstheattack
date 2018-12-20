@@ -15,7 +15,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: December 20, 2018
+! Last modified: December 21, 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -6853,3 +6853,12 @@ youtube.com##.html5-endscreen
 ||youtube.com/api/stats/$important
 ||youtube.com/get_midroll_info^$important
 ||zen.yandex.*^$important
+||cdn.mangaeden.com/js/ad/advertisement.js$script,first-party,redirect=noopjs,badfilter
+||readthedocs.org/api/v2/sustainability/*$script,redirect=noopjs,badfilter
+||fastly.net/js/prebid$script,redirect=noopjs,domain=spanishdict.com,badfilter
+||g17media.com^$script,redirect=noopjs,domain=lcpdfr.com,badfilter
+/pubfig.min.js$important
+||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=vide-greniers.org,badfilter
+||global.proper.io/tvtropes.min.js$script,redirect=noopjs,domain=tvtropes.org,badfilter
+*/ads.js$script,redirect=noopjs,domain=delta-optimist.com|estevanmercury.ca|kamloopsthisweek.com|nsnews.com|princegeorgecitizen.com|thompsoncitizen.net|timescolonist.com|tricitynews.com|vancourier.com|weyburnreview.com|yorktonthisweek.com,badfilter
+||push-ad.com^$important
