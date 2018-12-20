@@ -4,11 +4,13 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: December 17, 2018
+! Last modified: December 20, 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/private/LICENSE.md>
 ! Title: Press the Attack - Private
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/private/presstheattack.txt
 
+@@||mail.ru/share_count?
+#@#KNO-SHARE-BUTTON
 youtube.com##.notification-button-style-type-conversation-default.ytd-masthead.style-scope
 music.yandex.ru,music.yandex.ua,music.yandex.by##.bumble-bee__car
 music.yandex.ru,music.yandex.ua,music.yandex.by##.bumble-bee__bubble_left_three.bumble-bee__bubble_left.bumble-bee__bubble
@@ -23,14 +25,14 @@ twitch.tv##.prime-offers__pill.tw-absolute .tw-pill.tw-pill--notification
 twitch.tv##.top-nav__nav-link.tw-hide.tw-md-flex[href="https://app.twitch.tv/download"]
 #@##block_social_open
 #@##com_vk
-~facebook.com,~messenger.com,~whatsapp.com#@##facebook
+#@##facebook
 #@##odnaknopka
 #@##recent-disqus-comments
 #@##social
 #@##socializ
 #@##utbMenuContainer
 #@##vk_like
-~vk.com#@##vk_subscribe
+#@##vk_subscribe
 #@##vkshare0
 #@##ya_share
 #@##yashare_desktop
@@ -49,7 +51,7 @@ twitch.tv##.top-nav__nav-link.tw-hide.tw-md-flex[href="https://app.twitch.tv/dow
 #@#.likeandpay-bubble
 #@#.likely
 #@#.mrc__share
-~ok.ru#@#.od-share
+#@#.od-share
 #@#.odkl-klass
 #@#.odkl-klass-s
 #@#.odkl_share_stat
@@ -59,29 +61,29 @@ twitch.tv##.top-nav__nav-link.tw-hide.tw-md-flex[href="https://app.twitch.tv/dow
 #@#.soc_fb_share
 #@#.soc_share
 #@#.social
-~telegram.me,~telegram.org#@#.subscribe__telegram
-~twitter.com#@#.tw-icon
+#@#.subscribe__telegram
+#@#.tw-icon
 #@#.twitter
 #@#.vk-button
-~vk.com#@#.vk-share
+#@#.vk-share
 #@#.vk-share-button
 #@#.vk_box
 #@#.vkontakte
 #@#.yashare-auto-init
 #@#[class*="hdgo_"] > #hdplayer-video_share.share
-~ok#@#a[href*="connect.ok.ru/dk?st.cmd="][href*="share"]
-~ok.ru#@#a[href*="odnoklassniki.ru/dk?st.cmd=addShare"]
-~vk.com#@#a[href^="//vk.com/share.php?"]
+#@#a[href*="connect.ok.ru/dk?st.cmd="][href*="share"]
+#@#a[href*="odnoklassniki.ru/dk?st.cmd=addShare"]
+#@#a[href^="//vk.com/share.php?"]
 #@#a[href^="http://connect.mail.ru/share"]
-~ok.ru#@#a[href^="http://ok.ru/dk?st.cmd=addShare"]
-~telegram.me,~telegram.org#@#a[href^="http://telegram.me/share/"]
-~livejournal.com#@#a[href^="http://www.livejournal.com/update.bml?subject="]
-~ok#@#a[href^="https://connect.ok.ru/offer?url="]
-~telegram.me,~telegram.org#@#a[href^="https://telegram.me/share/"]
-~vk.com#@#a[href^="https://vk.com/share.php?"]
-~ok.ru#@#a[onclick*="connect.ok.ru/offer?"]
-~facebook.com#@#a[onclick*="facebook.com/sharer.php?"]
-~vk.com#@#a[onclick^="window.open('http"][onclick*="://vk.com/share.php?"]
+#@#a[href^="http://ok.ru/dk?st.cmd=addShare"]
+#@#a[href^="http://telegram.me/share/"]
+#@#a[href^="http://www.livejournal.com/update.bml?subject="]
+#@#a[href^="https://connect.ok.ru/offer?url="]
+#@#a[href^="https://telegram.me/share/"]
+#@#a[href^="https://vk.com/share.php?"]
+#@#a[onclick*="connect.ok.ru/offer?"]
+#@#a[onclick*="facebook.com/sharer.php?"]
+#@#a[onclick^="window.open('http"][onclick*="://vk.com/share.php?"]
 #@#button[class="gbil esw eswd"]
 #@#div[id^="vk_comments"]
 #@#div[id^="vk_group"]
