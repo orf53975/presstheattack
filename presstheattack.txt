@@ -22,6 +22,21 @@
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 
+##.adblock-detector-partial-component
+##.google-ads
+##.ads-ad
+##.ad-div
+##.masthead-ad-control
+##.advertising
+###adBlockerContainer
+###ab_banner
+##.remove-ads
+###ad-tower
+##.adWrapper
+###ad-footer
+###bottomads
+||d1fc8wv8zag5ca.cloudfront.net^$important
+||adsafeprotected.com^$important
 ###ads
 ###adsincont
 ##.AdBox
