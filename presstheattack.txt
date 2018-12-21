@@ -29,8 +29,6 @@
 ###ads
 ###adsincont
 ###bottomads
-news.yandex.ru##:first-child + * + * > :first-child > :first-child > :first-child > :first-child > :first-child > :first-child > :first-child > :first-child > :first-child + I-WBWV + :last-child > :first-child
-news.yandex.ru##:first-child + * + * > :first-child > :first-child > :first-child > :first-child > :first-child > :first-child > :first-child > :first-child > :first-child + * + :last-child > :first-child + * + * + * + * + * + *
 ||adspaces.ero-advertising.com/adspace/*$script,redirect=noopjs,domain=pornsocket.com,badfilter
 ||amazon-adsystem.com/*/apstag.js$script,redirect=noopjs,domain=player.biography.com,badfilter
 ||mssl.fwmrm.net/*/AdManager.js$script,redirect=noopjs,domain=player.biography.com,badfilter
@@ -6679,11 +6677,7 @@ music.yandex.ru##.bar-below
 music.yandex.ru##.footer
 music.yandex.ru##.notify_shown.deco-tooltip_notify.notify__message
 music.yandex.ru##.sidebar__under
-news.yandex.ru,news.yandex.by,news.yandex.ua##:first-child + * + * > :first-child > :first-child > :first-child + * + * + * + * + * + * + * + * + * + * + * + * + * + * + :last-child > :last-child > :last-child
-news.yandex.ru,news.yandex.by,news.yandex.ua##:first-child + * + * > :first-child > :first-child > :first-child + * + * + * + * + * + * > :first-child > :last-child
-news.yandex.ru,news.yandex.by,news.yandex.ua##:first-child + * + * > :first-child > :first-child > :first-child + * > :last-child
 news.yandex.ru,news.yandex.ua,news.yandex.by,news.yandex.kz##.sticky
-ok.ru#@##anonympagecontent > div[data-promo]
 outlook.live.com##div#app > div.ms-fabric > div:last-child > div:first-child > div:first-child > div[data-min-width][data-max-width][style^="width:"]~div:last-child
 pornhub.com###age-verification-container
 pornhub.com###age-verification-wrapper
