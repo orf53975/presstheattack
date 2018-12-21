@@ -15,7 +15,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: December 21, 2018
+! Last modified: December 22, 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -29,6 +29,52 @@
 ###ads
 ###adsincont
 ###bottomads
+news.yandex.ru##:first-child + * + * > :first-child > :first-child > :first-child > :first-child > :first-child > :first-child > :first-child > :first-child > :first-child + I-WBWV + :last-child > :first-child
+news.yandex.ru##:first-child + * + * > :first-child > :first-child > :first-child > :first-child > :first-child > :first-child > :first-child > :first-child > :first-child + * + :last-child > :first-child + * + * + * + * + * + *
+||adspaces.ero-advertising.com/adspace/*$script,redirect=noopjs,domain=pornsocket.com,badfilter
+||amazon-adsystem.com/*/apstag.js$script,redirect=noopjs,domain=player.biography.com,badfilter
+||mssl.fwmrm.net/*/AdManager.js$script,redirect=noopjs,domain=player.biography.com,badfilter
+||syndication.exoclick.com/ads-iframe-display.php$script,redirect=noopjs,domain=pornhd.com,badfilter
+||verliga.net/canales/adblock.js$script,redirect=fuckadblock.js-3.2.0,first-party,badfilter
+*.jpg#$image,domain=thesportek.com,redirect=2x2-transparent.png,badfilter
+||vergol.com/*adblock.js$script,redirect=fuckadblock.js-3.2.0,badfilter
+||superligatv.com/adblocks.js$script,redirect=fuckadblock.js-3.2.0,badfilter
+*.png#$image,redirect=2x2-transparent.png,domain=idsly.com,badfilter
+*.png#$image,redirect=2x2-transparent.png,domain=premiumtoss.com,badfilter
+*.jpg#$image,redirect=2x2-transparent.png,domain=300mbfilms.org,badfilter
+||pagead2.googlesyndication.com^$script,redirect=noopjs,domain=reevown.com,badfilter
+||livesports.pw//adblock.js$script,redirect=fuckadblock.js-3.2.0,badfilter
+*.png#$image,redirect=2x2-transparent.png,domain=golrojadirecta.com,badfilter
+||livesports.pw/*adblock.js$script,redirect=fuckadblock.js-3.2.0,badfilter
+||tvcanales.cf/player/adblocker.js$script,first-party,redirect=fuckadblock.js-3.2.0,badfilter
+||dfs.ivi.ru/mp4-hi/*/storage*.mp4|$media,redirect=noopmp3-0.1s,domain=ivi.ru,badfilter
+*.gif#$image,redirect=1x1-transparent.gif,domain=totaldebrid.org,badfilter
+||fghtem.com^$xmlhttprequest,redirect=nooptext,domain=readcomiconline.to,badfilter
+||amgload.net^$xmlhttprequest,redirect=nooptext,domain=animestreams.tv,badfilter
+||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=animestreams.tv,badfilter
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication.com/adsbygoogle.js,domain=downloadfullfree.com,badfilter
+||amgload.net^$xmlhttprequest,redirect=nooptext,domain=1movies.se|1movies.is,badfilter
+||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=1movies.se|1movies.is,badfilter
+||loadshare.org/custom/$media,redirect=noopmp4-1s,domain=1movies.se|1movies.to|1movies.is,badfilter
+||svonm.com/hd-main.js$script,redirect=hd-main.js,domain=vgtv.no,badfilter
+||adservice.google.com^$script,redirect=noopjs,domain=fileflares.com,badfilter
+||spiegel.de/*/messaging-*.js$script,redirect=noopjs,first-party,badfilter
+||focus.de/src/js/spmsg$script,redirect=noopjs,first-party,badfilter
+||pagead2.googlesyndication.com/pagead/show_ads.js$script,redirect=noopjs,domain=ehubsoft.net|herokuapp.com,badfilter
+||player.ooyala.com/*/ad-plugin/google_ima.min.js$script,important,redirect=noopjs,domain=nrl.com,badfilter
+*/adsid/integrator.js$script,redirect=noopjs,domain=dl.ccbluex.net,badfilter
+||pagead2.googlesyndication.com^$script,redirect=noopjs,domain=dl.ccbluex.net,badfilter
+||damoh.tv2.no^$media,redirect=noopmp3-0.1s,domain=tv2.no,badfilter
+||amgload.net^$xmlhttprequest,redirect=nooptext,domain=kickassanime.ru,badfilter
+||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=kickassanime.ru,badfilter
+||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=estrenos10.com,badfilter
+||amgload.net^$xmlhttprequest,redirect=nooptext,domain=nyafilmer.bz,badfilter
+||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=nyafilmer.bz,badfilter
+||go.pub2srv.com/apu.php$script,redirect=noopjs,badfilter
+||amgload.net^$xmlhttprequest,redirect=nooptext,domain=kinogo.cc,badfilter
+||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=allday2.com|kinogo.cc,badfilter
+*.png#$image,domain=boveda7k.es,redirect=2x2-transparent.png,badfilter
+||ads.puhutv.com/i.jpg$image,redirect=2x2-transparent.png,badfilter
 ##.AdBox
 ##.ad-div
 ##.adWrapper
