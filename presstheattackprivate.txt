@@ -4,7 +4,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: December 21, 2018
+! Last modified: December 22, 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/private/LICENSE.md>
 ! Title: Press the Attack - Private
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/private/presstheattack.txt
@@ -16,6 +16,7 @@
 @@/facebook.svg
 @@/likebox.
 @@||s7.addthis.com^*/addthis_widget.js*pubid=$badfilter
+@@||facebook.com/plugins/comments.php?
 @@||mail.ru/share_count?
 #@#KNO-SHARE-BUTTON
 youtube.com##.notification-button-style-type-conversation-default.ytd-masthead.style-scope
