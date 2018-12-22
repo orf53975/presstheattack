@@ -15,7 +15,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: December 22, 2018
+! Last modified: December 23, 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -29,6 +29,12 @@
 ###ads
 ###adsincont
 ###bottomads
+yandex.ua,yandex.ru,yandex.by##.content-index__direct
+yandex.ua,yandex.ru,yandex.by##div.links-section:last-child
+tv.yandex.ua,tv.yandex.ru,tv.yandex.by##.grid-chunk__column-box
+tv.yandex.ua,tv.yandex.ru,tv.yandex.by##.grid.grid_period_now + :last-child
+tv.yandex.ua,tv.yandex.ru,tv.yandex.by##.grid.grid_period_now > :first-child > :first-child + div
+tv.yandex.ua,tv.yandex.ru,tv.yandex.by##.grid__item + div > :first-child:last-child
 yandex.ru,yandex.ua,yandex.by##.font-regular.i-bem.media-grid_theme_white.media-grid_visible_no.media-grid
 yandex.ru,yandex.ua,yandex.by##.widgets__col
 yandex.ru,yandex.ua,yandex.by##.hh__row:last-child
@@ -6701,9 +6707,6 @@ radio.yandex.ru,radio.yandex.by,radio.yandex.ua##.multi-auth__plus
 reddit.com##.onboardingbar.subscribebar.infobar
 translate.google.com,translate.google.ru###gt-promo-lr
 translate.yandex.ru##.button_icon_collections.button_icon.button
-tv.yandex.ru##.grid.grid_period_now + :last-child
-tv.yandex.ru##.grid.grid_period_now > :first-child > :first-child + div
-tv.yandex.ru##.grid__item + div > :first-child:last-child
 twitch.tv##.pl-overlay__fullscreen.pl-overlay
 twitch.tv##.pl-pinned-panel--animate.pl-pinned-panel
 twitch.tv##.pl-single-rec-wrapper.recommendations-overlay.player-overlay
