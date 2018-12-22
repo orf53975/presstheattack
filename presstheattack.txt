@@ -29,6 +29,28 @@
 ###ads
 ###adsincont
 ###bottomads
+yandex.ru##.font-regular.i-bem.media-grid_theme_white.media-grid_visible_no.media-grid
+yandex.ru##.widgets__col
+yandex.ru##.hh__row:last-child
+yandex.ru##.home-link.desk-notif-card_domik-plus.home-link_intense-blue_yes
+yandex.ru##.serp-list div[id^="yandex_ad_"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
+yandex.ru##.search-direct-snippet-view:style(position: absolute!important; left: -3000px!important;)
+yandex.ru##.scroll__container > div.scroll__content > div > div[style*="!important"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
+yandex.ru##.scroll__container > div.scroll__content > div > div > div[style*="!important"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
+yandex.ru##.route-panel-content-view__body > div[class^="route-panel-content-"] > div[style*="!important"] > *:style(position: absolute!important; left: -3000px!important;)
+yandex.ru##.route-panel-content-view__bla-bla-car-banner-layout:style(height: 0!important; transform: scale(0)!important;)
+yandex.ru##.route-panel-content-view__bla-bla-car-banner-layout+div > div[style*="!important;"]:style(height: 0!important; transform: scale(0)!important;)
+yandex.ru##.main > div.container__banner:style(pointer-events: none!important; cursor: default;)
+yandex.ru##.head-stripe:style(position: absolute!important; left: -3000px!important;)
+yandex.ru##body[class*="b-page_infinity"] div[class*="media-grid"][class*="media-content"]
+yandex.ru##body[class*="b-page_infinity"] .b-sethome
+yandex.ru##[class*="desk-notif-card"] > a[href*="/plus.yandex"]
+yandex.ru##.yabrowser-promo
+yandex.ru##.widgets__col_td_2
+yandex.ru##.media-promo
+yandex.ru##.home-arrow__sample
+yandex.ru##.dist-popup
+yandex.ru##.widgets.main > * div ~ div ~ div ~ div[class*=" "] > div:not([class*=" "]):not([class*="_"])
 ||adspaces.ero-advertising.com/adspace/*$script,redirect=noopjs,domain=pornsocket.com,badfilter
 ||amazon-adsystem.com/*/apstag.js$script,redirect=noopjs,domain=player.biography.com,badfilter
 ||mssl.fwmrm.net/*/AdManager.js$script,redirect=noopjs,domain=player.biography.com,badfilter
