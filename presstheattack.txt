@@ -6666,7 +6666,18 @@ music.yandex.ru##.bar-below
 music.yandex.ru##.footer
 music.yandex.ru##.notify_shown.deco-tooltip_notify.notify__message
 music.yandex.ru##.sidebar__under
-news.yandex.ru,news.yandex.ua,news.yandex.by,news.yandex.kz##.sticky
+news.yandex.ru,news.yandex.ua,news.yandex.by##.sticky
+yandex.ua,yandex.ru,yandex.by##.headline__favorites.headline__bar-item
+yandex.ua,yandex.ru,yandex.by##.headline__notifier.headline__bar-item
+yandex.ua,yandex.ru,yandex.by##.header-favorites-button_js_inited.i-bem.header-favorites-button
+yandex.ua,yandex.ru,yandex.by##.weather-maps__ad_visible_yes
+yandex.ua,yandex.ru,yandex.by##.content__bottom
+yandex.ua,yandex.ru,yandex.by##.content__main + :last-child
+yandex.ua,yandex.ru,yandex.by##.content__col
+yandex.ua##[id^="R-I-"]:has(:scope > *)
+yandex.ua,yandex.ru,yandex.by##.footer__links > div.links-section:has(:scope > div.links-section__title:has-text(Мобильные приложения))
+yandex.ua,yandex.ru,yandex.by##.footer__links > div.links-section > div.apps
+yandex.ua,yandex.ru,yandex.by##.widget_id_teaser
 outlook.live.com##div#app > div.ms-fabric > div:last-child > div:first-child > div:first-child > div[data-min-width][data-max-width][style^="width:"]~div:last-child
 pornhub.com###age-verification-container
 pornhub.com###age-verification-wrapper
