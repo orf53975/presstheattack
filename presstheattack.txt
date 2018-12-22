@@ -33,6 +33,21 @@ yandex.ru,yandex.ua,yandex.by##.font-regular.i-bem.media-grid_theme_white.media-
 yandex.ru,yandex.ua,yandex.by##.widgets__col
 yandex.ru,yandex.ua,yandex.by##.hh__row:last-child
 ##div[aria-label="Реклама"]
+yandex.by,yandex.ru,yandex.ua##.media-infinity-footer__content_visible_yes.media-infinity-footer__content
+yandex.by,yandex.ru,yandex.ua##.b-page:style(padding-top: 0 !important)
+yandex.by,yandex.ru,yandex.ua##.serp-header:style(margin-top: 0 !important)
+yandex.by,yandex.ru,yandex.ua##.widgets.main > * div ~ div ~ div ~ div[class*=" "] > div[class*="_"]:style(background-image: none !important)
+yandex.by,yandex.ru,yandex.ua##div:not([style^="padding: 0px"]):not([style*="content-box"])[style*="!important"][style*="display"][style*="visibility"][style*="visible"]:style(width: 0 !important; min-width: 0 !important; max-width: 0 !important; height: 0 !important; min-height: 0 !important; max-height: 0 !important; overflow: hidden !important)
+yandex.by,yandex.ru,yandex.ua##div[data-bem*="yandex_rtb_"] > div[style*="!important;"]:style(position: absolute!important; left: -3000px!important;)
+yandex.by,yandex.ru,yandex.ua##.home-arrow__bottom
+yandex.by,yandex.ru,yandex.ua##.widgets.main > * div ~ div ~ div ~ div[class*=" "] > :not([class])
+yandex.by,yandex.ru,yandex.ua##.forecast-brief__item-temp-day:style(width: auto !important)
+yandex.by,yandex.ru,yandex.ua##.head-stripe:style(position: fixed !important; transform: scale(0) !important)
+yandex.by,yandex.ru,yandex.ua##.org__sidebar > div[style*="!important;"] > a[href^="https://direct.yandex."]+div:style(position: absolute!important; left: -3000px!important;)
+yandex.by,yandex.ru,yandex.ua##.org__sidebar > div[style*="!important;"] > a[href^="https://direct.yandex."]:style(position: absolute!important; left: -3000px!important;)
+/^https?://main\.zdevx\.yandex\.ru/[^\s]{300,}/$subdocument,xmlhttprequest,important
+yandex.by,yandex.ru,yandex.ua##.widgets__row_tr_2.widgets__row.heap__row.text_black_yes.row
+yandex.by,yandex.ru,yandex.ua##.widgets__row_tr_1.widgets__row.text_black_yes.first.row
 yandex.ru##.home-link.desk-notif-card_domik-plus.home-link_intense-blue_yes
 yandex.ru,yandex.ua,yandex.by##.serp-list div[id^="yandex_ad_"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
 yandex.ru,yandex.ua,yandex.by##.search-direct-snippet-view:style(position: absolute!important; left: -3000px!important;)
