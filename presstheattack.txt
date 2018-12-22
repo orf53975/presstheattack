@@ -31,7 +31,6 @@
 ###bottomads
 yandex.ru,yandex.ua,yandex.by##.font-regular.i-bem.media-grid_theme_white.media-grid_visible_no.media-grid
 yandex.ru,yandex.ua,yandex.by##.widgets__col
-yandex.ru,yandex.ua,yandex.by##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_no.media-grid
 yandex.ru,yandex.ua,yandex.by##.hh__row:last-child
 ##div[aria-label="Реклама"]
 yandex.ru##.home-link.desk-notif-card_domik-plus.home-link_intense-blue_yes
@@ -143,22 +142,6 @@ yandex.ru,yandex.ua,yandex.by##.widgets.main > * div ~ div ~ div ~ div[class*=" 
 ##div[class*="_ads."]
 ##div[class*="_ads/"]
 ##div[class*="_ads_"]
-##div[id*="-my-ads-"]
-##div[id*="-my-ads."]
-##div[id*="-my-ads/"]
-##div[id*="-my-ads_"]
-##div[id*=".my-ads-"]
-##div[id*=".my-ads."]
-##div[id*=".my-ads/"]
-##div[id*=".my-ads_"]
-##div[id*="/my-ads-"]
-##div[id*="/my-ads."]
-##div[id*="/my-ads/"]
-##div[id*="/my-ads_"]
-##div[id*="_my-ads-"]
-##div[id*="_my-ads."]
-##div[id*="_my-ads/"]
-##div[id*="_my-ads_"]
 */ad*$script,redirect=noopjs,domain=oasivip.com,badfilter
 */ads.js$script,important,redirect=noopjs,domain=tune.pk,badfilter
 */ads.js$script,redirect=noopjs,domain=delta-optimist.com|estevanmercury.ca|kamloopsthisweek.com|nsnews.com|princegeorgecitizen.com|thompsoncitizen.net|timescolonist.com|tricitynews.com|vancourier.com|weyburnreview.com|yorktonthisweek.com,badfilter
@@ -601,13 +584,8 @@ yandex.ru,yandex.ua,yandex.by##.widgets.main > * div ~ div ~ div ~ div[class*=" 
 -adserver9^$important
 -adserver9_$important
 -adserver-$important
--adserver-$important
--adserver.$important
 -adserver.$important
 -adserver^$important
--adserver^$important
--adserver_$important
--adserver_$important
 -adservice-$important
 -adservice.$important
 -adservice^$important
@@ -2186,12 +2164,8 @@ yandex.ru,yandex.ua,yandex.by##.widgets.main > * div ~ div ~ div ~ div[class*=" 
 .adserver9^$important
 .adserver9_$important
 .adserver-$important
-.adserver-$important
-.adserver.$important
 .adserver.$important
 .adserver^$important
-.adserver^$important
-.adserver_$important
 .adserver_$important
 .adservice-$important
 .adservice.$important
@@ -3922,12 +3896,8 @@ yandex.ru,yandex.ua,yandex.by##.widgets.main > * div ~ div ~ div ~ div[class*=" 
 ^adserver9^$important
 ^adserver9_$important
 ^adserver-$important
-^adserver-$important
-^adserver.$important
 ^adserver.$important
 ^adserver^$important
-^adserver^$important
-^adserver_$important
 ^adserver_$important
 ^adservice-$important
 ^adservice.$important
@@ -4662,8 +4632,7 @@ yandex.ru,yandex.ua,yandex.by##.widgets.main > * div ~ div ~ div ~ div[class*=" 
 ^log204^$important
 ^log-
 ^log.$domain=~docviewer.yandex.ru
-^log^
-^log^$domain=~myactivity.google.com
+^log^$domain=~myactivity.google.com,~disk.yandex.ua,~disk.yandex.by,~disk.yandex.ru
 ^log_
 ^log_event-$important
 ^log_event.$important
@@ -5521,10 +5490,7 @@ _adserver9.$important
 _adserver9^$important
 _adserver9_$important
 _adserver-$important
-_adserver-$important
 _adserver.$important
-_adserver.$important
-_adserver^$important
 _adserver^$important
 _adserver_$important
 _adserver_$important
@@ -5910,7 +5876,6 @@ _browser-updater^$important
 _browser-updater_$important
 _campaign-
 _campaign.
-_campaign^
 _campaign^$domain=~myactivity.google.com
 _campaign_
 _cct-
@@ -6769,16 +6734,6 @@ twitch.tv##a[href*="vk.cc"]
 twitch.tv##a[href*="vsemayki"]
 vk.com##aside[aria-label="Актуальные новости"]
 wikipedia.org###sitenotice
-yandex.ru##.content__bottom
-yandex.ru##.content__main + :last-child
-yandex.ru##.dist-popup__content.popup__content
-yandex.ru##.favorites.home-link
-yandex.ru##.home-arrow__bottom
-yandex.ru##.media-grid__media-content
-yandex.ru##.media-infinity-footer.i-bem.media-infinity-footer_js_inited + .media-infinity-footer__content.media-infinity-footer__content_visible_yes
-yandex.ru##.media-infinity-footer__content_visible_yes.media-infinity-footer__content
-yandex.ua##.content__col
-yandex.ua,yandex.ru,yandex.by##.weather-maps__ad_visible_yes
 youtube.com##.html5-endscreen
 |data:text$popup,important
 |http*://*-zone-injection/$important
@@ -6794,7 +6749,6 @@ youtube.com##.html5-endscreen
 |http*://log.*^$important
 |http*://mediator.*^$important
 |http*://metrika.*^$important
-|http*://pixel.*^$important
 |http*://pixel.*^$important
 |http*://px.*^$important
 |http*://pxl.*^$important
