@@ -29,198 +29,6 @@
 ###ads
 ###adsincont
 ###bottomads
-||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=gameguardian.net,badfilter
-||googletagmanager.com/gtag/js$script,redirect=noopjs,domain=free-mp3-download.net,badfilter
-*.mp4$media,redirect=noopmp4-1s,domain=apornoflv.tv,badfilter
-||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=zoneflasher.site,badfilter
-||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=repo.xarold.com,badfilter
-*.mp4$media,redirect=noopmp4-1s,domain=abc.go.com,badfilter
-||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=alwalednet.blogspot.com,badfilter
-||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=igniel.com,badfilter
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=moongourd.com,badfilter
-||imasdk.googleapis.com/js/sdkloader/outstream.js$script,redirect=noopjs,domain=squadd.io,badfilter
-||svonm.com/hd-main.js$script,redirect=hd-main.js,domain=ani-stream.com,badfilter
-||damoh.katsomo.fi/*$media,redirect=noopmp3-0.1s,domain=mtv.fi,badfilter
-||damoh.katsomo.fi/*$media,redirect=noopmp3-0.1s,domain=mtvuutiset.fi,badfilter
-||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=turboserver.info,badfilter
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect=nooptext,domain=di.fm,badfilter
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=kurazone.net,badfilter
-||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=pokyun.tv,badfilter
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=marfilius.blogspot.com,badfilter
-||cdn.zomap.de^$media,redirect=noopmp3-0.1s,domain=prosieben.de|prosiebenmaxx.de,badfilter
-||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=dlnowsoft.com,badfilter
-||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=fullcrackpc.com,badfilter
-||smrmembers-smr.smartmediarep.com/*/video/*.mp4$media,domain=tv.naver.com,redirect=noopmp4-1s,badfilter
-||rte.ie/ads/*$media,redirect=noopmp4-1s,domain=beta.rte.ie,badfilter
-||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=uploadbox.io,badfilter
-||cibntv.net/youku/*$media,redirect=noopmp3-0.1s,domain=youku.com,badfilter
-||pagead2.googlesyndication.com/pagead/show_ads.js$script,redirect=noopjs,domain=mhtviewer.booogle.net,badfilter
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=themeplatinum.blogspot.com,badfilter
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=naminakiky.com,badfilter
-||ads-v-darwin.hulustream.com/published/*.mp4$media,redirect=noopmp4-1s,domain=hulu.com,badfilter
-*.jpg#$image,domain=freshstuff4you.com,redirect=2x2-transparent.png,badfilter
-||amgload.net^$xmlhttprequest,redirect=nooptext,domain=zonarutoppuden.com,badfilter
-||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=zonarutoppuden.com,badfilter
-||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=animeland.tv,badfilter
-||pagead2.googlesyndication.com^$script,redirect=noopjs,domain=offidocs.com,badfilter
-||googletagmanager.com/gtm.js$script,redirect=noopjs,domain=kinoheld.de,badfilter
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=speed4up.com,badfilter
-||amgload.net^$xmlhttprequest,redirect=nooptext,domain=peliculasveo.gratis|peliculasver.online,badfilter
-||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=peliculasveo.gratis|peliculasver.online,badfilter
-||damoh.cinema.de/*$media,redirect=noopmp3-0.1s,domain=cinema.de,badfilter
-||damoh.gmx.net/*$media,redirect=noopmp3-0.1s,domain=gmx.net,badfilter
-||damoh.golem.de/*$media,redirect=noopmp3-0.1s,domain=golem.de,badfilter
-||damoh.n-tv.de/*$media,redirect=noopmp3-0.1s,domain=n-tv.de,badfilter
-||damoh.rtl.de/*$media,redirect=noopmp3-0.1s,domain=rtl.de,badfilter
-||damoh.tvnow.de/*$media,redirect=noopmp3-0.1s,domain=tvnow.de,badfilter
-||damoh.watchbox.de/*$media,redirect=noopmp3-0.1s,domain=watchbox.de,badfilter
-||damoh.web.de/*$media,redirect=noopmp3-0.1s,domain=web.de,badfilter
-||amazonaws.com/homad-global-configs.schneevonmorgen.com/global_config.json$xmlhttprequest,redirect=nooptext,domain=tele5.de,badfilter
-||akamaihd.net/vod/*$media,redirect=noopmp3-0.1s,domain=7tv.de,badfilter
-||zmctrack.net^$xmlhttprequest,redirect=nooptext,domain=japscan.cc,badfilter
-||gemius.pl/gplayer.js$script,redirect=noopjs,domain=cnnturk.com,badfilter
-||toots-a.akamaihd.net/priority/*ITVMarketing$media,redirect=noopmp4-1s,domain=itv.com,badfilter
-||pagead2.googlesyndication.com^$script,redirect=noopjs,domain=sportspf.com,badfilter
-||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=mirsegondya.com,badfilter
-||piguiqproxy.com/api$xmlhttprequest,redirect=nooptext,domain=kinozal.tv,badfilter
-||googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=arlinadzgn.com|idntheme.com,badfilter
-||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=escuchalas.com,badfilter
-||amgload.net^$xmlhttprequest,redirect=nooptext,domain=escuchalas.com,badfilter
-||googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=2pi.pw,badfilter
-||player.neko-miku.com/*slot$media,redirect=noopmp4-1s,domain=neko-miku.com,badfilter
-||filecloud.io/banner_ads.js$script,redirect=fuckadblock.js-3.2.0,domain=filecloud.io,badfilter
-||hdliveextra-a.akamaihd.net/HD/scripts/*/config/ads.js$script,domain=telemundodeportes.com,redirect=noopjs,badfilter
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=cloud.fw27.xyz,badfilter
-||yannik.biz/js/ads.js$script,first-party,redirect=fuckadblock.js-3.2.0,badfilter
-||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=xrares.com,badfilter
-||amgload.net^$xmlhttprequest,redirect=nooptext,domain=xrares.com,badfilter
-*/rellect/AdblockDetector/handler.min.js$script,important,redirect=noopjs,badfilter
-||megastock.ru/doc/*/azure_rus.gif$image,redirect=32x32-transparent.png,domain=simpsonsua.com.ua,badfilter
-||amgload.net^$xmlhttprequest,redirect=nooptext,domain=movies123.xyz,badfilter
-||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=movies123.xyz,badfilter
-||amgload.net^$xmlhttprequest,redirect=nooptext,domain=paraveronline.com,badfilter
-||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=paraveronline.com,badfilter
-||loadshare.org/custom/$media,redirect=noopmp4-1s,domain=tornadomovies.co,badfilter
-||syndication.exoclick.com/ads-iframe-display.php$script,redirect=noopjs,domain=pinflix.com,badfilter
-||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=qaru.site,badfilter
-||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=iptv-freelinks.blogspot.com,badfilter
-||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=multi-evolution.tech,badfilter
-||suedkurier.de/ads.js$script,first-party,redirect=noopjs,badfilter
-||adsterra.com^$script,redirect=noopjs,domain=anitubebr.com,badfilter
-||googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication.com/adsbygoogle.js,domain=androgalaxy.in,badfilter
-||cdn.adsafeprotected.com/$script,redirect=noopjs,domain=gentside.com|gentside.it|gentside.com|gentside.de|gentside.co.uk|gentside.com.br|maxisciences.com|ohmymag.com,badfilter
-||gentside.it/js/prebid/$script,redirect=noopjs,domain=gentside.it,badfilter
-||gentside.com/js/prebid/$script,redirect=noopjs,domain=gentside.com,badfilter
-||gentside.de/js/prebid/$script,redirect=noopjs,domain=gentside.de,badfilter
-||gentside.co.uk/js/prebid/$script,redirect=noopjs,domain=gentside.co.uk,badfilter
-||gentside.com.br/js/prebid/$script,redirect=noopjs,domain=gentside.com.br,badfilter
-||maxisciences.com/js/prebid/$script,redirect=noopjs,domain=maxisciences.com,badfilter
-||ohmymag.com/js/prebid/$script,redirect=noopjs,domain=ohmymag.com,badfilter
-||esgentside.com/js/prebid/$script,redirect=noopjs,first-party,badfilter
-||2mdn.net^$media,redirect=noopmp4-1s,domain=wowescape.com,badfilter
-||youtube.com/get_video$media,redirect=noopmp4-1s,domain=wowescape.com,badfilter
-||duellinksmeta.com/*/adsbygoogle.js$script,first-party,redirect=noopjs,badfilter
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=duellinksmeta.com,badfilter
-||cloudvideoplatform.com/advert.jpg$image,domain=10tv.nana10.co.il,redirect=2x2-transparent.png,badfilter
-||googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication.com/adsbygoogle.js,domain=insuranceloansonline.com,badfilter
-||googlesyndication.com/pagead/$script,redirect=noopjs,important,domain=afreesms.com,badfilter
-*.jpg#$image,domain=radiocockpit.fr,redirect=3x2-transparent.png,badfilter
-||2mdn.net^$media,redirect=noopmp4-1s,domain=games2rule.com,badfilter
-||youtube.com/get_video$media,redirect=noopmp4-1s,domain=games2rule.com,badfilter
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=tanked.io,badfilter
-||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=thoptv.world,badfilter
-||adservice.google.com/adsid/integrator.js$script,redirect=noopjs,domain=newstalk1290.com,badfilter
-*.gif#$image,domain=vertdtgratis.es,redirect=1x1-transparent.gif,badfilter
-||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=main-echo.de,badfilter
-||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=debrastagi.com,badfilter
-yandex.ua,yandex.ru,yandex.by##.content-index__direct
-yandex.ua,yandex.ru,yandex.by##div.links-section:last-child
-tv.yandex.ua,tv.yandex.ru,tv.yandex.by##.grid-chunk__column-box
-tv.yandex.ua,tv.yandex.ru,tv.yandex.by##.grid.grid_period_now + :last-child
-tv.yandex.ua,tv.yandex.ru,tv.yandex.by##.grid.grid_period_now > :first-child > :first-child + div
-tv.yandex.ua,tv.yandex.ru,tv.yandex.by##.grid__item + div > :first-child:last-child
-yandex.ru,yandex.ua,yandex.by##.font-regular.i-bem.media-grid_theme_white.media-grid_visible_no.media-grid
-yandex.ru,yandex.ua,yandex.by##.widgets__col
-yandex.ru,yandex.ua,yandex.by##.hh__row:last-child
-##div[aria-label="Реклама"]
-yandex.by,yandex.ru,yandex.ua##.media-infinity-footer__content_visible_yes.media-infinity-footer__content
-yandex.by,yandex.ru,yandex.ua##.b-page:style(padding-top: 0 !important)
-yandex.by,yandex.ru,yandex.ua##.serp-header:style(margin-top: 0 !important)
-yandex.by,yandex.ru,yandex.ua##.widgets.main > * div ~ div ~ div ~ div[class*=" "] > div[class*="_"]:style(background-image: none !important)
-yandex.by,yandex.ru,yandex.ua##div:not([style^="padding: 0px"]):not([style*="content-box"])[style*="!important"][style*="display"][style*="visibility"][style*="visible"]:style(width: 0 !important; min-width: 0 !important; max-width: 0 !important; height: 0 !important; min-height: 0 !important; max-height: 0 !important; overflow: hidden !important)
-yandex.by,yandex.ru,yandex.ua##div[data-bem*="yandex_rtb_"] > div[style*="!important;"]:style(position: absolute!important; left: -3000px!important;)
-yandex.by,yandex.ru,yandex.ua##.home-arrow__bottom
-yandex.by,yandex.ru,yandex.ua##.widgets.main > * div ~ div ~ div ~ div[class*=" "] > :not([class])
-yandex.by,yandex.ru,yandex.ua##.forecast-brief__item-temp-day:style(width: auto !important)
-yandex.by,yandex.ru,yandex.ua##.head-stripe:style(position: fixed !important; transform: scale(0) !important)
-yandex.by,yandex.ru,yandex.ua##.org__sidebar > div[style*="!important;"] > a[href^="https://direct.yandex."]+div:style(position: absolute!important; left: -3000px!important;)
-yandex.by,yandex.ru,yandex.ua##.org__sidebar > div[style*="!important;"] > a[href^="https://direct.yandex."]:style(position: absolute!important; left: -3000px!important;)
-/^https?://main\.zdevx\.yandex\.ru/[^\s]{300,}/$subdocument,xmlhttprequest,important
-yandex.by,yandex.ru,yandex.ua##.widgets__row_tr_2.widgets__row.heap__row.text_black_yes.row
-yandex.by,yandex.ru,yandex.ua##.widgets__row_tr_1.widgets__row.text_black_yes.first.row
-yandex.ru##.home-link.desk-notif-card_domik-plus.home-link_intense-blue_yes
-yandex.ru,yandex.ua,yandex.by##.serp-list div[id^="yandex_ad_"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
-yandex.ru,yandex.ua,yandex.by##.search-direct-snippet-view:style(position: absolute!important; left: -3000px!important;)
-yandex.ru,yandex.ua,yandex.by##.scroll__container > div.scroll__content > div > div[style*="!important"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
-yandex.ru,yandex.ua,yandex.by##.scroll__container > div.scroll__content > div > div > div[style*="!important"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
-yandex.ru,yandex.ua,yandex.by##.route-panel-content-view__body > div[class^="route-panel-content-"] > div[style*="!important"] > *:style(position: absolute!important; left: -3000px!important;)
-yandex.ru,yandex.ua,yandex.by##.route-panel-content-view__bla-bla-car-banner-layout:style(height: 0!important; transform: scale(0)!important;)
-yandex.ru,yandex.ua,yandex.by##.route-panel-content-view__bla-bla-car-banner-layout+div > div[style*="!important;"]:style(height: 0!important; transform: scale(0)!important;)
-yandex.ru##.main > div.container__banner:style(pointer-events: none!important; cursor: default;)
-yandex.ru,yandex.ua,yandex.by##.head-stripe:style(position: absolute!important; left: -3000px!important;)
-yandex.ru,yandex.ua,yandex.by##body[class*="b-page_infinity"] div[class*="media-grid"][class*="media-content"]
-yandex.ru,yandex.ua,yandex.by##body[class*="b-page_infinity"] .b-sethome
-yandex.ru##[class*="desk-notif-card"] > a[href*="/plus.yandex"]
-##.yabrowser-promo
-yandex.ru,yandex.ua,yandex.by##.widgets__col_td_2
-yandex.ru,yandex.ua,yandex.by##.media-promo
-yandex.ru,yandex.ua,yandex.by##.home-arrow__sample
-yandex.ru,yandex.ua,yandex.by##.dist-popup
-yandex.ru,yandex.ua,yandex.by##.widgets.main > * div ~ div ~ div ~ div[class*=" "] > div:not([class*=" "]):not([class*="_"])
-||adspaces.ero-advertising.com/adspace/*$script,redirect=noopjs,domain=pornsocket.com,badfilter
-||amazon-adsystem.com/*/apstag.js$script,redirect=noopjs,domain=player.biography.com,badfilter
-||mssl.fwmrm.net/*/AdManager.js$script,redirect=noopjs,domain=player.biography.com,badfilter
-||syndication.exoclick.com/ads-iframe-display.php$script,redirect=noopjs,domain=pornhd.com,badfilter
-||verliga.net/canales/adblock.js$script,redirect=fuckadblock.js-3.2.0,first-party,badfilter
-*.jpg#$image,domain=thesportek.com,redirect=2x2-transparent.png,badfilter
-||vergol.com/*adblock.js$script,redirect=fuckadblock.js-3.2.0,badfilter
-||superligatv.com/adblocks.js$script,redirect=fuckadblock.js-3.2.0,badfilter
-*.png#$image,redirect=2x2-transparent.png,domain=idsly.com,badfilter
-*.png#$image,redirect=2x2-transparent.png,domain=premiumtoss.com,badfilter
-*.jpg#$image,redirect=2x2-transparent.png,domain=300mbfilms.org,badfilter
-||pagead2.googlesyndication.com^$script,redirect=noopjs,domain=reevown.com,badfilter
-||livesports.pw//adblock.js$script,redirect=fuckadblock.js-3.2.0,badfilter
-*.png#$image,redirect=2x2-transparent.png,domain=golrojadirecta.com,badfilter
-||livesports.pw/*adblock.js$script,redirect=fuckadblock.js-3.2.0,badfilter
-||tvcanales.cf/player/adblocker.js$script,first-party,redirect=fuckadblock.js-3.2.0,badfilter
-||dfs.ivi.ru/mp4-hi/*/storage*.mp4|$media,redirect=noopmp3-0.1s,domain=ivi.ru,badfilter
-*.gif#$image,redirect=1x1-transparent.gif,domain=totaldebrid.org,badfilter
-||fghtem.com^$xmlhttprequest,redirect=nooptext,domain=readcomiconline.to,badfilter
-||amgload.net^$xmlhttprequest,redirect=nooptext,domain=animestreams.tv,badfilter
-||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=animestreams.tv,badfilter
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication.com/adsbygoogle.js,domain=downloadfullfree.com,badfilter
-||amgload.net^$xmlhttprequest,redirect=nooptext,domain=1movies.se|1movies.is,badfilter
-||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=1movies.se|1movies.is,badfilter
-||loadshare.org/custom/$media,redirect=noopmp4-1s,domain=1movies.se|1movies.to|1movies.is,badfilter
-||svonm.com/hd-main.js$script,redirect=hd-main.js,domain=vgtv.no,badfilter
-||adservice.google.com^$script,redirect=noopjs,domain=fileflares.com,badfilter
-||spiegel.de/*/messaging-*.js$script,redirect=noopjs,first-party,badfilter
-||focus.de/src/js/spmsg$script,redirect=noopjs,first-party,badfilter
-||pagead2.googlesyndication.com/pagead/show_ads.js$script,redirect=noopjs,domain=ehubsoft.net|herokuapp.com,badfilter
-||player.ooyala.com/*/ad-plugin/google_ima.min.js$script,important,redirect=noopjs,domain=nrl.com,badfilter
-*/adsid/integrator.js$script,redirect=noopjs,domain=dl.ccbluex.net,badfilter
-||pagead2.googlesyndication.com^$script,redirect=noopjs,domain=dl.ccbluex.net,badfilter
-||damoh.tv2.no^$media,redirect=noopmp3-0.1s,domain=tv2.no,badfilter
-||amgload.net^$xmlhttprequest,redirect=nooptext,domain=kickassanime.ru,badfilter
-||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=kickassanime.ru,badfilter
-||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=estrenos10.com,badfilter
-||amgload.net^$xmlhttprequest,redirect=nooptext,domain=nyafilmer.bz,badfilter
-||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=nyafilmer.bz,badfilter
-||go.pub2srv.com/apu.php$script,redirect=noopjs,badfilter
-||amgload.net^$xmlhttprequest,redirect=nooptext,domain=kinogo.cc,badfilter
-||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=allday2.com|kinogo.cc,badfilter
-*.png#$image,domain=boveda7k.es,redirect=2x2-transparent.png,badfilter
-||ads.puhutv.com/i.jpg$image,redirect=2x2-transparent.png,badfilter
 ##.AdBox
 ##.ad-div
 ##.adWrapper
@@ -235,6 +43,7 @@ yandex.ru,yandex.ua,yandex.by##.widgets.main > * div ~ div ~ div ~ div[class*=" 
 ##.masthead-ad-control
 ##.post-ads
 ##.remove-ads
+##.yabrowser-promo
 ##[id*="-ads-"]
 ##[id*="-ads."]
 ##[id*="-ads/"]
@@ -251,6 +60,7 @@ yandex.ru,yandex.ua,yandex.by##.widgets.main > * div ~ div ~ div ~ div[class*=" 
 ##[id*="_ads."]
 ##[id*="_ads/"]
 ##[id*="_ads_"]
+##div[aria-label="Реклама"]
 ##div[class*="-ads-"]
 ##div[class*="-ads."]
 ##div[class*="-ads/"]
@@ -267,13 +77,27 @@ yandex.ru,yandex.ua,yandex.by##.widgets.main > * div ~ div ~ div ~ div[class*=" 
 ##div[class*="_ads."]
 ##div[class*="_ads/"]
 ##div[class*="_ads_"]
+*.gif#$image,domain=vertdtgratis.es,redirect=1x1-transparent.gif,badfilter
+*.gif#$image,redirect=1x1-transparent.gif,domain=totaldebrid.org,badfilter
+*.jpg#$image,domain=freshstuff4you.com,redirect=2x2-transparent.png,badfilter
+*.jpg#$image,domain=radiocockpit.fr,redirect=3x2-transparent.png,badfilter
+*.jpg#$image,domain=thesportek.com,redirect=2x2-transparent.png,badfilter
+*.jpg#$image,redirect=2x2-transparent.png,domain=300mbfilms.org,badfilter
+*.mp4$media,redirect=noopmp4-1s,domain=abc.go.com,badfilter
+*.mp4$media,redirect=noopmp4-1s,domain=apornoflv.tv,badfilter
+*.png#$image,domain=boveda7k.es,redirect=2x2-transparent.png,badfilter
+*.png#$image,redirect=2x2-transparent.png,domain=golrojadirecta.com,badfilter
+*.png#$image,redirect=2x2-transparent.png,domain=idsly.com,badfilter
+*.png#$image,redirect=2x2-transparent.png,domain=premiumtoss.com,badfilter
 */ad*$script,redirect=noopjs,domain=oasivip.com,badfilter
 */ads.js$script,important,redirect=noopjs,domain=tune.pk,badfilter
 */ads.js$script,redirect=noopjs,domain=delta-optimist.com|estevanmercury.ca|kamloopsthisweek.com|nsnews.com|princegeorgecitizen.com|thompsoncitizen.net|timescolonist.com|tricitynews.com|vancourier.com|weyburnreview.com|yorktonthisweek.com,badfilter
+*/adsid/integrator.js$script,redirect=noopjs,domain=dl.ccbluex.net,badfilter
 */blockadblock-$script,redirect=fuckadblock.js-3.2.0,badfilter
 */blockadblock.$script,redirect=fuckadblock.js-3.2.0,badfilter
 */fuckadblock-$script,redirect=fuckadblock.js-3.2.0,badfilter
 */fuckadblock.$script,redirect=fuckadblock.js-3.2.0,badfilter
+*/rellect/AdblockDetector/handler.min.js$script,important,redirect=noopjs,badfilter
 */wp-adblock-$script,redirect=fuckadblock.js-3.2.0,badfilter
 -0pixel-$important
 -0pixel.$important
@@ -2581,7 +2405,7 @@ yandex.ru,yandex.ua,yandex.by##.widgets.main > * div ~ div ~ div ~ div[class*=" 
 .analytics9^$important
 .analytics9_$important
 .analytics-$important
-.analytics.
+.analytics.$domain=~gitlab.com
 .analytics^$important
 .analytics_$important
 .analyticsengine-$important
@@ -3455,6 +3279,7 @@ yandex.ru,yandex.ua,yandex.by##.widgets.main > * div ~ div ~ div ~ div[class*=" 
 /728x90_
 /*.mp4$media,redirect=noopmp4-1s,domain=hulu.com,badfilter
 /^https?://afisha\.yandex\.(by|kz|ru|ua)/(?!api)[^\s]{300,}/$subdocument,xmlhttprequest,important
+/^https?://main\.zdevx\.yandex\.ru/[^\s]{300,}/$subdocument,xmlhttprequest,important
 /^https?://main\.zdevx\.yandex\.ru/[^\s]{300,}/$subdocument,xmlhttprequest,important
 /^https?://news\.yandex\.(by|kz|ru|ua)/[^\s]{300,}/$subdocument,xmlhttprequest,important
 /^https?://realty\.yandex\.ru/[^\s]{500,}/$subdocument,important
@@ -6784,6 +6609,8 @@ freebitco.in##.open.reveal-modal
 freebitco.in##.reveal-modal-bg
 ggbet$image
 google.com##g-section-with-header
+kinopoisk.ru##HTML > HEAD + BODY > DIV:first-child > DIV:first-child + DIV + DIV > DIV + DIV:last-child > A:last-child
+kinopoisk.ru##HTML > HEAD + BODY > DIV:first-child > DIV:first-child + DIV + DIV > DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV:last-child
 m.youtube.com##.mealbar-promo-renderer
 mail.ru###layout\:rightcol
 money.yandex.ru##.promo-header
@@ -6792,17 +6619,6 @@ music.yandex.ru##.footer
 music.yandex.ru##.notify_shown.deco-tooltip_notify.notify__message
 music.yandex.ru##.sidebar__under
 news.yandex.ru,news.yandex.ua,news.yandex.by##.sticky
-yandex.ua,yandex.ru,yandex.by##.headline__favorites.headline__bar-item
-yandex.ua,yandex.ru,yandex.by##.headline__notifier.headline__bar-item
-yandex.ua,yandex.ru,yandex.by##.header-favorites-button_js_inited.i-bem.header-favorites-button
-yandex.ua,yandex.ru,yandex.by##.weather-maps__ad_visible_yes
-yandex.ua,yandex.ru,yandex.by##.content__bottom
-yandex.ua,yandex.ru,yandex.by##.content__main + :last-child
-yandex.ua,yandex.ru,yandex.by##.content__col
-yandex.ua##[id^="R-I-"]:has(:scope > *)
-yandex.ua,yandex.ru,yandex.by##.footer__links > div.links-section:has(:scope > div.links-section__title:has-text(Мобильные приложения))
-yandex.ua,yandex.ru,yandex.by##.footer__links > div.links-section > div.apps
-yandex.ua,yandex.ru,yandex.by##.widget_id_teaser
 outlook.live.com##div#app > div.ms-fabric > div:last-child > div:first-child > div:first-child > div[data-min-width][data-max-width][style^="width:"]~div:last-child
 pornhub.com###age-verification-container
 pornhub.com###age-verification-wrapper
@@ -6811,6 +6627,10 @@ radio.yandex.ru,radio.yandex.by,radio.yandex.ua##.multi-auth__plus
 reddit.com##.onboardingbar.subscribebar.infobar
 translate.google.com,translate.google.ru###gt-promo-lr
 translate.yandex.ru##.button_icon_collections.button_icon.button
+tv.yandex.ua,tv.yandex.ru,tv.yandex.by##.grid-chunk__column-box
+tv.yandex.ua,tv.yandex.ru,tv.yandex.by##.grid.grid_period_now + :last-child
+tv.yandex.ua,tv.yandex.ru,tv.yandex.by##.grid.grid_period_now > :first-child > :first-child + div
+tv.yandex.ua,tv.yandex.ru,tv.yandex.by##.grid__item + div > :first-child:last-child
 twitch.tv##.pl-overlay__fullscreen.pl-overlay
 twitch.tv##.pl-pinned-panel--animate.pl-pinned-panel
 twitch.tv##.pl-single-rec-wrapper.recommendations-overlay.player-overlay
@@ -6867,6 +6687,54 @@ twitch.tv##a[href*="vk.cc"]
 twitch.tv##a[href*="vsemayki"]
 vk.com##aside[aria-label="Актуальные новости"]
 wikipedia.org###sitenotice
+yandex.by,yandex.ru,yandex.ua##.b-page:style(padding-top: 0 !important)
+yandex.by,yandex.ru,yandex.ua##.forecast-brief__item-temp-day:style(width: auto !important)
+yandex.by,yandex.ru,yandex.ua##.head-stripe:style(position: fixed !important; transform: scale(0) !important)
+yandex.by,yandex.ru,yandex.ua##.home-arrow__bottom
+yandex.by,yandex.ru,yandex.ua##.media-infinity-footer__content_visible_yes.media-infinity-footer__content
+yandex.by,yandex.ru,yandex.ua##.org__sidebar > div[style*="!important;"] > a[href^="https://direct.yandex."]+div:style(position: absolute!important; left: -3000px!important;)
+yandex.by,yandex.ru,yandex.ua##.org__sidebar > div[style*="!important;"] > a[href^="https://direct.yandex."]:style(position: absolute!important; left: -3000px!important;)
+yandex.by,yandex.ru,yandex.ua##.serp-header:style(margin-top: 0 !important)
+yandex.by,yandex.ru,yandex.ua##.widgets.main > * div ~ div ~ div ~ div[class*=" "] > :not([class])
+yandex.by,yandex.ru,yandex.ua##.widgets.main > * div ~ div ~ div ~ div[class*=" "] > div[class*="_"]:style(background-image: none !important)
+yandex.by,yandex.ru,yandex.ua##.widgets__row_tr_1.widgets__row.text_black_yes.first.row
+yandex.by,yandex.ru,yandex.ua##.widgets__row_tr_2.widgets__row.heap__row.text_black_yes.row
+yandex.by,yandex.ru,yandex.ua##div:not([style^="padding: 0px"]):not([style*="content-box"])[style*="!important"][style*="display"][style*="visibility"][style*="visible"]:style(width: 0 !important; min-width: 0 !important; max-width: 0 !important; height: 0 !important; min-height: 0 !important; max-height: 0 !important; overflow: hidden !important)
+yandex.by,yandex.ru,yandex.ua##div[data-bem*="yandex_rtb_"] > div[style*="!important;"]:style(position: absolute!important; left: -3000px!important;)
+yandex.ru##.home-link.desk-notif-card_domik-plus.home-link_intense-blue_yes
+yandex.ru##.main > div.container__banner:style(pointer-events: none!important; cursor: default;)
+yandex.ru##[class*="desk-notif-card"] > a[href*="/plus.yandex"]
+yandex.ru,yandex.ua,yandex.by##.dist-popup
+yandex.ru,yandex.ua,yandex.by##.font-regular.i-bem.media-grid_theme_white.media-grid_visible_no.media-grid
+yandex.ru,yandex.ua,yandex.by##.head-stripe:style(position: absolute!important; left: -3000px!important;)
+yandex.ru,yandex.ua,yandex.by##.hh__row:last-child
+yandex.ru,yandex.ua,yandex.by##.home-arrow__sample
+yandex.ru,yandex.ua,yandex.by##.media-promo
+yandex.ru,yandex.ua,yandex.by##.route-panel-content-view__bla-bla-car-banner-layout+div > div[style*="!important;"]:style(height: 0!important; transform: scale(0)!important;)
+yandex.ru,yandex.ua,yandex.by##.route-panel-content-view__bla-bla-car-banner-layout:style(height: 0!important; transform: scale(0)!important;)
+yandex.ru,yandex.ua,yandex.by##.route-panel-content-view__body > div[class^="route-panel-content-"] > div[style*="!important"] > *:style(position: absolute!important; left: -3000px!important;)
+yandex.ru,yandex.ua,yandex.by##.scroll__container > div.scroll__content > div > div > div[style*="!important"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
+yandex.ru,yandex.ua,yandex.by##.scroll__container > div.scroll__content > div > div[style*="!important"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
+yandex.ru,yandex.ua,yandex.by##.search-direct-snippet-view:style(position: absolute!important; left: -3000px!important;)
+yandex.ru,yandex.ua,yandex.by##.serp-list div[id^="yandex_ad_"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
+yandex.ru,yandex.ua,yandex.by##.widgets.main > * div ~ div ~ div ~ div[class*=" "] > div:not([class*=" "]):not([class*="_"])
+yandex.ru,yandex.ua,yandex.by##.widgets__col
+yandex.ru,yandex.ua,yandex.by##.widgets__col_td_2
+yandex.ru,yandex.ua,yandex.by##body[class*="b-page_infinity"] .b-sethome
+yandex.ru,yandex.ua,yandex.by##body[class*="b-page_infinity"] div[class*="media-grid"][class*="media-content"]
+yandex.ua##[id^="R-I-"]:has(:scope > *)
+yandex.ua,yandex.ru,yandex.by##.content-index__direct
+yandex.ua,yandex.ru,yandex.by##.content__bottom
+yandex.ua,yandex.ru,yandex.by##.content__col
+yandex.ua,yandex.ru,yandex.by##.content__main + :last-child
+yandex.ua,yandex.ru,yandex.by##.footer__links > div.links-section > div.apps
+yandex.ua,yandex.ru,yandex.by##.footer__links > div.links-section:has(:scope > div.links-section__title:has-text(Мобильные приложения))
+yandex.ua,yandex.ru,yandex.by##.header-favorites-button_js_inited.i-bem.header-favorites-button
+yandex.ua,yandex.ru,yandex.by##.headline__favorites.headline__bar-item
+yandex.ua,yandex.ru,yandex.by##.headline__notifier.headline__bar-item
+yandex.ua,yandex.ru,yandex.by##.weather-maps__ad_visible_yes
+yandex.ua,yandex.ru,yandex.by##.widget_id_teaser
+yandex.ua,yandex.ru,yandex.by##div.links-section:last-child
 youtube.com##.html5-endscreen
 |data:text$popup,important
 |http*://*-zone-injection/$important
@@ -6889,6 +6757,8 @@ youtube.com##.html5-endscreen
 ||1l-hit.mail.ru^$important
 ||1rx.s3.amazonaws.com/advert.js$script,redirect=noopjs,domain=allmusic.com,badfilter
 ||2mdn.net^$important
+||2mdn.net^$media,redirect=noopmp4-1s,domain=games2rule.com,badfilter
+||2mdn.net^$media,redirect=noopmp4-1s,domain=wowescape.com,badfilter
 ||8s8.eu/fa.js$script,redirect=fuckadblock.js-3.2.0,domain=g9g.eu,badfilter
 ||aaxads.com^$important
 ||acdn.adnxs.com/as/1h/pages/sport1_mediathek.js$script,redirect=noopjs,domain=sport1.de,badfilter
@@ -6903,23 +6773,43 @@ youtube.com##.html5-endscreen
 ||adnxs.com^$important
 ||adnxs.com^$subdocument,redirect=noopframe,domain=televisaofutebol.com,badfilter
 ||adriver.ru^$important
+||ads-v-darwin.hulustream.com/published/*.mp4$media,redirect=noopmp4-1s,domain=hulu.com,badfilter
 ||ads.pro-market.net/ads/scripts/site-120903.js$script,redirect=silent-noeval.js,domain=destructoid.com,badfilter
+||ads.puhutv.com/i.jpg$image,redirect=2x2-transparent.png,badfilter
 ||ads.youtube.com^$important
 ||adsafeprotected.com^$important
 ||adserver.adtech.de/?advideo/3.0/$xmlhttprequest,important,redirect=nooptext,domain=nova.cz,badfilter
+||adservice.google.com/adsid/integrator.js$script,redirect=noopjs,domain=newstalk1290.com,badfilter
+||adservice.google.com^$script,redirect=noopjs,domain=fileflares.com,badfilter
+||adspaces.ero-advertising.com/adspace/*$script,redirect=noopjs,domain=pornsocket.com,badfilter
+||adsterra.com^$script,redirect=noopjs,domain=anitubebr.com,badfilter
 ||adsterra.com^$script,redirect=noopjs,domain=kissmanga.com,badfilter
 ||adswithsalt.com/*/ad-loading.pic$image,redirect=3x2-transparent.png,badfilter
 ||adswrapme.click^$important
 ||adtechus.com^$image,important,redirect=3x2-transparent.png,domain=cinemablend.com|goalsarena.org,badfilter
 ||adtechus.com^$image,redirect=3x2-transparent.png,domain=sport-fm.gr,badfilter
 ||adternal.com/*/ad-loading.*$image,redirect=3x2-transparent.png,badfilter
+||akamaihd.net/vod/*$media,redirect=noopmp3-0.1s,domain=7tv.de,badfilter
 ||akamaized.net/audio/*$media,redirect=noopmp3-0.1s,domain=open.spotify.com,badfilter
 ||allmedia-d.openx.net/w/1.0/jstag?nc=22732481-SideReel$script,redirect=noopjs,domain=allmusic.com,badfilter
 ||amazon-adsystem.com/*/apstag.js$script,redirect=noopjs,domain=aetv.com|aetnd.com|history.com,badfilter
+||amazon-adsystem.com/*/apstag.js$script,redirect=noopjs,domain=player.biography.com,badfilter
 ||amazon-adsystem.com^$important
 ||amazon-adsystem.com^$script,redirect=noopjs,domain=hackintosh.computer|hackintoshzone.com,badfilter
+||amazonaws.com/homad-global-configs.schneevonmorgen.com/global_config.json$xmlhttprequest,redirect=nooptext,domain=tele5.de,badfilter
 ||amazonaws.com/ki.js/$important
+||amgload.net^$xmlhttprequest,redirect=nooptext,domain=1movies.se|1movies.is,badfilter
+||amgload.net^$xmlhttprequest,redirect=nooptext,domain=animestreams.tv,badfilter
+||amgload.net^$xmlhttprequest,redirect=nooptext,domain=escuchalas.com,badfilter
+||amgload.net^$xmlhttprequest,redirect=nooptext,domain=kickassanime.ru,badfilter
+||amgload.net^$xmlhttprequest,redirect=nooptext,domain=kinogo.cc,badfilter
+||amgload.net^$xmlhttprequest,redirect=nooptext,domain=movies123.xyz,badfilter
+||amgload.net^$xmlhttprequest,redirect=nooptext,domain=nyafilmer.bz,badfilter
+||amgload.net^$xmlhttprequest,redirect=nooptext,domain=paraveronline.com,badfilter
+||amgload.net^$xmlhttprequest,redirect=nooptext,domain=peliculasveo.gratis|peliculasver.online,badfilter
 ||amgload.net^$xmlhttprequest,redirect=nooptext,domain=skidrowcrack.com,badfilter
+||amgload.net^$xmlhttprequest,redirect=nooptext,domain=xrares.com,badfilter
+||amgload.net^$xmlhttprequest,redirect=nooptext,domain=zonarutoppuden.com,badfilter
 ||an.yandex.*^$important
 ||api.twitch.tv/*/channels/*/extensions$xmlhttprequest,domain=twitch.tv
 ||appliancesforhome.top/wp-content/*/ad$script,first-party,redirect=fuckadblock.js-3.2.0,badfilter
@@ -6927,6 +6817,7 @@ youtube.com##.html5-endscreen
 ||asset.pagefair.com/adimages/adsense.js$script,redirect=noopjs,domain=allmusic.com,badfilter
 ||asset.pagefair.net/ads.min.js$script,important,redirect=noopjs,domain=allmusic.com,badfilter
 ||assets.adobedtm.com^$important
+||atdmt.com^$important
 ||atdmt.com^$important
 ||audio-fa.scdn.co/audio/*$media,redirect=noopmp3-0.1s,domain=open.spotify.com,badfilter
 ||awaps.yandex.*^$important
@@ -6942,15 +6833,19 @@ youtube.com##.html5-endscreen
 ||branch.io^$important
 ||bs.yandex.*^$important
 ||casalemedia.com^$important
+||cdn.adsafeprotected.com/$script,redirect=noopjs,domain=gentside.com|gentside.it|gentside.com|gentside.de|gentside.co.uk|gentside.com.br|maxisciences.com|ohmymag.com,badfilter
 ||cdn.complexmedianetwork.com/js/cmnUNT.js$important,script,redirect=noopjs,domain=allmusic.com,badfilter
 ||cdn.mangaeden.com/js/ad/advertisement.js$script,first-party,redirect=noopjs,badfilter
 ||cdn.videoplaza1.tv/contrib/se-expressen/aab/pulse-custom-svm-plugin.min.js$script,redirect=noopjs,domain=expressen.se,badfilter
+||cdn.zomap.de^$media,redirect=noopmp3-0.1s,domain=prosieben.de|prosiebenmaxx.de,badfilter
 ||cdn.zomap.de^$media,redirect=noopmp3-0.1s,domain=wetter.com,badfilter
+||cibntv.net/youku/*$media,redirect=noopmp3-0.1s,domain=youku.com,badfilter
 ||cinestrenostv.tv/*ad$image,redirect=1x1-transparent.gif,badfilter
 ||clicktale.net^$important
 ||client-event-reporter.twitch.tv^$important
 ||clksite.com^$important
 ||clksite.com^$subdocument,redirect=noopframe,domain=al.ly|ally.sh,badfilter
+||cloudvideoplatform.com/advert.jpg$image,domain=10tv.nana10.co.il,redirect=2x2-transparent.png,badfilter
 ||collector.githubapp.com^$important
 ||computerbild.de/assets/homad/*$xmlhttprequest,redirect=nooptext,domain=computerbild.de,badfilter
 ||countess.twitch.tv^$important
@@ -6963,9 +6858,21 @@ youtube.com##.html5-endscreen
 ||d25ezbwokoefx6.cloudfront.net^$script,redirect=noopjs,domain=trueachievements.com,badfilter
 ||d1447tq2m68ekg.cloudfront.net/advertisement.js$script,redirect=noopjs,domain=leparisien.fr,badfilter
 ||da-ads.com^$important
+||damoh.cinema.de/*$media,redirect=noopmp3-0.1s,domain=cinema.de,badfilter
+||damoh.gmx.net/*$media,redirect=noopmp3-0.1s,domain=gmx.net,badfilter
+||damoh.golem.de/*$media,redirect=noopmp3-0.1s,domain=golem.de,badfilter
+||damoh.katsomo.fi/*$media,redirect=noopmp3-0.1s,domain=mtv.fi,badfilter
+||damoh.katsomo.fi/*$media,redirect=noopmp3-0.1s,domain=mtvuutiset.fi,badfilter
+||damoh.n-tv.de/*$media,redirect=noopmp3-0.1s,domain=n-tv.de,badfilter
+||damoh.rtl.de/*$media,redirect=noopmp3-0.1s,domain=rtl.de,badfilter
+||damoh.tv2.no^$media,redirect=noopmp3-0.1s,domain=tv2.no,badfilter
+||damoh.tvnow.de/*$media,redirect=noopmp3-0.1s,domain=tvnow.de,badfilter
+||damoh.watchbox.de/*$media,redirect=noopmp3-0.1s,domain=watchbox.de,badfilter
+||damoh.web.de/*$media,redirect=noopmp3-0.1s,domain=web.de,badfilter
 ||dapxl.com^$important
 ||de/*/ad_bomb/*$image,redirect=2x2-transparent.png,badfilter
 ||demdex.net^$important
+||dfs.ivi.ru/mp4-hi/*/storage*.mp4|$media,redirect=noopmp3-0.1s,domain=ivi.ru,badfilter
 ||direct.yandex.ru^$important
 ||disqus.com/count.js$script,important
 ||doubleclick.net/instream/ad_status.js$script,redirect=doubleclick.net/instream/ad_status.js,important,badfilter
@@ -6974,6 +6881,8 @@ youtube.com##.html5-endscreen
 ||doubleclick.net^$subdocument,redirect=noopframe,domain=hackintosh.computer|hackintoshzone.com,badfilter
 ||download.mokeedev.com/js/jquery-common.js.*$first-party,script,redirect=fuckadblock.js-3.2.0,badfilter
 ||duckduckgo.com/t/$important
+||duellinksmeta.com/*/adsbygoogle.js$script,first-party,redirect=noopjs,badfilter
+||esgentside.com/js/prebid/$script,redirect=noopjs,first-party,badfilter
 ||eurotransport.de/*/antiAdBlock.js$script,first-party,redirect=antiAdBlock.js,badfilter
 ||exosrv.com^$script,redirect=noopjs,domain=gelbooru.com,badfilter
 ||facebook.com/sem_campaigns/sem_pixel_test^$important
@@ -6981,16 +6890,26 @@ youtube.com##.html5-endscreen
 ||fastly.net^$image,important,redirect=2x2-transparent.png,domain=cbs.com,badfilter
 ||fastly.net^$script,important,redirect=noopjs,domain=cbs.com,badfilter
 ||fghtem.com^$xmlhttprequest,redirect=nooptext,domain=kimcartoon.me,badfilter
+||fghtem.com^$xmlhttprequest,redirect=nooptext,domain=readcomiconline.to,badfilter
+||filecloud.io/banner_ads.js$script,redirect=fuckadblock.js-3.2.0,domain=filecloud.io,badfilter
+||focus.de/src/js/spmsg$script,redirect=noopjs,first-party,badfilter
 ||franecki.net/js/lib.js$important
 ||fwmrm.net/ad/$xmlhttprequest,redirect=nooptext,domain=viafree.dk|viafree.no,badfilter
 ||g9g.eu^*fa.js$script,redirect=fuckadblock.js-3.2.0,badfilter
 ||g17media.com^$script,redirect=noopjs,domain=lcpdfr.com,badfilter
+||gemius.pl/gplayer.js$script,redirect=noopjs,domain=cnnturk.com,badfilter
+||gentside.co.uk/js/prebid/$script,redirect=noopjs,domain=gentside.co.uk,badfilter
+||gentside.com.br/js/prebid/$script,redirect=noopjs,domain=gentside.com.br,badfilter
+||gentside.com/js/prebid/$script,redirect=noopjs,domain=gentside.com,badfilter
+||gentside.de/js/prebid/$script,redirect=noopjs,domain=gentside.de,badfilter
+||gentside.it/js/prebid/$script,redirect=noopjs,domain=gentside.it,badfilter
 ||github.com/_private/browser/stats$important
 ||global.proper.io/tvtropes.min.js$script,redirect=noopjs,domain=tvtropes.org,badfilter
 ||go-mpulse.net^$important
 ||go-tds-site.com^$important
 ||go.oclasrv.com/apu.php$script,redirect=noopjs,badfilter
 ||go.onclasrv.com/apu.php$script,redirect=noopjs,badfilter
+||go.pub2srv.com/apu.php$script,redirect=noopjs,badfilter
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js,badfilter
 ||google-analytics.com/collect$image,redirect=1x1-transparent.gif,domain=hackintosh.computer|hackintoshzone.com,badfilter
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js,badfilter
@@ -7000,22 +6919,31 @@ youtube.com##.html5-endscreen
 ||google.com^*/viewerimpressions^$important
 ||googleadservices.com$important
 ||googlesyndication.*^$important
+||googlesyndication.com/pagead/$script,redirect=noopjs,important,domain=afreesms.com,badfilter
 ||googlesyndication.com/pagead/js/adsbygoogle.js$important,script,redirect=googlesyndication.com/adsbygoogle.js,domain=cpu-world.com|wowtoken.info,badfilter
+||googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication.com/adsbygoogle.js,domain=androgalaxy.in,badfilter
+||googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication.com/adsbygoogle.js,domain=insuranceloansonline.com,badfilter
+||googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=2pi.pw,badfilter
+||googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=arlinadzgn.com|idntheme.com,badfilter
 ||googlesyndication.com^$script,important,redirect=noopjs,domain=hackintosh.computer|hackintoshzone.com,badfilter
 ||googlesyndication.com^$script,redirect=noopjs,important,domain=sc2casts.com,badfilter
 ||googletagmanager.*^$important
+||googletagmanager.com/gtag/js$script,redirect=noopjs,domain=free-mp3-download.net,badfilter
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager.com/gtm.js,badfilter
+||googletagmanager.com/gtm.js$script,redirect=noopjs,domain=kinoheld.de,badfilter
 ||googletagservices.*^$important
 ||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js,badfilter
 ||grade.market.yandex.*^$important
 ||graph.facebook.com^$important
 ||graph.instagram.com^$important
+||hdliveextra-a.akamaihd.net/HD/scripts/*/config/ads.js$script,domain=telemundodeportes.com,redirect=noopjs,badfilter
 ||hotlog.ru^$important
 ||i.auto-bild.de/assets/modules/homad/*$xmlhttprequest,redirect=nooptext,domain=autobild.de,badfilter
 ||ibtimes.co.uk/*/adframe.js$script,first-party,redirect=noopjs,badfilter
 ||id.google.*^$important
 ||im9.eu^*fa.js$script,redirect=fuckadblock.js-3.2.0,badfilter
 ||ima3vpaid.appspot.com^$important
+||imasdk.googleapis.com/js/sdkloader/outstream.js$script,redirect=noopjs,domain=squadd.io,badfilter
 ||imasdk.googleapis.com^$important
 ||imrworldwide.com^$important
 ||informer.yandex.*^$important
@@ -7032,16 +6960,22 @@ youtube.com##.html5-endscreen
 ||ligatus.com/*/angular-tag.js$script,redirect=ligatus.com/*/angular-tag.js,badfilter
 ||lijit.com^$important
 ||links.services.disqus.com^$important
+||livesports.pw/*adblock.js$script,redirect=fuckadblock.js-3.2.0,badfilter
+||livesports.pw//adblock.js$script,redirect=fuckadblock.js-3.2.0,badfilter
 ||livesports.pw/adblock.js$script,first-party,redirect=fuckadblock.js-3.2.0,badfilter
+||loadshare.org/custom/$media,redirect=noopmp4-1s,domain=1movies.se|1movies.to|1movies.is,badfilter
+||loadshare.org/custom/$media,redirect=noopmp4-1s,domain=tornadomovies.co,badfilter
 ||loadshare.org/custom/*$media,redirect=noopmp4-1s,domain=putlocker.digital,badfilter
 ||luxupadva.com^$important
 ||mail.ru/counter^$important
 ||mail.ru/grstat^$important
 ||mail.yandex.*/monitoring_liza.txt$important
+||maxisciences.com/js/prebid/$script,redirect=noopjs,domain=maxisciences.com,badfilter
 ||mc.yandex.ru^$important
 ||mdsglvod-a.akamaihd.net/vod$media,redirect=noopmp3-0.1s,domain=glomex.com,badfilter
 ||mdsglvod-a.akamaihd.net/vod$media,redirect=noopmp3-0.1s,domain=moviepilot.de|sport1.de|wetter.com,badfilter
 ||mediametrics.ru^$important
+||megastock.ru/doc/*/azure_rus.gif$image,redirect=32x32-transparent.png,domain=simpsonsua.com.ua,badfilter
 ||metric.gstatic.com^$important
 ||mexashare.com^*.png#$image,domain=mexashare.com,redirect=2x2-transparent.png,badfilter
 ||microad.net^$important
@@ -7052,29 +6986,81 @@ youtube.com##.html5-endscreen
 ||mp.twitch.tv^$important
 ||msecnd.net/scripts/jsll$important
 ||mssl.fwmrm.net/*/AdManager.js$script,redirect=noopjs,domain=history.com,badfilter
+||mssl.fwmrm.net/*/AdManager.js$script,redirect=noopjs,domain=player.biography.com,badfilter
 ||myadcash.com/video_landing/js/*.js$script,redirect=noopjs,domain=multiup.eu|multiup.org,badfilter
 ||neumanga.tv/*/ad$image,redirect=2x2-transparent.png,badfilter
 ||newrelic.com^$important
 ||npttech.com/advertising.js$important,script,redirect=fuckadblock.js-3.2.0,badfilter
+||ohmymag.com/js/prebid/$script,redirect=noopjs,domain=ohmymag.com,badfilter
 ||omtrdc.net^$important
 ||onclkds.com/apu.php$script,redirect=noopjs,badfilter
 ||optimizely.com^$important
 ||owebmoney.ru^$important
+||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=alwalednet.blogspot.com,badfilter
+||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=debrastagi.com,badfilter
+||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=dlnowsoft.com,badfilter
+||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=fullcrackpc.com,badfilter
+||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=gameguardian.net,badfilter
+||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=igniel.com,badfilter
+||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=iptv-freelinks.blogspot.com,badfilter
+||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=main-echo.de,badfilter
 ||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=mitly.us,badfilter
+||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=multi-evolution.tech,badfilter
+||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=pokyun.tv,badfilter
+||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=qaru.site,badfilter
+||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=repo.xarold.com,badfilter
+||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=thoptv.world,badfilter
+||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=turboserver.info,badfilter
+||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=uploadbox.io,badfilter
 ||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=vide-greniers.org,badfilter
+||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=zoneflasher.site,badfilter
 ||pagead2.googlesyndication.com/pagead/js/$script,important,redirect=noopjs,domain=onvasortir.com,badfilter
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication.com/adsbygoogle.js,domain=downloadfullfree.com,badfilter
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googletagmanager.com/gtm.js,domain=breitbart.com,badfilter
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=cloud.fw27.xyz,badfilter
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=duellinksmeta.com,badfilter
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=inoreader.com,badfilter
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=kurazone.net,badfilter
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=marfilius.blogspot.com,badfilter
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=mexashare.com,badfilter
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=moongourd.com,badfilter
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=naminakiky.com,badfilter
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=shidurlive.com,badfilter
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=speed4up.com,badfilter
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=tanked.io,badfilter
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=themeplatinum.blogspot.com,badfilter
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect=nooptext,domain=di.fm,badfilter
+||pagead2.googlesyndication.com/pagead/show_ads.js$script,redirect=noopjs,domain=ehubsoft.net|herokuapp.com,badfilter
+||pagead2.googlesyndication.com/pagead/show_ads.js$script,redirect=noopjs,domain=mhtviewer.booogle.net,badfilter
+||pagead2.googlesyndication.com^$script,redirect=noopjs,domain=dl.ccbluex.net,badfilter
 ||pagead2.googlesyndication.com^$script,redirect=noopjs,domain=download.mokeedev.com,badfilter
 ||pagead2.googlesyndication.com^$script,redirect=noopjs,domain=kingofdown.com|kingofshrink.com,badfilter
+||pagead2.googlesyndication.com^$script,redirect=noopjs,domain=offidocs.com,badfilter
+||pagead2.googlesyndication.com^$script,redirect=noopjs,domain=reevown.com,badfilter
+||pagead2.googlesyndication.com^$script,redirect=noopjs,domain=sportspf.com,badfilter
+||piguiqproxy.com/api$xmlhttprequest,redirect=nooptext,domain=kinozal.tv,badfilter
+||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=1movies.se|1movies.is,badfilter
+||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=allday2.com|kinogo.cc,badfilter
+||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=animeland.tv,badfilter
+||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=animestreams.tv,badfilter
+||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=escuchalas.com,badfilter
+||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=estrenos10.com,badfilter
 ||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=jkanime.co,badfilter
+||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=kickassanime.ru,badfilter
+||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=mirsegondya.com,badfilter
+||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=movies123.xyz,badfilter
+||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=nyafilmer.bz,badfilter
+||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=paraveronline.com,badfilter
+||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=peliculasveo.gratis|peliculasver.online,badfilter
 ||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=skidrowcrack.com,badfilter
+||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=xrares.com,badfilter
+||piguiqproxy.com^$xmlhttprequest,redirect=nooptext,domain=zonarutoppuden.com,badfilter
 ||pipe.aria.microsoft.com/collector/$important
 ||placehold.it^$important
 ||player-abc.glomex.com^$media,redirect=noopmp3-0.1s,domain=glomex.com,badfilter
 ||player-abcd.glomex.com/$media,redirect=noopmp4-1s,domain=player.glomex.com,badfilter
+||player.neko-miku.com/*slot$media,redirect=noopmp4-1s,domain=neko-miku.com,badfilter
+||player.ooyala.com/*/ad-plugin/google_ima.min.js$script,important,redirect=noopjs,domain=nrl.com,badfilter
 ||player.ooyala.com/static/*ad$script,redirect=noopjs,domain=dugout.com,badfilter
 ||polyfill.twitchsvc.net^$important
 ||popads.net/pop.js$script,redirect=popads.net.js,badfilter
@@ -7096,6 +7082,7 @@ youtube.com##.html5-endscreen
 ||referrer.disqus.com^$important
 ||roistat.com^$important
 ||rs.mail.ru^$important
+||rte.ie/ads/*$media,redirect=noopmp4-1s,domain=beta.rte.ie,badfilter
 ||rubiconproject.com^$important
 ||s0.2mdn.net/instream/video/client.js$script,redirect=noopjs,domain=player.performgroup.com,badfilter
 ||s3.amazonaws.com/homad-global-configs.schneevonmorgen.com/hd-main.js$script,domain=autobild.de|chip.de|cinema.de|computerbild.de|cdnapi.kaltura.com|focus.de|gamona.de|giga.de|spiegel.de|spieleaffe.de|spieletipps.de|sueddeutsche.de|t-online.de,redirect=hd-main.js,badfilter
@@ -7104,27 +7091,40 @@ youtube.com##.html5-endscreen
 ||scorecardresearch.com^$important
 ||scrubswim.com^$important
 ||server.cpmstar.com^$xmlhttprequest,redirect=nooptext,domain=mp4upload.com,badfilter
+||smrmembers-smr.smartmediarep.com/*/video/*.mp4$media,domain=tv.naver.com,redirect=noopmp4-1s,badfilter
 ||spade.twitch.tv^$important
+||spiegel.de/*/messaging-*.js$script,redirect=noopjs,first-party,badfilter
 ||ssp.rambler.ru^$important
+||st.kp.yandex.net/images/bnnr/brand/$important
 ||st.top100.ru^$important
 ||static.chartbeat.com/js/chartbeat.js$script,redirect=static.chartbeat.com/chartbeat.js,domain=gamer.nl,badfilter
 ||static.hotjar.com^$important
 ||stats.wp.com^$important
+||suedkurier.de/ads.js$script,first-party,redirect=noopjs,badfilter
 ||summerhamster.com^$important
+||superligatv.com/adblocks.js$script,redirect=fuckadblock.js-3.2.0,badfilter
 ||svonm.com/hd-main.js$script,redirect=hd-main.js,domain=4players.de|brigitte.de|buffed.de|desired.de|gamesaktuell.de|gamezone.de|gamona.de|giga.de|golem.de|kicker.de|kino.de|myspass.de|pcgames.de|pcgameshardware.de|spiegel.de|spiegel.tv|spielaffe.de|spieletipps.de|t-online.de|tele5.de|thrashermagazine.com|welt.de|videogameszone.de,badfilter
+||svonm.com/hd-main.js$script,redirect=hd-main.js,domain=ani-stream.com,badfilter
 ||svonm.com/hd-main.js$script,redirect=hd-main.js,domain=chip.de|cinema.de|cdnapi.kaltura.com,badfilter
+||svonm.com/hd-main.js$script,redirect=hd-main.js,domain=vgtv.no,badfilter
+||syndication.exoclick.com/ads-iframe-display.php$script,redirect=noopjs,domain=pinflix.com,badfilter
+||syndication.exoclick.com/ads-iframe-display.php$script,redirect=noopjs,domain=pornhd.com,badfilter
 ||syndication.exoclick.com^$subdocument,redirect=noopframe,domain=8muses.com,badfilter
 ||syndication.exoclick.com^$xmlhttprequest,redirect=nooptext,domain=8muses.com,badfilter
 ||timesofindia.indiatimes.com/ad-banner$image,redirect=3x2-transparent.png,domain=happytrips.com,badfilter
 ||tisoomitech.com/*/ad-image.png$image,redirect=2x2-transparent.png,badfilter
 ||tns-counter.ru^$important
+||toots-a.akamaihd.net/priority/*ITVMarketing$media,redirect=noopmp4-1s,domain=itv.com,badfilter
 ||top-fwz1.mail.ru^$important
 ||top.list.ru^$important
 ||trafficfactory.biz^$important
 ||trowel.twitch.tv^$important
+||tvcanales.cf/player/adblocker.js$script,first-party,redirect=fuckadblock.js-3.2.0,badfilter
 ||twitter.com/i/jot$important
 ||udc.yahoo.com^$important
 ||uim.tifbs.net/js/*.js$script,redirect=noopjs,domain=gmx.net|web.de,badfilter
+||vergol.com/*adblock.js$script,redirect=fuckadblock.js-3.2.0,badfilter
+||verliga.net/canales/adblock.js$script,redirect=fuckadblock.js-3.2.0,first-party,badfilter
 ||vip.freelive365.com/adblocker.js$script,redirect=fuckadblock.js-3.2.0,domain=byetv.org,badfilter
 ||visitweb.com/js/ref.js$script,redirect=noopjs,domain=kissasian.ch|kissasian.sh,badfilter
 ||visualwebsiteoptimizer.com^$important
@@ -7133,15 +7133,20 @@ youtube.com##.html5-endscreen
 ||web-metrica.yandex.ru^$important
 ||whos.amung.us^$important
 ||wstream.video/imgad/$image,redirect=2x2-transparent.png,first-party,badfilter
+||www.iwanttodeliver.com^$important
 ||xxlargepop.com/apu.php$script,redirect=noopjs,badfilter
 ||yabs.yandex.*^$important
 ||yadro.ru^$important
 ||yandex.*/*stripe.html|$important
 ||yandex.*/count/$important
 ||yandex.*/search/yandcache.js$important
+||yannik.biz/js/ads.js$script,first-party,redirect=fuckadblock.js-3.2.0,badfilter
 ||yastatic.net/*/atom.js$script,important
 ||yastatic.net^$popup,important
 ||youtube.com/api/stats/$important
 ||youtube.com/get_midroll_info^$important
+||youtube.com/get_video$media,redirect=noopmp4-1s,domain=games2rule.com,badfilter
+||youtube.com/get_video$media,redirect=noopmp4-1s,domain=wowescape.com,badfilter
 ||z.moatads.com^$script,redirect=noopjs,domain=pga.com,badfilter
 ||zen.yandex.*^$important
+||zmctrack.net^$xmlhttprequest,redirect=nooptext,domain=japscan.cc,badfilter
