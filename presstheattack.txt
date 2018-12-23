@@ -39,6 +39,8 @@
 ##.advertising
 ##.companion-ad
 ##.footer-ads
+||cdn.adtrue.com/rtb/async.js$script,redirect=noopjs,domain=pokyun.tv,badfilter
+##img[src*="counter.yadro.ru"]
 ##.google-ads
 ##.masthead-ad-control
 ##.post-ads
