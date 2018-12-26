@@ -15,7 +15,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: December 26, 2018
+! Last modified: December 27, 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -825,10 +825,10 @@
 -analytics9.$important
 -analytics9^$important
 -analytics9_$important
--analytics-$important
--analytics.$important
--analytics^$important
--analytics_$important
+-analytics-
+-analytics.
+-analytics^
+-analytics_
 -analyticsengine-$important
 -analyticsengine.$important
 -analyticsengine^$important
@@ -1493,14 +1493,14 @@
 -sorry-adblocker.$important
 -sorry-adblocker^$important
 -sorry-adblocker_$important
--sponsor-$important
--sponsor.$important
--sponsor^$important
--sponsor_$important
--sponsored-$important
--sponsored.$important
--sponsored^$important
--sponsored_$important
+-sponsor-
+-sponsor.
+-sponsor^
+-sponsor_
+-sponsored-
+-sponsored.
+-sponsored^
+-sponsored_
 -ssp-
 -ssp.
 -ssp^
@@ -2406,10 +2406,10 @@
 .analytics9.$important
 .analytics9^$important
 .analytics9_$important
-.analytics-$important
+.analytics-
 .analytics.$domain=~gitlab.com
-.analytics^$important
-.analytics_$important
+.analytics^
+.analytics_
 .analyticsengine-$important
 .analyticsengine.$important
 .analyticsengine^$important
@@ -3076,14 +3076,14 @@
 .sorry-adblocker.$important
 .sorry-adblocker^$important
 .sorry-adblocker_$important
-.sponsor-$important
-.sponsor.$important
-.sponsor^$important
-.sponsor_$important
-.sponsored-$important
-.sponsored.$important
-.sponsored^$important
-.sponsored_$important
+.sponsor-
+.sponsor.
+.sponsor^
+.sponsor_
+.sponsored-
+.sponsored.
+.sponsored^
+.sponsored_
 .ssp-
 .ssp.
 .ssp^
@@ -3165,7 +3165,7 @@
 .trackalyze^$important
 .trackalyze_$important
 .tracker-
-.tracker.$domain=~fandom.com
+.tracker.$domain=~wikia.com
 .tracker^
 .tracker_
 .tracking-$important
@@ -4139,10 +4139,10 @@
 ^analytics9.$important
 ^analytics9^$important
 ^analytics9_$important
-^analytics-$important
-^analytics.$important
-^analytics^$important
-^analytics_$important
+^analytics-
+^analytics.
+^analytics^
+^analytics_
 ^analyticsengine-$important
 ^analyticsengine.$important
 ^analyticsengine^$important
@@ -4813,14 +4813,14 @@ vk.com##.audio_promo
 ^sorry-adblocker.$important
 ^sorry-adblocker^$important
 ^sorry-adblocker_$important
-^sponsor-$important
-^sponsor.$important
-^sponsor^$important
-^sponsor_$important
-^sponsored-$important
-^sponsored.$important
-^sponsored^$important
-^sponsored_$important
+^sponsor-
+^sponsor.
+^sponsor^
+^sponsor_
+^sponsored-
+^sponsored.
+^sponsored^
+^sponsored_
 ^ssp-
 ^ssp.
 ^ssp^
@@ -4903,7 +4903,7 @@ vk.com##.audio_promo
 ^trackalyze_$important
 ^tracker-
 ^tracker.
-^tracker^$domain=~fandom.com
+^tracker^$domain=~wikia.com
 ^tracker_
 ^tracking-$important
 ^tracking.$important
@@ -5693,10 +5693,10 @@ _analys-$important
 _analys.$important
 _analys^$important
 _analys_$important
-_analytic-$important
-_analytic.$important
-_analytic^$important
-_analytic_$important
+_analytic-
+_analytic.
+_analytic^
+_analytic_
 _analytics0-$important
 _analytics0.$important
 _analytics0^$important
@@ -5737,10 +5737,10 @@ _analytics9-$important
 _analytics9.$important
 _analytics9^$important
 _analytics9_$important
-_analytics-$important
-_analytics.$important
-_analytics^$important
-_analytics_$important
+_analytics-
+_analytics.
+_analytics^
+_analytics_
 _analyticsengine-$important
 _analyticsengine.$important
 _analyticsengine^$important
@@ -6405,14 +6405,14 @@ _sorry-adblocker-$important
 _sorry-adblocker.$important
 _sorry-adblocker^$important
 _sorry-adblocker_$important
-_sponsor-$important
-_sponsor.$important
-_sponsor^$important
-_sponsor_$important
-_sponsored-$important
-_sponsored.$important
-_sponsored^$important
-_sponsored_$important
+_sponsor-
+_sponsor.
+_sponsor^
+_sponsor_
+_sponsored-
+_sponsored.
+_sponsored^
+_sponsored_
 _ssp-
 _ssp.
 _ssp^
@@ -6495,7 +6495,7 @@ _trackalyze^$important
 _trackalyze_$important
 _tracker-
 _tracker.
-_tracker^$domain=~fandom.com
+_tracker^$domain=~wikia.com
 _tracker_
 _tracking-$important
 _tracking.$important
@@ -7158,3 +7158,5 @@ twitch.tv##a[href*="mybestcontent.ru"] > img
 twitch.tv##a[href*="i.try.games"] > img
 twitch.tv##a[href*="hcrd.ru"] > img
 ||hcrd.ru^
+||fastly-insights.com^$important
+://cnt.
