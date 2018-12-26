@@ -7100,7 +7100,6 @@ youtube.com##.html5-endscreen
 ||spiegel.de/*/messaging-*.js$script,redirect=noopjs,first-party,badfilter
 ||ssp.rambler.ru^$important
 ||st.kp.yandex.net/images/bnnr/brand/$important
-||st.top100.ru^$important
 ||static.chartbeat.com/js/chartbeat.js$script,redirect=static.chartbeat.com/chartbeat.js,domain=gamer.nl,badfilter
 ||static.hotjar.com^$important
 ||stats.wp.com^$important
@@ -7154,3 +7153,8 @@ youtube.com##.html5-endscreen
 ||z.moatads.com^$script,redirect=noopjs,domain=pga.com,badfilter
 ||zen.yandex.*^$important
 ||zmctrack.net^$xmlhttprequest,redirect=nooptext,domain=japscan.cc,badfilter
+||top100.ru^$important
+twitch.tv##a[href*="mybestcontent.ru"] > img
+twitch.tv##a[href*="i.try.games"] > img
+twitch.tv##a[href*="hcrd.ru"] > img
+||hcrd.ru^
