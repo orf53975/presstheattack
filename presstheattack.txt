@@ -1,3 +1,4 @@
+[Adblock Plus 2.0]
 ! This file is part of the Press the Attack project,
 ! Copyright (c) 2018 Bogachenko Vyacheslav
 !
@@ -39,8 +40,6 @@
 ##.advertising
 ##.companion-ad
 ##.footer-ads
-||cdn.adtrue.com/rtb/async.js$script,redirect=noopjs,domain=pokyun.tv,badfilter
-##img[src*="counter.yadro.ru"]
 ##.google-ads
 ##.masthead-ad-control
 ##.post-ads
@@ -62,6 +61,10 @@
 ##[id*="_ads."]
 ##[id*="_ads/"]
 ##[id*="_ads_"]
+##a[href*="/refer/"] > img
+##a[href*="bit.ly/"] > img
+##a[href*="goo.gl/"] > img
+##a[href*="vk.cc/"] > img
 ##div[aria-label="Реклама"]
 ##div[class*="-ads-"]
 ##div[class*="-ads."]
@@ -79,6 +82,7 @@
 ##div[class*="_ads."]
 ##div[class*="_ads/"]
 ##div[class*="_ads_"]
+##img[src*="counter.yadro.ru"]
 *.gif#$image,domain=vertdtgratis.es,redirect=1x1-transparent.gif,badfilter
 *.gif#$image,redirect=1x1-transparent.gif,domain=totaldebrid.org,badfilter
 *.jpg#$image,domain=freshstuff4you.com,redirect=2x2-transparent.png,badfilter
@@ -3376,6 +3380,7 @@
 3g2upl4pq6kufc4m.onion##.js-onboarding-ed.onboarding-ed
 3g2upl4pq6kufc4m.onion##.social.header--aside__item
 3g2upl4pq6kufc4m.onion##.tag-home__item
+://cnt.
 @@/counter^$script,domain=yastatic.net
 @@/header/twitter-
 @@/images/*/twitter
@@ -4551,9 +4556,6 @@
 ^informer-
 ^informer.
 ^informer^$domain=~yandex.ru|~yandex.ua|~yandex.by|~m.vk.com
-m.vk.com##.feedAssistance_importContacts.feedAssistance.wall_item
-m.vk.com##.feedBlocks__articles.feedBlocks__container.wall_item
-vk.com##.audio_promo
 ^informer_
 ^intellitxt-$important
 ^intellitxt.$important
@@ -6616,6 +6618,8 @@ ggbet$image
 google.com##g-section-with-header
 kinopoisk.ru##HTML > HEAD + BODY > DIV:first-child > DIV:first-child + DIV + DIV > DIV + DIV:last-child > A:last-child
 kinopoisk.ru##HTML > HEAD + BODY > DIV:first-child > DIV:first-child + DIV + DIV > DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV:last-child
+m.vk.com##.feedAssistance_importContacts.feedAssistance.wall_item
+m.vk.com##.feedBlocks__articles.feedBlocks__container.wall_item
 m.youtube.com##.mealbar-promo-renderer
 mail.ru###layout\:rightcol
 money.yandex.ru##.promo-header
@@ -6651,7 +6655,6 @@ twitch.tv##.tw-z-default.tw-full-width.tw-absolute.chat-room__notifications
 twitch.tv##a[href*=".com/shop/"]
 twitch.tv##a[href*=".gg"]
 twitch.tv##a[href*=".online"]
-##a[href*="/refer/"] > img
 twitch.tv##a[href*="anylvl"]
 twitch.tv##a[href*="arozzi.*"]
 twitch.tv##a[href*="aser"]
@@ -6659,8 +6662,6 @@ twitch.tv##a[href*="atributika"]
 twitch.tv##a[href*="banner"]
 twitch.tv##a[href*="bet4"]
 twitch.tv##a[href*="betsdota"]
-##a[href*="bit.ly/"] > img
-##a[href*="goo.gl/"] > img
 twitch.tv##a[href*="campaign"]
 twitch.tv##a[href*="casino"]
 twitch.tv##a[href*="clife.ru"]
@@ -6673,6 +6674,8 @@ twitch.tv##a[href*="esbet.fun"]
 twitch.tv##a[href*="g2a.com"]
 twitch.tv##a[href*="go-tds-site.com"]
 twitch.tv##a[href*="goodgame.pm"]
+twitch.tv##a[href*="hcrd.ru"] > img
+twitch.tv##a[href*="i.try.games"] > img
 twitch.tv##a[href*="invasion.ru"]
 twitch.tv##a[href*="is.gd"]
 twitch.tv##a[href*="kfcmalaysia"]
@@ -6680,6 +6683,7 @@ twitch.tv##a[href*="l1l.pw"]
 twitch.tv##a[href*="loto.ru"]
 twitch.tv##a[href*="megafon"]
 twitch.tv##a[href*="monsterenergy"]
+twitch.tv##a[href*="mybestcontent.ru"] > img
 twitch.tv##a[href*="opseat.com"]
 twitch.tv##a[href*="papajohns"]
 twitch.tv##a[href*="poker"]
@@ -6688,8 +6692,8 @@ twitch.tv##a[href*="redirect-"]
 twitch.tv##a[href*="secretlab"]
 twitch.tv##a[href*="shortme."]
 twitch.tv##a[href*="swaper.one"]
-##a[href*="vk.cc/"] > img
 twitch.tv##a[href*="vsemayki"]
+vk.com##.audio_promo
 wikipedia.org###sitenotice
 yandex.by,yandex.ru,yandex.ua##.b-page:style(padding-top: 0 !important)
 yandex.by,yandex.ru,yandex.ua##.forecast-brief__item-temp-day:style(width: auto !important)
@@ -6838,6 +6842,7 @@ youtube.com##.html5-endscreen
 ||bs.yandex.*^$important
 ||casalemedia.com^$important
 ||cdn.adsafeprotected.com/$script,redirect=noopjs,domain=gentside.com|gentside.it|gentside.com|gentside.de|gentside.co.uk|gentside.com.br|maxisciences.com|ohmymag.com,badfilter
+||cdn.adtrue.com/rtb/async.js$script,redirect=noopjs,domain=pokyun.tv,badfilter
 ||cdn.complexmedianetwork.com/js/cmnUNT.js$important,script,redirect=noopjs,domain=allmusic.com,badfilter
 ||cdn.mangaeden.com/js/ad/advertisement.js$script,first-party,redirect=noopjs,badfilter
 ||cdn.videoplaza1.tv/contrib/se-expressen/aab/pulse-custom-svm-plugin.min.js$script,redirect=noopjs,domain=expressen.se,badfilter
@@ -6890,6 +6895,7 @@ youtube.com##.html5-endscreen
 ||eurotransport.de/*/antiAdBlock.js$script,first-party,redirect=antiAdBlock.js,badfilter
 ||exosrv.com^$script,redirect=noopjs,domain=gelbooru.com,badfilter
 ||facebook.com/sem_campaigns/sem_pixel_test^$important
+||fastly-insights.com^$important
 ||fastly.net/js/prebid$script,redirect=noopjs,domain=spanishdict.com,badfilter
 ||fastly.net^$image,important,redirect=2x2-transparent.png,domain=cbs.com,badfilter
 ||fastly.net^$script,important,redirect=noopjs,domain=cbs.com,badfilter
@@ -6940,6 +6946,7 @@ youtube.com##.html5-endscreen
 ||grade.market.yandex.*^$important
 ||graph.facebook.com^$important
 ||graph.instagram.com^$important
+||hcrd.ru^
 ||hdliveextra-a.akamaihd.net/HD/scripts/*/config/ads.js$script,domain=telemundodeportes.com,redirect=noopjs,badfilter
 ||hotlog.ru^$important
 ||i.auto-bild.de/assets/modules/homad/*$xmlhttprequest,redirect=nooptext,domain=autobild.de,badfilter
@@ -7118,6 +7125,7 @@ youtube.com##.html5-endscreen
 ||tisoomitech.com/*/ad-image.png$image,redirect=2x2-transparent.png,badfilter
 ||tns-counter.ru^$important
 ||toots-a.akamaihd.net/priority/*ITVMarketing$media,redirect=noopmp4-1s,domain=itv.com,badfilter
+||top100.ru^$important
 ||top-fwz1.mail.ru^$important
 ||top.list.ru^$important
 ||trafficfactory.biz^$important
@@ -7153,10 +7161,3 @@ youtube.com##.html5-endscreen
 ||z.moatads.com^$script,redirect=noopjs,domain=pga.com,badfilter
 ||zen.yandex.*^$important
 ||zmctrack.net^$xmlhttprequest,redirect=nooptext,domain=japscan.cc,badfilter
-||top100.ru^$important
-twitch.tv##a[href*="mybestcontent.ru"] > img
-twitch.tv##a[href*="i.try.games"] > img
-twitch.tv##a[href*="hcrd.ru"] > img
-||hcrd.ru^
-||fastly-insights.com^$important
-://cnt.
