@@ -15,7 +15,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: December 23, 2018
+! Last modified: December 26, 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -4550,7 +4550,10 @@
 ^iframetracker_$important
 ^informer-
 ^informer.
-^informer^$domain=~yandex.ru|~yandex.ua|~yandex.by
+^informer^$domain=~yandex.ru|~yandex.ua|~yandex.by|~m.vk.com
+m.vk.com##.feedAssistance_importContacts.feedAssistance.wall_item
+m.vk.com##.feedBlocks__articles.feedBlocks__container.wall_item
+vk.com##.audio_promo
 ^informer_
 ^intellitxt-$important
 ^intellitxt.$important
@@ -6648,7 +6651,7 @@ twitch.tv##.tw-z-default.tw-full-width.tw-absolute.chat-room__notifications
 twitch.tv##a[href*=".com/shop/"]
 twitch.tv##a[href*=".gg"]
 twitch.tv##a[href*=".online"]
-twitch.tv##a[href*="/refer/"]
+##a[href*="/refer/"] > img
 twitch.tv##a[href*="anylvl"]
 twitch.tv##a[href*="arozzi.*"]
 twitch.tv##a[href*="aser"]
@@ -6656,7 +6659,8 @@ twitch.tv##a[href*="atributika"]
 twitch.tv##a[href*="banner"]
 twitch.tv##a[href*="bet4"]
 twitch.tv##a[href*="betsdota"]
-twitch.tv##a[href*="bit.ly"]
+##a[href*="bit.ly/"] > img
+##a[href*="goo.gl/"] > img
 twitch.tv##a[href*="campaign"]
 twitch.tv##a[href*="casino"]
 twitch.tv##a[href*="clife.ru"]
@@ -6668,7 +6672,6 @@ twitch.tv##a[href*="dxracer-europe"]
 twitch.tv##a[href*="esbet.fun"]
 twitch.tv##a[href*="g2a.com"]
 twitch.tv##a[href*="go-tds-site.com"]
-twitch.tv##a[href*="goo.gl"]
 twitch.tv##a[href*="goodgame.pm"]
 twitch.tv##a[href*="invasion.ru"]
 twitch.tv##a[href*="is.gd"]
@@ -6685,9 +6688,8 @@ twitch.tv##a[href*="redirect-"]
 twitch.tv##a[href*="secretlab"]
 twitch.tv##a[href*="shortme."]
 twitch.tv##a[href*="swaper.one"]
-twitch.tv##a[href*="vk.cc"]
+##a[href*="vk.cc/"] > img
 twitch.tv##a[href*="vsemayki"]
-vk.com##aside[aria-label="Актуальные новости"]
 wikipedia.org###sitenotice
 yandex.by,yandex.ru,yandex.ua##.b-page:style(padding-top: 0 !important)
 yandex.by,yandex.ru,yandex.ua##.forecast-brief__item-temp-day:style(width: auto !important)
