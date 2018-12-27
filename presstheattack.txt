@@ -30,6 +30,10 @@
 ###ads
 ###adsincont
 ###bottomads
+/log?type=$important
+##.video-ads:not(:root):not(body):not(input)
+###player-ads:not(:root):not(body):not(input)
+qaru.site##.wraptip
 ##.AdBox
 ##.ad-div
 ##.adWrapper
