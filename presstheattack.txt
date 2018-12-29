@@ -37,6 +37,13 @@
 ##.adsbygoogle:not(:root):not(body):not(input)
 ||mgid.com/$script,redirect=noopjs,domain=pokyun.tv,badfilter
 qaru.site##.wraptip
+novinky.cz##script:inject(cookie-remover.js)
+yandex.ru##.media-infinity-footer__content_visible_yes.media-infinity-footer__content
+|csp.*^$important
+kinopoisk.ru##DIV[class^="watch-online-banner"]:last-child
+kinopoisk.ru##DIV[class^="adfox-special-banner"]
+*.*/$script,redirect=noopjs,domain=pokyun.tv,3p,badfilter
+translate.yandex.ru##.button_icon_collections.button_icon.button
 ##.AdBox
 ##.ad-div
 ##.adWrapper
