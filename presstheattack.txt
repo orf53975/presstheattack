@@ -30,18 +30,7 @@
 ###ads
 ###adsincont
 ###bottomads
-/log?type=$important
-##.video-ads:not(:root):not(body):not(input)
 ###player-ads:not(:root):not(body):not(input)
-##.vertical-ads:not(:root):not(body):not(input)
-##.adsbygoogle:not(:root):not(body):not(input)
-qaru.site##.wraptip
-novinky.cz##script:inject(cookie-remover.js)
-yandex.ru##.media-infinity-footer__content_visible_yes.media-infinity-footer__content
-|csp.*^$important
-kinopoisk.ru##DIV[class^="watch-online-banner"]:last-child
-kinopoisk.ru##DIV[class^="adfox-special-banner"]
-translate.yandex.ru##.button_icon_collections.button_icon.button
 ##.AdBox
 ##.ad-div
 ##.adWrapper
@@ -49,6 +38,7 @@ translate.yandex.ru##.button_icon_collections.button_icon.button
 ##.adblock-detector-partial-component
 ##.ads-ad
 ##.ads-wrapper
+##.adsbygoogle:not(:root):not(body):not(input)
 ##.advertising
 ##.companion-ad
 ##.footer-ads
@@ -56,6 +46,8 @@ translate.yandex.ru##.button_icon_collections.button_icon.button
 ##.masthead-ad-control
 ##.post-ads
 ##.remove-ads
+##.vertical-ads:not(:root):not(body):not(input)
+##.video-ads:not(:root):not(body):not(input)
 ##.yabrowser-promo
 ##[id*="-ads-"]
 ##[id*="-ads."]
@@ -3275,7 +3267,6 @@ translate.yandex.ru##.button_icon_collections.button_icon.button
 /728x90_
 /^https?://afisha\.yandex\.(by|kz|ru|ua)/(?!api)[^\s]{300,}/$subdocument,xmlhttprequest,important
 /^https?://main\.zdevx\.yandex\.ru/[^\s]{300,}/$subdocument,xmlhttprequest,important
-/^https?://main\.zdevx\.yandex\.ru/[^\s]{300,}/$subdocument,xmlhttprequest,important
 /^https?://news\.yandex\.(by|kz|ru|ua)/[^\s]{300,}/$subdocument,xmlhttprequest,important
 /^https?://realty\.yandex\.ru/[^\s]{500,}/$subdocument,important
 /^https?://tv\.yandex\.(by|kz|ru|ua)/[^\s]{300,}/$subdocument,xmlhttprequest,important
@@ -3337,6 +3328,7 @@ translate.yandex.ru##.button_icon_collections.button_icon.button
 /in.php?referer=$important
 /inpage_linkid.js$script,important
 /js/track.*$important
+/log?type=$important
 /owa.messageadlist.*$important
 /p.*^$important
 /ph-functions.js$script,important
@@ -5439,7 +5431,6 @@ _adserver-$important
 _adserver.$important
 _adserver^$important
 _adserver_$important
-_adserver_$important
 _adservice-$important
 _adservice.$important
 _adservice^$important
@@ -6605,6 +6596,8 @@ freebitco.in##.open.reveal-modal
 freebitco.in##.reveal-modal-bg
 ggbet$image
 google.com##g-section-with-header
+kinopoisk.ru##DIV[class^="adfox-special-banner"]
+kinopoisk.ru##DIV[class^="watch-online-banner"]:last-child
 m.vk.com##.feedAssistance_importContacts.feedAssistance.wall_item
 m.vk.com##.feedBlocks__articles.feedBlocks__container.wall_item
 m.youtube.com##.mealbar-promo-renderer
@@ -6614,12 +6607,15 @@ music.yandex.ru##.bar-below
 music.yandex.ru##.footer
 music.yandex.ru##.notify_shown.deco-tooltip_notify.notify__message
 music.yandex.ru##.sidebar__under
+novinky.cz##script:inject(cookie-remover.js)
 outlook.live.com##div#app > div.ms-fabric > div:last-child > div:first-child > div:first-child > div[data-min-width][data-max-width][style^="width:"]~div:last-child
 pornhub.com###age-verification-container
 pornhub.com###age-verification-wrapper
 prodota.ru##.floor.first
+qaru.site##.wraptip
 reddit.com##.onboardingbar.subscribebar.infobar
 translate.google.com,translate.google.ru###gt-promo-lr
+translate.yandex.ru##.button_icon_collections.button_icon.button
 twitch.tv##.pl-overlay__fullscreen.pl-overlay
 twitch.tv##.pl-pinned-panel--animate.pl-pinned-panel
 twitch.tv##.pl-single-rec-wrapper.recommendations-overlay.player-overlay
@@ -6675,7 +6671,9 @@ twitch.tv##a[href*="swaper.one"]
 twitch.tv##a[href*="vsemayki"]
 vk.com##.audio_promo
 wikipedia.org###sitenotice
+yandex.ru##.media-infinity-footer__content_visible_yes.media-infinity-footer__content
 youtube.com##.html5-endscreen
+|csp.*^$important
 |data:text$popup,important
 |http*://*-zone-injection/$important
 |http*://ad.*^$important
@@ -6713,15 +6711,12 @@ youtube.com##.html5-endscreen
 ||appmetrica.yandex.*^$important
 ||assets.adobedtm.com^$important
 ||atdmt.com^$important
-||atdmt.com^$important
 ||awaps.yandex.*^$important
 ||awsync.yandex.*^$important
 ||bat.bing.com^$important
 ||beap-bc.yahoo.com^$important
 ||bing.com/fd/ls/$important
-
 ||bitrix.info/ba.js$script,important
-
 ||branch.io^$important
 ||bs.yandex.*^$important
 ||casalemedia.com^$important
