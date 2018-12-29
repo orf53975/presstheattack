@@ -16,7 +16,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: December 28, 2018
+! Last modified: December 29, 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -6623,8 +6623,6 @@ freebitco.in##.open.reveal-modal
 freebitco.in##.reveal-modal-bg
 ggbet$image
 google.com##g-section-with-header
-kinopoisk.ru##HTML > HEAD + BODY > DIV:first-child > DIV:first-child + DIV + DIV > DIV + DIV:last-child > A:last-child
-kinopoisk.ru##HTML > HEAD + BODY > DIV:first-child > DIV:first-child + DIV + DIV > DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV:last-child
 m.vk.com##.feedAssistance_importContacts.feedAssistance.wall_item
 m.vk.com##.feedBlocks__articles.feedBlocks__container.wall_item
 m.youtube.com##.mealbar-promo-renderer
@@ -6634,19 +6632,12 @@ music.yandex.ru##.bar-below
 music.yandex.ru##.footer
 music.yandex.ru##.notify_shown.deco-tooltip_notify.notify__message
 music.yandex.ru##.sidebar__under
-news.yandex.ru,news.yandex.ua,news.yandex.by##.sticky
 outlook.live.com##div#app > div.ms-fabric > div:last-child > div:first-child > div:first-child > div[data-min-width][data-max-width][style^="width:"]~div:last-child
 pornhub.com###age-verification-container
 pornhub.com###age-verification-wrapper
 prodota.ru##.floor.first
-radio.yandex.ru,radio.yandex.by,radio.yandex.ua##.multi-auth__plus
 reddit.com##.onboardingbar.subscribebar.infobar
 translate.google.com,translate.google.ru###gt-promo-lr
-translate.yandex.ru##.button_icon_collections.button_icon.button
-tv.yandex.ua,tv.yandex.ru,tv.yandex.by##.grid-chunk__column-box
-tv.yandex.ua,tv.yandex.ru,tv.yandex.by##.grid.grid_period_now + :last-child
-tv.yandex.ua,tv.yandex.ru,tv.yandex.by##.grid.grid_period_now > :first-child > :first-child + div
-tv.yandex.ua,tv.yandex.ru,tv.yandex.by##.grid__item + div > :first-child:last-child
 twitch.tv##.pl-overlay__fullscreen.pl-overlay
 twitch.tv##.pl-pinned-panel--animate.pl-pinned-panel
 twitch.tv##.pl-single-rec-wrapper.recommendations-overlay.player-overlay
@@ -6702,54 +6693,6 @@ twitch.tv##a[href*="swaper.one"]
 twitch.tv##a[href*="vsemayki"]
 vk.com##.audio_promo
 wikipedia.org###sitenotice
-yandex.by,yandex.ru,yandex.ua##.b-page:style(padding-top: 0 !important)
-yandex.by,yandex.ru,yandex.ua##.forecast-brief__item-temp-day:style(width: auto !important)
-yandex.by,yandex.ru,yandex.ua##.head-stripe:style(position: fixed !important; transform: scale(0) !important)
-yandex.by,yandex.ru,yandex.ua##.home-arrow__bottom
-yandex.by,yandex.ru,yandex.ua##.media-infinity-footer__content_visible_yes.media-infinity-footer__content
-yandex.by,yandex.ru,yandex.ua##.org__sidebar > div[style*="!important;"] > a[href^="https://direct.yandex."]+div:style(position: absolute!important; left: -3000px!important;)
-yandex.by,yandex.ru,yandex.ua##.org__sidebar > div[style*="!important;"] > a[href^="https://direct.yandex."]:style(position: absolute!important; left: -3000px!important;)
-yandex.by,yandex.ru,yandex.ua##.serp-header:style(margin-top: 0 !important)
-yandex.by,yandex.ru,yandex.ua##.widgets.main > * div ~ div ~ div ~ div[class*=" "] > :not([class])
-yandex.by,yandex.ru,yandex.ua##.widgets.main > * div ~ div ~ div ~ div[class*=" "] > div[class*="_"]:style(background-image: none !important)
-yandex.by,yandex.ru,yandex.ua##.widgets__row_tr_1.widgets__row.text_black_yes.first.row
-yandex.by,yandex.ru,yandex.ua##.widgets__row_tr_2.widgets__row.heap__row.text_black_yes.row
-yandex.by,yandex.ru,yandex.ua##div:not([style^="padding: 0px"]):not([style*="content-box"])[style*="!important"][style*="display"][style*="visibility"][style*="visible"]:style(width: 0 !important; min-width: 0 !important; max-width: 0 !important; height: 0 !important; min-height: 0 !important; max-height: 0 !important; overflow: hidden !important)
-yandex.by,yandex.ru,yandex.ua##div[data-bem*="yandex_rtb_"] > div[style*="!important;"]:style(position: absolute!important; left: -3000px!important;)
-yandex.ru##.home-link.desk-notif-card_domik-plus.home-link_intense-blue_yes
-yandex.ru##.main > div.container__banner:style(pointer-events: none!important; cursor: default;)
-yandex.ru##[class*="desk-notif-card"] > a[href*="/plus.yandex"]
-yandex.ru,yandex.ua,yandex.by##.dist-popup
-yandex.ru,yandex.ua,yandex.by##.font-regular.i-bem.media-grid_theme_white.media-grid_visible_no.media-grid
-yandex.ru,yandex.ua,yandex.by##.head-stripe:style(position: absolute!important; left: -3000px!important;)
-yandex.ru,yandex.ua,yandex.by##.hh__row:last-child
-yandex.ru,yandex.ua,yandex.by##.home-arrow__sample
-yandex.ru,yandex.ua,yandex.by##.media-promo
-yandex.ru,yandex.ua,yandex.by##.route-panel-content-view__bla-bla-car-banner-layout+div > div[style*="!important;"]:style(height: 0!important; transform: scale(0)!important;)
-yandex.ru,yandex.ua,yandex.by##.route-panel-content-view__bla-bla-car-banner-layout:style(height: 0!important; transform: scale(0)!important;)
-yandex.ru,yandex.ua,yandex.by##.route-panel-content-view__body > div[class^="route-panel-content-"] > div[style*="!important"] > *:style(position: absolute!important; left: -3000px!important;)
-yandex.ru,yandex.ua,yandex.by##.scroll__container > div.scroll__content > div > div > div[style*="!important"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
-yandex.ru,yandex.ua,yandex.by##.scroll__container > div.scroll__content > div > div[style*="!important"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
-yandex.ru,yandex.ua,yandex.by##.search-direct-snippet-view:style(position: absolute!important; left: -3000px!important;)
-yandex.ru,yandex.ua,yandex.by##.serp-list div[id^="yandex_ad_"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
-yandex.ru,yandex.ua,yandex.by##.widgets.main > * div ~ div ~ div ~ div[class*=" "] > div:not([class*=" "]):not([class*="_"])
-yandex.ru,yandex.ua,yandex.by##.widgets__col
-yandex.ru,yandex.ua,yandex.by##.widgets__col_td_2
-yandex.ru,yandex.ua,yandex.by##body[class*="b-page_infinity"] .b-sethome
-yandex.ru,yandex.ua,yandex.by##body[class*="b-page_infinity"] div[class*="media-grid"][class*="media-content"]
-yandex.ua##[id^="R-I-"]:has(:scope > *)
-yandex.ua,yandex.ru,yandex.by##.content-index__direct
-yandex.ua,yandex.ru,yandex.by##.content__bottom
-yandex.ua,yandex.ru,yandex.by##.content__col
-yandex.ua,yandex.ru,yandex.by##.content__main + :last-child
-yandex.ua,yandex.ru,yandex.by##.footer__links > div.links-section > div.apps
-yandex.ua,yandex.ru,yandex.by##.footer__links > div.links-section:has(:scope > div.links-section__title:has-text(Мобильные приложения))
-yandex.ua,yandex.ru,yandex.by##.header-favorites-button_js_inited.i-bem.header-favorites-button
-yandex.ua,yandex.ru,yandex.by##.headline__favorites.headline__bar-item
-yandex.ua,yandex.ru,yandex.by##.headline__notifier.headline__bar-item
-yandex.ua,yandex.ru,yandex.by##.weather-maps__ad_visible_yes
-yandex.ua,yandex.ru,yandex.by##.widget_id_teaser
-yandex.ua,yandex.ru,yandex.by##div.links-section:last-child
 youtube.com##.html5-endscreen
 |data:text$popup,important
 |http*://*-zone-injection/$important
