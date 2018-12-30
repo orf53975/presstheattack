@@ -32,6 +32,11 @@
 kinopoisk.ru##[href^="https://www.kinopoisk.ru/"]
 kinopoisk.ru##[href*="adblock"]:xpath(..)
 kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
+||yandex.*/weather/*$script,first-party,important
+yandex.ru,yandex.ua,yandex.by##DIV:first-child > DIV + DIV + DIV + DIV + DIV + DIV > DIV > DIV + :last-child
+||212.122.5.136/userlock/*$important
+yandex.ru##.incut.incut_type_direct.incut_position_page.i-bem.incut_js_inited.incut_inserted_yes
+yandex.ru##.incut.incut_before-more.incut_position_bottom.i-bem.incut_js_inited.incut_inserted_yes
 ###ads
 ###adsincont
 ###bottomads
