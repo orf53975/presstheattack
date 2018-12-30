@@ -11,6 +11,9 @@
 #@##AKDSocialBottom
 #@##BF_BUZZBOX
 #@##BackToTop
+twitch.tv##.recommended-channels
+twitch.tv##.tw-z-default.pinned-cheer-v2
+twitch.tv##.tw-mg-x-1.tw-flex-shrink-0.tw-flex-nowrap.tw-flex-grow-0.tw-align-self-center
 #@##BmkDigg
 #@##BmkFB
 #@##BmkStumble
