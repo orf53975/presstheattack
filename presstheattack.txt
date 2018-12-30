@@ -24,72 +24,63 @@
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 
 ###ab_banner:not(:root):not(body):not(input)
+###ab_bottom:not(:root):not(body):not(input)
 ###ab_left:not(:root):not(body):not(input)
 ###ab_right:not(:root):not(body):not(input)
-###ab_bottom:not(:root):not(body):not(input)
 ###ab_top:not(:root):not(body):not(input)
 ###ad-footer:not(:root):not(body):not(input)
 ###ad-tower:not(:root):not(body):not(input)
 ###adBlockerContainer:not(:root):not(body):not(input)
-###bottomads:not(:root):not(body):not(input)
-###topads:not(:root):not(body):not(input)
-###leftads:not(:root):not(body):not(input)
-###rightads:not(:root):not(body):not(input)
 ###ads:not(:root):not(body):not(input)
-|adserver.*^$important
-|adservice.*^$important
-kinopoisk.ru##[href^="https://www.kinopoisk.ru/"]
-kinopoisk.ru##[href*="adblock"]:xpath(..)
-kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
-||yandex.*/weather/*$script,first-party,important
-yandex.ru,yandex.ua,yandex.by##DIV:first-child > DIV + DIV + DIV + DIV + DIV + DIV > DIV > DIV + :last-child
-||212.122.5.136/userlock/*$important
-yandex.ru##.incut.incut_type_direct.incut_position_page.i-bem.incut_js_inited.incut_inserted_yes
-yandex.ru##.incut.incut_before-more.incut_position_bottom.i-bem.incut_js_inited.incut_inserted_yes
-/^https?://tv\.yandex\.(by|kz|ru|ua)/[^\s]{300,}/$subdocument,xmlhttprequest,important
-tv.yandex.ru##HTML > HEAD + BODY > DIV > DIV > DIV
-||afisha.yandex.ru^$xmlhttprequest,important
-||main.zdevx.yandex.ru^$important
+###ads_bottom:not(:root):not(body):not(input)
+###ads_left:not(:root):not(body):not(input)
+###ads_right:not(:root):not(body):not(input)
+###ads_top:not(:root):not(body):not(input)
 ###adsincont:not(:root):not(body):not(input)
+###bottomads:not(:root):not(body):not(input)
+###cookiestatement:not(body):not(html)
+###leftads:not(:root):not(body):not(input)
 ###player-ads:not(:root):not(body):not(input)
-##.AdBox:not(:root):not(body):not(input)
-##.AdsBox:not(:root):not(body):not(input)
-##.ADSBox:not(:root):not(body):not(input)
-##.ADBox:not(:root):not(body):not(input)
-##.ad-div:not(:root):not(body):not(input)
-##.ad_div:not(:root):not(body):not(input)
+###rightads:not(:root):not(body):not(input)
+###topads:not(:root):not(body):not(input)
 ##.AD-DIV:not(:root):not(body):not(input)
 ##.AD:not(:root):not(body):not(input)
+##.ADBox:not(:root):not(body):not(input)
 ##.ADS:not(:root):not(body):not(input)
-##.adWrapper:not(:root):not(body):not(input)
-##.ad_wrapper:not(:root):not(body):not(input)
+##.ADSBox:not(:root):not(body):not(input)
+##.AdBox:not(:root):not(body):not(input)
+##.AdsBox:not(:root):not(body):not(input)
+##.ad-div:not(:root):not(body):not(input)
 ##.ad-wrapper:not(:root):not(body):not(input)
-##.adwrapper:not(:root):not(body):not(input)
+##.adWrapper:not(:root):not(body):not(input)
+##.ad_ad_box:not(:root):not(body):not(input)
+##.ad_ads_box:not(:root):not(body):not(input)
+##.ad_div:not(:root):not(body):not(input)
+##.ad_wrapper:not(:root):not(body):not(input)
 ##.adblock-detector-partial-component:not(:root):not(body):not(input)
 ##.ads-ad:not(:root):not(body):not(input)
 ##.ads-wrapper:not(:root):not(body):not(input)
-##.adswrapper:not(:root):not(body):not(input)
+##.ads_ad_box:not(:root):not(body):not(input)
+##.ads_ads_box:not(:root):not(body):not(input)
 ##.ads_wrapper:not(:root):not(body):not(input)
 ##.adsbygoogle:not(:root):not(body):not(input)
+##.adswrapper:not(:root):not(body):not(input)
 ##.advertising:not(:root):not(body):not(input)
+##.adwrapper:not(:root):not(body):not(input)
 ##.companion-ad:not(:root):not(body):not(input)
-##.footer-ads:not(:root):not(body):not(input)
-##.footer_ads:not(:root):not(body):not(input)
-##.footerads:not(:root):not(body):not(input)
 ##.footer-ad:not(:root):not(body):not(input)
+##.footer-ads:not(:root):not(body):not(input)
 ##.footer_ad:not(:root):not(body):not(input)
+##.footer_ads:not(:root):not(body):not(input)
 ##.footerad:not(:root):not(body):not(input)
-||news.yandex.*$first-party,script,important
-||mail.yandex.*$first-party,script,important
-kinopoisk.ru##HTML > HEAD + BODY > DIV:first-child > DIV:first-child + DIV + DIV > DIV + DIV:last-child > A:last-child
-kinopoisk.ru##[style="height: 210px; left: 0px; position: absolute; top: 110px; width: 850px; display: block; right: 0px; margin: auto;"]
-vk.com##aside[aria-label="Актуальные новости"]
+##.footerads:not(:root):not(body):not(input)
 ##.google-ads:not(:root):not(body):not(input)
 ##.masthead-ad-control:not(:root):not(body):not(input)
 ##.post-ads:not(:root):not(body):not(input)
 ##.remove-ads:not(:root):not(body):not(input)
 ##.vertical-ads:not(:root):not(body):not(input)
 ##.video-ads:not(:root):not(body):not(input)
+##.wall_marked_as_ads:not(:root):not(body):not(input)
 ##.yabrowser-promo
 ##[id*="-ads-"]
 ##[id*="-ads."]
@@ -3307,6 +3298,7 @@ vk.com##aside[aria-label="Актуальные новости"]
 /728x90-
 /728x90.
 /728x90_
+/^https?://tv\.yandex\.(by|kz|ru|ua)/[^\s]{300,}/$subdocument,xmlhttprequest,important
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$xmlhttprequest,important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$important
 /_/batch|$first-party,xmlhttprequest,important
@@ -6630,8 +6622,13 @@ freebitco.in##.open.reveal-modal
 freebitco.in##.reveal-modal-bg
 ggbet$image
 google.com##g-section-with-header
+kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
 kinopoisk.ru##DIV[class^="adfox-special-banner"]
 kinopoisk.ru##DIV[class^="watch-online-banner"]:last-child
+kinopoisk.ru##HTML > HEAD + BODY > DIV:first-child > DIV:first-child + DIV + DIV > DIV + DIV:last-child > A:last-child
+kinopoisk.ru##[href*="adblock"]:xpath(..)
+kinopoisk.ru##[href^="https://www.kinopoisk.ru/"]
+kinopoisk.ru##[style="height: 210px; left: 0px; position: absolute; top: 110px; width: 850px; display: block; right: 0px; margin: auto;"]
 m.vk.com##.feedAssistance_importContacts.feedAssistance.wall_item
 m.vk.com##.feedBlocks__articles.feedBlocks__container.wall_item
 m.youtube.com##.mealbar-promo-renderer
@@ -6650,9 +6647,10 @@ qaru.site##.wraptip
 reddit.com##.onboardingbar.subscribebar.infobar
 translate.google.com,translate.google.ru###gt-promo-lr
 translate.yandex.ru##.button_icon_collections.button_icon.button
-twitch.tv##a[href*="/shop/"]
+tv.yandex.ru##HTML > HEAD + BODY > DIV > DIV > DIV
 twitch.tv##a[href*=".gg"]
 twitch.tv##a[href*=".online"]
+twitch.tv##a[href*="/shop/"]
 twitch.tv##a[href*="anylvl"]
 twitch.tv##a[href*="arozzi.*"]
 twitch.tv##a[href*="aser"]
@@ -6692,9 +6690,15 @@ twitch.tv##a[href*="shortme."]
 twitch.tv##a[href*="swaper.one"]
 twitch.tv##a[href*="vsemayki"] > img
 vk.com##.audio_promo
+vk.com##aside[aria-label="Актуальные новости"]
 wikipedia.org###sitenotice
+yandex.ru##.incut.incut_before-more.incut_position_bottom.i-bem.incut_js_inited.incut_inserted_yes
+yandex.ru##.incut.incut_type_direct.incut_position_page.i-bem.incut_js_inited.incut_inserted_yes
 yandex.ru##.media-infinity-footer__content_visible_yes.media-infinity-footer__content
+yandex.ru,yandex.ua,yandex.by##DIV:first-child > DIV + DIV + DIV + DIV + DIV + DIV > DIV > DIV + :last-child
 youtube.com##.html5-endscreen
+|adserver.*^$important
+|adservice.*^$important
 |csp.*^$important
 |data:text$popup,important
 |http*://*-zone-injection/$important
@@ -6714,6 +6718,7 @@ youtube.com##.html5-endscreen
 |http*://track.*^$important
 ||1l-hit.mail.ru^$important
 ||2mdn.net^$important
+||212.122.5.136/userlock/*$important
 ||aaxads.com^$important
 ||acint.net^$important
 ||adbetnet.com^$important
@@ -6724,6 +6729,7 @@ youtube.com##.html5-endscreen
 ||adriver.ru^$important
 ||adsafeprotected.com^$important
 ||adswrapme.click^$important
+||afisha.yandex.ru^$xmlhttprequest,important
 ||amazon-adsystem.com^$important
 ||amazonaws.com/homad-global-configs.schneevonmorgen.com
 ||amazonaws.com/ki.js/$important
@@ -6780,6 +6786,7 @@ youtube.com##.html5-endscreen
 ||imasdk.googleapis.com^$important
 ||imrworldwide.com^$important
 ||informer.yandex.*^$important
+||iwanttodeliver.com^$important
 ||jsc.marketgid.com^$important
 ||kiks.yandex.*^$important
 ||kissmetrics.com^$important
@@ -6789,7 +6796,9 @@ youtube.com##.html5-endscreen
 ||luxupadva.com^$important
 ||mail.ru/counter^$important
 ||mail.ru/grstat^$important
+||mail.yandex.*$first-party,script,important
 ||mail.yandex.*/monitoring_liza.txt$important
+||main.zdevx.yandex.ru^$important
 ||mc.yandex.*^$important
 ||mediametrics.ru^$important
 ||metric.gstatic.com^$important
@@ -6800,6 +6809,7 @@ youtube.com##.html5-endscreen
 ||mp.twitch.tv^$important
 ||msecnd.net/scripts/jsll$important
 ||newrelic.com^$important
+||news.yandex.*$first-party,script,important
 ||omtrdc.net^$important
 ||optimizely.com^$important
 ||owebmoney.ru^$important
@@ -6838,12 +6848,12 @@ youtube.com##.html5-endscreen
 ||vortex.data.microsoft.com^$important
 ||web-metrica.yandex.ru^$important
 ||whos.amung.us^$important
-||iwanttodeliver.com^$important
 ||yabs.yandex.*^$important
 ||yadro.ru^$important
 ||yandex.*/*stripe.html|$important
 ||yandex.*/count/$important
 ||yandex.*/search/yandcache.js$important
+||yandex.*/weather/*$script,first-party,important
 ||yastatic.net/*/atom.js$script,important
 ||yastatic.net^$popup,important
 ||youtube.com/api/stats/$important
