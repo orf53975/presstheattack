@@ -37,6 +37,10 @@ yandex.ru,yandex.ua,yandex.by##DIV:first-child > DIV + DIV + DIV + DIV + DIV + D
 ||212.122.5.136/userlock/*$important
 yandex.ru##.incut.incut_type_direct.incut_position_page.i-bem.incut_js_inited.incut_inserted_yes
 yandex.ru##.incut.incut_before-more.incut_position_bottom.i-bem.incut_js_inited.incut_inserted_yes
+/^https?://tv\.yandex\.(by|kz|ru|ua)/[^\s]{300,}/$subdocument,xmlhttprequest,important
+tv.yandex.ru##HTML > HEAD + BODY > DIV > DIV > DIV
+||afisha.yandex.ru^$xmlhttprequest,important
+||main.zdevx.yandex.ru^$important
 ###ads
 ###adsincont
 ###bottomads
@@ -6736,7 +6740,6 @@ youtube.com##.html5-endscreen
 ||d1fc8wv8zag5ca.cloudfront.net^$important
 ||d2v02itv0y9u9t.cloudfront.net^$important
 ||d2wy8f7a9ursnm.cloudfront.net^$important
-||d3pkae9owd2lcf.cloudfront.net/*.gz.js$important,script,redirect=d3pkae9owd2lcf.cloudfront.net
 ||da-ads.com^$important
 ||dapxl.com^$important
 ||demdex.net^$important
@@ -6752,8 +6755,8 @@ youtube.com##.html5-endscreen
 ||go-tds-site.com^$important
 ||google-analytics.com^$important
 ||google.*/ads/$important
-||google.com^*/viewerimpressions^$important
-||googleadservices.com$important
+||google.*/viewerimpressions^$important
+||googleadservices.*^$important
 ||googlesyndication.*^$important
 ||googletagmanager.*^$important
 ||googletagservices.*^$important
@@ -6810,7 +6813,6 @@ youtube.com##.html5-endscreen
 ||scrubswim.com^$important
 ||spade.twitch.tv^$important
 ||ssp.rambler.ru^$important
-||st.kp.yandex.net/images/bnnr/brand/$important
 ||static.hotjar.com^$important
 ||stats.wp.com^$important
 ||summerhamster.com^$important
