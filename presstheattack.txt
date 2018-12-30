@@ -23,10 +23,19 @@
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 
-###ab_banner
-###ad-footer
-###ad-tower
-###adBlockerContainer
+###ab_banner:not(:root):not(body):not(input)
+###ab_left:not(:root):not(body):not(input)
+###ab_right:not(:root):not(body):not(input)
+###ab_bottom:not(:root):not(body):not(input)
+###ab_top:not(:root):not(body):not(input)
+###ad-footer:not(:root):not(body):not(input)
+###ad-tower:not(:root):not(body):not(input)
+###adBlockerContainer:not(:root):not(body):not(input)
+###bottomads:not(:root):not(body):not(input)
+###topads:not(:root):not(body):not(input)
+###leftads:not(:root):not(body):not(input)
+###rightads:not(:root):not(body):not(input)
+###ads:not(:root):not(body):not(input)
 |adserver.*^$important
 |adservice.*^$important
 kinopoisk.ru##[href^="https://www.kinopoisk.ru/"]
@@ -41,30 +50,44 @@ yandex.ru##.incut.incut_before-more.incut_position_bottom.i-bem.incut_js_inited.
 tv.yandex.ru##HTML > HEAD + BODY > DIV > DIV > DIV
 ||afisha.yandex.ru^$xmlhttprequest,important
 ||main.zdevx.yandex.ru^$important
-###ads
-###adsincont
-###bottomads
+###adsincont:not(:root):not(body):not(input)
 ###player-ads:not(:root):not(body):not(input)
-##.AdBox
-##.ad-div
-##.adWrapper
-##.ad_wrapper
-##.adblock-detector-partial-component
-##.ads-ad
-##.ads-wrapper
+##.AdBox:not(:root):not(body):not(input)
+##.AdsBox:not(:root):not(body):not(input)
+##.ADSBox:not(:root):not(body):not(input)
+##.ADBox:not(:root):not(body):not(input)
+##.ad-div:not(:root):not(body):not(input)
+##.ad_div:not(:root):not(body):not(input)
+##.AD-DIV:not(:root):not(body):not(input)
+##.AD:not(:root):not(body):not(input)
+##.ADS:not(:root):not(body):not(input)
+##.adWrapper:not(:root):not(body):not(input)
+##.ad_wrapper:not(:root):not(body):not(input)
+##.ad-wrapper:not(:root):not(body):not(input)
+##.adwrapper:not(:root):not(body):not(input)
+##.adblock-detector-partial-component:not(:root):not(body):not(input)
+##.ads-ad:not(:root):not(body):not(input)
+##.ads-wrapper:not(:root):not(body):not(input)
+##.adswrapper:not(:root):not(body):not(input)
+##.ads_wrapper:not(:root):not(body):not(input)
 ##.adsbygoogle:not(:root):not(body):not(input)
-##.advertising
-##.companion-ad
-##.footer-ads
+##.advertising:not(:root):not(body):not(input)
+##.companion-ad:not(:root):not(body):not(input)
+##.footer-ads:not(:root):not(body):not(input)
+##.footer_ads:not(:root):not(body):not(input)
+##.footerads:not(:root):not(body):not(input)
+##.footer-ad:not(:root):not(body):not(input)
+##.footer_ad:not(:root):not(body):not(input)
+##.footerad:not(:root):not(body):not(input)
 ||news.yandex.*$first-party,script,important
 ||mail.yandex.*$first-party,script,important
 kinopoisk.ru##HTML > HEAD + BODY > DIV:first-child > DIV:first-child + DIV + DIV > DIV + DIV:last-child > A:last-child
 kinopoisk.ru##[style="height: 210px; left: 0px; position: absolute; top: 110px; width: 850px; display: block; right: 0px; margin: auto;"]
 vk.com##aside[aria-label="Актуальные новости"]
-##.google-ads
-##.masthead-ad-control
-##.post-ads
-##.remove-ads
+##.google-ads:not(:root):not(body):not(input)
+##.masthead-ad-control:not(:root):not(body):not(input)
+##.post-ads:not(:root):not(body):not(input)
+##.remove-ads:not(:root):not(body):not(input)
 ##.vertical-ads:not(:root):not(body):not(input)
 ##.video-ads:not(:root):not(body):not(input)
 ##.yabrowser-promo
@@ -6627,19 +6650,7 @@ qaru.site##.wraptip
 reddit.com##.onboardingbar.subscribebar.infobar
 translate.google.com,translate.google.ru###gt-promo-lr
 translate.yandex.ru##.button_icon_collections.button_icon.button
-twitch.tv##.pl-overlay__fullscreen.pl-overlay
-twitch.tv##.pl-pinned-panel--animate.pl-pinned-panel
-twitch.tv##.pl-single-rec-wrapper.recommendations-overlay.player-overlay
-twitch.tv##.recommended-channels
-twitch.tv##.tw-button--overlay.tw-button--hollow.tw-button--dropmenu.tw-button.tw-interactive
-twitch.tv##.tw-inline-flex.tw-align-items-center > .tw-tooltip-wrapper.tw-inline-flex > .tw-stat > .tw-stat__icon > .tw-inline-flex.tw-icon.tw-align-items-center
-twitch.tv##.tw-inline-flex.tw-c-text-live.channel-info-bar__viewers-wrapper > .tw-tooltip-wrapper.tw-inline-flex > .tw-stat > .tw-stat__icon > .tw-inline-flex.tw-icon.tw-align-items-center
-twitch.tv##.tw-pd-3.tw-align-center
-twitch.tv##.tw-sm-flex.tw-hide
-twitch.tv##.tw-stat__icon > .tw-inline-flex.tw-icon.tw-align-items-center > .tw-aspect--align-top.tw-aspect--1x1.tw-aspect > .tw-icon__svg
-twitch.tv##.tw-z-default.pinned-cheer-v2
-twitch.tv##.tw-z-default.tw-full-width.tw-absolute.chat-room__notifications
-twitch.tv##a[href*=".com/shop/"]
+twitch.tv##a[href*="/shop/"]
 twitch.tv##a[href*=".gg"]
 twitch.tv##a[href*=".online"]
 twitch.tv##a[href*="anylvl"]
@@ -6647,8 +6658,8 @@ twitch.tv##a[href*="arozzi.*"]
 twitch.tv##a[href*="aser"]
 twitch.tv##a[href*="atributika"]
 twitch.tv##a[href*="banner"]
-twitch.tv##a[href*="bet4"]
-twitch.tv##a[href*="betsdota"]
+twitch.tv##a[href*="bet4"] > img
+twitch.tv##a[href*="betsdota"] > img
 twitch.tv##a[href*="campaign"]
 twitch.tv##a[href*="casino"]
 twitch.tv##a[href*="clife.ru"]
@@ -6661,14 +6672,14 @@ twitch.tv##a[href*="esbet.fun"]
 twitch.tv##a[href*="g2a.com"]
 twitch.tv##a[href*="go-tds-site.com"]
 twitch.tv##a[href*="goodgame.pm"]
-twitch.tv##a[href*="hcrd.ru"] > img
-twitch.tv##a[href*="i.try.games"] > img
+twitch.tv##a[href*="hcrd.ru"]
+twitch.tv##a[href*="i.try.games"]
 twitch.tv##a[href*="invasion.ru"]
 twitch.tv##a[href*="is.gd"]
 twitch.tv##a[href*="kfcmalaysia"]
 twitch.tv##a[href*="l1l.pw"]
 twitch.tv##a[href*="loto.ru"]
-twitch.tv##a[href*="megafon"]
+twitch.tv##a[href*="megafon"] > img
 twitch.tv##a[href*="monsterenergy"]
 twitch.tv##a[href*="mybestcontent.ru"] > img
 twitch.tv##a[href*="opseat.com"]
@@ -6679,7 +6690,7 @@ twitch.tv##a[href*="redirect-"]
 twitch.tv##a[href*="secretlab"]
 twitch.tv##a[href*="shortme."]
 twitch.tv##a[href*="swaper.one"]
-twitch.tv##a[href*="vsemayki"]
+twitch.tv##a[href*="vsemayki"] > img
 vk.com##.audio_promo
 wikipedia.org###sitenotice
 yandex.ru##.media-infinity-footer__content_visible_yes.media-infinity-footer__content
@@ -6711,14 +6722,13 @@ youtube.com##.html5-endscreen
 ||admob.com^$important
 ||adnxs.com^$important
 ||adriver.ru^$important
-||ads.youtube.com^$important
 ||adsafeprotected.com^$important
 ||adswrapme.click^$important
 ||amazon-adsystem.com^$important
 ||amazonaws.com/homad-global-configs.schneevonmorgen.com
 ||amazonaws.com/ki.js/$important
 ||an.yandex.*^$important
-||api.twitch.tv/*/channels/*/extensions$xmlhttprequest,domain=twitch.tv
+||api.twitch.tv/*/channels/*/extensions$xmlhttprequest,domain=twitch.tv,important
 ||appmetrica.yandex.*^$important
 ||assets.adobedtm.com^$important
 ||atdmt.com^$important
@@ -6771,7 +6781,7 @@ youtube.com##.html5-endscreen
 ||imrworldwide.com^$important
 ||informer.yandex.*^$important
 ||jsc.marketgid.com^$important
-||kiks.yandex.ru^$important
+||kiks.yandex.*^$important
 ||kissmetrics.com^$important
 ||krxd.net^$important
 ||lijit.com^$important
@@ -6780,7 +6790,7 @@ youtube.com##.html5-endscreen
 ||mail.ru/counter^$important
 ||mail.ru/grstat^$important
 ||mail.yandex.*/monitoring_liza.txt$important
-||mc.yandex.ru^$important
+||mc.yandex.*^$important
 ||mediametrics.ru^$important
 ||metric.gstatic.com^$important
 ||microad.net^$important
@@ -6828,7 +6838,7 @@ youtube.com##.html5-endscreen
 ||vortex.data.microsoft.com^$important
 ||web-metrica.yandex.ru^$important
 ||whos.amung.us^$important
-||www.iwanttodeliver.com^$important
+||iwanttodeliver.com^$important
 ||yabs.yandex.*^$important
 ||yadro.ru^$important
 ||yandex.*/*stripe.html|$important
