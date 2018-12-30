@@ -2,7 +2,7 @@
 ! Email: bogachenkove@gmail.com
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
-! Last modified: December 29, 2018
+! Last modified: December 30, 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/private/LICENSE.md>
 ! Title: Press the Attack - Private
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/private/presstheattack.txt
@@ -30,6 +30,7 @@
 #@##FIN_facebook_fanbox
 #@##FaceBookStayInTouch
 #@##FaceBookTab
+||d3pkae9owd2lcf.cloudfront.net/*.gz.js$important,script,redirect=d3pkae9owd2lcf.cloudfront.net,badfilter
 #@##FacebookActivity
 #@##FacebookContainer
 #@##FacebookLikeBox
