@@ -62,6 +62,24 @@ twitch.tv##.tw-inline-flex.tw-align-items-center > .tw-tooltip-wrapper.tw-inline
 twitch.tv##.tw-inline-flex.tw-c-text-live.channel-info-bar__viewers-wrapper > .tw-tooltip-wrapper.tw-inline-flex > .tw-stat > .tw-stat__icon > .tw-inline-flex.tw-icon.tw-align-items-center
 |http*://tmads.*^$important
 |http*://yads.*^$important
+twitch.tv##.tw-relative.chat-rules
+twitch.tv##a[href*="BannerId"]
+-AffiliateUserId-$important
+-AffiliateUserId.$important
+-AffiliateUserId^$important
+-AffiliateUserId_$important
+.AffiliateUserId-$important
+.AffiliateUserId.$important
+.AffiliateUserId^$important
+.AffiliateUserId_$important
+^AffiliateUserId-$important
+^AffiliateUserId.$important
+^AffiliateUserId^$important
+^AffiliateUserId_$important
+_AffiliateUserId-$important
+_AffiliateUserId.$important
+_AffiliateUserId^$important
+_AffiliateUserId_$important
 -clickTag-$important
 -clickTag.$important
 -clickTag^$important
