@@ -16,7 +16,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: December 30, 2018
+! Last modified: December 31, 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -58,6 +58,26 @@
 ##.ad_div:not(:root):not(body):not(input)
 ##.ad_wrapper:not(:root):not(body):not(input)
 ##.adblock-detector-partial-component:not(:root):not(body):not(input)
+twitch.tv##.tw-inline-flex.tw-align-items-center > .tw-tooltip-wrapper.tw-inline-flex > .tw-stat > .tw-stat__icon
+twitch.tv##.tw-inline-flex.tw-c-text-live.channel-info-bar__viewers-wrapper > .tw-tooltip-wrapper.tw-inline-flex > .tw-stat > .tw-stat__icon > .tw-inline-flex.tw-icon.tw-align-items-center
+|http*://tmads.*^$important
+|http*://yads.*^$important
+-clickTag-$important
+-clickTag.$important
+-clickTag^$important
+-clickTag_$important
+.clickTag-$important
+.clickTag.$important
+.clickTag^$important
+.clickTag_$important
+^clickTag-$important
+^clickTag.$important
+^clickTag^$important
+^clickTag_$important
+_clickTag-$important
+_clickTag.$important
+_clickTag^$important
+_clickTag_$important
 ##.ads-ad:not(:root):not(body):not(input)
 ##.ads-wrapper:not(:root):not(body):not(input)
 ##.ads_ad_box:not(:root):not(body):not(input)
