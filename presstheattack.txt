@@ -3338,7 +3338,7 @@ _clickTag_$important
 /728x90_
 /^https?://tv\.yandex\.(by|kz|ru|ua)/[^\s]{300,}/$subdocument,xmlhttprequest,important
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$xmlhttprequest,important
-/^https?:\/\/yastatic\.net\/[^\s]{500,}/$important
+/^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~frontend.vh.yandex.ru,important
 /_/batch|$first-party,xmlhttprequest,important
 /_bm/bd^$important
 /a.gif$important
@@ -6765,15 +6765,15 @@ twitch.tv##a[href*="?partner="]
 .partner.
 .partner^
 .partner_
-^partner-
+^partner-$domain=~frontend.vh.yandex.ru
 ^partner.
 ^partner^
-^partner_
+^partner_$domain=~frontend.vh.yandex.ru
 _partner-
 _partner.
 _partner^
 _partner_
-||212.122.5.136/userlock/*^$important
+||212.122.5.136^$important
 ||aaxads.com^$important
 ||acint.net^$important
 ||adbetnet.com^$important
