@@ -6765,10 +6765,10 @@ twitch.tv##a[href*="?partner="]
 .partner.
 .partner^
 .partner_
-^partner-$domain=~frontend.vh.yandex.ru
+^partner-$domain=~yastatic.net
 ^partner.
 ^partner^
-^partner_$domain=~frontend.vh.yandex.ru
+^partner_$domain=~yastatic.net
 _partner-
 _partner.
 _partner^
