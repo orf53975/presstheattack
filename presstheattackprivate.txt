@@ -2,7 +2,7 @@
 ! Email: bogachenkove@gmail.com
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
-! Last modified: December 31, 2018
+! Last modified: January 1, 2019
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/private/LICENSE.md>
 ! Title: Press the Attack - Private
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/private/presstheattack.txt
@@ -11,6 +11,8 @@
 #@##AKDSocialBottom
 #@##BF_BUZZBOX
 #@##BackToTop
+@@/icons/social-
+||apis.google.com/js/platform.js$third-party,badfilter
 twitch.tv##.recommended-channels
 twitch.tv##.tw-z-default.pinned-cheer-v2
 twitch.tv##.tw-mg-x-1.tw-flex-shrink-0.tw-flex-nowrap.tw-flex-grow-0.tw-align-self-center
