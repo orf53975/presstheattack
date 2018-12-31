@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! This file is part of the Press the Attack project,
-! Copyright (c) 2018 Bogachenko Vyacheslav
+! Copyright (c) 2019 Bogachenko Vyacheslav
 !
 ! Press the Attack is a free project: you can distribute it and/or modify
 ! it in accordance with the MIT license published by the Massachusetts Institute of Technology.
@@ -16,7 +16,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: December 31, 2018
+! Last modified: January 1, 2019
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -6864,7 +6864,8 @@ _partner_
 ||mp.twitch.tv^$important
 ||msecnd.net/scripts/jsll$important
 ||newrelic.com^$important
-||news.yandex.*$first-party,script,important
+/snow.js
+||goo.gl^$third-party,script
 ||omtrdc.net^$important
 ||optimizely.com^$important
 ||owebmoney.ru^$important
