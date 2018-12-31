@@ -1,6 +1,6 @@
 <!--
 This file is part of the Press the Attack project,
-Copyright (c) 2018 Bogachenko Vyacheslav
+Copyright (c) 2019 Bogachenko Vyacheslav
 
 Press the Attack is a free project: you can distribute it and/or modify
 it in accordance with the MIT license published by the Massachusetts Institute of Technology.
@@ -13,7 +13,7 @@ For more information, see the MIT license.
 Author: Bogachenko Vyacheslav <https://github.com/bogachenko>
 Email: bogachenkove@gmail.com
 Github: https://github.com/bogachenko/presstheattack/
-Last modified: December 11, 2018
+Last modified: January 1, 2019
 License: MIT <https://github.com/bogachenko/presstheattack/blob/master/LICENSE.md>
 Problem reports: https://github.com/bogachenko/presstheattack/issues
 Title: README.ja-JP.md
