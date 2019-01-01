@@ -16,7 +16,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: January 1, 2019
+! Last modified: January 2, 2019
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -32,6 +32,10 @@
 ###ad-tower:not(:root):not(body):not(input)
 ###adBlockerContainer:not(:root):not(body):not(input)
 ###ads:not(:root):not(body):not(input)
+||yandex.ru/*/branding^$important
+yandex.ru##div.home-panel-content-view__section
+auto.ru##+js(cookie-remover.js)
+yandex.ua##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_no.media-grid
 ###ads_bottom:not(:root):not(body):not(input)
 ###ads_left:not(:root):not(body):not(input)
 ###ads_right:not(:root):not(body):not(input)
