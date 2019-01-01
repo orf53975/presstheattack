@@ -3338,7 +3338,8 @@ _clickTag_$important
 /728x90_
 /^https?://tv\.yandex\.(by|kz|ru|ua)/[^\s]{300,}/$subdocument,xmlhttprequest,important
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$xmlhttprequest,important
-/^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~frontend.vh.yandex.ru,important
+/^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
+@@||yastatic.net/yandex-video-player-iframe-api-bundles/$subdocument
 /_/batch|$first-party,xmlhttprequest,important
 /_bm/bd^$important
 /a.gif$important
