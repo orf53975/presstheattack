@@ -6769,7 +6769,10 @@ twitch.tv##a[href*="?partner="]
 ^partner-$domain=~yastatic.net
 ^partner.
 ^partner^
-^partner_$domain=~yastatic.net
+^partner_$domain=~yastatic.net,~yandex.ru
+||vk.go.mail.ru^$important
+###masthead-ad:not(:root):not(body):not(input)
+||youtube.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com
 _partner-
 _partner.
 _partner^
