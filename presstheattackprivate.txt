@@ -12,6 +12,11 @@
 #@##BF_BUZZBOX
 #@##BackToTop
 @@/icons/social-
+yandex.ru##.headline__favorites.headline__bar-item
+yandex.ru##.headline__notifier.headline__bar-item
+@@/image/social_
+/social/facebook.$image,badfilter
+/social/twitter.$image,badfilter
 ||apis.google.com/js/platform.js$third-party,badfilter
 twitch.tv##.recommended-channels
 twitch.tv##.tw-z-default.pinned-cheer-v2
