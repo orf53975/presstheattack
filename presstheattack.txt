@@ -6917,7 +6917,10 @@ _partner_
 ||yandex.*/*stripe.html|$important
 ||yandex.*/count/$important
 ||yandex.*/search/yandcache.js$important
-||yandex.*/weather/*$script,first-party,important
+||yandex.*/pogoda/*$inline-script,first-party,important
+yandex.ru##+js(cookie-remover.js, /blcrm|bltsr|yc|yp|my|adb|yabs-frequency/)
+@@||yandex.*/search/$generichide
+twitch.tv##a[href*="gosu.ai/"] > img
 ||yastatic.net/*/atom.js$script,important
 ||yastatic.net^$popup,important
 ||youtube.com/api/stats/$important
