@@ -6787,7 +6787,7 @@ music.yandex.ru##.bar-below
 music.yandex.ru##.footer
 music.yandex.ru##.notify_shown.deco-tooltip_notify.notify__message
 music.yandex.ru##.sidebar__under
-novinky.cz##script:inject(cookie-remover.js)
+novinky.cz##+js(cookie-remover.js)
 outlook.live.com##div#app > div.ms-fabric > div:last-child > div:first-child > div:first-child > div[data-min-width][data-max-width][style^="width:"]~div:last-child
 pornhub.com###age-verification-container
 pornhub.com###age-verification-wrapper
@@ -6804,12 +6804,12 @@ twitch.tv##a[href*=".gg"]
 twitch.tv##a[href*=".online"]
 twitch.tv##a[href*="/shop/"]
 twitch.tv##a[href*="?partner="]
-twitch.tv##a[href*="BannerId"]
+##a[href*="BannerId"]
 twitch.tv##a[href*="anylvl"]
-twitch.tv##a[href*="arozzi.*"]
+twitch.tv##a[href*="arozzi."]
 twitch.tv##a[href*="aser"]
 twitch.tv##a[href*="atributika"]
-twitch.tv##a[href*="banner"]
+twitch.tv##a[href*="banner"] > img
 twitch.tv##a[href*="bet4"] > img
 twitch.tv##a[href*="betsdota"] > img
 twitch.tv##a[href*="campaign"]
@@ -6824,8 +6824,8 @@ twitch.tv##a[href*="esbet.fun"]
 twitch.tv##a[href*="g2a.com"]
 twitch.tv##a[href*="go-tds-site.com"]
 twitch.tv##a[href*="goodgame.pm"]
-twitch.tv##a[href*="gosu.ai/"] > img
-twitch.tv##a[href*="hcrd.ru"]
+twitch.tv##a[href*="gosu.ai"] > img
+##a[href*="hcrd.ru"] > img
 twitch.tv##a[href*="i.try.games"]
 twitch.tv##a[href*="invasion.ru"]
 twitch.tv##a[href*="is.gd"]
@@ -6839,7 +6839,7 @@ twitch.tv##a[href*="opseat.com"]
 twitch.tv##a[href*="papajohns"]
 twitch.tv##a[href*="poker"]
 twitch.tv##a[href*="predator"]
-twitch.tv##a[href*="redirect-"]
+twitch.tv##a[href*="redirect"] > img
 twitch.tv##a[href*="secretlab"]
 twitch.tv##a[href*="shortme."]
 twitch.tv##a[href*="swaper.one"]
@@ -6847,7 +6847,6 @@ twitch.tv##a[href*="vsemayki"] > img
 vk.com##.audio_promo
 vk.com##aside[aria-label="Актуальные новости"]
 wikipedia.org###sitenotice
-yandex.ru##+js(cookie-remover.js, /blcrm|bltsr|yc|yp|my|adb|yabs-frequency/)
 yandex.ru##.incut.incut_before-more.incut_position_bottom.i-bem.incut_js_inited.incut_inserted_yes
 yandex.ru##.incut.incut_type_direct.incut_position_page.i-bem.incut_js_inited.incut_inserted_yes
 yandex.ru##.media-infinity-footer__content_visible_yes.media-infinity-footer__content
