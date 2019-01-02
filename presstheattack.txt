@@ -32,10 +32,6 @@
 ###ad-tower:not(:root):not(body):not(input)
 ###adBlockerContainer:not(:root):not(body):not(input)
 ###ads:not(:root):not(body):not(input)
-||yandex.ru/*/branding^$important
-yandex.ru##div.home-panel-content-view__section
-auto.ru##+js(cookie-remover.js)
-yandex.ua##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_no.media-grid
 ###ads_bottom:not(:root):not(body):not(input)
 ###ads_left:not(:root):not(body):not(input)
 ###ads_right:not(:root):not(body):not(input)
@@ -44,6 +40,7 @@ yandex.ua##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media
 ###bottomads:not(:root):not(body):not(input)
 ###cookiestatement:not(body):not(html)
 ###leftads:not(:root):not(body):not(input)
+###masthead-ad:not(:root):not(body):not(input)
 ###player-ads:not(:root):not(body):not(input)
 ###rightads:not(:root):not(body):not(input)
 ###topads:not(:root):not(body):not(input)
@@ -62,44 +59,6 @@ yandex.ua##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media
 ##.ad_div:not(:root):not(body):not(input)
 ##.ad_wrapper:not(:root):not(body):not(input)
 ##.adblock-detector-partial-component:not(:root):not(body):not(input)
-twitch.tv##.tw-inline-flex.tw-align-items-center > .tw-tooltip-wrapper.tw-inline-flex > .tw-stat > .tw-stat__icon
-twitch.tv##.tw-inline-flex.tw-c-text-live.channel-info-bar__viewers-wrapper > .tw-tooltip-wrapper.tw-inline-flex > .tw-stat > .tw-stat__icon > .tw-inline-flex.tw-icon.tw-align-items-center
-|http*://tmads.*^$important
-|http*://yads.*^$important
-twitch.tv##.tw-relative.chat-rules
-twitch.tv##a[href*="BannerId"]
--AffiliateUserId-$important
--AffiliateUserId.$important
--AffiliateUserId^$important
--AffiliateUserId_$important
-.AffiliateUserId-$important
-.AffiliateUserId.$important
-.AffiliateUserId^$important
-.AffiliateUserId_$important
-^AffiliateUserId-$important
-^AffiliateUserId.$important
-^AffiliateUserId^$important
-^AffiliateUserId_$important
-_AffiliateUserId-$important
-_AffiliateUserId.$important
-_AffiliateUserId^$important
-_AffiliateUserId_$important
--clickTag-$important
--clickTag.$important
--clickTag^$important
--clickTag_$important
-.clickTag-$important
-.clickTag.$important
-.clickTag^$important
-.clickTag_$important
-^clickTag-$important
-^clickTag.$important
-^clickTag^$important
-^clickTag_$important
-_clickTag-$important
-_clickTag.$important
-_clickTag^$important
-_clickTag_$important
 ##.ads-ad:not(:root):not(body):not(input)
 ##.ads-wrapper:not(:root):not(body):not(input)
 ##.ads_ad_box:not(:root):not(body):not(input)
@@ -166,6 +125,10 @@ _clickTag_$important
 -0pixel.$important
 -0pixel^$important
 -0pixel_$important
+-AffiliateUserId-$important
+-AffiliateUserId.$important
+-AffiliateUserId^$important
+-AffiliateUserId_$important
 -ad0-
 -ad0.
 -ad0^
@@ -994,6 +957,10 @@ _clickTag_$important
 -click-count.$important
 -click-count^$important
 -click-count_$important
+-clickTag-$important
+-clickTag.$important
+-clickTag^$important
+-clickTag_$important
 -click_count-$important
 -click_count.$important
 -click_count^$important
@@ -1370,6 +1337,10 @@ _clickTag_$important
 -mraid.$important
 -mraid^$important
 -mraid_$important
+-mutual_link-$object,script,subdocument
+-mutual_link.$object,script,subdocument
+-mutual_link^$object,script,subdocument
+-mutual_link_$object,script,subdocument
 -npssurvey-$important
 -npssurvey.$important
 -npssurvey^$important
@@ -1406,10 +1377,18 @@ _clickTag_$important
 -pageviews.$important
 -pageviews^$important
 -pageviews_$important
+-partner-
+-partner.
+-partner^
+-partner_
 -phpads-$important
 -phpads.$important
 -phpads^$important
 -phpads_$important
+-ping-
+-ping.
+-ping^
+-ping_
 -piwik-$important
 -piwik.$important
 -piwik^$important
@@ -1446,6 +1425,10 @@ _clickTag_$important
 -popunder.$important
 -popunder^$important
 -popunder_$important
+-popupclick-$important
+-popupclick.$important
+-popupclick^$important
+-popupclick_$important
 -ppc-$important
 -ppc.$important
 -ppc^$important
@@ -1466,6 +1449,18 @@ _clickTag_$important
 -ptracking.$important
 -ptracking^$important
 -ptracking_$important
+-pubads-$important
+-pubads.$important
+-pubads^$important
+-pubads_$important
+-quantcast-$important
+-quantcast.$important
+-quantcast^$important
+-quantcast_$important
+-random_banner-
+-random_banner.
+-random_banner^
+-random_banner_
 -reklama-$important
 -reklama.$important
 -reklama^$important
@@ -1746,6 +1741,10 @@ _clickTag_$important
 .0pixel.$important
 .0pixel^$important
 .0pixel_$important
+.AffiliateUserId-$important
+.AffiliateUserId.$important
+.AffiliateUserId^$important
+.AffiliateUserId_$important
 .ad0-
 .ad0.
 .ad0^
@@ -2575,6 +2574,10 @@ _clickTag_$important
 .click-count.$important
 .click-count^$important
 .click-count_$important
+.clickTag-$important
+.clickTag.$important
+.clickTag^$important
+.clickTag_$important
 .click_count-$important
 .click_count.$important
 .click_count^$important
@@ -2953,6 +2956,10 @@ _clickTag_$important
 .mraid.$important
 .mraid^$important
 .mraid_$important
+.mutual_link-$object,script,subdocument
+.mutual_link.$object,script,subdocument
+.mutual_link^$object,script,subdocument
+.mutual_link_$object,script,subdocument
 .npssurvey-$important
 .npssurvey.$important
 .npssurvey^$important
@@ -2989,10 +2996,18 @@ _clickTag_$important
 .pageviews.$important
 .pageviews^$important
 .pageviews_$important
+.partner-
+.partner.
+.partner^
+.partner_
 .phpads-$important
 .phpads.$important
 .phpads^$important
 .phpads_$important
+.ping-
+.ping.
+.ping^
+.ping_
 .piwik-$important
 .piwik.$important
 .piwik^$important
@@ -3029,6 +3044,10 @@ _clickTag_$important
 .popunder.$important
 .popunder^$important
 .popunder_$important
+.popupclick-$important
+.popupclick.$important
+.popupclick^$important
+.popupclick_$important
 .ppc-$important
 .ppc.$important
 .ppc^$important
@@ -3049,6 +3068,18 @@ _clickTag_$important
 .ptracking.$important
 .ptracking^$important
 .ptracking_$important
+.pubads-$important
+.pubads.$important
+.pubads^$important
+.pubads_$important
+.quantcast-$important
+.quantcast.$important
+.quantcast^$important
+.quantcast_$important
+.random_banner-
+.random_banner.
+.random_banner^
+.random_banner_
 .reklama-$important
 .reklama.$important
 .reklama^$important
@@ -3343,7 +3374,6 @@ _clickTag_$important
 /^https?://tv\.yandex\.(by|kz|ru|ua)/[^\s]{300,}/$subdocument,xmlhttprequest,important
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$xmlhttprequest,important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
-@@||yastatic.net/yandex-video-player-iframe-api-bundles/$subdocument
 /_/batch|$first-party,xmlhttprequest,important
 /_bm/bd^$important
 /a.gif$important
@@ -3414,6 +3444,7 @@ _clickTag_$important
 /rsya-tag-users/$important
 /s_code.js$script,important
 /siropu/am/display.$script,important
+/snow.js
 /stat.*^$image,object,script,subdocument,important
 /track/view/$important
 /uutils.fcg^$important
@@ -3467,12 +3498,18 @@ _clickTag_$important
 @@||vk.com/al_feed.php$subdocument
 @@||vk.com/widget_community.php$third-party
 @@||vkontakte.ru/js/api/$third-party
+@@||yandex.*/search/$generichide
 @@||yandex.*/search/*$xmlhttprequest
 @@||yandex.st/share^
+@@||yastatic.net/yandex-video-player-iframe-api-bundles/$subdocument
 ^0pixel-$important
 ^0pixel.$important
 ^0pixel^$important
 ^0pixel_$important
+^AffiliateUserId-$important
+^AffiliateUserId.$important
+^AffiliateUserId^$important
+^AffiliateUserId_$important
 ^ad0-
 ^ad0.
 ^ad0^
@@ -4303,6 +4340,10 @@ _clickTag_$important
 ^click-count.$important
 ^click-count^$important
 ^click-count_$important
+^clickTag-$important
+^clickTag.$important
+^clickTag^$important
+^clickTag_$important
 ^click_count-$important
 ^click_count.$important
 ^click_count^$important
@@ -4681,6 +4722,10 @@ _clickTag_$important
 ^mraid.$important
 ^mraid^$important
 ^mraid_$important
+^mutual_link-$object,script,subdocument
+^mutual_link.$object,script,subdocument
+^mutual_link^$object,script,subdocument
+^mutual_link_$object,script,subdocument
 ^npssurvey-$important
 ^npssurvey.$important
 ^npssurvey^$important
@@ -4717,10 +4762,18 @@ _clickTag_$important
 ^pageviews.$important
 ^pageviews^$important
 ^pageviews_$important
+^partner-$domain=~yastatic.net
+^partner.
+^partner^
+^partner_$domain=~yastatic.net,~yandex.ru
 ^phpads-$important
 ^phpads.$important
 ^phpads^$important
 ^phpads_$important
+^ping-
+^ping.
+^ping^
+^ping_
 ^piwik-$important
 ^piwik.$important
 ^piwik^$important
@@ -4757,6 +4810,10 @@ _clickTag_$important
 ^popunder.$important
 ^popunder^$important
 ^popunder_$important
+^popupclick-$important
+^popupclick.$important
+^popupclick^$important
+^popupclick_$important
 ^ppc-$important
 ^ppc.$important
 ^ppc^$important
@@ -4777,6 +4834,18 @@ _clickTag_$important
 ^ptracking.$important
 ^ptracking^$important
 ^ptracking_$important
+^pubads-$important
+^pubads.$important
+^pubads^$important
+^pubads_$important
+^quantcast-$important
+^quantcast.$important
+^quantcast^$important
+^quantcast_$important
+^random_banner-
+^random_banner.
+^random_banner^
+^random_banner_
 ^reklama-$important
 ^reklama.$important
 ^reklama^$important
@@ -5067,6 +5136,10 @@ _728x90.
 _728x90_
 _728x95.
 _728x95_
+_AffiliateUserId-$important
+_AffiliateUserId.$important
+_AffiliateUserId^$important
+_AffiliateUserId_$important
 _ad0-
 _ad0.
 _ad0^
@@ -5896,6 +5969,10 @@ _click-count-$important
 _click-count.$important
 _click-count^$important
 _click-count_$important
+_clickTag-$important
+_clickTag.$important
+_clickTag^$important
+_clickTag_$important
 _click_count-$important
 _click_count.$important
 _click_count^$important
@@ -6272,6 +6349,10 @@ _mraid-$important
 _mraid.$important
 _mraid^$important
 _mraid_$important
+_mutual_link-$object,script,subdocument
+_mutual_link.$object,script,subdocument
+_mutual_link^$object,script,subdocument
+_mutual_link_$object,script,subdocument
 _npssurvey-$important
 _npssurvey.$important
 _npssurvey^$important
@@ -6308,10 +6389,18 @@ _pageviews-$important
 _pageviews.$important
 _pageviews^$important
 _pageviews_$important
+_partner-
+_partner.
+_partner^
+_partner_
 _phpads-$important
 _phpads.$important
 _phpads^$important
 _phpads_$important
+_ping-
+_ping.
+_ping^
+_ping_
 _piwik-$important
 _piwik.$important
 _piwik^$important
@@ -6348,6 +6437,10 @@ _popunder-$important
 _popunder.$important
 _popunder^$important
 _popunder_$important
+_popupclick-$important
+_popupclick.$important
+_popupclick^$important
+_popupclick_$important
 _ppc-$important
 _ppc.$important
 _ppc^$important
@@ -6368,6 +6461,18 @@ _ptracking-$important
 _ptracking.$important
 _ptracking^$important
 _ptracking_$important
+_pubads-$important
+_pubads.$important
+_pubads^$important
+_pubads_$important
+_quantcast-$important
+_quantcast.$important
+_quantcast^$important
+_quantcast_$important
+_random_banner-
+_random_banner.
+_random_banner^
+_random_banner_
 _reklama-$important
 _reklama.$important
 _reklama^$important
@@ -6653,6 +6758,7 @@ amalgama-lab.com###close_quality
 amalgama-lab.com/pict/quality.png$image
 amazon.com###gw-card-layout
 amazon.com##.gw-fixed-col.gw-col.a-spacing-none.a-section
+auto.ru##+js(cookie-remover.js)
 avia.yandex.ru##.y-page_islet-kb-index__footer
 avito.ru##.js-common-banner.common-banner + :last-child
 avito.ru##.main-page-flex-container > div:first-child > div:first-child + div + div:last-child
@@ -6691,9 +6797,14 @@ reddit.com##.onboardingbar.subscribebar.infobar
 translate.google.com,translate.google.ru###gt-promo-lr
 translate.yandex.ru##.button_icon_collections.button_icon.button
 tv.yandex.ru##HTML > HEAD + BODY > DIV > DIV > DIV
+twitch.tv##.tw-inline-flex.tw-align-items-center > .tw-tooltip-wrapper.tw-inline-flex > .tw-stat > .tw-stat__icon
+twitch.tv##.tw-inline-flex.tw-c-text-live.channel-info-bar__viewers-wrapper > .tw-tooltip-wrapper.tw-inline-flex > .tw-stat > .tw-stat__icon > .tw-inline-flex.tw-icon.tw-align-items-center
+twitch.tv##.tw-relative.chat-rules
 twitch.tv##a[href*=".gg"]
 twitch.tv##a[href*=".online"]
 twitch.tv##a[href*="/shop/"]
+twitch.tv##a[href*="?partner="]
+twitch.tv##a[href*="BannerId"]
 twitch.tv##a[href*="anylvl"]
 twitch.tv##a[href*="arozzi.*"]
 twitch.tv##a[href*="aser"]
@@ -6713,6 +6824,7 @@ twitch.tv##a[href*="esbet.fun"]
 twitch.tv##a[href*="g2a.com"]
 twitch.tv##a[href*="go-tds-site.com"]
 twitch.tv##a[href*="goodgame.pm"]
+twitch.tv##a[href*="gosu.ai/"] > img
 twitch.tv##a[href*="hcrd.ru"]
 twitch.tv##a[href*="i.try.games"]
 twitch.tv##a[href*="invasion.ru"]
@@ -6735,10 +6847,13 @@ twitch.tv##a[href*="vsemayki"] > img
 vk.com##.audio_promo
 vk.com##aside[aria-label="Актуальные новости"]
 wikipedia.org###sitenotice
+yandex.ru##+js(cookie-remover.js, /blcrm|bltsr|yc|yp|my|adb|yabs-frequency/)
 yandex.ru##.incut.incut_before-more.incut_position_bottom.i-bem.incut_js_inited.incut_inserted_yes
 yandex.ru##.incut.incut_type_direct.incut_position_page.i-bem.incut_js_inited.incut_inserted_yes
 yandex.ru##.media-infinity-footer__content_visible_yes.media-infinity-footer__content
+yandex.ru##div.home-panel-content-view__section
 yandex.ru,yandex.ua,yandex.by##DIV:first-child > DIV + DIV + DIV + DIV + DIV + DIV > DIV > DIV + :last-child
+yandex.ua##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_no.media-grid
 youtube.com##.html5-endscreen
 |adserver.*^$important
 |adservice.*^$important
@@ -6758,29 +6873,11 @@ youtube.com##.html5-endscreen
 |http*://pixel.*^$important
 |http*://px.*^$important
 |http*://pxl.*^$important
+|http*://tmads.*^$important
 |http*://track.*^$important
+|http*://yads.*^$important
 ||1l-hit.mail.ru^$important
 ||2mdn.net^$important
-twitch.tv##a[href*="?partner="]
--partner-
--partner.
--partner^
--partner_
-.partner-
-.partner.
-.partner^
-.partner_
-^partner-$domain=~yastatic.net
-^partner.
-^partner^
-^partner_$domain=~yastatic.net,~yandex.ru
-||vk.go.mail.ru^$important
-###masthead-ad:not(:root):not(body):not(input)
-||youtube.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com
-_partner-
-_partner.
-_partner^
-_partner_
 ||212.122.5.136^$important
 ||aaxads.com^$important
 ||acint.net^$important
@@ -6832,6 +6929,7 @@ _partner_
 ||github.com/_private/browser/stats$important
 ||go-mpulse.net^$important
 ||go-tds-site.com^$important
+||goo.gl^$third-party,script
 ||google-analytics.com^$important
 ||google.*/ads/$important
 ||google.*/viewerimpressions^$important
@@ -6872,8 +6970,6 @@ _partner_
 ||mp.twitch.tv^$important
 ||msecnd.net/scripts/jsll$important
 ||newrelic.com^$important
-/snow.js
-||goo.gl^$third-party,script
 ||omtrdc.net^$important
 ||optimizely.com^$important
 ||owebmoney.ru^$important
@@ -6909,6 +7005,7 @@ _partner_
 ||twitter.com/i/jot$important
 ||udc.yahoo.com^$important
 ||visualwebsiteoptimizer.com^$important
+||vk.go.mail.ru^$important
 ||vortex.data.microsoft.com^$important
 ||web-metrica.yandex.ru^$important
 ||whos.amung.us^$important
@@ -6916,13 +7013,12 @@ _partner_
 ||yadro.ru^$important
 ||yandex.*/*stripe.html|$important
 ||yandex.*/count/$important
-||yandex.*/search/yandcache.js$important
 ||yandex.*/pogoda/*$inline-script,first-party,important
-yandex.ru##+js(cookie-remover.js, /blcrm|bltsr|yc|yp|my|adb|yabs-frequency/)
-@@||yandex.*/search/$generichide
-twitch.tv##a[href*="gosu.ai/"] > img
+||yandex.*/search/yandcache.js$important
+||yandex.ru/*/branding^$important
 ||yastatic.net/*/atom.js$script,important
 ||yastatic.net^$popup,important
 ||youtube.com/api/stats/$important
 ||youtube.com/get_midroll_info^$important
+||youtube.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com
 ||zen.yandex.*^$important
