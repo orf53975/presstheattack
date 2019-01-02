@@ -12,6 +12,8 @@
 #@##BF_BUZZBOX
 #@##BackToTop
 #@##BmkDigg
+||google.com^*/fastbutton?$third-party,badfilter
+||facebook.com*/plugins/like.php?$third-party,badfilter
 #@##BmkFB
 #@##BmkStumble
 #@##BmkTweeter
