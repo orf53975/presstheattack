@@ -1,4 +1,4 @@
-[Adblock Plus 2.0]
+[uBlock Origin 1.17.5rc4]
 ! This file is part of the Press the Attack project,
 ! Copyright (c) 2019 Bogachenko Vyacheslav
 !
@@ -6795,6 +6795,10 @@ reddit.com##.onboardingbar.subscribebar.infobar
 translate.google.com,translate.google.ru###gt-promo-lr
 translate.yandex.ru##.button_icon_collections.button_icon.button
 tv.yandex.ru##HTML > HEAD + BODY > DIV > DIV > DIV
+tv.yandex.ru##HTML > HEAD + BODY > .mount > DIV > DIV + .header + .content > .main-controller > .main-controller__grid-wrapper > .recommended-top + .filters + SECTION > DIV > .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + DIV + :last-child
+tv.yandex.ru##HTML > HEAD + BODY > .mount > DIV > DIV + .header + .content > .main-controller > .main-controller__grid-wrapper > .recommended-top + .filters + SECTION > DIV > .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + DIV
+tv.yandex.ru##HTML > HEAD + BODY > .mount > DIV > DIV + .header + .content > .main-controller > .main-controller__grid-wrapper > .recommended-top + .filters + SECTION + SECTION
+tv.yandex.ru##.main-controller > div > div:last-child
 twitch.tv##.tw-inline-flex.tw-align-items-center > .tw-tooltip-wrapper.tw-inline-flex > .tw-stat > .tw-stat__icon
 twitch.tv##.tw-inline-flex.tw-c-text-live.channel-info-bar__viewers-wrapper > .tw-tooltip-wrapper.tw-inline-flex > .tw-stat > .tw-stat__icon > .tw-inline-flex.tw-icon.tw-align-items-center
 twitch.tv##.tw-relative.chat-rules
