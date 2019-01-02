@@ -6749,10 +6749,8 @@ _yandex-metrica-watch-$important
 _yandex-metrica-watch.$important
 _yandex-metrica-watch^$important
 _yandex-metrica-watch_$important
-afisha.yandex.ru##.link_js_inited.i-bem.promo-action-start-bar__link.link_theme_normal.link
-afisha.yandex.ru##.main + div:last-child
-afisha.yandex.ru##.sidebar :last-child
-afisha.yandex.ru##.subscribe-popup_visible_yes.subscribe-popup_js_inited.i-bem.yandex-sans.subscribe-popup
+afisha.yandex.ru##.i-sticky
+afisha.yandex.ru##.content-index__direct
 afisha.yandex.ru##HEAD + BODY > :first-child > :first-child > :first-child + DIV
 amalgama-lab.com###close_quality
 amalgama-lab.com/pict/quality.png$image
