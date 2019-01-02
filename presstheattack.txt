@@ -7012,7 +7012,8 @@ youtube.com##.html5-endscreen
 ||yadro.ru^$important
 ||yandex.*/*stripe.html|$important
 ||yandex.*/count/$important
-||yandex.*/pogoda/*$inline-script,first-party,important
+||lp4.io^$important
+yandex.ru##+js(set-constant.js, Math.random, trueFunc)
 ||yandex.*/search/yandcache.js$important
 ||yandex.ru/*/branding^$important
 ||yastatic.net/*/atom.js$script,important
