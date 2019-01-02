@@ -29,6 +29,9 @@
 #@##FBslideout
 #@##FIN_facebook_fanbox
 #@##FaceBookStayInTouch
+yandex.ru##.content__col
+yandex.ru##.serp-footer__main
+yandex.ru##.header-favorites-button_js_inited.i-bem.header-favorites-button
 #@##FaceBookTab
 #@##FacebookActivity
 #@##FacebookContainer
