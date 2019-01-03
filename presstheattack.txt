@@ -16,7 +16,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: January 2, 2019
+! Last modified: January 3, 2019
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -6851,10 +6851,10 @@ vk.com##aside[aria-label="Актуальные новости"]
 wikipedia.org###sitenotice
 yandex.ru##.incut.incut_before-more.incut_position_bottom.i-bem.incut_js_inited.incut_inserted_yes
 yandex.ru##.incut.incut_type_direct.incut_position_page.i-bem.incut_js_inited.incut_inserted_yes
-yandex.ru##.media-infinity-footer__content_visible_yes.media-infinity-footer__content
+yandex.ru,yandex.ua,yandex.by##.media-infinity-footer__content
 yandex.ru##div.home-panel-content-view__section
 yandex.ru,yandex.ua,yandex.by##.content__main + :last-child
-yandex.ua##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_no.media-grid
+yandex.ua,yandex.ru,yandex.by##.font-regular.i-bem.media-grid_theme_white.media-grid_visible_no.media-grid
 youtube.com##.html5-endscreen
 |adserver.*^$important
 |adservice.*^$important
