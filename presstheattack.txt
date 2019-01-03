@@ -16,7 +16,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: January 3, 2019
+! Last modified: January 4, 2019
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -33,178 +33,12 @@
 ###adBlockerContainer:not(:root):not(body):not(input)
 ###ads:not(:root):not(body):not(input)
 ###ads_bottom:not(:root):not(body):not(input)
-yandex.ru,yandex.ua,yandex.by##+js(cookie-remover.js, /adb|bltsr/)
 ###ads_left:not(:root):not(body):not(input)
 ###ads_right:not(:root):not(body):not(input)
 ###ads_top:not(:root):not(body):not(input)
 ###adsincont:not(:root):not(body):not(input)
 ###bottomads:not(:root):not(body):not(input)
 ###cookiestatement:not(body):not(html)
-kinopoisk.ru##+js(cookie-remover.js)
--urchin-$important
--urchin.$important
--urchin^$important
--urchin_$important
-.urchin-$important
-.urchin.$important
-.urchin^$important
-.urchin_$important
-^urchin-$important
-^urchin.$important
-^urchin^$important
-^urchin_$important
-_urchin-$important
-_urchin.$important
-_urchin^$important
-_urchin_$important
--adframes-$important
--adframes.$important
--adframes^$important
--adframes_$important
-.adframes-$important
-.adframes.$important
-.adframes^$important
-.adframes_$important
-^adframes-$important
-^adframes.$important
-^adframes^$important
-^adframes_$important
-_adframes-$important
-_adframes.$important
-_adframes^$important
-_adframes_$important
--adgorithmsltd-$important
--adgorithmsltd.$important
--adgorithmsltd^$important
--adgorithmsltd_$important
-.adgorithmsltd-$important
-.adgorithmsltd.$important
-.adgorithmsltd^$important
-.adgorithmsltd_$important
-^adgorithmsltd-$important
-^adgorithmsltd.$important
-^adgorithmsltd^$important
-^adgorithmsltd_$important
-_adgorithmsltd-$important
-_adgorithmsltd.$important
-_adgorithmsltd^$important
-_adgorithmsltd_$important
--AdPlugin-$important
--AdPlugin.$important
--AdPlugin^$important
--AdPlugin_$important
-.AdPlugin-$important
-.AdPlugin.$important
-.AdPlugin^$important
-.AdPlugin_$important
-^AdPlugin-$important
-^AdPlugin.$important
-^AdPlugin^$important
-^AdPlugin_$important
-_AdPlugin-$important
-_AdPlugin.$important
-_AdPlugin^$important
-_AdPlugin_$important
--adthinkmedia-$important
--adthinkmedia.$important
--adthinkmedia^$important
--adthinkmedia_$important
-.adthinkmedia-$important
-.adthinkmedia.$important
-.adthinkmedia^$important
-.adthinkmedia_$important
-^adthinkmedia-$important
-^adthinkmedia.$important
-^adthinkmedia^$important
-^adthinkmedia_$important
-_adthinkmedia-$important
-_adthinkmedia.$important
-_adthinkmedia^$important
-_adthinkmedia_$important
--comscore-$important
--comscore.$important
--comscore^$important
--comscore_$important
-.comscore-$important
-.comscore.$important
-.comscore^$important
-.comscore_$important
-^comscore-$important
-^comscore.$important
-^comscore^$important
-^comscore_$important
-_comscore-$important
-_comscore.$important
-_comscore^$important
-_comscore_$important
--iframeBanner-$important
--iframeBanner.$important
--iframeBanner^$important
--iframeBanner_$important
-.iframeBanner-$important
-.iframeBanner.$important
-.iframeBanner^$important
-.iframeBanner_$important
-^iframeBanner-$important
-^iframeBanner.$important
-^iframeBanner^$important
-^iframeBanner_$important
-_iframeBanner-$important
-_iframeBanner.$important
-_iframeBanner^$important
-_iframeBanner_$important
--packcpm-$important
--packcpm.$important
--packcpm^$important
--packcpm_$important
-.packcpm-$important
-.packcpm.$important
-.packcpm^$important
-.packcpm_$important
-^packcpm-$important
-^packcpm.$important
-^packcpm^$important
-^packcpm_$important
-_packcpm-$important
-_packcpm.$important
-_packcpm^$important
-_packcpm_$important
-|http*://adcl.*^$important
-|http*://adcdn.*^$important
-|http*://smetrics.*^$important
-|http*://c.*/c.$image,object,subdocument,important
--reklame-$important
--reklame.$important
--reklame^$important
--reklame_$important
-.reklame-$important
-.reklame.$important
-.reklame^$important
-.reklame_$important
-^reklame-$important
-^reklame.$important
-^reklame^$important
-^reklame_$important
-_reklame-$important
-_reklame.$important
-_reklame^$important
-_reklame_$important
--reklamer-$important
--reklamer.$important
--reklamer^$important
--reklamer_$important
-.reklamer-$important
-.reklamer.$important
-.reklamer^$important
-.reklamer_$important
-^reklamer-$important
-^reklamer.$important
-^reklamer^$important
-^reklamer_$important
-_reklamer-$important
-_reklamer.$important
-_reklamer^$important
-_reklamer_$important
 ###leftads:not(:root):not(body):not(input)
 ###masthead-ad:not(:root):not(body):not(input)
 ###player-ads:not(:root):not(body):not(input)
@@ -266,8 +100,10 @@ _reklamer_$important
 ##[id*="_ads/"]
 ##[id*="_ads_"]
 ##a[href*="/refer/"] > img
+##a[href*="BannerId"]
 ##a[href*="bit.ly/"] > img
 ##a[href*="goo.gl/"] > img
+##a[href*="hcrd.ru"] > img
 ##a[href*="vk.cc/"] > img
 ##div[aria-label="Реклама"]
 ##div[class*="-ads-"]
@@ -291,6 +127,10 @@ _reklamer_$important
 -0pixel.$important
 -0pixel^$important
 -0pixel_$important
+-AdPlugin-$important
+-AdPlugin.$important
+-AdPlugin^$important
+-AdPlugin_$important
 -AffiliateUserId-$important
 -AffiliateUserId.$important
 -AffiliateUserId^$important
@@ -447,6 +287,10 @@ _reklamer_$important
 -adframe.$important
 -adframe^$important
 -adframe_$important
+-adframes-$important
+-adframes.$important
+-adframes^$important
+-adframes_$important
 -adfshow-$important
 -adfshow.$important
 -adfshow^$important
@@ -456,8 +300,12 @@ _reklamer_$important
 -adgear^$important
 -adgear_$important
 -adgorithmsltd-$important
+-adgorithmsltd-$important
+-adgorithmsltd.$important
 -adgorithmsltd.$important
 -adgorithmsltd^$important
+-adgorithmsltd^$important
+-adgorithmsltd_$important
 -adgorithmsltd_$important
 -adgroupid-$important
 -adgroupid.$important
@@ -780,8 +628,12 @@ _reklamer_$important
 -adthink^$important
 -adthink_$important
 -adthinkmedia-$important
+-adthinkmedia-$important
+-adthinkmedia.$important
 -adthinkmedia.$important
 -adthinkmedia^$important
+-adthinkmedia^$important
+-adthinkmedia_$important
 -adthinkmedia_$important
 -adtime-$important
 -adtime.$important
@@ -1156,8 +1008,12 @@ _reklamer_$important
 -client_204^$important
 -client_204_$important
 -comscore-$important
+-comscore-$important
+-comscore.$important
 -comscore.$important
 -comscore^$important
+-comscore^$important
+-comscore_$important
 -comscore_$important
 -containertag-$important
 -containertag.$important
@@ -1419,6 +1275,10 @@ _reklamer_$important
 -hitcounter.$important
 -hitcounter^$important
 -hitcounter_$important
+-iframeBanner-$important
+-iframeBanner.$important
+-iframeBanner^$important
+-iframeBanner_$important
 -iframead-$important
 -iframead.$important
 -iframead^$important
@@ -1527,6 +1387,10 @@ _reklamer_$important
 -oxbannerservice.$important
 -oxbannerservice^$important
 -oxbannerservice_$important
+-packcpm-$important
+-packcpm.$important
+-packcpm^$important
+-packcpm_$important
 -pagead2-$important
 -pagead2.$important
 -pagead2^$important
@@ -1631,6 +1495,14 @@ _reklamer_$important
 -reklama.$important
 -reklama^$important
 -reklama_$important
+-reklame-$important
+-reklame.$important
+-reklame^$important
+-reklame_$important
+-reklamer-$important
+-reklamer.$important
+-reklamer^$important
+-reklamer_$important
 -retarget-$important
 -retarget.$important
 -retarget^$important
@@ -1831,6 +1703,10 @@ _reklamer_$important
 -udctrack.$important
 -udctrack^$important
 -udctrack_$important
+-urchin-$important
+-urchin.$important
+-urchin^$important
+-urchin_$important
 -userad-$important
 -userad.$important
 -userad^$important
@@ -1907,6 +1783,10 @@ _reklamer_$important
 .0pixel.$important
 .0pixel^$important
 .0pixel_$important
+.AdPlugin-$important
+.AdPlugin.$important
+.AdPlugin^$important
+.AdPlugin_$important
 .AffiliateUserId-$important
 .AffiliateUserId.$important
 .AffiliateUserId^$important
@@ -2063,6 +1943,10 @@ _reklamer_$important
 .adframe.$important
 .adframe^$important
 .adframe_$important
+.adframes-$important
+.adframes.$important
+.adframes^$important
+.adframes_$important
 .adfshow-$important
 .adfshow.$important
 .adfshow^$important
@@ -2072,8 +1956,12 @@ _reklamer_$important
 .adgear^$important
 .adgear_$important
 .adgorithmsltd-$important
+.adgorithmsltd-$important
+.adgorithmsltd.$important
 .adgorithmsltd.$important
 .adgorithmsltd^$important
+.adgorithmsltd^$important
+.adgorithmsltd_$important
 .adgorithmsltd_$important
 .adgroupid-$important
 .adgroupid.$important
@@ -2397,8 +2285,12 @@ _reklamer_$important
 .adthink^$important
 .adthink_$important
 .adthinkmedia-$important
+.adthinkmedia-$important
+.adthinkmedia.$important
 .adthinkmedia.$important
 .adthinkmedia^$important
+.adthinkmedia^$important
+.adthinkmedia_$important
 .adthinkmedia_$important
 .adtime-$important
 .adtime.$important
@@ -2775,8 +2667,12 @@ _reklamer_$important
 .com/log?$important
 .com/tr^$important
 .comscore-$important
+.comscore-$important
+.comscore.$important
 .comscore.$important
 .comscore^$important
+.comscore^$important
+.comscore_$important
 .comscore_$important
 .containertag-$important
 .containertag.$important
@@ -3038,6 +2934,10 @@ _reklamer_$important
 .hitcounter.$important
 .hitcounter^$important
 .hitcounter_$important
+.iframeBanner-$important
+.iframeBanner.$important
+.iframeBanner^$important
+.iframeBanner_$important
 .iframead-$important
 .iframead.$important
 .iframead^$important
@@ -3146,6 +3046,10 @@ _reklamer_$important
 .oxbannerservice.$important
 .oxbannerservice^$important
 .oxbannerservice_$important
+.packcpm-$important
+.packcpm.$important
+.packcpm^$important
+.packcpm_$important
 .pagead2-$important
 .pagead2.$important
 .pagead2^$important
@@ -3250,6 +3154,14 @@ _reklamer_$important
 .reklama.$important
 .reklama^$important
 .reklama_$important
+.reklame-$important
+.reklame.$important
+.reklame^$important
+.reklame_$important
+.reklamer-$important
+.reklamer.$important
+.reklamer^$important
+.reklamer_$important
 .retarget-$important
 .retarget.$important
 .retarget^$important
@@ -3450,6 +3362,10 @@ _reklamer_$important
 .udctrack.$important
 .udctrack^$important
 .udctrack_$important
+.urchin-$important
+.urchin.$important
+.urchin^$important
+.urchin_$important
 .userad-$important
 .userad.$important
 .userad^$important
@@ -3672,6 +3588,10 @@ _reklamer_$important
 ^0pixel.$important
 ^0pixel^$important
 ^0pixel_$important
+^AdPlugin-$important
+^AdPlugin.$important
+^AdPlugin^$important
+^AdPlugin_$important
 ^AffiliateUserId-$important
 ^AffiliateUserId.$important
 ^AffiliateUserId^$important
@@ -3828,6 +3748,10 @@ _reklamer_$important
 ^adframe.$important
 ^adframe^$important
 ^adframe_$important
+^adframes-$important
+^adframes.$important
+^adframes^$important
+^adframes_$important
 ^adfshow-$important
 ^adfshow.$important
 ^adfshow^$important
@@ -3837,8 +3761,12 @@ _reklamer_$important
 ^adgear^$important
 ^adgear_$important
 ^adgorithmsltd-$important
+^adgorithmsltd-$important
+^adgorithmsltd.$important
 ^adgorithmsltd.$important
 ^adgorithmsltd^$important
+^adgorithmsltd^$important
+^adgorithmsltd_$important
 ^adgorithmsltd_$important
 ^adgroupid-$important
 ^adgroupid.$important
@@ -4162,8 +4090,12 @@ _reklamer_$important
 ^adthink^$important
 ^adthink_$important
 ^adthinkmedia-$important
+^adthinkmedia-$important
+^adthinkmedia.$important
 ^adthinkmedia.$important
 ^adthinkmedia^$important
+^adthinkmedia^$important
+^adthinkmedia_$important
 ^adthinkmedia_$important
 ^adtime-$important
 ^adtime.$important
@@ -4539,8 +4471,12 @@ _reklamer_$important
 ^client_204^$important
 ^client_204_$important
 ^comscore-$important
+^comscore-$important
+^comscore.$important
 ^comscore.$important
 ^comscore^$important
+^comscore^$important
+^comscore_$important
 ^comscore_$important
 ^containertag-$important
 ^containertag.$important
@@ -4802,6 +4738,10 @@ _reklamer_$important
 ^hitcounter.$important
 ^hitcounter^$important
 ^hitcounter_$important
+^iframeBanner-$important
+^iframeBanner.$important
+^iframeBanner^$important
+^iframeBanner_$important
 ^iframead-$important
 ^iframead.$important
 ^iframead^$important
@@ -4912,6 +4852,10 @@ _reklamer_$important
 ^oxbannerservice.$important
 ^oxbannerservice^$important
 ^oxbannerservice_$important
+^packcpm-$important
+^packcpm.$important
+^packcpm^$important
+^packcpm_$important
 ^pagead2-$important
 ^pagead2.$important
 ^pagead2^$important
@@ -5016,6 +4960,14 @@ _reklamer_$important
 ^reklama.$important
 ^reklama^$important
 ^reklama_$important
+^reklame-$important
+^reklame.$important
+^reklame^$important
+^reklame_$important
+^reklamer-$important
+^reklamer.$important
+^reklamer^$important
+^reklamer_$important
 ^retarget-$important
 ^retarget.$important
 ^retarget^$important
@@ -5216,6 +5168,10 @@ _reklamer_$important
 ^udctrack.$important
 ^udctrack^$important
 ^udctrack_$important
+^urchin-$important
+^urchin.$important
+^urchin^$important
+^urchin_$important
 ^userad-$important
 ^userad.$important
 ^userad^$important
@@ -5302,6 +5258,10 @@ _728x90.
 _728x90_
 _728x95.
 _728x95_
+_AdPlugin-$important
+_AdPlugin.$important
+_AdPlugin^$important
+_AdPlugin_$important
 _AffiliateUserId-$important
 _AffiliateUserId.$important
 _AffiliateUserId^$important
@@ -5458,6 +5418,10 @@ _adframe-$important
 _adframe.$important
 _adframe^$important
 _adframe_$important
+_adframes-$important
+_adframes.$important
+_adframes^$important
+_adframes_$important
 _adfshow-$important
 _adfshow.$important
 _adfshow^$important
@@ -5467,8 +5431,12 @@ _adgear.$important
 _adgear^$important
 _adgear_$important
 _adgorithmsltd-$important
+_adgorithmsltd-$important
+_adgorithmsltd.$important
 _adgorithmsltd.$important
 _adgorithmsltd^$important
+_adgorithmsltd^$important
+_adgorithmsltd_$important
 _adgorithmsltd_$important
 _adgroupid-$important
 _adgroupid.$important
@@ -5792,8 +5760,12 @@ _adthink.$important
 _adthink^$important
 _adthink_$important
 _adthinkmedia-$important
+_adthinkmedia-$important
+_adthinkmedia.$important
 _adthinkmedia.$important
 _adthinkmedia^$important
+_adthinkmedia^$important
+_adthinkmedia_$important
 _adthinkmedia_$important
 _adtime-$important
 _adtime.$important
@@ -6168,8 +6140,12 @@ _client_204.$important
 _client_204^$important
 _client_204_$important
 _comscore-$important
+_comscore-$important
+_comscore.$important
 _comscore.$important
 _comscore^$important
+_comscore^$important
+_comscore_$important
 _comscore_$important
 _containertag-$important
 _containertag.$important
@@ -6431,6 +6407,10 @@ _hitcounter-$important
 _hitcounter.$important
 _hitcounter^$important
 _hitcounter_$important
+_iframeBanner-$important
+_iframeBanner.$important
+_iframeBanner^$important
+_iframeBanner_$important
 _iframead-$important
 _iframead.$important
 _iframead^$important
@@ -6539,6 +6519,10 @@ _oxbannerservice-$important
 _oxbannerservice.$important
 _oxbannerservice^$important
 _oxbannerservice_$important
+_packcpm-$important
+_packcpm.$important
+_packcpm^$important
+_packcpm_$important
 _pagead2-$important
 _pagead2.$important
 _pagead2^$important
@@ -6643,6 +6627,14 @@ _reklama-$important
 _reklama.$important
 _reklama^$important
 _reklama_$important
+_reklame-$important
+_reklame.$important
+_reklame^$important
+_reklame_$important
+_reklamer-$important
+_reklamer.$important
+_reklamer^$important
+_reklamer_$important
 _retarget-$important
 _retarget.$important
 _retarget^$important
@@ -6843,6 +6835,10 @@ _udctrack-$important
 _udctrack.$important
 _udctrack^$important
 _udctrack_$important
+_urchin-$important
+_urchin.$important
+_urchin^$important
+_urchin_$important
 _userad-$important
 _userad.$important
 _userad^$important
@@ -6915,8 +6911,8 @@ _yandex-metrica-watch-$important
 _yandex-metrica-watch.$important
 _yandex-metrica-watch^$important
 _yandex-metrica-watch_$important
-afisha.yandex.ru##.i-sticky
 afisha.yandex.ru##.content-index__direct
+afisha.yandex.ru##.i-sticky
 afisha.yandex.ru##HEAD + BODY > :first-child > :first-child > :first-child + DIV
 amalgama-lab.com###close_quality
 amalgama-lab.com/pict/quality.png$image
@@ -6935,6 +6931,7 @@ freebitco.in##.open.reveal-modal
 freebitco.in##.reveal-modal-bg
 ggbet$image
 google.com##g-section-with-header
+kinopoisk.ru##+js(cookie-remover.js)
 kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
 kinopoisk.ru##DIV[class^="adfox-special-banner"]
 kinopoisk.ru##DIV[class^="watch-online-banner"]:last-child
@@ -6960,11 +6957,11 @@ qaru.site##.wraptip
 reddit.com##.onboardingbar.subscribebar.infobar
 translate.google.com,translate.google.ru###gt-promo-lr
 translate.yandex.ru##.button_icon_collections.button_icon.button
-tv.yandex.ru##HTML > HEAD + BODY > DIV > DIV > DIV
-tv.yandex.ru##HTML > HEAD + BODY > .mount > DIV > DIV + .header + .content > .main-controller > .main-controller__grid-wrapper > .recommended-top + .filters + SECTION > DIV > .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + DIV + :last-child
-tv.yandex.ru##HTML > HEAD + BODY > .mount > DIV > DIV + .header + .content > .main-controller > .main-controller__grid-wrapper > .recommended-top + .filters + SECTION > DIV > .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + DIV
-tv.yandex.ru##HTML > HEAD + BODY > .mount > DIV > DIV + .header + .content > .main-controller > .main-controller__grid-wrapper > .recommended-top + .filters + SECTION + SECTION
 tv.yandex.ru##.main-controller > div > div:last-child
+tv.yandex.ru##HTML > HEAD + BODY > .mount > DIV > DIV + .header + .content > .main-controller > .main-controller__grid-wrapper > .recommended-top + .filters + SECTION + SECTION
+tv.yandex.ru##HTML > HEAD + BODY > .mount > DIV > DIV + .header + .content > .main-controller > .main-controller__grid-wrapper > .recommended-top + .filters + SECTION > DIV > .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + DIV
+tv.yandex.ru##HTML > HEAD + BODY > .mount > DIV > DIV + .header + .content > .main-controller > .main-controller__grid-wrapper > .recommended-top + .filters + SECTION > DIV > .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + .grid__item + DIV + :last-child
+tv.yandex.ru##HTML > HEAD + BODY > DIV > DIV > DIV
 twitch.tv##.tw-inline-flex.tw-align-items-center > .tw-tooltip-wrapper.tw-inline-flex > .tw-stat > .tw-stat__icon
 twitch.tv##.tw-inline-flex.tw-c-text-live.channel-info-bar__viewers-wrapper > .tw-tooltip-wrapper.tw-inline-flex > .tw-stat > .tw-stat__icon > .tw-inline-flex.tw-icon.tw-align-items-center
 twitch.tv##.tw-relative.chat-rules
@@ -6972,7 +6969,6 @@ twitch.tv##a[href*=".gg"]
 twitch.tv##a[href*=".online"]
 twitch.tv##a[href*="/shop/"]
 twitch.tv##a[href*="?partner="]
-##a[href*="BannerId"]
 twitch.tv##a[href*="anylvl"]
 twitch.tv##a[href*="arozzi."]
 twitch.tv##a[href*="aser"]
@@ -6993,7 +6989,6 @@ twitch.tv##a[href*="g2a.com"]
 twitch.tv##a[href*="go-tds-site.com"]
 twitch.tv##a[href*="goodgame.pm"]
 twitch.tv##a[href*="gosu.ai"] > img
-##a[href*="hcrd.ru"] > img
 twitch.tv##a[href*="i.try.games"]
 twitch.tv##a[href*="invasion.ru"]
 twitch.tv##a[href*="is.gd"]
@@ -7017,9 +7012,11 @@ vk.com##aside[aria-label="Актуальные новости"]
 wikipedia.org###sitenotice
 yandex.ru##.incut.incut_before-more.incut_position_bottom.i-bem.incut_js_inited.incut_inserted_yes
 yandex.ru##.incut.incut_type_direct.incut_position_page.i-bem.incut_js_inited.incut_inserted_yes
-yandex.ru,yandex.ua,yandex.by##.media-infinity-footer__content
 yandex.ru##div.home-panel-content-view__section
+yandex.ru,yandex.ua,yandex.by##+js(cookie-remover.js, /adb|bltsr/)
+yandex.ru,yandex.ua,yandex.by##+js(set-constant.js, Math.random, trueFunc)
 yandex.ru,yandex.ua,yandex.by##.content__main + :last-child
+yandex.ru,yandex.ua,yandex.by##.media-infinity-footer__content
 yandex.ua,yandex.ru,yandex.by##.font-regular.i-bem.media-grid_theme_white.media-grid_visible_no.media-grid
 youtube.com##.html5-endscreen
 |adserver.*^$important
@@ -7028,8 +7025,11 @@ youtube.com##.html5-endscreen
 |data:text$popup,important
 |http*://*-zone-injection/$important
 |http*://ad.*^$important
+|http*://adcdn.*^$important
+|http*://adcl.*^$important
 |http*://ads.*^$important
 |http*://adservice.*^$important
+|http*://c.*/c.$image,object,subdocument,important
 |http*://clicktrack.*^$important
 |http*://counter.*^$important
 |http*://geo.*^$important
@@ -7040,6 +7040,7 @@ youtube.com##.html5-endscreen
 |http*://pixel.*^$important
 |http*://px.*^$important
 |http*://pxl.*^$important
+|http*://smetrics.*^$important
 |http*://tmads.*^$important
 |http*://track.*^$important
 |http*://yads.*^$important
@@ -7121,6 +7122,7 @@ youtube.com##.html5-endscreen
 ||krxd.net^$important
 ||lijit.com^$important
 ||links.services.disqus.com^$important
+||lp4.io^$important
 ||luxupadva.com^$important
 ||mail.ru/counter^$important
 ||mail.ru/grstat^$important
@@ -7180,8 +7182,6 @@ youtube.com##.html5-endscreen
 ||yadro.ru^$important
 ||yandex.*/*stripe.html|$important
 ||yandex.*/count/$important
-||lp4.io^$important
-yandex.ru,yandex.ua,yandex.by##+js(set-constant.js, Math.random, trueFunc)
 ||yandex.*/search/yandcache.js$important
 ||yandex.ru/*/branding^$important
 ||yastatic.net/*/atom.js$script,important
