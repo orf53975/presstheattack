@@ -33,6 +33,7 @@
 ###adBlockerContainer:not(:root):not(body):not(input)
 ###ads:not(:root):not(body):not(input)
 ###ads_bottom:not(:root):not(body):not(input)
+yandex.ru,yandex.ua,yandex.by##+js(cookie-remover.js, /adb|bltsr/)
 ###ads_left:not(:root):not(body):not(input)
 ###ads_right:not(:root):not(body):not(input)
 ###ads_top:not(:root):not(body):not(input)
