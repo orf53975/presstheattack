@@ -18,6 +18,9 @@
 ||mc.yandex.ru/metrika/*$script,first-party,redirect=silent-noeval.js,badfilter
 @@/images/twitter
 @@/facebook-ico.
+@@/img/tw.
+@@/img/fb.
+@@/img/vk.
 @@/images/rss_
 #@##BmkFB
 #@##BmkStumble
