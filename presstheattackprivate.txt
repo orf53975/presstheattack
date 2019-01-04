@@ -14406,7 +14406,7 @@ www.twitch.tv##.tw-relative.tw-mg-x-2.chat-list__more-messages-placeholder
 www.twitch.tv##.video-chat__sync-button.tw-pd-x-1.tw-bottom-0.tw-absolute
 yandex.ru##.headline__favorites.headline__bar-item
 yandex.ru##.headline__notifier.headline__bar-item
-youtube.com###logo:style(pointer-events: none !important; cursor: default !important)
+||vk.com/images/$third-party,badfilter
 youtube.com##.notification-button-style-type-conversation-default.ytd-masthead.style-scope
 ||1rx.s3.amazonaws.com/advert.js$script,redirect=noopjs,domain=allmusic.com,badfilter
 ||2mdn.net^$media,redirect=noopmp4-1s,domain=games2rule.com,badfilter
