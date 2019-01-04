@@ -54,6 +54,7 @@ _directadvert-$important
 _directadvert.$important
 _directadvert^$important
 _directadvert_$important
+@@||mail.google.com^*&view=ad&$xmlhttprequest
 ||lentainform.com^$important
 ##img[src*="counter.yadro.ru"]
 ###cookiestatement:not(body):not(html)
@@ -3510,7 +3511,7 @@ _directadvert_$important
 /c.gif$important
 /cdn-cgi/apps/head/$script,important
 /cl.gif?pvid=$important
-/cleardot.*^$domain=~drive.google.com
+/cleardot.*^$domain=~drive.google.com|~mail.google.com
 /clickstream.*^$script,important
 /cnt.php$important
 /count.json?$important
