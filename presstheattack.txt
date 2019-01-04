@@ -47,42 +47,6 @@
 ##.AD-DIV:not(:root):not(body):not(input)
 ##.AD:not(:root):not(body):not(input)
 ##.ADBox:not(:root):not(body):not(input)
-##img[width="728"][height="90"]
-news.yandex.ru,news.yandex.ua,news.yandex.by##+js(setTimeout-defuser.js, AdvManager)
-||adbetclickin.pink^$important
--sidebar_ads-$important
--sidebar_ads.$important
--sidebar_ads^$important
--sidebar_ads_$important
-.sidebar_ads-$important
-.sidebar_ads.$important
-.sidebar_ads^$important
-.sidebar_ads_$important
-^sidebar_ads-$important
-^sidebar_ads.$important
-^sidebar_ads^$important
-^sidebar_ads_$important
-_sidebar_ads-$important
-_sidebar_ads.$important
-_sidebar_ads^$important
-_sidebar_ads_$important
-yandex.ru##.serp-list div[id^="yandex_ad_"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
-yandex.ru##.search-direct-snippet-view:style(position: absolute!important; left: -3000px!important;)
-yandex.ru##.scroll__container > div.scroll__content > div > div[style*="!important"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
-yandex.ru##.scroll__container > div.scroll__content > div > div > div[style*="!important"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
-yandex.ru##.route-panel-content-view__body > div[class^="route-panel-content-"] > div[style*="!important"] > *:style(position: absolute!important; left: -3000px!important;)
-yandex.ru##.route-panel-content-view__bla-bla-car-banner-layout:style(height: 0!important; transform: scale(0)!important;)
-yandex.ru##.route-panel-content-view__bla-bla-car-banner-layout+div > div[style*="!important;"]:style(height: 0!important; transform: scale(0)!important;)
-yandex.ru##.main > div.container__banner:style(pointer-events: none!important; cursor: default;)
-yandex.ru##.serp-list div[id^="yandex_ad_"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
-yandex.ru##.search-direct-snippet-view:style(position: absolute!important; left: -3000px!important;)
-yandex.ru##.scroll__container > div.scroll__content > div > div[style*="!important"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
-yandex.ru##.scroll__container > div.scroll__content > div > div > div[style*="!important"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
-yandex.ru##.route-panel-content-view__body > div[class^="route-panel-content-"] > div[style*="!important"] > *:style(position: absolute!important; left: -3000px!important;)
-yandex.ru##.route-panel-content-view__bla-bla-car-banner-layout:style(height: 0!important; transform: scale(0)!important;)
-yandex.ru##.route-panel-content-view__bla-bla-car-banner-layout+div > div[style*="!important;"]:style(height: 0!important; transform: scale(0)!important;)
-yandex.ru##.main > div.container__banner:style(pointer-events: none!important; cursor: default;)
-##iframe[width="300"][height="250"]
 ##.ADS:not(:root):not(body):not(input)
 ##.ADSBox:not(:root):not(body):not(input)
 ##.AdBox:not(:root):not(body):not(input)
@@ -158,7 +122,9 @@ yandex.ru##.main > div.container__banner:style(pointer-events: none!important; c
 ##div[class*="_ads."]
 ##div[class*="_ads/"]
 ##div[class*="_ads_"]
+##iframe[width="300"][height="250"]
 ##img[src*="counter.yadro.ru"]
+##img[width="728"][height="90"]
 -0pixel-$important
 -0pixel.$important
 -0pixel^$important
@@ -1603,6 +1569,10 @@ yandex.ru##.main > div.container__banner:style(pointer-events: none!important; c
 -sidebar_ad.$important
 -sidebar_ad^$important
 -sidebar_ad_$important
+-sidebar_ads-$important
+-sidebar_ads.$important
+-sidebar_ads^$important
+-sidebar_ads_$important
 -simple_ad-$important
 -simple_ad.$important
 -simple_ad^$important
@@ -3262,6 +3232,10 @@ yandex.ru##.main > div.container__banner:style(pointer-events: none!important; c
 .sidebar_ad.$important
 .sidebar_ad^$important
 .sidebar_ad_$important
+.sidebar_ads-$important
+.sidebar_ads.$important
+.sidebar_ads^$important
+.sidebar_ads_$important
 .simple_ad-$important
 .simple_ad.$important
 .simple_ad^$important
@@ -5068,6 +5042,10 @@ yandex.ru##.main > div.container__banner:style(pointer-events: none!important; c
 ^sidebar_ad.$important
 ^sidebar_ad^$important
 ^sidebar_ad_$important
+^sidebar_ads-$important
+^sidebar_ads.$important
+^sidebar_ads^$important
+^sidebar_ads_$important
 ^simple_ad-$important
 ^simple_ad.$important
 ^simple_ad^$important
@@ -6735,6 +6713,10 @@ _sidebar_ad-$important
 _sidebar_ad.$important
 _sidebar_ad^$important
 _sidebar_ad_$important
+_sidebar_ads-$important
+_sidebar_ads.$important
+_sidebar_ads^$important
+_sidebar_ads_$important
 _simple_ad-$important
 _simple_ad.$important
 _simple_ad^$important
@@ -6984,6 +6966,7 @@ music.yandex.ru##.bar-below
 music.yandex.ru##.footer
 music.yandex.ru##.notify_shown.deco-tooltip_notify.notify__message
 music.yandex.ru##.sidebar__under
+news.yandex.ru,news.yandex.ua,news.yandex.by##+js(setTimeout-defuser.js, AdvManager)
 novinky.cz##+js(cookie-remover.js)
 outlook.live.com##div#app > div.ms-fabric > div:last-child > div:first-child > div:first-child > div[data-min-width][data-max-width][style^="width:"]~div:last-child
 pornhub.com###age-verification-container
@@ -7048,6 +7031,22 @@ vk.com##aside[aria-label="Актуальные новости"]
 wikipedia.org###sitenotice
 yandex.ru##.incut.incut_before-more.incut_position_bottom.i-bem.incut_js_inited.incut_inserted_yes
 yandex.ru##.incut.incut_type_direct.incut_position_page.i-bem.incut_js_inited.incut_inserted_yes
+yandex.ru##.main > div.container__banner:style(pointer-events: none!important; cursor: default;)
+yandex.ru##.main > div.container__banner:style(pointer-events: none!important; cursor: default;)
+yandex.ru##.route-panel-content-view__bla-bla-car-banner-layout+div > div[style*="!important;"]:style(height: 0!important; transform: scale(0)!important;)
+yandex.ru##.route-panel-content-view__bla-bla-car-banner-layout+div > div[style*="!important;"]:style(height: 0!important; transform: scale(0)!important;)
+yandex.ru##.route-panel-content-view__bla-bla-car-banner-layout:style(height: 0!important; transform: scale(0)!important;)
+yandex.ru##.route-panel-content-view__bla-bla-car-banner-layout:style(height: 0!important; transform: scale(0)!important;)
+yandex.ru##.route-panel-content-view__body > div[class^="route-panel-content-"] > div[style*="!important"] > *:style(position: absolute!important; left: -3000px!important;)
+yandex.ru##.route-panel-content-view__body > div[class^="route-panel-content-"] > div[style*="!important"] > *:style(position: absolute!important; left: -3000px!important;)
+yandex.ru##.scroll__container > div.scroll__content > div > div > div[style*="!important"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
+yandex.ru##.scroll__container > div.scroll__content > div > div > div[style*="!important"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
+yandex.ru##.scroll__container > div.scroll__content > div > div[style*="!important"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
+yandex.ru##.scroll__container > div.scroll__content > div > div[style*="!important"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
+yandex.ru##.search-direct-snippet-view:style(position: absolute!important; left: -3000px!important;)
+yandex.ru##.search-direct-snippet-view:style(position: absolute!important; left: -3000px!important;)
+yandex.ru##.serp-list div[id^="yandex_ad_"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
+yandex.ru##.serp-list div[id^="yandex_ad_"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
 yandex.ru##div.home-panel-content-view__section
 yandex.ru,yandex.ua,yandex.by##+js(cookie-remover.js, /adb|bltsr/)
 yandex.ru,yandex.ua,yandex.by##+js(set-constant.js, Math.random, trueFunc)
@@ -7085,6 +7084,7 @@ youtube.com##.html5-endscreen
 ||212.122.5.136^$important
 ||aaxads.com^$important
 ||acint.net^$important
+||adbetclickin.pink^$important
 ||adbetnet.com^$important
 ||adglare.net^$important
 ||admixer.net^$important
