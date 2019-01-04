@@ -48,6 +48,24 @@
 ##.AD:not(:root):not(body):not(input)
 ##.ADBox:not(:root):not(body):not(input)
 ##img[width="728"][height="90"]
+news.yandex.ru,news.yandex.ua,news.yandex.by##+js(setTimeout-defuser.js, AdvManager)
+||adbetclickin.pink^$important
+-sidebar_ads-$important
+-sidebar_ads.$important
+-sidebar_ads^$important
+-sidebar_ads_$important
+.sidebar_ads-$important
+.sidebar_ads.$important
+.sidebar_ads^$important
+.sidebar_ads_$important
+^sidebar_ads-$important
+^sidebar_ads.$important
+^sidebar_ads^$important
+^sidebar_ads_$important
+_sidebar_ads-$important
+_sidebar_ads.$important
+_sidebar_ads^$important
+_sidebar_ads_$important
 yandex.ru##.serp-list div[id^="yandex_ad_"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
 yandex.ru##.search-direct-snippet-view:style(position: absolute!important; left: -3000px!important;)
 yandex.ru##.scroll__container > div.scroll__content > div > div[style*="!important"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
