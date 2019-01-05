@@ -1,3 +1,4 @@
+[uBlock Origin 1.17.5rc4]
 ! Author: Bogachenko Vyacheslav
 ! Email: bogachenkove@gmail.com
 ! Expires: 6 hours
@@ -11,10 +12,28 @@
 #@##AKDSocialBottom
 #@##BF_BUZZBOX
 #@##BackToTop
+@@/header/twitter-
+@@/images/*/twitter
+@@/images/*steam.png
+@@/images/social/
+@@/img/banner/*
+@@/linkedin.png
+@@/share2
+@@/share.php
+@@/share_button
+@@/ya-share-cnt.html?url=
+@@_facebook.png
+@@_icon_youtube.
+@@_twitter.png
 #@##BmkDigg
 #@##BmkFB
 #@##BmkStumble
 #@##BmkTweeter
+@@/twitter.svg
+@@||facebook.com/*/plugins/like.php
+@@||facebook.com/*/plugins/page.php
+/social-likes/*$badfilter
+@@/social-likes.
 #@##BottomSocialLinks
 #@##BtmToPageTopArea
 #@##CE_follow_us
