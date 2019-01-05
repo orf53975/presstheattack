@@ -16,7 +16,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: January 4, 2019
+! Last modified: January 5, 2019
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -38,6 +38,8 @@
 ###ads_top:not(:root):not(body):not(input)
 ###adsincont:not(:root):not(body):not(input)
 ###bottomads:not(:root):not(body):not(input)
+/^https?:\/\/[\w.]+google(\-analytics|syndication|tagmanager|adservices|tagservices)\.com/$important
+yandex.ru,yandex.ua,yandex.by##.heap_direction_column.heap.container__line.container__heap.container
 -directadvert-$important
 -directadvert.$important
 -directadvert^$important
@@ -7153,13 +7155,8 @@ youtube.com##.html5-endscreen
 ||go-mpulse.net^$important
 ||go-tds-site.com^$important
 ||goo.gl^$third-party,script
-||google-analytics.com^$important
 ||google.*/ads/$important
 ||google.*/viewerimpressions^$important
-||googleadservices.*^$important
-||googlesyndication.*^$important
-||googletagmanager.*^$important
-||googletagservices.*^$important
 ||grade.market.yandex.*^$important
 ||graph.facebook.com^$important
 ||graph.instagram.com^$important
