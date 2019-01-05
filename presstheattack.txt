@@ -2686,8 +2686,8 @@ _directadvert_$important
 .client_204.$important
 .client_204^$important
 .client_204_$important
-.com/log?$important
-.com/tr^$important
+/\.(net|com|org|ru)\/log\?/$important
+/\.(net|com|org|ru)\/tr\?/$important
 .comscore-$important
 .comscore-$important
 .comscore.$important
@@ -3652,7 +3652,7 @@ _count_
 ^adTagUrl.$important
 ^adTagUrl^$important
 ^adTagUrl_$important
-^ad^
+^ad^$domain=~mail.google.com
 ^ad^$popup,important
 ^ad_
 ^ad_$popup,important
@@ -6453,7 +6453,7 @@ _loadgoogletagbanners^$important
 _loadgoogletagbanners_$important
 _log-
 _log.
-_log^
+_log^$domain=~github.com
 -counter-
 -counter.
 -counter^
