@@ -16,7 +16,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: January 5, 2019
+! Last modified: January 6, 2019
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -56,7 +56,6 @@ _directadvert-$important
 _directadvert.$important
 _directadvert^$important
 _directadvert_$important
-@@||mail.google.com^*&view=ad&$xmlhttprequest
 ||lentainform.com^$important
 ##img[src*="counter.yadro.ru"]
 ###cookiestatement:not(body):not(html)
@@ -1042,10 +1041,6 @@ _directadvert_$important
 -containertag.$important
 -containertag^$important
 -containertag_$important
--counters-$important
--counters.$important
--counters^$important
--counters_$important
 -criteo-$important
 -criteo.$important
 -criteo^$important
@@ -2705,10 +2700,6 @@ _directadvert_$important
 .containertag.$important
 .containertag^$important
 .containertag_$important
-.counters-$important
-.counters.$important
-.counters^$important
-.counters_$important
 .criteo-$important
 .criteo.$important
 .criteo^$important
@@ -3512,13 +3503,25 @@ _directadvert_$important
 /blank.gif$image,domain=~m.vk.com|~vk.com
 /c.gif$important
 /cdn-cgi/apps/head/$script,important
-/cl.gif?pvid=$important
 /cleardot.*^$domain=~drive.google.com|~mail.google.com
 /clickstream.*^$script,important
 /cnt.php$important
-/count.json?$important
-/count^
-/counter.js$script,important
+-count-
+-count.
+-count^
+-count_
+.count-
+.count.
+.count^
+.count_
+^count-
+^count.
+^count^
+^count_
+_count-
+_count.
+_count^
+_count_
 /data/siropu/images/$important
 /dreamcash*.*$image,important
 /dtm/*/satellitelib$important
@@ -3543,9 +3546,8 @@ _directadvert_$important
 /log?type=$important
 /owa.messageadlist.*$important
 /p.*^$important
-/ph-functions.js$script,important
+/ph-functions.js$important
 /ph-tracking.js$important
-/ping.gif^$important
 /pixel.*$important
 /popup/$domain=~wikipedia.org
 /popups.js$important
@@ -3575,11 +3577,9 @@ _directadvert_$important
 3g2upl4pq6kufc4m.onion##.social.header--aside__item
 3g2upl4pq6kufc4m.onion##.tag-home__item
 ://cnt.
-@@/counter^$script,domain=yastatic.net
 @@||*.facebook.com/ajax/pagelet/generic.php/*$subdocument
 @@||api-maps.yandex.*^$script,xmlhttprequest,first-party
 @@||cloud-api.yandex.*^$script,xmlhttprequest,first-party
-@@||google.*/maps/*^log^$script,xmlhttprequest
 @@||img-fotki.yandex.*^$script,xmlhttprequest,first-party
 @@||ttvnw.net^$xmlhttprequest,domain=twitch.tv
 @@||vk.com/ads_rotate.php$xmlhttprequest
@@ -4486,10 +4486,6 @@ _directadvert_$important
 ^containertag.$important
 ^containertag^$important
 ^containertag_$important
-^counters-$important
-^counters.$important
-^counters^$important
-^counters_$important
 ^criteo-$important
 ^criteo.$important
 ^criteo^$important
@@ -6159,10 +6155,6 @@ _containertag-$important
 _containertag.$important
 _containertag^$important
 _containertag_$important
-_counters-$important
-_counters.$important
-_counters^$important
-_counters_$important
 _criteo-$important
 _criteo.$important
 _criteo^$important
@@ -6462,6 +6454,55 @@ _loadgoogletagbanners_$important
 _log-
 _log.
 _log^
+-counter-
+-counter.
+-counter^
+-counter_
+.counter-
+.counter.
+.counter^
+.counter_
+^counter-
+^counter.
+^counter^
+^counter_
+_counter-
+_counter.
+_counter^
+_counter_
+-counters-
+-counters.
+-counters^
+-counters_
+.counters-
+.counters.
+.counters^
+.counters_
+^counters-
+^counters.
+^counters^
+^counters_
+_counters-
+_counters.
+_counters^
+_counters_
+|http*://grstat.*^$important
+-grstat-$important
+-grstat.$important
+-grstat^$important
+-grstat_$important
+.grstat-$important
+.grstat.$important
+.grstat^$important
+.grstat_$important
+^grstat-$important
+^grstat.$important
+^grstat^$important
+^grstat_$important
+_grstat-$important
+_grstat.$important
+_grstat^$important
+_grstat_$important
 _log_
 _log_event-$important
 _log_event.$important
@@ -7118,7 +7159,6 @@ youtube.com##.html5-endscreen
 ||dapxl.com^$important
 ||demdex.net^$important
 ||direct.yandex.ru^$important
-||disqus.com/count.js$script,important
 ||doubleclick.net^$important
 ||duckduckgo.com/t/$important
 ||facebook.com/sem_campaigns/sem_pixel_test^$important
@@ -7148,8 +7188,6 @@ youtube.com##.html5-endscreen
 ||links.services.disqus.com^$important
 ||lp4.io^$important
 ||luxupadva.com^$important
-||mail.ru/counter^$important
-||mail.ru/grstat^$important
 ||mail.yandex.*$first-party,script,important
 ||mail.yandex.*/monitoring_liza.txt$important
 ||main.zdevx.yandex.ru^$important
@@ -7205,7 +7243,6 @@ youtube.com##.html5-endscreen
 ||yabs.yandex.*^$important
 ||yadro.ru^$important
 ||yandex.*/*stripe.html|$important
-||yandex.*/count/$important
 ||yandex.*/search/yandcache.js$important
 ||yandex.ru/*/branding^$important
 ||yastatic.net/*/atom.js$script,important
