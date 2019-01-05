@@ -4050,6 +4050,7 @@ _count_
 ^adshow^$important
 ^adshow_$important
 ^adsponsors-
+/^https?:\/\/\w?\d?(id|adservice)\.google\.(ru|com|net)\D/$important
 ^adsponsors.
 ^adsponsors^
 ^adsponsors_
@@ -4175,7 +4176,7 @@ _count_
 ^adv9_$important
 ^adv-
 ^adv.
-^adv^$domain=~mail.google.com,~yandex.ru,~yandex.ua,~yandex.by
+^adv^
 ^adv_
 ^adv_keywords-$important
 ^adv_keywords.$important
@@ -7171,10 +7172,9 @@ youtube.com##.html5-endscreen
 ||google.*/ads/$important
 ||google.*/viewerimpressions^$important
 ||grade.market.yandex.*^$important
-/^https?:\/\/graph\.(facebook|instagram)\.com/$important
+/^https?:\/\/graph\.(facebook|instagram)\.com\D/$important
 ||hcrd.ru^
 ||hotlog.ru^$important
-||id.google.*^$important
 ||ima3vpaid.appspot.com^$important
 ||imasdk.googleapis.com^$important
 ||imrworldwide.com^$important
