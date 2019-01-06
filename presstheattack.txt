@@ -7098,9 +7098,7 @@ youtube.com##.html5-endscreen
 ||collector.githubapp.com^$important
 ||countess.twitch.tv^$important
 ||csi.gstatic.com^$important
-||d1fc8wv8zag5ca.cloudfront.net^$important
-||d2v02itv0y9u9t.cloudfront.net^$important
-||d2wy8f7a9ursnm.cloudfront.net^$important
+/^https?:\/\/\w?\d?(d1fc8wv8zag5ca|d2v02itv0y9u9t|d2wy8f7a9ursnm)\.cloudfront\.net\D/$important
 ||da-ads.com^$important
 ||dapxl.com^$important
 ||demdex.net^$important
