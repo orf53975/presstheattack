@@ -23,6 +23,7 @@
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 
+/^https?:\/\/\w?\d?(an|awaps|awsync|appmetrica|bs|direct|grade\.market|informer|kiks|main\.zdevx|mc|web\-metrica|yabs|zen|browser\-updater)\.yandex\.(ru|com|net)/$important
 ###ab_banner:not(:root):not(body):not(input)
 ###ab_bottom:not(:root):not(body):not(input)
 ###ab_left:not(:root):not(body):not(input)
@@ -7082,19 +7083,14 @@ youtube.com##.html5-endscreen
 ||amazon-adsystem.com^$important
 ||amazonaws.com/homad-global-configs.schneevonmorgen.com
 ||amazonaws.com/ki.js/$important
-||an.yandex.*^$important
 ||api.twitch.tv/*/channels/*/extensions$xmlhttprequest,domain=twitch.tv,important
-||appmetrica.yandex.*^$important
 ||assets.adobedtm.com^$important
 ||atdmt.com^$important
-||awaps.yandex.*^$important
-||awsync.yandex.*^$important
 ||bat.bing.com^$important
 ||beap-bc.yahoo.com^$important
 ||bing.com/fd/ls/$important
 ||bitrix.info/ba.js$script,important
 ||branch.io^$important
-||bs.yandex.*^$important
 ||casalemedia.com^$important
 ||clicktale.net^$important
 ||client-event-reporter.twitch.tv^$important
@@ -7108,7 +7104,6 @@ youtube.com##.html5-endscreen
 ||da-ads.com^$important
 ||dapxl.com^$important
 ||demdex.net^$important
-||direct.yandex.ru^$important
 ||doubleclick.net^$important
 ||duckduckgo.com/t/$important
 ||facebook.com/sem_campaigns/sem_pixel_test^$important
@@ -7120,16 +7115,13 @@ youtube.com##.html5-endscreen
 ||goo.gl^$third-party,script
 ||google.*/ads/$important
 ||google.*/viewerimpressions^$important
-||grade.market.yandex.*^$important
 ||hcrd.ru^
 ||hotlog.ru^$important
 ||ima3vpaid.appspot.com^$important
 ||imasdk.googleapis.com^$important
 ||imrworldwide.com^$important
-||informer.yandex.*^$important
 ||iwanttodeliver.com^$important
 ||jsc.marketgid.com^$important
-||kiks.yandex.*^$important
 ||kissmetrics.com^$important
 ||krxd.net^$important
 ||lentainform.com^$important
@@ -7139,8 +7131,6 @@ youtube.com##.html5-endscreen
 ||luxupadva.com^$important
 ||mail.yandex.*$first-party,script,important
 ||mail.yandex.*/monitoring_liza.txt$important
-||main.zdevx.yandex.ru^$important
-||mc.yandex.*^$important
 ||mediametrics.ru^$important
 ||metric.gstatic.com^$important
 ||microad.net^$important
@@ -7187,9 +7177,7 @@ youtube.com##.html5-endscreen
 ||visualwebsiteoptimizer.com^$important
 ||vk.go.mail.ru^$important
 ||vortex.data.microsoft.com^$important
-||web-metrica.yandex.ru^$important
 ||whos.amung.us^$important
-||yabs.yandex.*^$important
 ||yadro.ru^$important
 ||yandex.*/*stripe.html|$important
 ||yandex.*/*/yandcache.js|$important
@@ -7198,4 +7186,3 @@ youtube.com##.html5-endscreen
 ||youtube.com/api/stats/$important
 ||youtube.com/get_midroll_info^$important
 ||youtube.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com
-||zen.yandex.*^$important
