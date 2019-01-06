@@ -3480,8 +3480,9 @@
 /\.(net|com|org|ru)\/tr\?/$important
 /^https?://tv\.yandex\.(by|kz|ru|ua)/[^\s]{300,}/$subdocument,xmlhttprequest,important
 /^https?:\/\/[\w.]+google(\-analytics|syndication|tagmanager|adservices|tagservices)\.(com|ru|net)\D/$important
-/^https?:\/\/\w?\d?(id|adservice)\.google\.(com|ru)\D/$important
-/^https?:\/\/\w?\d?(mobilecrashreporting|imasdk)\.googleapis\.com\D/$important
+/^https?:\/\/\w?\d?(id|adservice|mobilecrashreporting|imasdk)\.g(oogle|oogleapis)\.(com|ru)\D/$important
+@@||platform.twitter.com/widgets/widget_iframe.$subdocument
+/^https?:\/\/(www\.)?bunnylust\.com\/[a-z\d]+\.js$/$domain=bunnylust.com
 ||client-event-reporter.twitch.tv^$important
 ||countess.twitch.tv^$important
 ||mp.twitch.tv^$important
