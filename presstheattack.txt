@@ -5,7 +5,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: January 6, 2019
+! Last modified: January 7, 2019
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -933,7 +933,10 @@ kinopoisk.ru##HTML > HEAD + BODY > #popup + DIV + DIV > SCRIPT + .hidden + SCRIP
 -blockadblock.$important
 -blockadblock^$important
 -blockadblock_$important
--branding-
+||yandex.ru/maps/api/branding/*$xmlhttprequest,important
+kinopoisk.ru##HTML > HEAD + BODY > DIV:first-child > #popup + DIV + DIV > SCRIPT + .hidden + SCRIPT + SCRIPT + .wrap_form + DIV:last-child
+kinopoisk.ru###popup + DIV + DIV + DIV > DIV > STYLE + DIV + SCRIPT + :last-child > :first-child > :first-child > #block_left_index + :last-child > DIV > [data-type="teaserspec"]:first-child
+-branding-$domain=~medium.com
 -branding.
 -branding^
 -branding_
