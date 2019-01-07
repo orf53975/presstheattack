@@ -1,15 +1,4 @@
 [uBlock Origin 1.17.5rc4]
-! This file is part of the Press the Attack project,
-! Copyright (c) 2019 Bogachenko Vyacheslav
-!
-! Press the Attack is a free project: you can distribute it and/or modify
-! it in accordance with the MIT license published by the Massachusetts Institute of Technology.
-!
-! The Press the Attack project is distributed in the hope that it will be useful,
-! and is provided "AS IS", WITHOUT ANY WARRANTY, EXPRESSLY EXPRESSED OR IMPLIED.
-! WE ARE NOT RESPONSIBLE FOR ANY DAMAGES DUE TO THE USE OF THIS PROJECT OR ITS PARTS.
-! For more information, see the MIT license.
-!
 ! Author: Bogachenko Vyacheslav
 ! Description: Filter list for ad blocking, tracking, mining, and more.
 ! Email: bogachenkove@gmail.com
@@ -40,6 +29,8 @@
 ###adsincont:not(:root):not(body):not(input)
 ###bottomads:not(:root):not(body):not(input)
 ###cookiestatement:not(body):not(html)
+kinopoisk.ru##HTML > HEAD + BODY > #popup + DIV + DIV > SCRIPT + .hidden + SCRIPT + .wrap_form > DIV > #partial_component__header-topline > DIV > DIV > DIV + DIV[class^="adfox"] + :last-child
+/^https?:\/\/news\.yandex\.(by|kz|ru|ua)\/[^\s]{300,}/$xmlhttprequest,subdocument,important
 ###leftads:not(:root):not(body):not(input)
 ###masthead-ad:not(:root):not(body):not(input)
 ###player-ads:not(:root):not(body):not(input)
@@ -6944,7 +6935,6 @@ google.com##g-section-with-header
 kinopoisk.ru##+js(cookie-remover.js)
 kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
 kinopoisk.ru##[href*="https://www.kinopoisk.ru/"]
-kinopoisk.ru###popup + DIV + DIV + DIV > DIV > STYLE + DIV + SCRIPT + :last-child > :first-child > :first-child > #block_left_index + :last-child > DIV > [data-type="teaserspec"]:first-child
 m.vk.com##.feedAssistance_importContacts.feedAssistance.wall_item
 m.vk.com##.feedBlocks__articles.feedBlocks__container.wall_item
 m.youtube.com##.mealbar-promo-renderer
@@ -7154,7 +7144,7 @@ youtube.com##.html5-endscreen
 ||roistat.com^$important
 ||rs.mail.ru^$important
 ||rubiconproject.com^$important
-||scontent.xx.fbcdn.net/hads-ak-prn2/*.png$domain=facebook.com,important
+||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$domain=facebook.com,important
 ||scorecardresearch.com^$important
 ||scrubswim.com^$important
 ||ssp.rambler.ru^$important
