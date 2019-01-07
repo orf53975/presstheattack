@@ -4465,7 +4465,8 @@ kinopoisk.ru###popup + DIV + DIV + DIV > DIV > STYLE + DIV + SCRIPT + :last-chil
 ^containertag_$important
 ^count-
 ^count.
-^count^
+^count^$domain=~github.com
+yandex.ua,yandex.ru,yandex.by##.rows__row_last.rows__row.row
 ^count_
 ^counter-
 ^counter.
