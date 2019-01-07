@@ -6943,12 +6943,8 @@ ggbet$image
 google.com##g-section-with-header
 kinopoisk.ru##+js(cookie-remover.js)
 kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
-kinopoisk.ru##DIV[class^="adfox-special-banner"]
-kinopoisk.ru##DIV[class^="watch-online-banner"]:last-child
-kinopoisk.ru##HTML > HEAD + BODY > DIV:first-child > DIV:first-child + DIV + DIV > DIV + DIV:last-child > A:last-child
-kinopoisk.ru##[href*="adblock"]:xpath(..)
-kinopoisk.ru##[href^="https://www.kinopoisk.ru/"]
-kinopoisk.ru##[style="height: 210px; left: 0px; position: absolute; top: 110px; width: 850px; display: block; right: 0px; margin: auto;"]
+kinopoisk.ru##[href*="https://www.kinopoisk.ru/"]
+kinopoisk.ru###popup + DIV + DIV + DIV > DIV > STYLE + DIV + SCRIPT + :last-child > :first-child > :first-child > #block_left_index + :last-child > DIV > [data-type="teaserspec"]:first-child
 m.vk.com##.feedAssistance_importContacts.feedAssistance.wall_item
 m.vk.com##.feedBlocks__articles.feedBlocks__container.wall_item
 m.youtube.com##.mealbar-promo-renderer
