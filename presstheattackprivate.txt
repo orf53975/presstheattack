@@ -26,6 +26,11 @@ english-films.com##.superBanner
 english-films.com##.header-logo.logo
 english-films.com##.width > .siteEnter
 english-films.com##div.orangeBlock
+english-films.com##.promo
+english-films.com##.box.redBox.section.seoBlock
+english-films.com##.section.helperBlock
+english-films.com##section.box.orangeBox.section.kidsSection
+english-films.com##section.section.audioSection
 english-films.com##.clr.fullNews > .fluid-embed
 english-films.com##div.redBlock.block
 english-films.com###dle-content > article.fullNews.clr:nth-child(4) > div:nth-child(11)
