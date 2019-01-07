@@ -15,6 +15,34 @@
 @@/header/twitter-
 ok.ru#@##anonymPageContent > div[data-promo]
 kinopoisk.ru#@#[href*="adblock"]:xpath(..)
+english-films.com###widgethelp_icon
+english-films.com##.widgethelp_shadow.fwidgethelp-stack
+||english-films.com/uploads/How-download_*.jpg$image
+english-films.com###tabs_streemango > .wrp_openload > .active.tabs-content > .wrp_baner
+english-films.com###tabs_streemango > .wrp_openload > .active.tabs-content > p
+english-films.com##.comercical
+english-films.com##.slider
+english-films.com##.superBanner
+english-films.com##.header-logo.logo
+english-films.com##.width > .siteEnter
+english-films.com##div.orangeBlock
+english-films.com##.clr.fullNews > .fluid-embed
+english-films.com##div.redBlock.block
+english-films.com###dle-content > article.fullNews.clr:nth-child(4) > div:nth-child(11)
+english-films.com##div.page:nth-child(4) > div.content.clr:nth-child(7) > div.width > aside.sidebar:last-child > div.block.saladBlock:nth-child(4)
+english-films.com##div.page:nth-child(4) > div.content.clr:nth-child(7) > div.width > aside.sidebar:last-child > div.block.saladBlock:nth-child(4)
+english-films.com##.box.redBox.section.helperBlock
+english-films.com##div.blueBlock.block
+english-films.com##.section.linksBlock
+english-films.com##div.page:nth-child(4) > div.content.clr:nth-child(7) > div.width > aside.sidebar:last-child > div.block.saladBlock:nth-child(7)
+english-films.com##.clr.fullNews > [href^="/engine/dude/index/leech_out.php"]
+english-films.com##.relatedNews
+kinopoisk.ru###partial_component__header-topline > div > div > div:last-child
+@@/social/pinterest-
+@@/social/instagram-
+@@/telegram-icon.
+cobrafilm.club##.block-social
+||cobrafilm.club/wp-content/themes/cob/images/ng-bg.png$image
 @@/images/*/twitter
 @@/images/*steam.png
 @@/images/social/
