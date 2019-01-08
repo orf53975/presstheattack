@@ -12,7 +12,6 @@
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 
-/^https?:\/\/\w?\d?(an|awaps|awsync|appmetrica|bs|direct|grade\.market|informer|kiks|main\.zdevx|mc|web\-metrica|yabs|zen|browser\-updater)\.yandex\.(ru|com|net)\D/$important
 ###ab_banner:not(:root):not(body):not(input)
 ###ab_bottom:not(:root):not(body):not(input)
 ###ab_left:not(:root):not(body):not(input)
@@ -29,8 +28,6 @@
 ###adsincont:not(:root):not(body):not(input)
 ###bottomads:not(:root):not(body):not(input)
 ###cookiestatement:not(body):not(html)
-kinopoisk.ru##HTML > HEAD + BODY > #popup + DIV + DIV > SCRIPT + .hidden + SCRIPT + .wrap_form > DIV > #partial_component__header-topline > DIV > DIV > DIV + DIV[class^="adfox"] + :last-child
-/^https?:\/\/news\.yandex\.(by|kz|ru|ua)\/[^\s]{300,}/$xmlhttprequest,subdocument,important
 ###leftads:not(:root):not(body):not(input)
 ###masthead-ad:not(:root):not(body):not(input)
 ###player-ads:not(:root):not(body):not(input)
@@ -115,7 +112,6 @@ kinopoisk.ru##HTML > HEAD + BODY > #popup + DIV + DIV > SCRIPT + .hidden + SCRIP
 ##div[class*="_ads/"]
 ##div[class*="_ads_"]
 ##iframe[width="300"][height="250"]
-##img[src*="counter.yadro.ru"]
 ##img[src*="counter.yadro.ru"]
 ##img[width="728"][height="90"]
 -0pixel-$important
@@ -614,12 +610,8 @@ kinopoisk.ru##HTML > HEAD + BODY > #popup + DIV + DIV > SCRIPT + .hidden + SCRIP
 -adthink^$important
 -adthink_$important
 -adthinkmedia-$important
--adthinkmedia-$important
--adthinkmedia.$important
 -adthinkmedia.$important
 -adthinkmedia^$important
--adthinkmedia^$important
--adthinkmedia_$important
 -adthinkmedia_$important
 -adtime-$important
 -adtime.$important
@@ -933,9 +925,6 @@ kinopoisk.ru##HTML > HEAD + BODY > #popup + DIV + DIV > SCRIPT + .hidden + SCRIP
 -blockadblock.$important
 -blockadblock^$important
 -blockadblock_$important
-||yandex.ru/maps/api/branding/*$xmlhttprequest,important
-kinopoisk.ru##HTML > HEAD + BODY > DIV:first-child > #popup + DIV + DIV > SCRIPT + .hidden + SCRIPT + SCRIPT + .wrap_form + DIV:last-child
-kinopoisk.ru###popup + DIV + DIV + DIV > DIV > STYLE + DIV + SCRIPT + :last-child > :first-child > :first-child > #block_left_index + :last-child > DIV > [data-type="teaserspec"]:first-child
 -branding-$domain=~medium.com
 -branding.
 -branding^
@@ -1216,10 +1205,6 @@ kinopoisk.ru###popup + DIV + DIV + DIV > DIV > STYLE + DIV + SCRIPT + :last-chil
 -globalclicktracker.$important
 -globalclicktracker^$important
 -globalclicktracker_$important
--google-analytics-
--google-analytics.
--google-analytics^
--google-analytics_
 -google_pixel-$important
 -google_pixel.$important
 -google_pixel^$important
@@ -1252,9 +1237,6 @@ kinopoisk.ru###popup + DIV + DIV + DIV > DIV > STYLE + DIV + SCRIPT + :last-chil
 -googlesyndication.$important
 -googlesyndication^$important
 -googlesyndication_$important
-/\.(net|com|org|ru)\/tr\/\?/$important
-@@||connect.ok.ru^
-||directadvert.ru^$important
 -googletagmanager-$important
 -googletagmanager.$important
 -googletagmanager^$important
@@ -1960,12 +1942,8 @@ kinopoisk.ru###popup + DIV + DIV + DIV > DIV > STYLE + DIV + SCRIPT + :last-chil
 .adgear^$important
 .adgear_$important
 .adgorithmsltd-$important
-.adgorithmsltd-$important
-.adgorithmsltd.$important
 .adgorithmsltd.$important
 .adgorithmsltd^$important
-.adgorithmsltd^$important
-.adgorithmsltd_$important
 .adgorithmsltd_$important
 .adgroupid-$important
 .adgroupid.$important
@@ -2288,12 +2266,8 @@ kinopoisk.ru###popup + DIV + DIV + DIV > DIV > STYLE + DIV + SCRIPT + :last-chil
 .adthink^$important
 .adthink_$important
 .adthinkmedia-$important
-.adthinkmedia-$important
-.adthinkmedia.$important
 .adthinkmedia.$important
 .adthinkmedia^$important
-.adthinkmedia^$important
-.adthinkmedia_$important
 .adthinkmedia_$important
 .adtime-$important
 .adtime.$important
@@ -2887,10 +2861,6 @@ kinopoisk.ru###popup + DIV + DIV + DIV > DIV > STYLE + DIV + SCRIPT + :last-chil
 .globalclicktracker.$important
 .globalclicktracker^$important
 .globalclicktracker_$important
-.google-analytics-
-.google-analytics.
-.google-analytics^
-.google-analytics_
 .google_pixel-$important
 .google_pixel.$important
 .google_pixel^$important
@@ -3471,20 +3441,17 @@ kinopoisk.ru###popup + DIV + DIV + DIV > DIV > STYLE + DIV + SCRIPT + :last-chil
 /728x90.
 /728x90_
 /\.(net|com|org|ru)\/log\?/$important
+/\.(net|com|org|ru)\/tr\/\?/$important
 /\.(net|com|org|ru)\/tr\?/$important
 /^https?://tv\.yandex\.(by|kz|ru|ua)/[^\s]{300,}/$subdocument,xmlhttprequest,important
-/^https?:\/\/[\w.]+google(\-analytics|syndication|tagmanager|adservices|tagservices)\.(com|ru|net)\D/$important
-/^https?:\/\/\w?\d?(id|adservice|mobilecrashreporting|imasdk)\.g(oogle|oogleapis)\.(com|ru)\D/$important
-@@||platform.twitter.com/widgets/widget_iframe.$subdocument
 /^https?:\/\/(www\.)?bunnylust\.com\/[a-z\d]+\.js$/$domain=bunnylust.com
-||client-event-reporter.twitch.tv^$important
-||countess.twitch.tv^$important
-||mp.twitch.tv^$important
-||polyfill.twitchsvc.net^$important
-||spade.twitch.tv^$important
-||trowel.twitch.tv^$important
+/^https?:\/\/[\w.]+google(\-analytics|syndication|tagmanager|adservices|tagservices)\.(com|ru|net)\D/$important
+/^https?:\/\/\w?\d?(an|awaps|awsync|appmetrica|bs|direct|grade\.market|informer|kiks|main\.zdevx|mc|web\-metrica|yabs|zen|browser\-updater)\.yandex\.(ru|com|net)\D/$important
+/^https?:\/\/\w?\d?(d1fc8wv8zag5ca|d2v02itv0y9u9t|d2wy8f7a9ursnm)\.cloudfront\.net\D/$important
+/^https?:\/\/\w?\d?(id|adservice|mobilecrashreporting|imasdk)\.g(oogle|oogleapis)\.(com|ru)\D/$important
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$xmlhttprequest,important
 /^https?:\/\/graph\.(facebook|instagram)\.com\D/$important
+/^https?:\/\/news\.yandex\.(by|kz|ru|ua)\/[^\s]{300,}/$xmlhttprequest,subdocument,important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /_/batch|$first-party,xmlhttprequest,important
 /_bm/bd^$important
@@ -3503,6 +3470,7 @@ kinopoisk.ru###popup + DIV + DIV + DIV > DIV > STYLE + DIV + SCRIPT + :last-chil
 /axyzsdk.*$script,important
 /b/ss/*/js-*$important
 /banads/*$important
+/banners*.swf$important
 /better-stop-adblock/$important
 /bitrix/spread.php^$important
 /blank.gif$image,domain=~m.vk.com|~vk.com
@@ -3570,7 +3538,9 @@ kinopoisk.ru###popup + DIV + DIV + DIV > DIV > STYLE + DIV + SCRIPT + :last-chil
 @@||*.facebook.com/ajax/pagelet/generic.php/*$subdocument
 @@||api-maps.yandex.*^$script,xmlhttprequest,first-party
 @@||cloud-api.yandex.*^$script,xmlhttprequest,first-party
+@@||connect.ok.ru^
 @@||img-fotki.yandex.*^$script,xmlhttprequest,first-party
+@@||platform.twitter.com/widgets/widget_iframe.$subdocument
 @@||ttvnw.net^$xmlhttprequest,domain=twitch.tv
 @@||vk.com/ads_rotate.php$xmlhttprequest
 @@||vk.com/al_feed.php$subdocument
@@ -3751,12 +3721,8 @@ kinopoisk.ru###popup + DIV + DIV + DIV > DIV > STYLE + DIV + SCRIPT + :last-chil
 ^adgear^$important
 ^adgear_$important
 ^adgorithmsltd-$important
-^adgorithmsltd-$important
-^adgorithmsltd.$important
 ^adgorithmsltd.$important
 ^adgorithmsltd^$important
-^adgorithmsltd^$important
-^adgorithmsltd_$important
 ^adgorithmsltd_$important
 ^adgroupid-$important
 ^adgroupid.$important
@@ -4466,11 +4432,6 @@ kinopoisk.ru###popup + DIV + DIV + DIV > DIV > STYLE + DIV + SCRIPT + :last-chil
 ^count-
 ^count.
 ^count^$domain=~github.com
-yandex.ru,yandex.ua,yandex.by##.serp-footer__main
-|http*://1x*.*/*/?tag=*^$important
-twitch.tv##a[href*="/eSports/?tag="]
-/banners*.swf$important
-yandex.ua,yandex.ru,yandex.by##.rows__row_last.rows__row.row
 ^count_
 ^counter-
 ^counter.
@@ -4680,10 +4641,6 @@ yandex.ua,yandex.ru,yandex.by##.rows__row_last.rows__row.row
 ^globalclicktracker.$important
 ^globalclicktracker^$important
 ^globalclicktracker_$important
-^google-analytics-
-^google-analytics.
-^google-analytics^
-^google-analytics_
 ^google_pixel-$important
 ^google_pixel.$important
 ^google_pixel^$important
@@ -6352,10 +6309,6 @@ _globalclicktracker-$important
 _globalclicktracker.$important
 _globalclicktracker^$important
 _globalclicktracker_$important
-_google-analytics-
-_google-analytics.
-_google-analytics^
-_google-analytics_
 _google_pixel-$important
 _google_pixel.$important
 _google_pixel^$important
@@ -6940,8 +6893,11 @@ freebitco.in##.open.reveal-modal
 freebitco.in##.reveal-modal-bg
 ggbet$image
 google.com##g-section-with-header
+kinopoisk.ru###popup + DIV + DIV + DIV > DIV > STYLE + DIV + SCRIPT + :last-child > :first-child > :first-child > #block_left_index + :last-child > DIV > [data-type="teaserspec"]:first-child
 kinopoisk.ru##+js(cookie-remover.js)
 kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
+kinopoisk.ru##HTML > HEAD + BODY > #popup + DIV + DIV > SCRIPT + .hidden + SCRIPT + .wrap_form > DIV > #partial_component__header-topline > DIV > DIV > DIV + DIV[class^="adfox"] + :last-child
+kinopoisk.ru##HTML > HEAD + BODY > DIV:first-child > #popup + DIV + DIV > SCRIPT + .hidden + SCRIPT + SCRIPT + .wrap_form + DIV:last-child
 kinopoisk.ru##[href*="https://www.kinopoisk.ru/"]
 m.vk.com##.feedAssistance_importContacts.feedAssistance.wall_item
 m.vk.com##.feedBlocks__articles.feedBlocks__container.wall_item
@@ -6972,6 +6928,7 @@ twitch.tv##.tw-inline-flex.tw-c-text-live.channel-info-bar__viewers-wrapper > .t
 twitch.tv##.tw-relative.chat-rules
 twitch.tv##a[href*=".gg"]
 twitch.tv##a[href*=".online"]
+twitch.tv##a[href*="/eSports/?tag="]
 twitch.tv##a[href*="/shop/"]
 twitch.tv##a[href*="?partner="]
 twitch.tv##a[href*="anylvl"]
@@ -7018,20 +6975,12 @@ wikipedia.org###sitenotice
 yandex.ru##.incut.incut_before-more.incut_position_bottom.i-bem.incut_js_inited.incut_inserted_yes
 yandex.ru##.incut.incut_type_direct.incut_position_page.i-bem.incut_js_inited.incut_inserted_yes
 yandex.ru##.main > div.container__banner:style(pointer-events: none!important; cursor: default;)
-yandex.ru##.main > div.container__banner:style(pointer-events: none!important; cursor: default;)
-yandex.ru##.route-panel-content-view__bla-bla-car-banner-layout+div > div[style*="!important;"]:style(height: 0!important; transform: scale(0)!important;)
 yandex.ru##.route-panel-content-view__bla-bla-car-banner-layout+div > div[style*="!important;"]:style(height: 0!important; transform: scale(0)!important;)
 yandex.ru##.route-panel-content-view__bla-bla-car-banner-layout:style(height: 0!important; transform: scale(0)!important;)
-yandex.ru##.route-panel-content-view__bla-bla-car-banner-layout:style(height: 0!important; transform: scale(0)!important;)
-yandex.ru##.route-panel-content-view__body > div[class^="route-panel-content-"] > div[style*="!important"] > *:style(position: absolute!important; left: -3000px!important;)
 yandex.ru##.route-panel-content-view__body > div[class^="route-panel-content-"] > div[style*="!important"] > *:style(position: absolute!important; left: -3000px!important;)
 yandex.ru##.scroll__container > div.scroll__content > div > div > div[style*="!important"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
-yandex.ru##.scroll__container > div.scroll__content > div > div > div[style*="!important"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
-yandex.ru##.scroll__container > div.scroll__content > div > div[style*="!important"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
 yandex.ru##.scroll__container > div.scroll__content > div > div[style*="!important"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
 yandex.ru##.search-direct-snippet-view:style(position: absolute!important; left: -3000px!important;)
-yandex.ru##.search-direct-snippet-view:style(position: absolute!important; left: -3000px!important;)
-yandex.ru##.serp-list div[id^="yandex_ad_"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
 yandex.ru##.serp-list div[id^="yandex_ad_"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
 yandex.ru##div.home-panel-content-view__section
 yandex.ru,yandex.ua,yandex.by##+js(cookie-remover.js, /adb|bltsr/)
@@ -7039,12 +6988,15 @@ yandex.ru,yandex.ua,yandex.by##+js(set-constant.js, Math.random, trueFunc)
 yandex.ru,yandex.ua,yandex.by##.content__main + :last-child
 yandex.ru,yandex.ua,yandex.by##.heap_direction_column.heap.container__line.container__heap.container
 yandex.ru,yandex.ua,yandex.by##.media-infinity-footer__content
+yandex.ru,yandex.ua,yandex.by##.serp-footer__main
 yandex.ua,yandex.ru,yandex.by##.font-regular.i-bem.media-grid_theme_white.media-grid_visible_no.media-grid
+yandex.ua,yandex.ru,yandex.by##.rows__row_last.rows__row.row
 youtube.com##.html5-endscreen
 |adserver.*^$important
 |adservice.*^$important
 |csp.*^$important
 |data:text$popup,important
+|http*://1x*.*/*/?tag=*^$important
 |http*://*-zone-injection/$important
 |http*://ad.*^$important
 |http*://adcdn.*^$important
@@ -7095,13 +7047,15 @@ youtube.com##.html5-endscreen
 ||branch.io^$important
 ||casalemedia.com^$important
 ||clicktale.net^$important
+||client-event-reporter.twitch.tv^$important
 ||clksite.com^$important
 ||collector.githubapp.com^$important
+||countess.twitch.tv^$important
 ||csi.gstatic.com^$important
-/^https?:\/\/\w?\d?(d1fc8wv8zag5ca|d2v02itv0y9u9t|d2wy8f7a9ursnm)\.cloudfront\.net\D/$important
 ||da-ads.com^$important
 ||dapxl.com^$important
 ||demdex.net^$important
+||directadvert.ru^$important
 ||doubleclick.net^$important
 ||duckduckgo.com/t/$important
 ||facebook.com/sem_campaigns/sem_pixel_test^$important
@@ -7133,6 +7087,7 @@ youtube.com##.html5-endscreen
 ||microad.net^$important
 ||microsoft.com/library/svy/$important
 ||mms.cnn.com^$important
+||mp.twitch.tv^$important
 ||msecnd.net/scripts/jsll$important
 ||newrelic.com^$important
 ||omtrdc.net^$important
@@ -7140,6 +7095,7 @@ youtube.com##.html5-endscreen
 ||owebmoney.ru^$important
 ||pipe.aria.microsoft.com/collector/$important
 ||placehold.it^$important
+||polyfill.twitchsvc.net^$important
 ||popads.net^$important
 ||push-ad.com^$important
 ||r3.mail.ru^$important
@@ -7155,6 +7111,7 @@ youtube.com##.html5-endscreen
 ||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$domain=facebook.com,important
 ||scorecardresearch.com^$important
 ||scrubswim.com^$important
+||spade.twitch.tv^$important
 ||ssp.rambler.ru^$important
 ||static.hotjar.com^$important
 ||stats.wp.com^$important
@@ -7164,6 +7121,7 @@ youtube.com##.html5-endscreen
 ||top-fwz1.mail.ru^$important
 ||top.list.ru^$important
 ||trafficfactory.biz^$important
+||trowel.twitch.tv^$important
 ||twitter.com/i/jot$important
 ||udc.yahoo.com^$important
 ||visualwebsiteoptimizer.com^$important
@@ -7171,8 +7129,9 @@ youtube.com##.html5-endscreen
 ||vortex.data.microsoft.com^$important
 ||whos.amung.us^$important
 ||yadro.ru^$important
-||yandex.*/*stripe.html|$important
 ||yandex.*/*/yandcache.js|$important
+||yandex.*/*stripe.html|$important
+||yandex.ru/maps/api/branding/*$xmlhttprequest,important
 ||yastatic.net/*/atom.js|$important
 ||yastatic.net^$popup,important
 ||youtube.com/api/stats/$important
