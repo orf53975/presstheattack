@@ -5,7 +5,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: January 7, 2019
+! Last modified: January 9, 2019
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -4466,6 +4466,10 @@ kinopoisk.ru###popup + DIV + DIV + DIV > DIV > STYLE + DIV + SCRIPT + :last-chil
 ^count-
 ^count.
 ^count^$domain=~github.com
+yandex.ru,yandex.ua,yandex.by##.serp-footer__main
+|http*://1x*.*/*/?tag=*^$important
+twitch.tv##a[href*="/eSports/?tag="]
+/banners*.swf$important
 yandex.ua,yandex.ru,yandex.by##.rows__row_last.rows__row.row
 ^count_
 ^counter-
