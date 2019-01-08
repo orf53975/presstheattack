@@ -3,7 +3,7 @@
 ! Email: bogachenkove@gmail.com
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
-! Last modified: January 7, 2019
+! Last modified: January 8, 2019
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/private/LICENSE.md>
 ! Title: Press the Attack - Private
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/private/presstheattack.txt
@@ -22,6 +22,11 @@ english-films.com###tabs_streemango > .wrp_openload > .active.tabs-content > .wr
 english-films.com###tabs_streemango > .wrp_openload > .active.tabs-content > p
 english-films.com##.comercical
 english-films.com##.slider
+english-films.com##.promo
+english-films.com##.box.redBox.section.seoBlock
+english-films.com##.section.helperBlock
+english-films.com##section.box.orangeBox.section.kidsSection
+english-films.com##section.section.audioSection
 english-films.com##.superBanner
 english-films.com##.header-logo.logo
 english-films.com##.width > .siteEnter
