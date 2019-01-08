@@ -12,71 +12,10 @@
 #@##AKDSocialBottom
 #@##BF_BUZZBOX
 #@##BackToTop
-@@/header/twitter-
-ok.ru#@##anonymPageContent > div[data-promo]
-kinopoisk.ru#@#[href*="adblock"]:xpath(..)
-english-films.com###widgethelp_icon
-english-films.com##.widgethelp_shadow.fwidgethelp-stack
-||english-films.com/uploads/How-download_*.jpg$image
-english-films.com##.wrp_baner
-english-films.com##.active.tabs-content > p
-ok.ru#@#:not([title^="Войти через"]) > .social-icon
-english-films.com###tabs_streemango > .wrp_openload > .active.tabs-content > .wrp_baner
-english-films.com###tabs_streemango > .wrp_openload > .active.tabs-content > p
-english-films.com##.comercical
-english-films.com##.slider
-english-films.com##.promo
-english-films.com##.box.redBox.section.seoBlock
-english-films.com##.section.helperBlock
-english-films.com##section.box.orangeBox.section.kidsSection
-english-films.com##section.section.audioSection
-english-films.com##.superBanner
-english-films.com##.header-logo.logo
-english-films.com##.width > .siteEnter
-english-films.com##div.orangeBlock
-english-films.com##.promo
-english-films.com##.box.redBox.section.seoBlock
-english-films.com##.section.helperBlock
-english-films.com##section.box.orangeBox.section.kidsSection
-english-films.com##section.section.audioSection
-english-films.com##.clr.fullNews > .fluid-embed
-english-films.com##div.redBlock.block
-english-films.com###dle-content > article.fullNews.clr:nth-child(4) > div:nth-child(11)
-english-films.com##div.page:nth-child(4) > div.content.clr:nth-child(7) > div.width > aside.sidebar:last-child > div.block.saladBlock:nth-child(4)
-english-films.com##div.page:nth-child(4) > div.content.clr:nth-child(7) > div.width > aside.sidebar:last-child > div.block.saladBlock:nth-child(4)
-english-films.com##.box.redBox.section.helperBlock
-english-films.com##div.blueBlock.block
-english-films.com##.section.linksBlock
-english-films.com##div.page:nth-child(4) > div.content.clr:nth-child(7) > div.width > aside.sidebar:last-child > div.block.saladBlock:nth-child(7)
-english-films.com##.clr.fullNews > [href^="/engine/dude/index/leech_out.php"]
-english-films.com##.relatedNews
-kinopoisk.ru###partial_component__header-topline > div > div > div:last-child
-@@/social/pinterest-
-@@/social/instagram-
-@@/telegram-icon.
-cobrafilm.club##.block-social
-||cobrafilm.club/wp-content/themes/cob/images/ng-bg.png$image
-@@/images/*/twitter
-@@/images/*steam.png
-@@/images/social/
-@@/img/banner/*
-@@/linkedin.png
-@@/share2
-@@/share.php
-@@/share_button
-@@/ya-share-cnt.html?url=
-@@_facebook.png
-@@_icon_youtube.
-@@_twitter.png
 #@##BmkDigg
 #@##BmkFB
 #@##BmkStumble
 #@##BmkTweeter
-@@/twitter.svg
-@@||facebook.com/*/plugins/like.php
-@@||facebook.com/*/plugins/page.php
-/social-likes/*$badfilter
-@@/social-likes.
 #@##BottomSocialLinks
 #@##BtmToPageTopArea
 #@##CE_follow_us
@@ -210,8 +149,8 @@ cobrafilm.club##.block-social
 #@##\5f __plus_0
 #@##\5f __plusone_0
 #@##___ndtvpushdiv
-#@##aFBShare
 #@##aFBShare2
+#@##aFBShare
 #@##aFbLikeBottom
 #@##aShareFacebook
 #@##aa-subscribe-widget
@@ -933,8 +872,8 @@ cobrafilm.club##.block-social
 #@##fb_twitter_bar
 #@##fb_video_link
 #@##fb_widget
-#@##fbbox
 #@##fbbox1
+#@##fbbox
 #@##fbbox-relocated
 #@##fbfanbox
 #@##fbinvite
@@ -943,8 +882,8 @@ cobrafilm.club##.block-social
 #@##fblikebg
 #@##fblikebot123
 #@##fblikebot
-#@##fblikebutton
 #@##fblikebutton2018
+#@##fblikebutton
 #@##fblikeheader
 #@##fblikepop
 #@##fblikepop_ads
@@ -1224,8 +1163,8 @@ cobrafilm.club##.block-social
 #@##google_plus_div
 #@##google_plus_right
 #@##google_share
-#@##googleplus2_2
 #@##googleplus
+#@##googleplus2_2
 #@##googleplus_link
 #@##googleplus_social_sidebar
 #@##googleplus_widget
@@ -2710,8 +2649,8 @@ cobrafilm.club##.block-social
 #@##social-sharing-buttons
 #@##social-sharing-buttons-footer
 #@##social-sharing-widget-mobi-sticky
-#@##social-side
 #@##social-side2
+#@##social-side
 #@##social-sidebar
 #@##social-single-margin
 #@##social-sites-wrapper
@@ -2736,8 +2675,8 @@ cobrafilm.club##.block-social
 #@##social-totals
 #@##social-trio-sm
 #@##social-tumblr
-#@##social-twitter32x32
 #@##social-twitter
+#@##social-twitter32x32
 #@##social-twt
 #@##social-vert
 #@##social-vertical
@@ -2843,10 +2782,10 @@ cobrafilm.club##.block-social
 #@##socialPromote_twitter
 #@##socialPush
 #@##socialRight
+#@##socialShare1
+#@##socialShare
 #@##socialShare2
 #@##socialShare3
-#@##socialShare
-#@##socialShare1
 #@##socialShareMenuBtn
 #@##socialShareModule
 #@##socialSharePrivacyCtrl
@@ -2873,8 +2812,8 @@ cobrafilm.club##.block-social
 #@##socialWidgetsWrap
 #@##socialWire
 #@##socialWrap
-#@##socialWrapper2
 #@##socialWrapper
+#@##socialWrapper2
 #@##socialYouTube
 #@##social_badges
 #@##social_bar
@@ -3047,8 +2986,8 @@ cobrafilm.club##.block-social
 #@##socialmobile
 #@##socialmobilicon
 #@##socialnav
-#@##socialnet
 #@##socialnet2
+#@##socialnet
 #@##socialnets
 #@##socialnetworkblock
 #@##socialpopup2
@@ -5814,8 +5753,8 @@ cobrafilm.club##.block-social
 #@#.fb-icon
 #@#.fb-icon-new
 #@#.fb-info
-#@#.fb-like
 #@#.fb-like2
+#@#.fb-like
 #@#.fb-like-after-lead
 #@#.fb-like-article-wrapper
 #@#.fb-like-box
@@ -5904,8 +5843,8 @@ cobrafilm.club##.block-social
 #@#.fb_iframe_widget_w
 #@#.fb_image
 #@#.fb_lallan_area
-#@#.fb_like2
 #@#.fb_like
+#@#.fb_like2
 #@#.fb_like_and_share
 #@#.fb_like_area
 #@#.fb_like_box
@@ -6057,8 +5996,8 @@ cobrafilm.club##.block-social
 #@#.flare-follow
 #@#.flare-horizontal
 #@#.flatSocial
-#@#.flaticon-facebook
 #@#.flaticon-facebook2
+#@#.flaticon-facebook
 #@#.flaticon-facebook3
 #@#.flaticon-linkedin1
 #@#.flexi-social-connect
@@ -7208,8 +7147,8 @@ cobrafilm.club##.block-social
 #@#.ico_social_main
 #@#.ico_tumblr
 #@#.ico_twitter
-#@#.icomoon-facebook
 #@#.icomoon-facebook2
+#@#.icomoon-facebook
 #@#.icomoon-google-plus
 #@#.icomoon-instagram
 #@#.icomoon-mail
@@ -7294,8 +7233,8 @@ cobrafilm.club##.block-social
 #@#.icon-github
 #@#.icon-google
 #@#.icon-google-32
-#@#.icon-google-plus
 #@#.icon-google-plus2
+#@#.icon-google-plus
 #@#.icon-google-plus-2
 #@#.icon-google-plus-circle
 #@#.icon-google-plus-icon
@@ -7303,9 +7242,9 @@ cobrafilm.club##.block-social
 #@#.icon-google-plus-sign
 #@#.icon-googlePlus
 #@#.icon-google_plus
+#@#.icon-googleplus8
 #@#.icon-googleplus16
 #@#.icon-googleplus
-#@#.icon-googleplus8
 #@#.icon-googleplus-white
 #@#.icon-gp
 #@#.icon-gplus
@@ -7389,8 +7328,8 @@ cobrafilm.club##.block-social
 #@#.icon-sd-linkedin
 #@#.icon-sd-pinterest
 #@#.icon-sd-twitter
-#@#.icon-share
 #@#.icon-share2
+#@#.icon-share
 #@#.icon-share-alt
 #@#.icon-share-facebook
 #@#.icon-share-instagram
@@ -7441,9 +7380,9 @@ cobrafilm.club##.block-social
 #@#.icon-tw-white
 #@#.icon-tweet
 #@#.icon-twitch
+#@#.icon-twitter
 #@#.icon-twitter2
 #@#.icon-twitter16
-#@#.icon-twitter
 #@#.icon-twitter3
 #@#.icon-twitter-2
 #@#.icon-twitter-24
@@ -10079,8 +10018,8 @@ cobrafilm.club##.block-social
 #@#.shareBar_gigya
 #@#.shareBlock
 #@#.shareBottom
-#@#.shareBox
 #@#.shareBox2
+#@#.shareBox
 #@#.shareBoxMeasure
 #@#.shareBoxes
 #@#.shareBtn
@@ -11208,8 +11147,8 @@ cobrafilm.club##.block-social
 #@#.social-icn
 #@#.social-ico
 #@#.social-ico_
-#@#.social-icon2
 #@#.social-icon
+#@#.social-icon2
 #@#.social-icon-ar
 #@#.social-icon-background
 #@#.social-icon-bar
@@ -11608,10 +11547,10 @@ cobrafilm.club##.block-social
 #@#.social-utilities
 #@#.social-utility
 #@#.social-utils-top
+#@#.social-v
 #@#.social-v3-googleplus
 #@#.social-v3-linkedin
 #@#.social-v3-twitter
-#@#.social-v
 #@#.social-vertical
 #@#.social-vk
 #@#.social-warfare-container
@@ -11708,8 +11647,8 @@ cobrafilm.club##.block-social
 #@#.socialLikes
 #@#.socialLink
 #@#.socialLinkBar
-#@#.socialLinks
 #@#.socialLinks2
+#@#.socialLinks
 #@#.socialLinks-alt
 #@#.socialLinksContainer
 #@#.socialLinksNew
@@ -11840,8 +11779,8 @@ cobrafilm.club##.block-social
 #@#.social__you
 #@#.social__youtube
 #@#.social_accounts
-#@#.social_actions01_cont
 #@#.social_actions
+#@#.social_actions01_cont
 #@#.social_area
 #@#.social_b
 #@#.social_badges_above
@@ -12261,8 +12200,8 @@ cobrafilm.club##.block-social
 #@#.sprite-social-rss
 #@#.sprite-social-twitter
 #@#.sprite-social-youtube
-#@#.sprite-twitter25x25
 #@#.sprite-twitter
+#@#.sprite-twitter25x25
 #@#.sprite-twitter_16
 #@#.sprite-youtube
 #@#.spriteRss
@@ -13264,8 +13203,8 @@ cobrafilm.club##.block-social
 #@#.viralShare
 #@#.vjs-facebook
 #@#.vjs-icon-share
-#@#.vjs-share
 #@#.vjs-share2
+#@#.vjs-share
 #@#.vjs-share-block
 #@#.vjs-share-button
 #@#.vjs-share-control
@@ -13570,8 +13509,8 @@ cobrafilm.club##.block-social
 #@#.wp-flybox_tab
 #@#.wp-graphics-social-tools
 #@#.wp-nwletter-popup
-#@#.wp-post-share2
 #@#.wp-post-share
+#@#.wp-post-share2
 #@#.wp-share
 #@#.wp-social-icons
 #@#.wp-to-top
@@ -14416,31 +14355,80 @@ cobrafilm.club##.block-social
 /*.mp4$media,redirect=noopmp4-1s,domain=hulu.com,badfilter
 /global_config.json$xmlhttprequest,redirect=nooptext,domain=tele5.de,badfilter
 /mb105.js,domain=hotslogs.com|poe.trade|wowhead.com,badfilter
+/social-likes/*$badfilter
 /social/facebook.$image,badfilter
 /social/twitter.$image,badfilter
 @@/facebook-ico.
 @@/facebook.svg
+@@/header/twitter-
 @@/icons/social-
 @@/image/social_
+@@/images/*/twitter
+@@/images/*steam.png
 @@/images/rss_
+@@/images/social/
 @@/images/twitter
 @@/img/*instagram.jpg
+@@/img/banner/*
 @@/img/fb.
 @@/img/rss.
 @@/img/tw.
 @@/img/twitter.
 @@/img/vk.
 @@/likebox.
+@@/linkedin.png
+@@/share2
+@@/share.php
+@@/share_button
+@@/social-likes.
+@@/social/instagram-
+@@/social/pinterest-
+@@/telegram-icon.
+@@/twitter.svg
+@@/ya-share-cnt.html?url=
 @@/youtube.svg
+@@_facebook.png
+@@_icon_youtube.
+@@_twitter.png
+@@||facebook.com/*/plugins/like.php
+@@||facebook.com/*/plugins/page.php
 @@||facebook.com/plugins/comments.php?
 @@||mail.ru/share_count?
 @@||s7.addthis.com^*/addthis_widget.js*pubid=$badfilter
 clips.twitch.tv##.clips-watch.tw-lg-pd-b-5.tw-pd-b-2.tw-sm-pd-b-3:style(max-width: none)
+english-films.com###dle-content > article.fullNews.clr:nth-child(4) > div:nth-child(11)
+english-films.com###widgethelp_icon
+english-films.com##.active.tabs-content > p
+english-films.com##.box.redBox.section.seoBlock
+english-films.com##.clr.fullNews > .fluid-embed
+english-films.com##.clr.fullNews > [href^="/engine/dude/index/leech_out.php"]
+english-films.com##.comercical
+english-films.com##.header-logo.logo
+english-films.com##.promo
+english-films.com##.relatedNews
+english-films.com##.section.helperBlock
+english-films.com##.section.linksBlock
+english-films.com##.slider
+english-films.com##.superBanner
+english-films.com##.widgethelp_shadow.fwidgethelp-stack
+english-films.com##.width > .siteEnter
+english-films.com##.wrp_baner
+english-films.com##div.blueBlock.block
+english-films.com##div.orangeBlock
+english-films.com##div.page:nth-child(4) > div.content.clr:nth-child(7) > div.width > aside.sidebar:last-child > div.block.saladBlock:nth-child(4)
+english-films.com##div.page:nth-child(4) > div.content.clr:nth-child(7) > div.width > aside.sidebar:last-child > div.block.saladBlock:nth-child(7)
+english-films.com##div.redBlock.block
+english-films.com##section.box.orangeBox.section.kidsSection
+english-films.com##section.section.audioSection
 github.com##.RecentBranches
 github.com##.mb-1.mt-0.text-gray.text-small
+kinopoisk.ru###partial_component__header-topline > div > div > div:last-child
+kinopoisk.ru#@#[href*="adblock"]:xpath(..)
 music.yandex.ru,music.yandex.ua,music.yandex.by##.bumble-bee__bubble_left_three.bumble-bee__bubble_left.bumble-bee__bubble
 music.yandex.ru,music.yandex.ua,music.yandex.by##.bumble-bee__car
 music.yandex.ru,music.yandex.ua,music.yandex.by##.bumble-bee__robot_left.bumble-bee__robot
+ok.ru#@##anonymPageContent > div[data-promo]
+ok.ru#@#:not([title^="Войти через"]) > .social-icon
 translate.yandex.ru,translate.yandex.ua,translate.yandex.by###collectionsBanner
 twitch.tv##.chat-input.tw-block:style(padding-left: 3px !important; padding-right: 3px !important; padding-bottom: 2px !important)
 twitch.tv##.chat-line__message:style(padding: 2px 4px !important)
@@ -14528,6 +14516,7 @@ youtube.com##.notification-button-style-type-conversation-default.ytd-masthead.s
 ||cinestrenostv.tv/*ad$image,redirect=1x1-transparent.gif,badfilter
 ||clksite.com^$subdocument,redirect=noopframe,domain=al.ly|ally.sh,badfilter
 ||cloudvideoplatform.com/advert.jpg$image,domain=10tv.nana10.co.il,redirect=2x2-transparent.png,badfilter
+||cobrafilm.club/wp-content/themes/cob/images/ng-bg.png$image
 ||computerbild.de/assets/homad/*$xmlhttprequest,redirect=nooptext,domain=computerbild.de,badfilter
 ||d3pkae9owd2lcf.cloudfront.net/*.gz.js$important,script,redirect=d3pkae9owd2lcf.cloudfront.net,badfilter
 ||d7zatysqm84hv.cloudfront.net/mp3-ad/$media,redirect=noopmp3-0.1s,domain=open.spotify.com,badfilter
@@ -14551,6 +14540,7 @@ youtube.com##.notification-button-style-type-conversation-default.ytd-masthead.s
 ||doubleclick.net^$subdocument,redirect=noopframe,domain=hackintosh.computer|hackintoshzone.com,badfilter
 ||download.mokeedev.com/js/jquery-common.js.*$first-party,script,redirect=fuckadblock.js-3.2.0,badfilter
 ||duellinksmeta.com/*/adsbygoogle.js$script,first-party,redirect=noopjs,badfilter
+||english-films.com/uploads/How-download_*.jpg$image
 ||esgentside.com/js/prebid/$script,redirect=noopjs,first-party,badfilter
 ||eurotransport.de/*/antiAdBlock.js$script,first-party,redirect=antiAdBlock.js,badfilter
 ||exosrv.com^$script,redirect=noopjs,domain=gelbooru.com,badfilter
