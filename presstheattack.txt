@@ -5,7 +5,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: January 9, 2019
+! Last modified: January 10, 2019
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -177,7 +177,7 @@
 -adTagUrl^$important
 -adTagUrl_$important
 -ad^
--ad_
+-ad_$domain=~yahoo.com
 -ad_banner-$important
 -ad_banner.$important
 -ad_banner^$important
@@ -390,7 +390,7 @@
 -ads9.$important
 -ads9^$important
 -ads9_$important
--ads-
+-ads-$domain=~yahoo.com
 -ads-banner-$important
 -ads-banner.$important
 -ads-banner^$important
@@ -423,7 +423,7 @@
 -ads-widget.$important
 -ads-widget^$important
 -ads-widget_$important
--ads.
+-ads.$domain=~yahoo.com
 -ads^$domain=~yahoo.com
 -ads_$domain=~yahoo.com
 -ads_dfp-$important
@@ -1669,7 +1669,7 @@
 -tracker.
 -tracker^
 -tracker_
--tracking-
+-tracking-$domain=~yahoo.com
 -tracking.
 -tracking^$domain=~yahoo.com
 -tracking_
@@ -3440,6 +3440,11 @@
 /728x90-
 /728x90.
 /728x90_
+twitch.tv##a[href*="clck.ru"] > img
+twitch.tv##a[href*="click.ru"] > img
+||bats.video.yahoo.com^$important
+||beap.gemini.yahoo.com^$important
+||yimg.com/rq/darla/$domain=yahoo.com,important
 /\.(net|com|org|ru)\/log\?/$important
 /\.(net|com|org|ru)\/tr\/\?/$important
 /\.(net|com|org|ru)\/tr\?/$important
@@ -3447,7 +3452,7 @@
 /^https?:\/\/(www\.)?bunnylust\.com\/[a-z\d]+\.js$/$domain=bunnylust.com
 /^https?:\/\/[\w.]+google(\-analytics|syndication|tagmanager|adservices|tagservices)\.(com|ru|net)\D/$important
 /^https?:\/\/\w?\d?(an|awaps|awsync|appmetrica|bs|direct|grade\.market|informer|kiks|main\.zdevx|mc|web\-metrica|yabs|zen|browser\-updater)\.yandex\.(ru|com|net|ua|by|kz|com\.tr|uz|com)\D/$important
-/^https?:\/\/\w?\d?(d1fc8wv8zag5ca|d2v02itv0y9u9t|d2wy8f7a9ursnm)\.cloudfront\.net\D/$important
+/^https?:\/\/\w?\d?(d1fc8wv8zag5ca|d2v02itv0y9u9t|d2wy8f7a9ursnm|d24n15hnbwhuhn)\.cloudfront\.net\D/$important
 /^https?:\/\/\w?\d?(id|adservice|mobilecrashreporting|imasdk)\.g(oogle|oogleapis)\.(com|ru)\D/$important
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$xmlhttprequest,important
 /^https?:\/\/graph\.(facebook|instagram)\.com\D/$important
@@ -4436,7 +4441,7 @@ $cookie=/unique_id/,domain=twitch.tv,important
 ^containertag_$important
 ^count-
 ^count.
-^count^$domain=~github.com|~travis-ci.org
+^count^$domain=~github.com|~travis-ci.org|~yahoo.com
 ^count_
 ^counter-
 ^counter.
@@ -4838,7 +4843,7 @@ $cookie=/unique_id/,domain=twitch.tv,important
 ^pageviews_$important
 ^partner-$domain=~yastatic.net
 ^partner.
-^partner^
+^partner^$domain=~yahoo.com
 ^partner_$domain=~yastatic.net,~yandex.ru
 ^phpads-$important
 ^phpads.$important
@@ -5284,7 +5289,7 @@ _adTagUrl-$important
 _adTagUrl.$important
 _adTagUrl^$important
 _adTagUrl_$important
-_ad^
+_ad^$domain=~yahoo.com
 _ad_
 _ad_banner-$important
 _ad_banner.$important
@@ -5498,7 +5503,7 @@ _ads9-$important
 _ads9.$important
 _ads9^$important
 _ads9_$important
-_ads-
+_ads-$domain=~yahoo.com
 _ads-banner-$important
 _ads-banner.$important
 _ads-banner^$important
@@ -6104,7 +6109,7 @@ _containertag^$important
 _containertag_$important
 _count-
 _count.
-_count^$domain=~travis-ci.org
+_count^$domain=~travis-ci.org|~yahoo.com
 _count_
 _counter-
 _counter.
