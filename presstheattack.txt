@@ -1,4 +1,4 @@
-[uBlock Origin 1.17.5rc4]
+[uBlock Origin 1.17.7b2]
 ! Author: Bogachenko Vyacheslav
 ! Description: Filter list for ad blocking, tracking, mining, and more.
 ! Email: bogachenkove@gmail.com
@@ -4436,7 +4436,7 @@ $cookie=/unique_id/,domain=twitch.tv,important
 ^containertag_$important
 ^count-
 ^count.
-^count^$domain=~github.com
+^count^$domain=~github.com|travis-ci.org
 ^count_
 ^counter-
 ^counter.
