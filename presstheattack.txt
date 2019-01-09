@@ -3446,7 +3446,7 @@
 /^https?://tv\.yandex\.(by|kz|ru|ua)/[^\s]{300,}/$subdocument,xmlhttprequest,important
 /^https?:\/\/(www\.)?bunnylust\.com\/[a-z\d]+\.js$/$domain=bunnylust.com
 /^https?:\/\/[\w.]+google(\-analytics|syndication|tagmanager|adservices|tagservices)\.(com|ru|net)\D/$important
-/^https?:\/\/\w?\d?(an|awaps|awsync|appmetrica|bs|direct|grade\.market|informer|kiks|main\.zdevx|mc|web\-metrica|yabs|zen|browser\-updater)\.yandex\.(ru|com|net)\D/$important
+/^https?:\/\/\w?\d?(an|awaps|awsync|appmetrica|bs|direct|grade\.market|informer|kiks|main\.zdevx|mc|web\-metrica|yabs|zen|browser\-updater)\.yandex\.(ru|com|net|ua|by|kz|com\.tr|uz|com)\D/$important
 /^https?:\/\/\w?\d?(d1fc8wv8zag5ca|d2v02itv0y9u9t|d2wy8f7a9ursnm)\.cloudfront\.net\D/$important
 /^https?:\/\/\w?\d?(id|adservice|mobilecrashreporting|imasdk)\.g(oogle|oogleapis)\.(com|ru)\D/$important
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$xmlhttprequest,important
@@ -3454,6 +3454,11 @@
 /^https?:\/\/news\.yandex\.(by|kz|ru|ua)\/[^\s]{300,}/$xmlhttprequest,subdocument,important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /_/batch|$first-party,xmlhttprequest,important
+twitch.tv##.tw-mg-t-2 > .tw-mg-b-2
+||redditstatic.com/moat^$important
+$cookie=/blcrm|bltsr|yabs|adb|cmtchd|crookie|kpunk|is_adblock|abp/,domain=yandex.ru|yandex.ua|yandex.by|kinopoisk.ru|avito.ru|yandex.net|yandex.com|yandex.kz|yandex.com.tr|yandex.uz,important
+$cookie=/act|s|t|p|testcookie/,domain=ok.ru|mail.ru,important
+$cookie=/unique_id/,domain=twitch.tv,important
 /_bm/bd^$important
 /a.gif$important
 /adblock.js$script,important
@@ -4722,7 +4727,7 @@
 ^kill-adblock.$important
 ^kill-adblock^$important
 ^kill-adblock_$important
-^landing-
+^landing-$domain=~travis-ci.org
 ^landing.$domain=~live.com
 ^landing^
 ^landing_$domain=~vk.com
@@ -6099,7 +6104,7 @@ _containertag^$important
 _containertag_$important
 _count-
 _count.
-_count^
+_count^$domain=~travis-ci.org
 _count_
 _counter-
 _counter.
