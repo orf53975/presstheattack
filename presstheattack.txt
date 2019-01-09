@@ -18,6 +18,7 @@
 ###ab_right:not(:root):not(body):not(input)
 ###ab_top:not(:root):not(body):not(input)
 ###ad-footer:not(:root):not(body):not(input)
+||yahoo.com/pageview^$important
 ###ad-tower:not(:root):not(body):not(input)
 ###adBlockerContainer:not(:root):not(body):not(input)
 ###ads:not(:root):not(body):not(input)
@@ -176,7 +177,7 @@
 -adTagUrl.$important
 -adTagUrl^$important
 -adTagUrl_$important
--ad^
+-ad^$domain=~yahoo.com
 -ad_$domain=~yahoo.com
 -ad_banner-$important
 -ad_banner.$important
@@ -3834,7 +3835,7 @@ $cookie=/unique_id/,domain=twitch.tv,important
 ^ads9.$important
 ^ads9^$important
 ^ads9_$important
-^ads-
+^ads-$domain=~yahoo.com
 ^ads-banner-$important
 ^ads-banner.$important
 ^ads-banner^$important
@@ -3868,7 +3869,7 @@ $cookie=/unique_id/,domain=twitch.tv,important
 ^ads-widget^$important
 ^ads-widget_$important
 ^ads.
-^ads^
+^ads^$domain=~yahoo.com
 ^ads_
 ^ads_dfp-$important
 ^ads_dfp.$important
@@ -5119,7 +5120,7 @@ $cookie=/unique_id/,domain=twitch.tv,important
 ^tracker_
 ^tracking-
 ^tracking.
-^tracking^
+^tracking^$domain=~yahoo.com
 ^tracking_$domain=~wikia.com|~fandom.com
 ^trackingaffilies-$important
 ^trackingaffilies.$important
@@ -5283,7 +5284,7 @@ _ad24-$important
 _ad24.$important
 _ad24^$important
 _ad24_$important
-_ad-
+_ad-$domain=~yahoo.com
 _ad.
 _adTagUrl-$important
 _adTagUrl.$important
