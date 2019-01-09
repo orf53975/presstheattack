@@ -3462,9 +3462,9 @@ twitch.tv##a[href*="click.ru"] > img
 /_/batch|$first-party,xmlhttprequest,important
 twitch.tv##.tw-mg-t-2 > .tw-mg-b-2
 ||redditstatic.com/moat^$important
-$cookie=/blcrm|bltsr|yabs|adb|cmtchd|crookie|kpunk|is_adblock|abp/,domain=yandex.ru|yandex.ua|yandex.by|kinopoisk.ru|avito.ru|yandex.net|yandex.com|yandex.kz|yandex.com.tr|yandex.uz,important
-$cookie=/act|s|t|p|testcookie/,domain=ok.ru|mail.ru,important
-$cookie=/unique_id/,domain=twitch.tv,important
+$cookie=/blcrm|bltsr|yabs|adb|cmtchd|crookie|kpunk|is_adblock|abp/,domain=yandex.ru|yandex.ua|yandex.by|kinopoisk.ru|avito.ru|yandex.net|yandex.com|yandex.kz|yandex.com.tr|yandex.uz
+$cookie=/act|s|t|p|testcookie/,domain=ok.ru|mail.ru
+$cookie=/unique_id/,domain=twitch.tv
 /_bm/bd^$important
 /a.gif$important
 /adblock.js$script,important
@@ -3622,7 +3622,7 @@ $cookie=/unique_id/,domain=twitch.tv,important
 ^adTagUrl^$important
 ^adTagUrl_$important
 ^ad^$domain=~mail.google.com|~yahoo.com
-^ad_
+^ad_$domain=~yahoo.com
 ^ad_banner-$important
 ^ad_banner.$important
 ^ad_banner^$important
