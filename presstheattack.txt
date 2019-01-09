@@ -3615,13 +3615,13 @@ $cookie=/unique_id/,domain=twitch.tv,important
 ^ad24.$important
 ^ad24^$important
 ^ad24_$important
-^ad-
+^ad-$domain=~yahoo.com
 ^ad.
 ^adTagUrl-$important
 ^adTagUrl.$important
 ^adTagUrl^$important
 ^adTagUrl_$important
-^ad^$domain=~mail.google.com
+^ad^$domain=~mail.google.com|~yahoo.com
 ^ad_
 ^ad_banner-$important
 ^ad_banner.$important
@@ -3870,7 +3870,7 @@ $cookie=/unique_id/,domain=twitch.tv,important
 ^ads-widget_$important
 ^ads.
 ^ads^$domain=~yahoo.com
-^ads_
+^ads_$domain=~yahoo.com
 ^ads_dfp-$important
 ^ads_dfp.$important
 ^ads_dfp^$important
@@ -5118,7 +5118,7 @@ $cookie=/unique_id/,domain=twitch.tv,important
 ^tracker.
 ^tracker^$domain=~wikia.com|~fandom.com
 ^tracker_
-^tracking-
+^tracking-$domain=~yahoo.com
 ^tracking.
 ^tracking^$domain=~yahoo.com
 ^tracking_$domain=~wikia.com|~fandom.com
