@@ -425,7 +425,7 @@
 -ads-widget^$important
 -ads-widget_$important
 -ads.$domain=~yahoo.com
--ads^$domain=~yahoo.com
+-ads^$domain=~yahoo.com|~yandex.ru|~yandex.ua|~yandex.by
 -ads_$domain=~yahoo.com
 -ads_dfp-$important
 -ads_dfp.$important
@@ -4133,7 +4133,7 @@ $cookie=/unique_id/,domain=twitch.tv
 ^adv9_$important
 ^adv-
 ^adv.
-^adv^
+^adv^$domain=~mail.google.com
 ^adv_
 ^adv_keywords-$important
 ^adv_keywords.$important
