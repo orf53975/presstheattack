@@ -3451,15 +3451,32 @@ twitch.tv##a[href*="click.ru"] > img
 /\.(net|com|org|ru)\/tr\?/$important
 /^https?://tv\.yandex\.(by|kz|ru|ua)/[^\s]{300,}/$subdocument,xmlhttprequest,important
 /^https?:\/\/(www\.)?bunnylust\.com\/[a-z\d]+\.js$/$domain=bunnylust.com
-/^https?:\/\/[\w.]+google(\-analytics|syndication|tagmanager|adservices|tagservices)\.(com|ru|net)\D/$important
-/^https?:\/\/\w?\d?(an|awaps|awsync|appmetrica|bs|direct|grade\.market|informer|kiks|main\.zdevx|mc|web\-metrica|yabs|zen|browser\-updater)\.yandex\.(ru|com|net|ua|by|kz|com\.tr|uz|com)\D/$important
-/^https?:\/\/\w?\d?(d1fc8wv8zag5ca|d2v02itv0y9u9t|d2wy8f7a9ursnm|d24n15hnbwhuhn)\.cloudfront\.net\D/$important
-/^https?:\/\/\w?\d?(id|adservice|mobilecrashreporting|imasdk)\.g(oogle|oogleapis)\.(com|ru)\D/$important
+/google(\-analytics|syndication|tagmanager|adservices|tagservices)\.(com|ru|net)\D/$important
+/(an|awaps|awsync|appmetrica|bs|direct|grade\.market|informer|kiks|main\.zdevx|mc|web\-metrica|yabs|zen|browser\-updater)\.yandex\.(ru|com|net|ua|by|kz|com\.tr|uz|com)/$important
+/(d1fc8wv8zag5ca|d2v02itv0y9u9t|d2wy8f7a9ursnm|d24n15hnbwhuhn)\.cloudfront\.net\D/$important
+/(id|adservice|mobilecrashreporting|imasdk|metric)\.g(oogle|oogleapis|static)\.(com|ru)/$important
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$xmlhttprequest,important
-/^https?:\/\/graph\.(facebook|instagram)\.com\D/$important
+/graph\.(facebook|instagram)\.com/$important
 /^https?:\/\/news\.yandex\.(by|kz|ru|ua)\/[^\s]{300,}/$xmlhttprequest,subdocument,important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /_/batch|$first-party,xmlhttprequest,important
+-cspreport-$important
+-cspreport.$important
+-cspreport^$important
+-cspreport_$important
+.cspreport-$important
+.cspreport.$important
+.cspreport^$important
+.cspreport_$important
+^cspreport-$important
+^cspreport.$important
+^cspreport^$important
+^cspreport_$important
+_cspreport-$important
+_cspreport.$important
+_cspreport^$important
+_cspreport_$important
+yandex.ru,yandex.ua,yandex.by,kinopoisk.ru##+js(cookie-remover.js, /blcrm|bltsr|yabs|adb|cmtchd|crookie|kpunk|is_adblock|abp|yp|ys/)
 twitch.tv##.tw-mg-t-2 > .tw-mg-b-2
 ||redditstatic.com/moat^$important
 $cookie=/blcrm|bltsr|yabs|adb|cmtchd|crookie|kpunk|is_adblock|abp|yp|ys/,domain=yandex.ru|yandex.ua|yandex.by|kinopoisk.ru|avito.ru
