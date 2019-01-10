@@ -391,7 +391,7 @@
 -ads9.$important
 -ads9^$important
 -ads9_$important
--ads-$domain=~yahoo.com|~yandex.ru|~yandex.ua|~yandex.by
+-ads-$domain=~yahoo.com
 -ads-banner-$important
 -ads-banner.$important
 -ads-banner^$important
@@ -425,7 +425,7 @@
 -ads-widget^$important
 -ads-widget_$important
 -ads.$domain=~yahoo.com
--ads^$domain=~yahoo.com|~yandex.ru|~yandex.ua|~yandex.by
+-ads^$domain=~yahoo.com
 -ads_$domain=~yahoo.com
 -ads_dfp-$important
 -ads_dfp.$important
@@ -4458,15 +4458,15 @@ $cookie=/unique_id/,domain=twitch.tv
 ^containertag_$important
 ^count-
 ^count.
-^count^$domain=~github.com|~travis-ci.org|~yahoo.com
+^count^$domain=~github.com|~travis-ci.org|~yahoo.com|~google.com
 ^count_
 ^counter-
 ^counter.
-^counter^
+^counter^$domain=~yandex.ua|~yandex.ru|~yandex.by
 ^counter_
 ^counters-
 ^counters.
-^counters^
+^counters^$domain=~mail.yandex.ua|~mail.yandex.ru|~mail.yandex.by
 ^counters_
 ^criteo-$important
 ^criteo.$important
