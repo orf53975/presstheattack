@@ -391,7 +391,7 @@
 -ads9.$important
 -ads9^$important
 -ads9_$important
--ads-$domain=~yahoo.com
+-ads-$domain=~yahoo.com|~yandex.ru|~yandex.ua|~yandex.by
 -ads-banner-$important
 -ads-banner.$important
 -ads-banner^$important
@@ -3462,6 +3462,7 @@ twitch.tv##a[href*="click.ru"] > img
 /_/batch|$first-party,xmlhttprequest,important
 twitch.tv##.tw-mg-t-2 > .tw-mg-b-2
 ||redditstatic.com/moat^$important
+$cookie=/blcrm|bltsr|yabs|adb|cmtchd|crookie|kpunk|is_adblock|abp|yp|ys/,domain=yandex.ru|yandex.ua|yandex.by|kinopoisk.ru|avito.ru
 $cookie=/act|s|t|p|testcookie/,domain=ok.ru|mail.ru
 $cookie=/unique_id/,domain=twitch.tv
 /_bm/bd^$important
