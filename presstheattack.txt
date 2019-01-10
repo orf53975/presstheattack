@@ -3534,7 +3534,6 @@ $cookie=/unique_id/,domain=twitch.tv
 /ph-functions.js$important
 /ph-tracking.js$important
 /pixel.*$important
-/popup/$domain=~wikipedia.org
 /popups.js$important
 /prum.*$important
 /pubfig.min.js$important
@@ -7102,6 +7101,7 @@ youtube.com##.html5-endscreen
 ||jsc.marketgid.com^$important
 ||kissmetrics.com^$important
 ||krxd.net^$important
+|http*://csp.*^$important
 ||lentainform.com^$important
 ||lijit.com^$important
 ||links.services.disqus.com^$important
@@ -7110,7 +7110,6 @@ youtube.com##.html5-endscreen
 ||mail.yandex.*$first-party,script,important
 ||mail.yandex.*/monitoring_liza.txt$important
 ||mediametrics.ru^$important
-||metric.gstatic.com^$important
 ||microad.net^$important
 ||microsoft.com/library/svy/$important
 ||mms.cnn.com^$important
