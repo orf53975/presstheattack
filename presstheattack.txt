@@ -6993,7 +6993,6 @@ yandex.ru##.scroll__container > div.scroll__content > div > div[style*="!importa
 yandex.ru##.search-direct-snippet-view:style(position: absolute!important; left: -3000px!important;)
 yandex.ru##.serp-list div[id^="yandex_ad_"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
 yandex.ru##div.home-panel-content-view__section
-yandex.ru,yandex.ua,yandex.by##+js(cookie-remover.js, /adb|bltsr/)
 yandex.ru,yandex.ua,yandex.by##+js(set-constant.js, Math.random, trueFunc)
 yandex.ru,yandex.ua,yandex.by##.content__main + :last-child
 yandex.ru,yandex.ua,yandex.by##.heap_direction_column.heap.container__line.container__heap.container
