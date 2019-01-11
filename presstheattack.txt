@@ -1016,7 +1016,9 @@ _track_
 -count_
 -counter-
 -counter.
--counter^
+-counter^$domain=~yandex.ru|~yandex.ua|~yandex.by
+@@||api-maps.yandex.*^$script
+||static-mon.yandex.net/static/main.js?pid=yandex_mail$xmlhttprequest,badfilter
 -counter_
 -counters-
 -counters.
@@ -6207,7 +6209,7 @@ _containertag^$important
 _containertag_$important
 _count-
 _count.
-_count^$domain=~travis-ci.org|~yahoo.com
+_count^$domain=~travis-ci.org|~yahoo.com|~yandex.ru|~yandex.ua|~yandex.by
 _count_
 _counter-
 _counter.
