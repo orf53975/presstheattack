@@ -3,7 +3,7 @@
 ! Email: bogachenkove@gmail.com
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
-! Last modified: January 11, 2019
+! Last modified: January 12, 2019
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/private/LICENSE.md>
 ! Title: Press the Attack - Private
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/private/presstheattack.txt
@@ -17,6 +17,8 @@
 #@##BmkStumble
 #@##BmkTweeter
 #@##BottomSocialLinks
+||lemonde.fr/p/event/pageview$image,redirect=1x1-transparent.gif,badfilter
+||rte.ie/ads/*$media,redirect=noopmp4-1s,domain=rte.ie,badfilter
 #@##BtmToPageTopArea
 #@##CE_follow_us
 #@##CTV_tweetStreams
