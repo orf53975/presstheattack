@@ -8,7 +8,7 @@
 ! Title: Press the Attack - Private
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/private/presstheattack.txt
 
-#.share_cont
+#@#.share_cont
 #@##AKDSocialBottom
 #@##BF_BUZZBOX
 #@##BackToTop
