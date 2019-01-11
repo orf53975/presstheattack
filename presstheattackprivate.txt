@@ -14353,7 +14353,7 @@
 */rellect/AdblockDetector/handler.min.js$script,important,redirect=noopjs,badfilter
 */wp-adblock-$script,redirect=fuckadblock.js-3.2.0,badfilter
 /*.mp4$media,redirect=noopmp4-1s,domain=hulu.com,badfilter
-/counters^$domain=~yandex.ru|~yandex.ua|~yandex.by
+/counters^$domain=~yandex.ru|~yandex.ua|~yandex.by,important
 /global_config.json$xmlhttprequest,redirect=nooptext,domain=tele5.de,badfilter
 /mb105.js,domain=hotslogs.com|poe.trade|wowhead.com,badfilter
 /social-likes/*$badfilter
