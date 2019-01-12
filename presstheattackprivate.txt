@@ -15,6 +15,13 @@
 #@##BmkDigg
 #@##BmkFB
 #@##BmkStumble
+||google.com/translate_a/element.js?cb=googletranslateelementinit|$badfilter
+@@/img/social_
+@@/img/facebook-
+||vk.com/widget_community.php$third-party,badfilter
+||vk.com/widget_like.php$third-party,badfilter
+||platform.twitter.com/js/button.$third-party,badfilter
+@@/tweet_button.
 #@##BmkTweeter
 #@##BottomSocialLinks
 ||lemonde.fr/p/event/pageview$image,redirect=1x1-transparent.gif,badfilter
