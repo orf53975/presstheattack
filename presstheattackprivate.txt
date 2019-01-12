@@ -31,6 +31,9 @@
 #@##CTV_tweetStreams
 #@##Celeb_Tweets
 #@##DiscordButton
+@@||vkontakte.ru/js/api^
+@@||vk.com/share.php^
+@@||yandex.net/js/*_count_*.js^$script
 #@##EmailOptin
 #@##FBFanBox
 #@##FBLIKE
