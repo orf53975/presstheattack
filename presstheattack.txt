@@ -7168,13 +7168,13 @@ twitch.tv##a[href*="anylvl"]
 twitch.tv##a[href*="arozzi."]
 twitch.tv##a[href*="aser"]
 twitch.tv##a[href*="atributika"]
-twitch.tv##a[href*="banner"] > img
-twitch.tv##a[href*="bet4"] > img
-twitch.tv##a[href*="betsdota"] > img
+twitch.tv##a[href*="banner"]>img
+twitch.tv##a[href*="bet4"]>img
+twitch.tv##a[href*="betsdota"]>img
 twitch.tv##a[href*="campaign"]
 twitch.tv##a[href*="casino"]
-twitch.tv##a[href*="clck.ru"] > img
-twitch.tv##a[href*="click.ru"] > img
+twitch.tv##a[href*="clck.ru"]>img
+twitch.tv##a[href*="click.ru"]>img
 twitch.tv##a[href*="clife.ru"]
 twitch.tv##a[href*="col.vg"]
 twitch.tv##a[href*="concert"]
@@ -7185,25 +7185,25 @@ twitch.tv##a[href*="esbet.fun"]
 twitch.tv##a[href*="g2a.com"]
 twitch.tv##a[href*="go-tds-site.com"]
 twitch.tv##a[href*="goodgame.pm"]
-twitch.tv##a[href*="gosu.ai"] > img
+twitch.tv##a[href*="gosu.ai"]>img
 twitch.tv##a[href*="i.try.games"]
 twitch.tv##a[href*="invasion.ru"]
 twitch.tv##a[href*="is.gd"]
 twitch.tv##a[href*="kfcmalaysia"]
 twitch.tv##a[href*="l1l.pw"]
 twitch.tv##a[href*="loto.ru"]
-twitch.tv##a[href*="megafon"] > img
+twitch.tv##a[href*="megafon"]>img
 twitch.tv##a[href*="monsterenergy"]
-twitch.tv##a[href*="mybestcontent.ru"] > img
+twitch.tv##a[href*="mybestcontent.ru"]>img
 twitch.tv##a[href*="opseat.com"]
 twitch.tv##a[href*="papajohns"]
 twitch.tv##a[href*="poker"]
 twitch.tv##a[href*="predator"]
-twitch.tv##a[href*="redirect"] > img
+twitch.tv##a[href*="redirect"]>img
 twitch.tv##a[href*="secretlab"]
 twitch.tv##a[href*="shortme."]
 twitch.tv##a[href*="swaper.one"]
-twitch.tv##a[href*="vsemayki"] > img
+twitch.tv##a[href*="vsemayki"]>img
 vk.com##.audio_promo
 vk.com##aside[aria-label="Актуальные новости"]
 wikipedia.org###sitenotice
@@ -7218,12 +7218,12 @@ yandex.ru##.scroll__container > div.scroll__content > div > div[style*="!importa
 yandex.ru##.search-direct-snippet-view:style(position: absolute!important; left: -3000px!important;)
 yandex.ru##.serp-list div[id^="yandex_ad_"]:style(height: 0!important; transform: scale(0)!important; margin-top: 0!important; margin-bottom: 0!important;)
 yandex.ru##div.home-panel-content-view__section
-yandex.ru,yandex.ua,yandex.by##+js(set-constant.js, Math.random, trueFunc)
+yandex.ru,yandex.by,yandex.ua,~mail.yandex.ru##+js(set-constant.js, Math.random, trueFunc)
 yandex.ru,yandex.ua,yandex.by##.content__main + :last-child
 yandex.ru,yandex.ua,yandex.by##.heap_direction_column.heap.container__line.container__heap.container
 yandex.ru,yandex.ua,yandex.by##.media-infinity-footer__content
 yandex.ru,yandex.ua,yandex.by##.serp-footer__main
-yandex.ru,yandex.ua,yandex.by,kinopoisk.ru,~mail.yandex.ru##+js(cookie-remover.js, /blcrm|bltsr|yabs|adb|cmtchd|crookie|kpunk|is_adblock|abp|yp|ys/)
+yandex.ru,yandex.ua,yandex.by,kinopoisk.ru##+js(cookie-remover.js, /blcrm|bltsr|yabs|adb|cmtchd|crookie|kpunk|is_adblock|abp|yp|ys/)
 yandex.ua,yandex.ru,yandex.by##.font-regular.i-bem.media-grid_theme_white.media-grid_visible_no.media-grid
 yandex.ua,yandex.ru,yandex.by##.rows__row_last.rows__row.row
 youtube.com##.html5-endscreen
