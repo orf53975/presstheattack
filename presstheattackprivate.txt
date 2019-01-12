@@ -27,6 +27,7 @@
 ||lemonde.fr/p/event/pageview$image,redirect=1x1-transparent.gif,badfilter
 ||rte.ie/ads/*$media,redirect=noopmp4-1s,domain=rte.ie,badfilter
 #@##BtmToPageTopArea
+@@||*.kp.yandex.net/js/get_count_word.js
 #@##CE_follow_us
 #@##CTV_tweetStreams
 #@##Celeb_Tweets
