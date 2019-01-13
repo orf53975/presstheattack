@@ -8,33 +8,19 @@
 ! Title: Press the Attack - Private
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/private/presstheattack.txt
 
-#@#.share_cont
 #@##AKDSocialBottom
 #@##BF_BUZZBOX
 #@##BackToTop
 #@##BmkDigg
 #@##BmkFB
 #@##BmkStumble
-||google.com/translate_a/element.js?cb=googletranslateelementinit|$badfilter
-@@/img/social_
-@@/img/facebook-
-||vk.com/widget_community.php$third-party,badfilter
-||vk.com/widget_like.php$third-party,badfilter
-||platform.twitter.com/js/button.$third-party,badfilter
-@@/tweet_button.
 #@##BmkTweeter
 #@##BottomSocialLinks
-||lemonde.fr/p/event/pageview$image,redirect=1x1-transparent.gif,badfilter
-||rte.ie/ads/*$media,redirect=noopmp4-1s,domain=rte.ie,badfilter
 #@##BtmToPageTopArea
-@@||*.kp.yandex.net/js/get_count_word.js
 #@##CE_follow_us
 #@##CTV_tweetStreams
 #@##Celeb_Tweets
 #@##DiscordButton
-@@||vkontakte.ru/js/api^
-@@||vk.com/share.php^
-@@||yandex.net/js/*_count_*.js^$script
 #@##EmailOptin
 #@##FBFanBox
 #@##FBLIKE
@@ -885,8 +871,8 @@
 #@##fb_twitter_bar
 #@##fb_video_link
 #@##fb_widget
-#@##fbbox1
 #@##fbbox
+#@##fbbox1
 #@##fbbox-relocated
 #@##fbfanbox
 #@##fbinvite
@@ -2177,8 +2163,8 @@
 #@##shareBtn
 #@##shareBtn_footer
 #@##shareBtns
-#@##shareButton
 #@##shareButton1
+#@##shareButton
 #@##shareButtons
 #@##shareBylineInner
 #@##shareContainerId
@@ -2498,9 +2484,9 @@
 #@##socblock
 #@##sociable
 #@##sociactionsb
+#@##social2
 #@##social4iv
 #@##social
-#@##social2
 #@##social-2
 #@##social-actions
 #@##social-aside
@@ -2688,8 +2674,8 @@
 #@##social-totals
 #@##social-trio-sm
 #@##social-tumblr
-#@##social-twitter
 #@##social-twitter32x32
+#@##social-twitter
 #@##social-twt
 #@##social-vert
 #@##social-vertical
@@ -3003,8 +2989,8 @@
 #@##socialnet2
 #@##socialnets
 #@##socialnetworkblock
-#@##socialpopup2
 #@##socialpopup
+#@##socialpopup2
 #@##socialpost
 #@##socialprivacy
 #@##socialprofiles-2
@@ -5766,8 +5752,8 @@
 #@#.fb-icon
 #@#.fb-icon-new
 #@#.fb-info
-#@#.fb-like
 #@#.fb-like2
+#@#.fb-like
 #@#.fb-like-after-lead
 #@#.fb-like-article-wrapper
 #@#.fb-like-box
@@ -5856,8 +5842,8 @@
 #@#.fb_iframe_widget_w
 #@#.fb_image
 #@#.fb_lallan_area
-#@#.fb_like
 #@#.fb_like2
+#@#.fb_like
 #@#.fb_like_and_share
 #@#.fb_like_area
 #@#.fb_like_box
@@ -7160,8 +7146,8 @@
 #@#.ico_social_main
 #@#.ico_tumblr
 #@#.ico_twitter
-#@#.icomoon-facebook2
 #@#.icomoon-facebook
+#@#.icomoon-facebook2
 #@#.icomoon-google-plus
 #@#.icomoon-instagram
 #@#.icomoon-mail
@@ -7230,8 +7216,8 @@
 #@#.icon-facebook_master
 #@#.icon-fackbook
 #@#.icon-fark
-#@#.icon-fb
 #@#.icon-fb2
+#@#.icon-fb
 #@#.icon-fb-footer
 #@#.icon-fb-small
 #@#.icon-fb-square
@@ -7246,8 +7232,8 @@
 #@#.icon-github
 #@#.icon-google
 #@#.icon-google-32
-#@#.icon-google-plus2
 #@#.icon-google-plus
+#@#.icon-google-plus2
 #@#.icon-google-plus-2
 #@#.icon-google-plus-circle
 #@#.icon-google-plus-icon
@@ -7285,8 +7271,8 @@
 #@#.icon-instagram_master
 #@#.icon-instagramm
 #@#.icon-ion-android-share-alt
-#@#.icon-linkedin
 #@#.icon-linkedin2
+#@#.icon-linkedin
 #@#.icon-linkedin-box
 #@#.icon-linkedin-circled
 #@#.icon-linkedin-sign
@@ -7308,8 +7294,8 @@
 #@#.icon-p-linkedin-m
 #@#.icon-p-twitter-m
 #@#.icon-pinterest3
-#@#.icon-pinterest16
 #@#.icon-pinterest
+#@#.icon-pinterest16
 #@#.icon-pinterest-alt
 #@#.icon-pinterest-circle
 #@#.icon-pinterest-circled
@@ -7393,9 +7379,9 @@
 #@#.icon-tw-white
 #@#.icon-tweet
 #@#.icon-twitch
+#@#.icon-twitter3
 #@#.icon-twitter2
 #@#.icon-twitter
-#@#.icon-twitter3
 #@#.icon-twitter16
 #@#.icon-twitter-2
 #@#.icon-twitter-24
@@ -10204,6 +10190,7 @@
 #@#.share_buttons_style
 #@#.share_center
 #@#.share_con
+#@#.share_cont
 #@#.share_container
 #@#.share_content
 #@#.share_control
@@ -10928,11 +10915,11 @@
 #@#.sociable-box
 #@#.sociable_tagline
 #@#.sociables
-#@#.social2
-#@#.social2-links-wrapper
-#@#.social4i
-#@#.social300
 #@#.social
+#@#.social2
+#@#.social300
+#@#.social4i
+#@#.social2-links-wrapper
 #@#.social-16
 #@#.social-1303
 #@#.social--article
@@ -11160,8 +11147,8 @@
 #@#.social-icn
 #@#.social-ico
 #@#.social-ico_
-#@#.social-icon
 #@#.social-icon2
+#@#.social-icon
 #@#.social-icon-ar
 #@#.social-icon-background
 #@#.social-icon-bar
@@ -11560,10 +11547,10 @@
 #@#.social-utilities
 #@#.social-utility
 #@#.social-utils-top
-#@#.social-v
-#@#.social-v3-googleplus
 #@#.social-v3-linkedin
 #@#.social-v3-twitter
+#@#.social-v
+#@#.social-v3-googleplus
 #@#.social-vertical
 #@#.social-vk
 #@#.social-warfare-container
@@ -14384,8 +14371,10 @@
 @@/images/twitter
 @@/img/*instagram.jpg
 @@/img/banner/*
+@@/img/facebook-
 @@/img/fb.
 @@/img/rss.
+@@/img/social_
 @@/img/tw.
 @@/img/twitter.
 @@/img/vk.
@@ -14399,6 +14388,7 @@
 @@/social/instagram-
 @@/social/pinterest-
 @@/telegram-icon.
+@@/tweet_button.
 @@/twitter.svg
 @@/ya-share-cnt.html?url=
 @@/youtube.svg
@@ -14406,6 +14396,7 @@
 @@_icon_youtube.
 @@_twitter-$image
 @@_twitter.png
+@@||*.kp.yandex.net/js/get_count_word.js
 @@||connect.ok.ru^
 @@||facebook.com/*/plugins/like.php
 @@||facebook.com/*/plugins/page.php
@@ -14586,6 +14577,7 @@ youtube.com##.notification-button-style-type-conversation-default.ytd-masthead.s
 ||google-analytics.com/collect$image,redirect=1x1-transparent.gif,domain=hackintosh.computer|hackintoshzone.com,badfilter
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js,badfilter
 ||google-analytics.com/ga.js$script,redirect=google-analytics.com/ga.js,badfilter
+||google.com/translate_a/element.js?cb=googletranslateelementinit|$badfilter
 ||google.com^*/fastbutton?$third-party,badfilter
 ||googlesyndication.com/pagead/$script,redirect=noopjs,important,domain=afreesms.com,badfilter
 ||googlesyndication.com/pagead/js/adsbygoogle.js$important,script,redirect=googlesyndication.com/adsbygoogle.js,domain=cpu-world.com|wowtoken.info,badfilter
@@ -14608,6 +14600,7 @@ youtube.com##.notification-button-style-type-conversation-default.ytd-masthead.s
 ||kingofdown.com/img/180upload.png$image,redirect=2x2-transparent.png,badfilter
 ||latinoweb-tv.com/assets/js/adblocker.js$script,redirect=fuckadblock.js-3.2.0,badfilter
 ||lemde.fr/*/xitistatus.js$script,redirect=fuckadblock.js-3.2.0,domain=lemonde.fr,badfilter
+||lemonde.fr/p/event/pageview$image,redirect=1x1-transparent.gif,badfilter
 ||leporno.org/english.js$script,redirect=fuckadblock.js-3.2.0,first-party,badfilter
 ||ligatus.com/*/angular-tag-https.js$script,redirect=ligatus.com/*/angular-tag.js,badfilter
 ||ligatus.com/*/angular-tag.js$script,redirect=ligatus.com/*/angular-tag.js,badfilter
@@ -14710,6 +14703,7 @@ youtube.com##.notification-button-style-type-conversation-default.ytd-masthead.s
 ||pubmatic.com^$script,redirect=noopjs,domain=kissasian.ch|kissasian.sh,badfilter
 ||readthedocs.org/api/v2/sustainability/*$script,redirect=noopjs,badfilter
 ||rte.ie/ads/*$media,redirect=noopmp4-1s,domain=beta.rte.ie,badfilter
+||rte.ie/ads/*$media,redirect=noopmp4-1s,domain=rte.ie,badfilter
 ||s0.2mdn.net/instream/video/client.js$script,redirect=noopjs,domain=player.performgroup.com,badfilter
 ||s3.amazonaws.com/homad-global-configs.schneevonmorgen.com/hd-main.js$script,domain=autobild.de|chip.de|cinema.de|computerbild.de|cdnapi.kaltura.com|focus.de|gamona.de|giga.de|spiegel.de|spieleaffe.de|spieletipps.de|sueddeutsche.de|t-online.de,redirect=hd-main.js,badfilter
 ||scorecardresearch.com/beacon.js$script,redirect=scorecardresearch.com/beacon.js,badfilter
