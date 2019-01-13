@@ -5,7 +5,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: January 13, 2019
+! Last modified: January 14, 2019
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -5191,6 +5191,22 @@ $cookie=/unique_id/,domain=twitch.tv
 ^sorry-adblocker.$important
 ^sorry-adblocker^$important
 ^sorry-adblocker_$important
+-adssettings-$important
+-adssettings.$important
+-adssettings^$important
+-adssettings_$important
+.adssettings-$important
+.adssettings.$important
+.adssettings^$important
+.adssettings_$important
+^adssettings-$important
+^adssettings.$important
+^adssettings^$important
+^adssettings_$important
+_adssettings-$important
+_adssettings.$important
+_adssettings^$important
+_adssettings_$important
 ^sponsor-
 ^sponsor.
 ^sponsor^
@@ -5204,7 +5220,7 @@ $cookie=/unique_id/,domain=twitch.tv
 ^ssp^
 ^ssp_
 ^stats-
-^stats.$domain=~browserbench.org|~maps.google.com
+^stats.$domain=~browserbench.org|~google.com
 ^stats^
 ^stats_
 ^taboola-$important
