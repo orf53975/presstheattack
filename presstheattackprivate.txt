@@ -1,9 +1,9 @@
-[uBlock Origin 1.17.7b2]
+[uBlock Origin 1.17.7b3]
 ! Author: Bogachenko Vyacheslav
 ! Email: bogachenkove@gmail.com
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
-! Last modified: January 12, 2019
+! Last modified: January 15, 2019
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/private/LICENSE.md>
 ! Title: Press the Attack - Private
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/private/presstheattack.txt
@@ -12,6 +12,7 @@
 #@##BF_BUZZBOX
 #@##BackToTop
 www.kinopoisk.ru###div_mustsee_main
+||kinogo.by/templates/Kinogo/images/IronMan3.jpg$image
 #@##BmkDigg
 #@##BmkFB
 #@##BmkStumble
