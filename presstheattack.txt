@@ -1,4 +1,4 @@
-[uBlock Origin 1.17.7b2]
+[uBlock Origin 1.17.7b3]
 ! Author: Bogachenko Vyacheslav
 ! Description: Filter list for ad blocking, tracking, mining, and more.
 ! Email: bogachenkove@gmail.com
@@ -3599,7 +3599,7 @@ $cookie=/unique_id/,domain=twitch.tv
 /728x90.
 /728x90_
 /(awaps|awsync|appmetrica|bs|direct|grade\.market|informer|kiks|main\.zdevx|mc|web\-metrica|yabs|zen|browser\-updater)\.yandex\.(ru|com|net|ua|by|kz|com\.tr|uz|com)/$important
-/(d1fc8wv8zag5ca|d2v02itv0y9u9t|d2wy8f7a9ursnm|d24n15hnbwhuhn|d31j93rd8oukbv)\.cloudfront\.net/$important
+/(d1fc8wv8zag5ca|d2v02itv0y9u9t|d2wy8f7a9ursnm|d24n15hnbwhuhn|d31j93rd8oukbv|d10lpsik1i8c69|d10lumateci472|d11eq81k50lwgi|d12tr1cdjbyzav|d12ulf131zb0yj|d138am4hd4ke4y|d13czkep7ax7nj|d13czkep7ax7nj|d13dhn7ldhrcf6|d13im3ek7neeqp|d140sbu1b1m3h0|d1447tq2m68ekg|d15565yqt7pv7r|d158nafix8anfs|d15cjcet1djbmv|d15gt9gwxw5wu0|d15gt9gwxw5wu0|d15qhc0lu1ghnk|d160mt023h8h3d|d162nnmwf9bggr|d1635hfcvs8ero|d169bbxks24g2u|d173vqb05g6hza|d17f2fxw547952|d17f2fxw547952|d17rlarvg2khuc|d18q5nc9wflibl|d19182vyfoustz|d19972r8wdpby8|d19972r8wdpby8|d19uh5b0umbjrr|d1ade4ciw4bqyc|d1aezk8tun0dhm|d1af033869koo7|d1ar5xirbydtuc|d1bevsqehy4npt|d1byvlfiet2h9q|d1cdnlzf6usiff|d1cerpgff739r9)\.cloudfront\.net/$important
 /(id|adservice|mobilecrashreporting|imasdk|metric|csi)\.g(oogle|oogleapis|static)\.(ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cat|cd|cf|cg|ch|ci|cl|cm|cn|co.ao|co.bw|co.ck|co.cr|co.id|co.il|co.in|co.jp|co.ke|co.kr|co.ls|co.ma|co.mz|co.nz|co.th|co.tz|co.ug|co.uk|co.uz|co.ve|co.vi|co.za|co.zm|co.zw|com|com.af|com.ag|com.ai|com.ar|com.au|com.bd|com.bh|com.bn|com.bo|com.br|com.bz|com.co|com.cu|com.cy|com.do|com.ec|com.eg|com.et|com.fj|com.gh|com.gi|com.gt|com.hk|com.jm|com.kh|com.kw|com.lb|com.ly|com.mm|com.mt|com.mx|com.my|com.na|com.nf|com.ng|com.ni|com.np|com.om|com.pa|com.pe|com.pg|com.ph|com.pk|com.pr|com.py|com.qa|com.sa|com.sb|com.sg|com.sl|com.sv|com.tj|com.tr|com.tw|com.ua|com.uy|com.vc|com.vn|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|ne|nl|no|nr|nu|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|vg|vu|ws)/$important
 /\.(net|com|org|ru)\/log\?/$important
 /\.(net|com|org|ru)\/tr\/\?/$important
