@@ -11,6 +11,7 @@
 #@##AKDSocialBottom
 #@##BF_BUZZBOX
 #@##BackToTop
+www.kinopoisk.ru###div_mustsee_main
 #@##BmkDigg
 #@##BmkFB
 #@##BmkStumble
@@ -14431,7 +14432,6 @@ english-films.com##section.section.audioSection
 github.com##.RecentBranches
 github.com##.mb-1.mt-0.text-gray.text-small
 kinopoisk.ru###partial_component__header-topline > div > div > div:last-child
-kinopoisk.ru#@#[href*="adblock"]:xpath(..)
 music.yandex.ru,music.yandex.ua,music.yandex.by##.bumble-bee__bubble_left_three.bumble-bee__bubble_left.bumble-bee__bubble
 music.yandex.ru,music.yandex.ua,music.yandex.by##.bumble-bee__car
 music.yandex.ru,music.yandex.ua,music.yandex.by##.bumble-bee__robot_left.bumble-bee__robot
