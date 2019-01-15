@@ -1,10 +1,11 @@
+[Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Author: Bogachenko Vyacheslav
 ! Email: bogachenkove@gmail.com
 ! Expires: 1 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Last modified: January 16, 2019
-! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/private/LICENSE.md>
+! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
 
