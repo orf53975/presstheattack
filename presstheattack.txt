@@ -173,7 +173,7 @@ $cookie=/unique_id/,domain=twitch.tv
 -ad24.$important
 -ad24^$important
 -ad24_$important
--ad-
+-ad-$domain=~github.com
 -ad.
 -adTagUrl-$important
 -adTagUrl.$important
@@ -397,7 +397,7 @@ $cookie=/unique_id/,domain=twitch.tv
 -ads9.$important
 -ads9^$important
 -ads9_$important
--ads-$domain=~yahoo.com
+-ads-$domain=~yahoo.com|~github.com
 -ads-banner-$important
 -ads-banner.$important
 -ads-banner^$important
