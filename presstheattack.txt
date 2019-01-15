@@ -5341,9 +5341,10 @@ _adssettings_$important
 ^tracker.
 ^tracker^$domain=~wikia.com|~fandom.com
 ^tracker_
+||media-amazon.com^*/zergnet-$domain=imdb.com,important
 ^tracking-$domain=~yahoo.com
 ^tracking.
-^tracking^$domain=~yahoo.com
+^tracking^$domain=~yahoo.com|~imdb.com
 ^tracking_$domain=~wikia.com|~fandom.com|~imdb.com
 ^trackingaffilies-$important
 ^trackingaffilies.$important
