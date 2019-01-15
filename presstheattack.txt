@@ -5344,7 +5344,7 @@ _adssettings_$important
 ^tracking-$domain=~yahoo.com
 ^tracking.
 ^tracking^$domain=~yahoo.com
-^tracking_$domain=~wikia.com|~fandom.com
+^tracking_$domain=~wikia.com|~fandom.com|~imdb.com
 ^trackingaffilies-$important
 ^trackingaffilies.$important
 ^trackingaffilies^$important
@@ -7441,6 +7441,8 @@ youtube.com##.html5-endscreen
 ||referrer.disqus.com^$important
 ||roistat.com^$important
 ||rs.mail.ru^$important
+||fls-na.amazon.com^$important
+@@||facebook.com/plugins/like_box.php^
 ||rubiconproject.com^$important
 ||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$domain=facebook.com,important
 ||scorecardresearch.com^$important
@@ -7457,7 +7459,7 @@ youtube.com##.html5-endscreen
 ||top.list.ru^$important
 ||trafficfactory.biz^$important
 ||trowel.twitch.tv^$important
-||twitter.com/i/jot$important
+||twitter.com/i/jot^$important
 ||udc.yahoo.com^$important
 ||visualwebsiteoptimizer.com^$important
 ||vk.go.mail.ru^$important
