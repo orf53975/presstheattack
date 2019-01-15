@@ -1,15 +1,12 @@
 ! Title: Press the Attack
 ! Author: Bogachenko Vyacheslav
-! Description: Filter list for ad blocking, tracking, mining, and more.
-! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
-! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Homepage: https://bogachenko.github.io/presstheattack/
-! Github: https://github.com/bogachenko/presstheattack/
-! Wiki: https://github.com/bogachenko/presstheattack/wiki/
-! Expires: 1 hours
-! Last modified: January 16, 2019
-! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Email: bogachenkove@gmail.com
+! Expires: 1 hours
+! Github: https://github.com/bogachenko/presstheattack/
+! Last modified: January 16, 2019
+! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/private/LICENSE.md>
+! Title: Press the Attack
+! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
 
 ###ab_banner:not(:root):not(body):not(input)
 ###ab_bottom:not(:root):not(body):not(input)
