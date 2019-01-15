@@ -3689,7 +3689,7 @@ $cookie=/unique_id/,domain=twitch.tv
 3g2upl4pq6kufc4m.onion##.js-onboarding-ed.onboarding-ed
 3g2upl4pq6kufc4m.onion##.social.header--aside__item
 3g2upl4pq6kufc4m.onion##.tag-home__item
-@@||an.yandex.ru/jstracer^$domain=~widgets.kinopoisk.ru|~yastatic.net
+@@||an.yandex.ru^$image,domain=www.kinopoisk.ru
 @@||api-maps.yandex.*^$script,xmlhttprequest,subdocument,1p
 @@||cloud-api.yandex.*^$script,xmlhttprequest,subdocument,1p
 @@||facebook.com/plugins/like.php^
@@ -5015,7 +5015,7 @@ $cookie=/unique_id/,domain=twitch.tv
 ^pageviews_$important
 ^partner-$domain=~yastatic.net
 ^partner.
-^partner^$domain=~yahoo.com
+^partner^$domain=~yahoo.com|~yastatic.net
 ^partner_$domain=~yastatic.net,~yandex.ru
 ^phpads-$important
 ^phpads.$important
