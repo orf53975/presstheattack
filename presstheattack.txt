@@ -1,12 +1,12 @@
 ! Title: Press the Attack
-! Author: Bogachenko Vyacheslav
-! Email: bogachenkove@gmail.com
-! Expires: 1 hour
-! Github: https://github.com/bogachenko/presstheattack/
-! Last modified: January 16, 2019
-! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
-! Title: Press the Attack
-! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
+! Last modified: 16 Jan 2019 19:42 UTC
+! Expires: 3 hours
+! Homepage: https://github.com/bogachenko/presstheattack
+! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
+!
+! Please report any unblocked tracking or problems
+! in the forums (https://github.com/bogachenko/presstheattack/issues)
+! or via e-mail (bogachenkove@gmail.com).
 
 ###ab_banner:not(:root):not(body):not(input)
 ###ab_bottom:not(:root):not(body):not(input)
@@ -3608,30 +3608,41 @@ $cookie=/unique_id/,domain=twitch.tv
 /^https?:\/\/news\.yandex\.(by|ru|ua)\/[^\s]{300,}/$xmlhttprequest,subdocument,important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /_/batch|$1p,xmlhttprequest,important
-/_bm/bd^$important
 /a.gif$important
-/adblock.js$script,important
-/adi.js$script,important
+/adblock.js$important
 /ads.js$important
-/adsx/*
 /advert2.js$script,important
-/amp-ad-$important
-/amp.gif$image,important
 /appmeasurement.*^$script,important
 /appmeasurementextension.*$important
 /as3adplayer.*$important
-/audience-extraction.*^$script,important
-/axyzsdk.*$script,important
-/b/ss/*/js-*$important
+/audience-extraction.*^$important
 /banads/*$important
 /banners*.swf$important
+/banners/468$important
+/banners/*.gif$important
+||bugsnag.com^$important
+||google.com/js/bg/$important
 /better-stop-adblock/$important
 /bitrix/spread.php^$important
-/blank.gif$image,domain=~m.vk.com|~vk.com
+/blank.gif$domain=~m.vk.com|~vk.com
 /c.gif$important
-/cdn-cgi/apps/head/$script,important
 /cleardot.*^$domain=~drive.google.com|~mail.google.com
-/clickstream.*^$script,important
+-clickstream-$important
+-clickstream.$important
+-clickstream^$important
+-clickstream_$important
+.clickstream-$important
+.clickstream.$important
+.clickstream^$important
+.clickstream_$important
+^clickstream-$important
+^clickstream.$important
+^clickstream^$important
+^clickstream_$important
+_clickstream-$important
+_clickstream.$important
+_clickstream^$important
+_clickstream_$important
 /cnt.php$important
 /data/siropu/images/$important
 /dreamcash*.*$image,important
@@ -3647,7 +3658,6 @@ $cookie=/unique_id/,domain=twitch.tv
 /google-conversion.html$important
 /gpt.js$script,important
 /graph\.(facebook|instagram)\.com/$important
-/greenoaks.gif$important
 /gtm/gtm$important
 /i.gif$important
 /ima3.js$script,important
