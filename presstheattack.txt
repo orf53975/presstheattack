@@ -4594,7 +4594,7 @@ $cookie=/unique_id/,domain=twitch.tv
 ^count_
 ^counter-$domain=~yandex.ru|~yandex.ua|~yandex.by
 ^counter.
-^counter^$domain=~yandex.ua|~yandex.ru|~yandex.by
+^counter^$domain=~yandex.ua|~yandex.ru|~yandex.by|~youtube.com|~googlevideo.com
 ^counter_
 ^counters-
 ^counters.
@@ -6351,7 +6351,7 @@ _containertag^$important
 _containertag_$important
 _count-
 _count.
-_count^$domain=~travis-ci.org|~yahoo.com|~yandex.ru|~yandex.ua|~yandex.by|~facebook.com|~googlevideo.com
+_count^$domain=~travis-ci.org|~yahoo.com|~yandex.ru|~yandex.ua|~yandex.by|~facebook.com|~googlevideo.com|~youtube.com
 _count_
 _counter-$domain=~yandex.ru|~yandex.ua|~yandex.by
 _counter.
