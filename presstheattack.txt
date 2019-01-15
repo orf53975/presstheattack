@@ -1,5 +1,5 @@
 ! Title: Press the Attack
-! Last modified: 16 Jan 2019 09:50
+! Last modified: 16 Jan 2019 10:07
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -568,6 +568,7 @@ $cookie=/unique_id/,domain=twitch.tv
 -adservice.$important
 -adservice^$important
 -adservice_$important
+-adserver_$important
 -adshow-$important
 -adshow.$important
 -adshow^$important
@@ -3609,7 +3610,7 @@ $cookie=/unique_id/,domain=twitch.tv
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /_/batch|$1p,xmlhttprequest,important
 /a.gif$important
-/advert2.js$script,important
+/advert2.js$important
 -appmeasurement-$important
 -appmeasurement.$important
 -appmeasurement^$important
@@ -4482,7 +4483,7 @@ _clickstream_$important
 ^analyticsid.$important
 ^analyticsid^$important
 ^analyticsid_$important
-^annotations_module.js$domain=youtube.com,script,important
+^annotations_module.js$script,domain=youtube.com
 ^antiblock-$important
 ^antiblock.$important
 ^antiblock^$important
@@ -7249,6 +7250,7 @@ ggbet$image,important
 google.com##g-section-with-header
 kinopoisk.ru###popup + DIV + DIV + DIV > DIV > STYLE + DIV + SCRIPT + :last-child > :first-child > :first-child > #block_left_index + :last-child > DIV > [data-type="teaserspec"]:first-child
 kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
+kinopoisk.ru##[href*="adblock"]:xpath(..)
 kinopoisk.ru##HTML > HEAD + BODY > #popup + DIV + DIV > SCRIPT + .hidden + SCRIPT + .wrap_form > DIV > #partial_component__header-topline > DIV > DIV > DIV + DIV[class^="adfox"] + :last-child
 kinopoisk.ru##HTML > HEAD + BODY > DIV:first-child > #popup + DIV + DIV > SCRIPT + .hidden + SCRIPT + SCRIPT + .wrap_form + DIV:last-child
 kinopoisk.ru##[href*="https://www.kinopoisk.ru/"]
@@ -7266,7 +7268,6 @@ outlook.live.com##div#app > div.ms-fabric > div:last-child > div:first-child > d
 pornhub.com###age-verification-container
 pornhub.com###age-verification-wrapper
 prodota.ru##.floor.first
-qaru.site##.wraptip
 reddit.com##.onboardingbar.subscribebar.infobar
 translate.google.com,translate.google.ru###gt-promo-lr
 translate.yandex.ru##.button_icon_collections.button_icon.button
@@ -7348,10 +7349,6 @@ yandex.ru,yandex.ua,yandex.by,kinopoisk.ru##+js(cookie-remover.js, /blcrm|bltsr|
 yandex.ua,yandex.ru,yandex.by##.font-regular.i-bem.media-grid_theme_white.media-grid_visible_no.media-grid
 yandex.ua,yandex.ru,yandex.by##.rows__row_last.rows__row.row
 youtube.com##.html5-endscreen
-|adserver.*^$important
-|adservice.*^$important
-|csp.*^$important
-|data:text$popup,important
 |http*://1x*.*/*/?tag=*^$important
 |http*://ad.*^$important
 |http*://adcdn.*^$important
@@ -7403,7 +7400,6 @@ youtube.com##.html5-endscreen
 ||beap-bc.yahoo.com^$important
 ||beap.gemini.yahoo.com^$important
 ||bing.com/fd/ls/$important
-||bitrix.info/ba.js$script,important
 ||branch.io^$important
 ||casalemedia.com^$important
 ||clicktale.net^$important
@@ -7426,9 +7422,7 @@ youtube.com##.html5-endscreen
 ||go-mpulse.net^$important
 ||go-tds-site.com^$important
 ||goo.gl^$third-party,script
-||google.*/ads/$important
 ||google.*/viewerimpressions^$important
-||hcrd.ru^
 ||hotlog.ru^$important
 ||ima3vpaid.appspot.com^$important
 ||imrworldwide.com^$important
@@ -7473,7 +7467,7 @@ youtube.com##.html5-endscreen
 ||fls-na.amazon.com^$important
 @@||facebook.com/plugins/like_box.php^
 ||rubiconproject.com^$important
-||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$domain=facebook.com,important
+||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$important
 ||scorecardresearch.com^$important
 ||scrubswim.com^$important
 ||spade.twitch.tv^$important
