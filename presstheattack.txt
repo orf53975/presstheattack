@@ -1,5 +1,5 @@
 ! Title: Press the Attack
-! Last modified: 16 Jan 2019 10:07
+! Last modified: 16 Jan 2019 11:15
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -16,6 +16,70 @@
 ###ad-footer:not(:root):not(body):not(input)
 ###ad-tower:not(:root):not(body):not(input)
 kinopoisk.ru##DIV[style="height: 210px; left: 0px; position: absolute; top: 110px; width: 850px; display: block; right: 0px; margin: auto;"]
+-tag-user-$important
+-tag-user.$important
+-tag-user^$important
+-tag-user_$important
+.tag-user-$important
+.tag-user.$important
+.tag-user^$important
+.tag-user_$important
+^tag-user-$important
+^tag-user.$important
+^tag-user^$important
+^tag-user_$important
+_tag-user-$important
+_tag-user.$important
+_tag-user^$important
+_tag-user_$important
+-tag.user-$important
+-tag.user.$important
+-tag.user^$important
+-tag.user_$important
+.tag.user-$important
+.tag.user.$important
+.tag.user^$important
+.tag.user_$important
+^tag.user-$important
+^tag.user.$important
+^tag.user^$important
+^tag.user_$important
+_tag.user-$important
+_tag.user.$important
+_tag.user^$important
+_tag.user_$important
+-tag^user-$important
+-tag^user.$important
+-tag^user^$important
+-tag^user_$important
+.tag^user-$important
+.tag^user.$important
+.tag^user^$important
+.tag^user_$important
+^tag^user-$important
+^tag^user.$important
+^tag^user^$important
+^tag^user_$important
+_tag^user-$important
+_tag^user.$important
+_tag^user^$important
+_tag^user_$important
+-tag_user-$important
+-tag_user.$important
+-tag_user^$important
+-tag_user_$important
+.tag_user-$important
+.tag_user.$important
+.tag_user^$important
+.tag_user_$important
+^tag_user-$important
+^tag_user.$important
+^tag_user^$important
+^tag_user_$important
+_tag_user-$important
+_tag_user.$important
+_tag_user^$important
+_tag_user_$important
 ###adBlockerContainer:not(:root):not(body):not(input)
 ###ads:not(:root):not(body):not(input)
 ###ads_bottom:not(:root):not(body):not(input)
@@ -5358,10 +5422,10 @@ _adssettings_$important
 ^tmnadsense.$important
 ^tmnadsense^$important
 ^tmnadsense_$important
-^track-$domain=~music.yandex.ru
+^track-$domain=~yandex.ru|~yandex.ua|~yandex.by
 ^track.
-^track^$domain=~music.yandex.ru
-^track_
+^track^$domain=~yandex.ru|~yandex.ua|~yandex.by
+^track_$domain=~yandex.ru|~yandex.ua|~yandex.by
 ^trackalyze-$important
 ^trackalyze.$important
 ^trackalyze^$important
