@@ -1,12 +1,8 @@
-[uBlock Origin 1.17.7b6]
-! Author: Bogachenko Vyacheslav
-! Email: bogachenkove@gmail.com
-! Expires: 1 hours
-! Github: https://github.com/bogachenko/presstheattack/
-! Last modified: January 16, 2019
-! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/private/LICENSE.md>
 ! Title: Press the Attack - Private
-! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/private/presstheattack.txt
+! Last modified: 16 Jan 2019 21:22
+! Expires: 3 hours
+! Homepage: https://github.com/bogachenko/presstheattack/tree/private
+! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/private/LICENSE.md
 
 #@##AKDSocialBottom
 #@##BF_BUZZBOX
@@ -29,6 +25,8 @@ www.kinopoisk.ru###div_mustsee_main
 #@##CTV_tweetStreams
 #@##Celeb_Tweets
 #@##DiscordButton
+@@/images/share-
+||an.yandex.ru^$domain=music.yandex.ru,important
 #@##EmailOptin
 #@##FBFanBox
 #@##FBLIKE
