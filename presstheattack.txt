@@ -1,5 +1,5 @@
 ! Title: Press the Attack
-! Last modified: 16 Jan 2019 11:15
+! Last modified: 16 Jan 2019 11:25
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -1785,9 +1785,9 @@ $cookie=/unique_id/,domain=twitch.tv
 -tmnadsense.$important
 -tmnadsense^$important
 -tmnadsense_$important
--track-$domain=~music.yandex.ru
+-track-$domain=~yandex.ru|~yandex.ua|~yandex.by
 -track.
--track^
+-track^$domain=~yandex.ru|~yandex.ua|~yandex.by
 -track_
 -trackalyze-$important
 -trackalyze.$important
