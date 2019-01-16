@@ -3444,7 +3444,7 @@ $cookie=/unique_id/,domain=twitch.tv
 .ssp_
 .stats-
 .stats.
-.stats^$
+.stats^
 .stats_
 .taboola-$important
 .taboola.$important
@@ -4698,6 +4698,7 @@ $cookie=/unique_id/,domain=twitch.tv
 ^count_type.
 ^count_type^
 ^count_type_
+@@||github.com/*/search/count?type=*^$xmlhttprequest
 ^counter-$domain=~yandex.ru|~yandex.ua|~yandex.by
 ^counter.
 ^counter^$domain=~yandex.ua|~yandex.ru|~yandex.by|~youtube.com|~googlevideo.com
@@ -5022,7 +5023,7 @@ $cookie=/unique_id/,domain=twitch.tv
 ^log.type.$important
 ^log.type^$important
 ^log.type_$important
-^log^$domain=~myactivity.google.com,~disk.yandex.ua,~disk.yandex.by,~disk.yandex.ru
+^log^$domain=~myactivity.google.com|~disk.yandex.ua|~disk.yandex.by|~disk.yandex.ru
 ^log^type-$important
 ^log^type.$important
 ^log^type^$important
@@ -5119,7 +5120,7 @@ $cookie=/unique_id/,domain=twitch.tv
 ^partner-$domain=~yastatic.net
 ^partner.
 ^partner^$domain=~yahoo.com|~yastatic.net
-^partner_$domain=~yastatic.net,~yandex.ru
+^partner_$domain=~yastatic.net|~yandex.ru
 ^phpads-$important
 ^phpads.$important
 ^phpads^$important
