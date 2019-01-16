@@ -1,5 +1,5 @@
 ! Title: Press the Attack - Private
-! Last modified: 16 Jan 2019 21:22
+! Last modified: 16 Jan 2019 21:39
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/tree/private
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/private/LICENSE.md
@@ -7,15 +7,7 @@
 #@##AKDSocialBottom
 #@##BF_BUZZBOX
 #@##BackToTop
-www.kinopoisk.ru###div_mustsee_main
-||kinogo.by/templates/Kinogo/images/IronMan3.jpg$image
 #@##BmkDigg
-#@#.nb-social-links
-#@#.ft-social-links
-#@#.share
-#@#.ab_twitter
-#@#.ab_twitter
-#@#.ab_facebook
 #@##BmkFB
 #@##BmkStumble
 #@##BmkTweeter
@@ -25,8 +17,6 @@ www.kinopoisk.ru###div_mustsee_main
 #@##CTV_tweetStreams
 #@##Celeb_Tweets
 #@##DiscordButton
-@@/images/share-
-||an.yandex.ru^$domain=music.yandex.ru,important
 #@##EmailOptin
 #@##FBFanBox
 #@##FBLIKE
@@ -154,8 +144,8 @@ www.kinopoisk.ru###div_mustsee_main
 #@##\5f __plus_0
 #@##\5f __plusone_0
 #@##___ndtvpushdiv
-#@##aFBShare2
 #@##aFBShare
+#@##aFBShare2
 #@##aFbLikeBottom
 #@##aShareFacebook
 #@##aa-subscribe-widget
@@ -885,10 +875,10 @@ www.kinopoisk.ru###div_mustsee_main
 #@##fblike
 #@##fblike1
 #@##fblikebg
-#@##fblikebot123
 #@##fblikebot
-#@##fblikebutton
+#@##fblikebot123
 #@##fblikebutton2018
+#@##fblikebutton
 #@##fblikeheader
 #@##fblikepop
 #@##fblikepop_ads
@@ -2169,8 +2159,8 @@ www.kinopoisk.ru###div_mustsee_main
 #@##shareBtn
 #@##shareBtn_footer
 #@##shareBtns
-#@##shareButton1
 #@##shareButton
+#@##shareButton1
 #@##shareButtons
 #@##shareBylineInner
 #@##shareContainerId
@@ -2654,8 +2644,8 @@ www.kinopoisk.ru###div_mustsee_main
 #@##social-sharing-buttons
 #@##social-sharing-buttons-footer
 #@##social-sharing-widget-mobi-sticky
-#@##social-side2
 #@##social-side
+#@##social-side2
 #@##social-sidebar
 #@##social-single-margin
 #@##social-sites-wrapper
@@ -2680,8 +2670,8 @@ www.kinopoisk.ru###div_mustsee_main
 #@##social-totals
 #@##social-trio-sm
 #@##social-tumblr
-#@##social-twitter32x32
 #@##social-twitter
+#@##social-twitter32x32
 #@##social-twt
 #@##social-vert
 #@##social-vertical
@@ -2991,8 +2981,8 @@ www.kinopoisk.ru###div_mustsee_main
 #@##socialmobile
 #@##socialmobilicon
 #@##socialnav
-#@##socialnet
 #@##socialnet2
+#@##socialnet
 #@##socialnets
 #@##socialnetworkblock
 #@##socialpopup
@@ -3762,6 +3752,8 @@ www.kinopoisk.ru###div_mustsee_main
 #@#.abBtnFacebook
 #@#.abShareFb
 #@#.abSocialFbLikesCount
+#@#.ab_facebook
+#@#.ab_twitter
 #@#.abh_social
 #@#.abicon-facebook
 #@#.abicon-google-plus
@@ -5848,8 +5840,8 @@ www.kinopoisk.ru###div_mustsee_main
 #@#.fb_iframe_widget_w
 #@#.fb_image
 #@#.fb_lallan_area
-#@#.fb_like2
 #@#.fb_like
+#@#.fb_like2
 #@#.fb_like_and_share
 #@#.fb_like_area
 #@#.fb_like_box
@@ -6516,6 +6508,7 @@ www.kinopoisk.ru###div_mustsee_main
 #@#.ft-pinterest
 #@#.ft-sfacebook
 #@#.ft-share
+#@#.ft-social-links
 #@#.ft-tumblr
 #@#.ft-twitter
 #@#.ft-youtube
@@ -7159,8 +7152,8 @@ www.kinopoisk.ru###div_mustsee_main
 #@#.icomoon-mail
 #@#.icomoon-pinterest
 #@#.icomoon-tumblr
-#@#.icomoon-twitter2
 #@#.icomoon-twitter
+#@#.icomoon-twitter2
 #@#.icomoon-youtube
 #@#.icon2-facebook
 #@#.icon2-linkedin
@@ -7247,9 +7240,9 @@ www.kinopoisk.ru###div_mustsee_main
 #@#.icon-google-plus-sign
 #@#.icon-googlePlus
 #@#.icon-google_plus
-#@#.icon-googleplus
 #@#.icon-googleplus8
 #@#.icon-googleplus16
+#@#.icon-googleplus
 #@#.icon-googleplus-white
 #@#.icon-gp
 #@#.icon-gplus
@@ -7385,8 +7378,8 @@ www.kinopoisk.ru###div_mustsee_main
 #@#.icon-tw-white
 #@#.icon-tweet
 #@#.icon-twitch
-#@#.icon-twitter3
 #@#.icon-twitter2
+#@#.icon-twitter3
 #@#.icon-twitter
 #@#.icon-twitter16
 #@#.icon-twitter-2
@@ -8524,6 +8517,7 @@ www.kinopoisk.ru###div_mustsee_main
 #@#.naytev-share-toolbar
 #@#.nb-share
 #@#.nb-social
+#@#.nb-social-links
 #@#.nb-socialpanel
 #@#.nc_socialPanel
 #@#.nda-image-share__wrapper
@@ -9678,6 +9672,7 @@ www.kinopoisk.ru###div_mustsee_main
 #@#.sh-btn-twitter
 #@#.sh-btn-yt
 #@#.sh_facebook
+#@#.share
 #@#.share1
 #@#.share2
 #@#.share2-vert
@@ -10923,9 +10918,9 @@ www.kinopoisk.ru###div_mustsee_main
 #@#.sociables
 #@#.social
 #@#.social2
-#@#.social300
-#@#.social4i
 #@#.social2-links-wrapper
+#@#.social4i
+#@#.social300
 #@#.social-16
 #@#.social-1303
 #@#.social--article
@@ -11977,8 +11972,8 @@ www.kinopoisk.ru###div_mustsee_main
 #@#.social_widget_item
 #@#.social_widget_table
 #@#.social_widgets
-#@#.social_wrapper2
 #@#.social_wrapper
+#@#.social_wrapper2
 #@#.social_youtube
 #@#.socialaccounts
 #@#.socialakamai
@@ -14373,6 +14368,7 @@ www.kinopoisk.ru###div_mustsee_main
 @@/images/*/twitter
 @@/images/*steam.png
 @@/images/rss_
+@@/images/share-
 @@/images/social/
 @@/images/twitter
 @@/img/*instagram.jpg
@@ -14461,6 +14457,7 @@ twitch.tv##.tw-z-above.tw-full-width.tw-flex-column.tw-flex.tw-elevation-3.tw-c-
 twitch.tv##.tw-z-default.pinned-cheer-v2
 twitch.tv##.video-chat__header:style(height: 20px !important)
 twitch.tv##li.chat-message:style(padding: 2px 2px !important)
+www.kinopoisk.ru###div_mustsee_main
 www.twitch.tv##.tw-relative.tw-mg-x-2.chat-list__more-messages-placeholder
 www.twitch.tv##.video-chat__sync-button.tw-pd-x-1.tw-bottom-0.tw-absolute
 yandex.ru##.content__col
@@ -14509,6 +14506,7 @@ youtube.com##.notification-button-style-type-conversation-default.ytd-masthead.s
 ||amgload.net^$xmlhttprequest,redirect=nooptext,domain=skidrowcrack.com,badfilter
 ||amgload.net^$xmlhttprequest,redirect=nooptext,domain=xrares.com,badfilter
 ||amgload.net^$xmlhttprequest,redirect=nooptext,domain=zonarutoppuden.com,badfilter
+||an.yandex.ru^$domain=music.yandex.ru,important
 ||apis.google.com/js/platform.js$third-party,badfilter
 ||appliancesforhome.top/wp-content/*/ad$script,first-party,redirect=fuckadblock.js-3.2.0,badfilter
 ||asset.pagefair.com/adimages/adsense.js$script,redirect=noopjs,domain=allmusic.com,badfilter
@@ -14603,6 +14601,7 @@ youtube.com##.notification-button-style-type-conversation-default.ytd-masthead.s
 ||imasdk.googleapis.com/js/sdkloader/outstream.js$script,redirect=noopjs,domain=squadd.io,badfilter
 ||js.latino-webtv.com/player/ad$script,redirect=fuckadblock.js-3.2.0,badfilter
 ||kingofdown.com/img/180upload.png$image,redirect=2x2-transparent.png,badfilter
+||kinogo.by/templates/Kinogo/images/IronMan3.jpg$image
 ||latinoweb-tv.com/assets/js/adblocker.js$script,redirect=fuckadblock.js-3.2.0,badfilter
 ||lemde.fr/*/xitistatus.js$script,redirect=fuckadblock.js-3.2.0,domain=lemonde.fr,badfilter
 ||lemonde.fr/p/event/pageview$image,redirect=1x1-transparent.gif,badfilter
