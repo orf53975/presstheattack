@@ -1,5 +1,5 @@
 ! Title: Press the Attack - Private
-! Last modified: 20 Jan 2019 05:53
+! Last modified: 20 Jan 2019 06:40
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/tree/private
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/private/LICENSE.md
@@ -8,6 +8,10 @@
 #@##BF_BUZZBOX
 #@##BackToTop
 #@##BmkDigg
+@@||yastatic.net/share2^
+||share.yandex.*/gpp.xml?url=$badfilter
+@@||share.yandex.net^
+@@||yastatic.net/share^
 #@##BmkFB
 /share/twitter.$badfilter
 /share/facebook.$badfilter
