@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: 19 Jan 2019 15:40
+! Last modified: 19 Jan 2019 20:05
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -7438,11 +7438,8 @@ freebitco.in##.open.reveal-modal
 freebitco.in##.reveal-modal-bg
 ggbet$image,important
 google.com##g-section-with-header
-kinopoisk.ru###popup + DIV + DIV + DIV > DIV > STYLE + DIV + SCRIPT + :last-child > :first-child > :first-child > #block_left_index + :last-child > DIV > [data-type="teaserspec"]:first-child
 kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
 kinopoisk.ru##DIV[style="height: 210px; left: 0px; position: absolute; top: 110px; width: 850px; display: block; right: 0px; margin: auto;"]
-kinopoisk.ru##HTML > HEAD + BODY > #popup + DIV + DIV > SCRIPT + .hidden + SCRIPT + .wrap_form > DIV > #partial_component__header-topline > DIV > DIV > DIV + DIV[class^="adfox"] + :last-child
-kinopoisk.ru##HTML > HEAD + BODY > DIV:first-child > #popup + DIV + DIV > SCRIPT + .hidden + SCRIPT + SCRIPT + .wrap_form + DIV:last-child
 kinopoisk.ru##[href*="adblock"]:xpath(..)
 kinopoisk.ru##[href*="https://www.kinopoisk.ru/"]
 m.vk.com##.feedAssistance_importContacts.feedAssistance.wall_item
