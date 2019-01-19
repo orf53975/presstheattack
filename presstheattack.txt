@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: 19 Jan 2019 11:20
+! Last modified: 19 Jan 2019 11:55
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -14,6 +14,22 @@
 ###ab_left:not(:root):not(body):not(input)
 -adsnative-$important
 -adsnative.$important
+-fingerprint2-
+-fingerprint2.
+-fingerprint2^
+-fingerprint2_
+.fingerprint2-
+.fingerprint2.
+.fingerprint2^
+.fingerprint2_
+^fingerprint2-
+^fingerprint2.
+^fingerprint2^
+^fingerprint2_
+_fingerprint2-
+_fingerprint2.
+_fingerprint2^
+_fingerprint2_
 -adsnative^$important
 youtube.com##.ytd-popup-container.style-scope.dropdown-content
 -adsnative_$important
