@@ -3749,7 +3749,7 @@ $cookie=/unique_id/,domain=twitch.tv
 /c.gif$important
 /cleardot.*^$domain=~drive.google.com|~mail.google.com
 /favicon.ico$third-party,image,popup,important
-/fp2.js$script
+/fp2.js$script,important
 /ga.js$script,important
 /gads.$script,important
 /google(\-analytics|syndication|tagmanager|adservices|tagservices)\.(com|ru|net)/$important
