@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: 20 Jan 2019 09:36
+! Last modified: 20 Jan 2019 09:45
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -4226,7 +4226,9 @@ duckduckgo.com,3g2upl4pq6kufc4m.onion##.tag-home
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /_/batch|$1p,xmlhttprequest,important
 /a.gif$important
+/advert1.js$important
 /advert2.js$important
+/advert3.js$important
 /banners*.swf$important
 /banners/468$important
 /banners/*.gif$important
