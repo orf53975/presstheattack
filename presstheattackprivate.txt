@@ -14409,7 +14409,6 @@ duckduckgo.com##.footer
 @@_icon_youtube.
 @@_twitter-$image
 @@_twitter.png
-@@||*.kp.yandex.net/js/get_count_word.js
 @@||audiofingerprint.openwpm.com/fingerprint.css$stylesheet,domain=audiofingerprint.openwpm.com
 @@||browserprint.info/images/fingerprint.click.png$image,first-party
 @@||connect.ok.ru^
