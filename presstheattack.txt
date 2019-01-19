@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: 19 Jan 2019 14:00
+! Last modified: 19 Jan 2019 15:00
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -4739,7 +4739,9 @@ $cookie=/unique_id/,domain=twitch.tv
 ^count_type.
 ^count_type^
 ^count_type_
-^counter-$domain=~yandex.ru|~yandex.ua|~yandex.by
+^counter-$domain=~yandex.ru|~yandex.ua|~yandex.by|~twitch.tv
+&action=js_stats&$important
+/dear_code/*/goclick?t=*&ref=$important
 ^counter.
 ^counter^$domain=~yandex.ua|~yandex.ru|~yandex.by|~youtube.com|~googlevideo.com
 ^counter_
@@ -7608,12 +7610,19 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 ||fls-na.amazon.com^$important
 ||franecki.net/js/lib.js$important
 ||gemius.pl^$important
-||github.com/_private/browser/stats$important
+||bgclck.me^$important
+||github.com/_private/browser/stats^$important
+||duckduckgo.com/y.js$important
 ||go-mpulse.net^$important
 ||go-tds-site.com^$important
 ||goo.gl^$third-party
 ||google.*/viewerimpressions^$important
 ||google.com/js/bg/$important
+@@||share.yandex.net^
+@@||yastatic.net/share^
+/cdn-cgi/apps/head/*$first-party,script,important
+||fderty.com^$important
+||jwpltx.com^$important
 ||hotlog.ru^$important
 ||ima3vpaid.appspot.com^$important
 ||imrworldwide.com^$important
