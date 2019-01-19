@@ -15,6 +15,7 @@
 -adsnative-$important
 -adsnative.$important
 -adsnative^$important
+youtube.com##.ytd-popup-container.style-scope.dropdown-content
 -adsnative_$important
 .adsnative-$important
 .adsnative.$important
@@ -1808,7 +1809,9 @@ $cookie=/unique_id/,domain=twitch.tv
 -trackalyze^$important
 -trackalyze_$important
 -tracker-
--tracker.
+-tracker.$domain=~panopticlick.eff.org
+||eviltracker.net^$third-party,domain=~panopticlick.eff.org
+||trackersimulator.org^$third-party,domain=~panopticlick.eff.org
 -tracker^
 -tracker_
 -tracking-$domain=~yahoo.com
@@ -3884,7 +3887,7 @@ $cookie=/unique_id/,domain=twitch.tv
 ^ad_status_$important
 ^ad_url-$important
 ^ad_url.$important
-^ad_url^$important
+^ad_url^$domain=~panopticlick.eff.org
 ^ad_url_$important
 ^adbannerid-$important
 ^adbannerid.$important
@@ -5466,7 +5469,8 @@ $cookie=/unique_id/,domain=twitch.tv
 ^tracker.
 ^tracker^$domain=~wikia.com|~fandom.com
 ^tracker_
-^tracking-$domain=~yahoo.com
+^tracking-$domain=~yahoo.com|~panopticlick.eff.org
+/zig.js
 ^tracking.
 ^tracking^$domain=~yahoo.com|~imdb.com
 ^tracking_$domain=~wikia.com|~fandom.com|~imdb.com
