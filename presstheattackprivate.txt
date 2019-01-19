@@ -8,6 +8,14 @@
 #@##BF_BUZZBOX
 #@##BackToTop
 #@##BmkDigg
+@@||valve.github.io/fingerprintjs2/fingerprint2.js$script,first-party
+@@||browserprint.info/images/fingerprint.click.png$image,first-party
+@@||www.ssllabs.com/plaintext/ping$websocket,first-party
+@@||audiofingerprint.openwpm.com/fingerprint.css$stylesheet,domain=audiofingerprint.openwpm.com
+@@/images/google-
+@@||www.dnsleaktest.com/ana/piwik.js$script,first-party
+^piwik.$important,badfilter
+^piwik.
 #@##BmkFB
 #@##BmkStumble
 @@||panopticlick.eff.org/ajax-fingerprint$xmlhttprequest,domain=panopticlick.eff.org
