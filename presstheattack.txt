@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: 19 Jan 2019 11:05
+! Last modified: 19 Jan 2019 11:20
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -1809,9 +1809,10 @@ $cookie=/unique_id/,domain=twitch.tv
 -trackalyze^$important
 -trackalyze_$important
 -tracker-
--tracker.$domain=~panopticlick.eff.org
-||eviltracker.net^$third-party,domain=~panopticlick.eff.org
-||trackersimulator.org^$third-party,domain=~panopticlick.eff.org
+-tracker.$domain=~panopticlick.eff.org|~firstpartysimulator.net
+||eviltracker.net^$domain=~panopticlick.eff.org
+||do-not-tracker.org^$domain=~panopticlick.eff.org
+||trackersimulator.org^$domain=~panopticlick.eff.org
 -tracker^
 -tracker_
 -tracking-$domain=~yahoo.com
@@ -3752,7 +3753,7 @@ $cookie=/unique_id/,domain=twitch.tv
 /cleardot.*^$domain=~drive.google.com|~mail.google.com
 /favicon.ico$third-party,image,popup,important
 /fingerprint$important
-/fp2.js$script,important
+/fp2.js$script,domain=~panopticlick.eff.org
 /ga.js$script,important
 /gads.$script,important
 /google(\-analytics|syndication|tagmanager|adservices|tagservices)\.(com|ru|net)/$important
@@ -3849,6 +3850,22 @@ $cookie=/unique_id/,domain=twitch.tv
 ^ad9.
 ^ad9^
 ^ad9_
+-trackingserver-$important
+-trackingserver.$important
+-trackingserver^$important
+-trackingserver_$important
+.trackingserver-$important
+.trackingserver.$important
+.trackingserver^$important
+.trackingserver_$important
+^trackingserver-$important
+^trackingserver.$important
+^trackingserver^$domain=~panopticlick.eff.org
+^trackingserver_$important
+_trackingserver-$important
+_trackingserver.$important
+_trackingserver^$important
+_trackingserver_$important
 ^ad24-$important
 ^ad24.$important
 ^ad24^$important
@@ -3860,7 +3877,7 @@ $cookie=/unique_id/,domain=twitch.tv
 ^adTagUrl^$important
 ^adTagUrl_$important
 ^ad^$domain=~mail.google.com|~yahoo.com
-^ad_$domain=~yahoo.com
+^ad_$domain=~yahoo.com|~panopticlick.eff.org
 ^ad_banner-$important
 ^ad_banner.$important
 ^ad_banner^$important
@@ -5469,8 +5486,8 @@ $cookie=/unique_id/,domain=twitch.tv
 ^tracker.
 ^tracker^$domain=~wikia.com|~fandom.com
 ^tracker_
-^tracking-$domain=~yahoo.com|~panopticlick.eff.org
-/zig.js
+^tracking-$domain=~yahoo.com|~panopticlick.eff.org|~firstpartysimulator.net
+/zig.js$domain=~panopticlick.eff.org
 ^tracking.
 ^tracking^$domain=~yahoo.com|~imdb.com
 ^tracking_$domain=~wikia.com|~fandom.com|~imdb.com
