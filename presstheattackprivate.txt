@@ -13,6 +13,11 @@
 #@##BmkTweeter
 #@##BottomSocialLinks
 #@##BtmToPageTopArea
+/plugins/cookie-$stylesheet,badfilter
+/social-share-$badfilter
+/img/social/*$image,badfilter
+/linkedin.svg$badfilter
+/social/google.$badfilter
 #@##CE_follow_us
 #@##CTV_tweetStreams
 @@/icons/newsletter
