@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: 20 Jan 2019 05:53
+! Last modified: 20 Jan 2019 06:32
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -12,6 +12,23 @@
 ###ab_banner:not(:root):not(body):not(input)
 ###ab_bottom:not(:root):not(body):not(input)
 ###ab_left:not(:root):not(body):not(input)
+@@||facebook.com/common/referer_frame.php$subdocument,domain=facebook.com,facebookcorewwwi.onion
+-hads-
+-hads.
+-hads^
+-hads_
+.hads-
+.hads.
+.hads^
+.hads_
+^hads-
+^hads.
+^hads^
+^hads_
+_hads-
+_hads.
+_hads^
+_hads_
 ||gamescarousel.com^$third-party
 @@||yastatic.net/share2^
 kinopoisk.ru##[data-type="teaserspec"]
@@ -7716,6 +7733,7 @@ _referer^frame_$important
 ||omtrdc.net^$important
 ||optimizely.com^$important
 ||owebmoney.ru^$important
+facebook.com,3g2upl4pq6kufc4m.onion###pagelet_growth_expanding_cta
 ||pipe.aria.microsoft.com/collector/$important
 ||placehold.it^$important
 ||polyfill.twitchsvc.net^$important
@@ -7734,6 +7752,7 @@ _referer^frame_$important
 ||rs.mail.ru^$important
 ||rubiconproject.com^$important
 ||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$important
+||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$important
 ||scorecardresearch.com^$important
 ||scrubswim.com^$important
 ||spade.twitch.tv^$important
