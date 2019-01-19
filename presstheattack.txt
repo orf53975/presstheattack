@@ -2906,6 +2906,15 @@ $cookie=/unique_id/,domain=twitch.tv
 .dclk.$important
 .dclk^$important
 .dclk_$important
+||3g2upl4pq6kufc4m.onion/t/$important
+duckduckgo.com,3g2upl4pq6kufc4m.onion##.badge-link.ddg-extension-hide:style(display: none!important;)
+duckduckgo.com,3g2upl4pq6kufc4m.onion##.js-header-aside.is-hidden:style(display: block!important;)
+duckduckgo.com,3g2upl4pq6kufc4m.onion##.header__label.showcase.header--aside__item
+duckduckgo.com,3g2upl4pq6kufc4m.onion##.header__label.showcase.header--aside__item
+duckduckgo.com,3g2upl4pq6kufc4m.onion##.onboarding-ed
+duckduckgo.com,3g2upl4pq6kufc4m.onion##.serp__bottom-right
+duckduckgo.com,3g2upl4pq6kufc4m.onion##.social.header--aside__item
+duckduckgo.com,3g2upl4pq6kufc4m.onion##.tag-home
 .dfp0-
 .dfp0.
 .dfp0^
@@ -3797,10 +3806,6 @@ $cookie=/unique_id/,domain=twitch.tv
 1xbet$important
 1xstavka$important
 2ch.hk###plashque
-3g2upl4pq6kufc4m.onion##.header__label.showcase.header--aside__item
-3g2upl4pq6kufc4m.onion##.js-onboarding-ed.onboarding-ed
-3g2upl4pq6kufc4m.onion##.social.header--aside__item
-3g2upl4pq6kufc4m.onion##.tag-home__item
 @@||an.yandex.ru^$image,domain=www.kinopoisk.ru
 @@||api-maps.yandex.*^$script,xmlhttprequest,subdocument,1p
 @@||cloud-api.yandex.*^$script,xmlhttprequest,subdocument,1p
@@ -7432,11 +7437,6 @@ amazon.com##.gw-fixed-col.gw-col.a-spacing-none.a-section
 avia.yandex.ru##.y-page_islet-kb-index__footer
 avito.ru##.js-common-banner.common-banner + :last-child
 avito.ru##.main-page-flex-container > div:first-child > div:first-child + div + div:last-child
-duckduckgo.com##.header__label.showcase.header--aside__item
-duckduckgo.com##.onboarding-ed
-duckduckgo.com##.serp__bottom-right
-duckduckgo.com##.social.header--aside__item
-duckduckgo.com##.tag-home
 freebitco.in##.open.reveal-modal
 freebitco.in##.reveal-modal-bg
 ggbet$image,important
