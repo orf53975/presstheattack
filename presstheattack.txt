@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: 21 Jan 2019 11:36
+! Last modified: 21 Jan 2019 11:46
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -15,6 +15,9 @@
 -ad_boxes-$important
 ||kp.yandex.net/js/brand$domain=www.kinopoisk.ru,important
 -ads_gif-$important
+||static.twitchcdn.net/config/manifest.json$important
+||twitchcdn.net/v1.js$important
+||outwitch.com^$important
 -advanced-ads-$important
 -advanced-ads.$important
 -advanced-ads^$important
@@ -79,6 +82,70 @@ _advanced^ads-$important
 _advanced^ads.$important
 _advanced^ads^$important
 _advanced^ads_$important
+-advanced-ad-$important
+-advanced-ad.$important
+-advanced-ad^$important
+-advanced-ad_$important
+.advanced-ad-$important
+.advanced-ad.$important
+.advanced-ad^$important
+.advanced-ad_$important
+^advanced-ad-$important
+^advanced-ad.$important
+^advanced-ad^$important
+^advanced-ad_$important
+_advanced-ad-$important
+_advanced-ad.$important
+_advanced-ad^$important
+_advanced-ad_$important
+-advanced_ad-$important
+-advanced_ad.$important
+-advanced_ad^$important
+-advanced_ad_$important
+.advanced_ad-$important
+.advanced_ad.$important
+.advanced_ad^$important
+.advanced_ad_$important
+^advanced_ad-$important
+^advanced_ad.$important
+^advanced_ad^$important
+^advanced_ad_$important
+_advanced_ad-$important
+_advanced_ad.$important
+_advanced_ad^$important
+_advanced_ad_$important
+-advanced.ad-$important
+-advanced.ad.$important
+-advanced.ad^$important
+-advanced.ad_$important
+.advanced.ad-$important
+.advanced.ad.$important
+.advanced.ad^$important
+.advanced.ad_$important
+^advanced.ad-$important
+^advanced.ad.$important
+^advanced.ad^$important
+^advanced.ad_$important
+_advanced.ad-$important
+_advanced.ad.$important
+_advanced.ad^$important
+_advanced.ad_$important
+-advanced^ad-$important
+-advanced^ad.$important
+-advanced^ad^$important
+-advanced^ad_$important
+.advanced^ad-$important
+.advanced^ad.$important
+.advanced^ad^$important
+.advanced^ad_$important
+^advanced^ad-$important
+^advanced^ad.$important
+^advanced^ad^$important
+^advanced^ad_$important
+_advanced^ad-$important
+_advanced^ad.$important
+_advanced^ad^$important
+_advanced^ad_$important
 -ads_gif.$important
 -ads_gif^$important
 -ads_gif_$important
