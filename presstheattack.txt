@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: 21 Jan 2019 16:44
+! Last modified: 21 Jan 2019 16:47
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -14,6 +14,87 @@
 ###ab_left:not(:root):not(body):not(input)
 ###ab_right:not(:root):not(body):not(input)
 ###ab_top:not(:root):not(body):not(input)
+/akam/10/$important
+-loader_adv-$important
+-loader_adv.$important
+-loader_adv^$important
+-loader_adv_$important
+.loader_adv-$important
+.loader_adv.$important
+.loader_adv^$important
+.loader_adv_$important
+^loader_adv-$important
+^loader_adv.$important
+^loader_adv^$important
+^loader_adv_$important
+_loader_adv-$important
+_loader_adv.$important
+_loader_adv^$important
+_loader_adv_$important
+-loader-adv-$important
+-loader-adv.$important
+-loader-adv^$important
+-loader-adv_$important
+.loader-adv-$important
+.loader-adv.$important
+.loader-adv^$important
+.loader-adv_$important
+^loader-adv-$important
+^loader-adv.$important
+^loader-adv^$important
+^loader-adv_$important
+_loader-adv-$important
+_loader-adv.$important
+_loader-adv^$important
+_loader-adv_$important
+-loader.adv-$important
+-loader.adv.$important
+-loader.adv^$important
+-loader.adv_$important
+.loader.adv-$important
+.loader.adv.$important
+.loader.adv^$important
+.loader.adv_$important
+^loader.adv-$important
+^loader.adv.$important
+^loader.adv^$important
+^loader.adv_$important
+_loader.adv-$important
+_loader.adv.$important
+_loader.adv^$important
+_loader.adv_$important
+-loader^adv-$important
+-loader^adv.$important
+-loader^adv^$important
+-loader^adv_$important
+.loader^adv-$important
+.loader^adv.$important
+.loader^adv^$important
+.loader^adv_$important
+^loader^adv-$important
+^loader^adv.$important
+^loader^adv^$important
+^loader^adv_$important
+_loader^adv-$important
+_loader^adv.$important
+_loader^adv^$important
+_loader^adv_$important
+-gen204-$important
+-gen204.$important
+-gen204^$important
+-gen204_$important
+.gen204-$important
+.gen204.$important
+.gen204^$important
+.gen204_$important
+^gen204-$important
+^gen204.$important
+^gen204^$important
+^gen204_$important
+_gen204-$important
+_gen204.$important
+_gen204^$important
+_gen204_$important
 ###ad-footer:not(:root):not(body):not(input)
 ###ad-tower:not(:root):not(body):not(input)
 ###adBlockerContainer:not(:root):not(body):not(input)
