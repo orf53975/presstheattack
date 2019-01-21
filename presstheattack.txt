@@ -4284,7 +4284,7 @@ qaru.site##IFRAME[sandbox="allow-same-origin allow-modals allow-forms allow-orie
 ##iframe[width="300"][height="250"]
 ##iframe[width="468"][height="60"]
 /(id|adservice|mobilecrashreporting|imasdk|metric|csi)\.g(oogle|oogleapis|static)\.(ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cat|cd|cf|cg|ch|ci|cl|cm|cn|co.ao|co.bw|co.ck|co.cr|co.id|co.il|co.in|co.jp|co.ke|co.kr|co.ls|co.ma|co.mz|co.nz|co.th|co.tz|co.ug|co.uk|co.uz|co.ve|co.vi|co.za|co.zm|co.zw|com|com.af|com.ag|com.ai|com.ar|com.au|com.bd|com.bh|com.bn|com.bo|com.br|com.bz|com.co|com.cu|com.cy|com.do|com.ec|com.eg|com.et|com.fj|com.gh|com.gi|com.gt|com.hk|com.jm|com.kh|com.kw|com.lb|com.ly|com.mm|com.mt|com.mx|com.my|com.na|com.nf|com.ng|com.ni|com.np|com.om|com.pa|com.pe|com.pg|com.ph|com.pk|com.pr|com.py|com.qa|com.sa|com.sb|com.sg|com.sl|com.sv|com.tj|com.tr|com.tw|com.ua|com.uy|com.vc|com.vn|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|ne|nl|no|nr|nu|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|vg|vu|ws)/$important
-/\.(net|com|org|ru)\/log\/\w?/$important
+/\.(net|com|org|ru)\/log/$important
 /\.(net|com|org|ru)\/tr\/\w?/$important
 /^https?://tv\.yandex\.(by|ru|ua)/[^\s]{300,}/$subdocument,xmlhttprequest,important
 /^https?://yandex\.(by|ru|ua)/images/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$subdocument,~third-party,xmlhttprequest,important
@@ -8177,10 +8177,8 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 ||bugsnag.com^$important
 ||casalemedia.com^$important
 ||clicktale.net^$important
-||client-event-reporter.twitch.tv^$important
 ||clksite.com^$important
 ||collector.githubapp.com^$important
-||countess.twitch.tv^$important
 ||da-ads.com^$important
 ||dapxl.com^$important
 ||demdex.net^$important
@@ -8288,7 +8286,6 @@ _referer^frame_$important
 ||microad.net^$important
 ||microsoft.com/library/svy/$important
 ||mms.cnn.com^$important
-||mp.twitch.tv^$important
 ||msecnd.net/scripts/jsll$important
 ||newrelic.com^$important
 ||omtrdc.net^$important
@@ -8316,7 +8313,6 @@ facebook.com,3g2upl4pq6kufc4m.onion###pagelet_growth_expanding_cta
 ||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$important
 ||scorecardresearch.com^$important
 ||scrubswim.com^$important
-||spade.twitch.tv^$important
 ||ssp.rambler.ru^$important
 ||statcounter.com^$important
 ||static-mon.yandex.net/static/main.js?pid=yandex_mail$xmlhttprequest,badfilter
@@ -8328,7 +8324,6 @@ facebook.com,3g2upl4pq6kufc4m.onion###pagelet_growth_expanding_cta
 ||top-fwz1.mail.ru^$important
 ||top.list.ru^$important
 ||trafficfactory.biz^$important
-||trowel.twitch.tv^$important
 ||twitter.com/i/jot^$important
 ||udc.yahoo.com^$important
 ||visualwebsiteoptimizer.com^$important
@@ -8336,6 +8331,8 @@ facebook.com,3g2upl4pq6kufc4m.onion###pagelet_growth_expanding_cta
 ||vortex.data.microsoft.com^$important
 ||whos.amung.us^$important
 ||yadro.ru^$important
+/^https?:\/\/(client\-event\-reporter|countess|mp|polyfill|spade|trowel|fan)\.twit(ch|chsvc)\.(net|tv|com)/$important
+twitch.tv##+js(twitch-videoad.js)
 ||yahoo.com/pageview^$important
 ||yandex.*/*/yandcache.js|$important
 ||yandex.*/*stripe.html|$important
