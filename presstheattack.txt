@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: 21 Jan 2019 11:12
+! Last modified: 21 Jan 2019 11:36
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -525,7 +525,7 @@ _adswidget-$important
 _adswidget.$important
 _adswidget^$important
 _adswidget_$important
-@@||facebook.com/common/referer_frame.php$subdocument,domain=facebook.com,facebookcorewwwi.onion
+@@||facebook.com/common/referer_frame.php$subdocument,domain=facebook.com|facebookcorewwwi.onion
 -hads-
 -hads.
 -hads^
@@ -8012,7 +8012,7 @@ twitch.tv##a[href*="banner"]>img
 twitch.tv##a[href*="bet4"]>img
 twitch.tv##a[href*="betsdota"]>img
 twitch.tv##a[href*="campaign"]
-twitch.tv##a[href*="casino"]
+##a[href*="casino"]
 twitch.tv##a[href*="clck.ru"]>img
 twitch.tv##a[href*="click.ru"]>img
 twitch.tv##a[href*="clife.ru"]
@@ -8032,18 +8032,19 @@ twitch.tv##a[href*="is.gd"]
 twitch.tv##a[href*="kfcmalaysia"]
 twitch.tv##a[href*="l1l.pw"]
 twitch.tv##a[href*="loto.ru"]
-twitch.tv##a[href*="megafon"]>img
+##a[href*="megafon"]>img
 twitch.tv##a[href*="monsterenergy"]
 twitch.tv##a[href*="mybestcontent.ru"]>img
 twitch.tv##a[href*="opseat.com"]
 twitch.tv##a[href*="papajohns"]
-twitch.tv##a[href*="poker"]
+twitch.tv##a[href*="/buy/"]>img
+##a[href*="poker"]
 twitch.tv##a[href*="predator"]
 twitch.tv##a[href*="redirect"]>img
 twitch.tv##a[href*="secretlab"]
 twitch.tv##a[href*="shortme."]
 twitch.tv##a[href*="swaper.one"]
-twitch.tv##a[href*="vsemayki"]>img
+##a[href*="vsemayki"]>img
 -imgsponsor-
 -imgsponsor.
 -imgsponsor^
