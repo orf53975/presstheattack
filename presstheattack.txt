@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: 21 Jan 2019 12:01
+! Last modified: 21 Jan 2019 15:45
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -4195,7 +4195,7 @@ $cookie=/unique_id/,domain=twitch.tv
 ^ad24.$important
 ^ad24^$important
 ^ad24_$important
-^ad-$domain=~yahoo.com
+^ad-$domain=~yahoo.com|~github.com
 ^ad-boxes-$important
 ^ad-boxes.$important
 ^ad-boxes^$important
@@ -5544,7 +5544,7 @@ $cookie=/unique_id/,domain=twitch.tv
 ^log.type.$important
 ^log.type^$important
 ^log.type_$important
-^log^$domain=~myactivity.google.com|~disk.yandex.ua|~disk.yandex.by|~disk.yandex.ru|~github.com|~travis-ci.org
+^log^$domain=~myactivity.google.com|~disk.yandex.ua|~disk.yandex.by|~disk.yandex.ru|~github.com|~travis-ci.org|~fandom.com
 ^log^type-$important
 ^log^type.$important
 ^log^type^$important
